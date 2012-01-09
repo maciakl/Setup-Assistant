@@ -1,0 +1,1603 @@
+
+########################################################
+	 USER STARTUP FOLDER: 
+########################################################
+
+Folder PATH listing
+Volume serial number is F406-743F
+C:\DOCUMENTS AND SETTINGS\LMACIAK\START MENU\PROGRAMS\STARTUP
+    Adobe Gamma.lnk
+    Dropbox.lnk
+    Shortcut to VB6ScrollwheelFix.lnk
+    
+No subfolders exist 
+
+
+########################################################
+	 ALL USERS STARTUP FOLDER: 
+########################################################
+
+Folder PATH listing
+Volume serial number is F406-743F
+C:\DOCUMENTS AND SETTINGS\LMACIAK\START MENU\PROGRAMS\STARTUP
+    Adobe Gamma.lnk
+    Dropbox.lnk
+    Shortcut to VB6ScrollwheelFix.lnk
+    
+No subfolders exist 
+
+
+########################################################
+	 SPOOLER FOLDER: 
+########################################################
+
+Folder PATH listing
+Volume serial number is F406-743F
+C:\WINDOWS\SYSTEM32\SPOOL\PRINTERS
+No subfolders exist 
+
+
+########################################################
+	 MINIDUMP FOLDER: 
+########################################################
+
+Folder PATH listing
+Volume serial number is F406-743F
+C:\WINDOWS\MINIDUMP
+    Mini101410-01.dmp
+    minidump.zip
+    
+No subfolders exist 
+
+
+########################################################
+	 APPDATA FOLDER: 
+########################################################
+
+Folder PATH listing
+Volume serial number is 00610044 F406:743F
+C:\DOCUMENTS AND SETTINGS\LMACIAK\APPLICATION DATA
++---.purple
+|   |   accels
+|   |   accounts.xml
+|   |   blist.xml
+|   |   prefs.xml
+|   |   status.xml
+|   |   xmpp-caps.xml
+|   |   
+|   +---certificates
+|   |   \---x509
+|   |       \---tls_peers
+|   |               zimbra12.cvm.com
+|   |               
+|   +---logs
+|   |   \---jabber
+|   |       \---lmaciak@durkingroup.com
+|   |           \---jstringer@durkingroup.com
+|   |                   2010-10-18.154825-0400EDT.html
+|   |                   
+|   \---smileys
++---Adobe
+|   +---Acrobat
+|   |   +---8.0
+|   |   |   |   AdobeCMapFnt08.lst
+|   |   |   |   AdobeComFnt08.lst
+|   |   |   |   AdobeSysFnt08.lst
+|   |   |   |   TMDocs.sav
+|   |   |   |   TMGrpPrm.sav
+|   |   |   |   UserCache.bin
+|   |   |   |   virtual.err
+|   |   |   |   
+|   |   |   +---JavaScripts
+|   |   |   |       glob.js
+|   |   |   |       glob.settings.js
+|   |   |   |       
+|   |   |   +---organizer70
+|   |   |   |       db.opt
+|   |   |   |       favorites.frm
+|   |   |   |       favorites.MYD
+|   |   |   |       favorites.MYI
+|   |   |   |       files.frm
+|   |   |   |       files.MYD
+|   |   |   |       files.MYI
+|   |   |   |       folders.frm
+|   |   |   |       folders.MYD
+|   |   |   |       folders.MYI
+|   |   |   |       
+|   |   |   +---Preferences
+|   |   |   |       AutoFillDefaults.dat
+|   |   |   |       defaultHeuristics.dat
+|   |   |   |       
+|   |   |   +---Security
+|   |   |   |       addressbook.acrodata
+|   |   |   |       security-policy.acrodata
+|   |   |   |       
+|   |   |   \---Synchronizer
+|   |   |       |   adobesynchronizersu80
+|   |   |       |   
+|   |   |       \---metadata
+|   |   |               Synchronizer80
+|   |   |               
+|   |   +---9.0
+|   |   |   |   AdobeCMapFnt09.lst
+|   |   |   |   AdobeComFnt09.lst
+|   |   |   |   AdobeSysFnt09.lst
+|   |   |   |   SharedDataEvents
+|   |   |   |   TMDocs.sav
+|   |   |   |   TMGrpPrm.sav
+|   |   |   |   UserCache.bin
+|   |   |   |   
+|   |   |   +---Forms
+|   |   |   +---JavaScripts
+|   |   |   |       glob.js
+|   |   |   |       glob.settings.js
+|   |   |   |       
+|   |   |   +---Redaction
+|   |   |   |   \---ENU
+|   |   |   \---Stamps
+|   |   +---Distiller 8
+|   |   |   |   messages.log
+|   |   |   |   
+|   |   |   \---Cache
+|   |   |           AdobeFnt01.lst
+|   |   |           AdobeFnt02.lst
+|   |   |           AdobeFnt03.lst
+|   |   |           AdobeFnt05.lst
+|   |   |           AdobeFnt06.lst
+|   |   |           AdobeFnt09.lst
+|   |   |           AdobeFnt11.lst
+|   |   |           AdobeFntComm.lst
+|   |   |           AdobeFntSys.lst
+|   |   |           PSHFList1
+|   |   |           
+|   |   +---Preferences
+|   |   |       WebCaptr.prefs
+|   |   |       
+|   |   \---WHAPI
+|   |           WHAppList.xml
+|   |           
+|   +---Adobe PDF
+|   |   +---Distiller
+|   |   |   +---Data
+|   |   |   |       epilogue.ps
+|   |   |   |       prologue.ps
+|   |   |   |       
+|   |   |   \---Startup
+|   |   |           example.ps
+|   |   |           
+|   |   \---Settings
+|   +---AIR
+|   |   |   eulaAccepted
+|   |   |   
+|   |   \---Updater
+|   |       |   lastUpdateCheck
+|   |       |   
+|   |       \---Background
+|   +---Color
+|   |   +---Proofing
+|   |   \---Settings
+|   +---Flash Player
+|   |   \---AssetCache
+|   |       +---2KSWHR32
+|   |       \---LKXT28BR
+|   +---ImageReady
+|   |   \---CS2
+|   |       \---Settings
+|   |           |   Adobe ImageReady CS2 Prefs
+|   |           |   Default Settings.iros
+|   |           |   ImageReady Plug-in Cache.irx
+|   |           |   ImageReady Swatches.aco
+|   |           |   Palette Window Cache.irx
+|   |           |   Recently Used Optimizations.irs
+|   |           |   
+|   |           +---ImageReady Actions
+|   |           |       2-State Button.isa
+|   |           |       Constrain to 200x200 pixels.isa
+|   |           |       Flaming Text.isa
+|   |           |       Frozen Text.isa
+|   |           |       Make Webpage.isa
+|   |           |       Metal Slide Gallery Button.isa
+|   |           |       Metal Slide Thumbnail.isa
+|   |           |       Multi-Size & Save.isa
+|   |           |       Slide Gallery Button.isa
+|   |           |       Slide Thumbnail.isa
+|   |           |       Spin.isa
+|   |           |       Spinning Zoom In.isa
+|   |           |       Spinning Zoom Out.isa
+|   |           |       Zoom In.isa
+|   |           |       Zoom Out.isa
+|   |           |       
+|   |           \---Workspaces
+|   +---Linguistics
+|   |   \---Dictionaries
+|   |       \---Adobe Custom Dictionary
+|   |           +---all
+|   |           |       added.clam
+|   |           |       exception.txt
+|   |           |       
+|   |           +---brt
+|   |           +---brz
+|   |           +---bul
+|   |           +---can
+|   |           +---cfr
+|   |           +---ctl
+|   |           +---cze
+|   |           +---dan
+|   |           +---dut
+|   |           +---eng
+|   |           |       added.clam
+|   |           |       exception.txt
+|   |           |       
+|   |           +---est
+|   |           +---fin
+|   |           +---frn
+|   |           +---gre
+|   |           +---grm
+|   |           +---hrv
+|   |           +---hun
+|   |           +---itl
+|   |           +---lav
+|   |           +---lit
+|   |           +---nrw
+|   |           +---nyn
+|   |           +---pol
+|   |           +---prt
+|   |           +---rum
+|   |           +---rus
+|   |           +---sgr
+|   |           +---slo
+|   |           +---slv
+|   |           +---spn
+|   |           +---swd
+|   |           \---tur
+|   +---Photoshop
+|   |   \---9.0
+|   |       \---Adobe Photoshop CS2 Settings
+|   |           |   Actions Palette.psp
+|   |           |   Adobe Photoshop CS2 Prefs.psp
+|   |           |   Color Settings.csf
+|   |           |   Favorites.psp
+|   |           |   New Doc Sizes.psp
+|   |           |   PluginCache.psp
+|   |           |   Recently Used Optimizations.irs
+|   |           |   
+|   |           \---WorkSpaces
+|   +---Save For Web
+|   |   \---9.0
+|   |           Adobe Save For Web 9.0 Prefs
+|   |           
+|   +---Updater
+|   |   |   AdobeUpdaterPrefs.dat
+|   |   |   
+|   |   +---Data
+|   |   |       AdobeUpdater.aum
+|   |   |       AdobeUpdater_meta.txt
+|   |   |       bridge1.aum
+|   |   |       bridge1_meta.txt
+|   |   |       helpcenter1.aum
+|   |   |       helpcenter1_meta.txt
+|   |   |       photoshop9-en_US-RET.aum
+|   |   |       photoshop9-en_US-RET_meta.txt
+|   |   |       
+|   |   \---Install
+|   \---Workflow
+|           editing.xml
+|           projects.xml
+|           settings.xml
+|           
++---Cropper
+|       cropper.config
+|       
++---Dropbox
+|   |   config.db
+|   |   filecache.db
+|   |   host.db
+|   |   sigstore.db
+|   |   unlink.db
+|   |   
+|   +---bin
+|   |       Dropbox.exe
+|   |       Dropbox.exe.log
+|   |       Dropbox.URL
+|   |       DropboxExt.14.dll
+|   |       itag
+|   |       msvcp71.dll
+|   |       msvcr71.dll
+|   |       Python25.dll
+|   |       Uninstall.exe
+|   |       
+|   +---cache
+|   |   |   Dropbox-update-0.7.110.exe
+|   |   |   Dropbox-update-1.1.35.exe
+|   |   |   EczCgqllMaUrpEsWTWSNHuWlVTq2CzvcWTMGL4WZI58
+|   |   |   ev-2KXVpyIe9dZ-P0B2KT1tVCv76YFKcFvsxvwlJTn4
+|   |   |   nc3YPMGlBXQQpjwKo1rX1s2_WMgwf9qTIcQ6-Vl1ae4
+|   |   |   
+|   |   \---2010-10-13
+|   |           13f7d622438e267e1a9ebd88ba3ec9fbcfa5ea (deleted 4b71c677-288-542148cc000adc83)
+|   |           1549ca29d84b61b225fe4678ceeef3e08330b9 (deleted 4b71c677-127-542148ab000adc83)
+|   |           172c194e1a38a9f6d6a6ad77cba9cb42e16fe5 (deleted 4b71c699-18e-542148c7000adc83)
+|   |           178b53da81bb226a8e8ce07d8043ea154364e4 (deleted 4b71c677-75f-542148e8000adc83)
+|   |           1b68744cdf86bead2dc992e0b0a55db96dc4aa (deleted 4b71c677-108-542148c3000adc83)
+|   |           1e92fc27bbfff5a9df7df4542dda1c4548675a (deleted 4b71c699-2a8-542148cd000adc83)
+|   |           1ea6e356bd90bee4192c4d695a4aa34797bf0d (deleted 4b71c699-4f-542148b9000adc83)
+|   |           251ecfc96c8f56dfd94908cff5ec0f468afa7a (deleted 4b71c677-fa-542148c2000adc83)
+|   |           252a0763f7b1a5bdc744e4e671aa0608ea2714 (deleted 4b71c677-245-542148c5000adc83)
+|   |           316276f909974b366957fa7b31437d0b2c403f (deleted 4b71c677-1cb7-542148f0000adc83)
+|   |           37a18098080710fdc048ddc4218a045e8caf3d (deleted 4b71c677-3a9-542148d1000adc83)
+|   |           3b21b7a5e2b5cf3c1470eaa94e350be8ce46ab (deleted 4b71c677-3fe-542148d5000adc83)
+|   |           45fae46c7ed7c2236cebfa0bec62732c4d82ed (deleted 4b71c677-aa7-542148ec000adc83)
+|   |           496f42297677af762bead4ce40b4575f11b238 (deleted 4b71c677-237-542148cb000adc83)
+|   |           4de285f868a56603e669948d1abcebd42f34db (deleted 4b71c699-b7-542148bf000adc83)
+|   |           4e5ae115f3412f1d3bcc34d323b7ecad0e9d6b (deleted 4b71c677-63b-542148df000adc83)
+|   |           53ee0d258c8ef7779d757c56dd4603f373966b (deleted 4b71c677-2ae-542148ce000adc83)
+|   |           541ce6a38ba0ed27d8569e1af574d06931af36 (deleted 4b71c677-23c5-542148f2000adc83)
+|   |           58a76fb8e78c4a2b1fc1a996c53acb07929c73 (deleted 4b71c677-f7-542148c1000adc83)
+|   |           5b44a4b059f747ede72bba0d50e4ad24668f2b (deleted 4b71c677-15a-542148c4000adc83)
+|   |           5f1d7570d6f791fa2f3f9de1a73e6aae1f3f66 (deleted 4b71c677-a45-542148ea000adc83)
+|   |           62a15ce258ca12943c7aee6d54b32a810ae2e3 (deleted 4b71c677-1fd7a-542148fb000adc83)
+|   |           6b1d6b3fa078c224681c663f485501b44f10c1 (deleted 4b71c677-117-5421489d000adc83)
+|   |           74ed9e2a77eb5561def40246c49f1fdaabb1d4 (deleted 4b71c699-4e-542148b8000adc83)
+|   |           7619319a7914936a605c6b55a84a5033b44ae6 (deleted 4b71c677-53e-542148db000adc83)
+|   |           7d343108ef8a0d9ac9ca6617740c5b7572fbcc (deleted 4b71c677-a8a-542148eb000adc83)
+|   |           825dc642cb6eb9a060e54bf8d69288fbee4904 (deleted 4b71c60d-f-542148a7000adc83)
+|   |           875da7f7a7ff3b56d295b867a527def1202531 (deleted 4b71c699-71-542148bb000adc83)
+|   |           8962a2dd28e6e645a428ccd2cede7ed53e84a7 (deleted 4b71c677-3a6-542148d0000adc83)
+|   |           8fe730f84deed94cec4bbc40bb5e03497866ca (deleted 4b71c677-d992-542148fa000adc83)
+|   |           9254fcf17861d92a23f5c2f2f44eb8353cc91d (deleted 4b71c677-211-542148af000adc83)
+|   |           957fd8abe568b7bac7cb193cf686db2dbc3747 (deleted 4b71c677-379d-542148f4000adc83)
+|   |           99566857a8df5cc083e21999d6bbc8cdba093d (deleted 4b71c677-4500-542148f5000adc83)
+|   |           a7f144137b48cbcf7a05425bf64f2b67e10fd4 (deleted 4b71c677-2bc6-542148f3000adc83)
+|   |           c24d06c1cab750788146ce052b37770f3fa530 (deleted 4b71c677-9a-54214876000adc83)
+|   |           c42e613e433490e8c351677a67af492315814f (deleted 4b71c677-17e-542148ac000adc83)
+|   |           c8f0fdd7d7818717c86281d45d8f1ee3ef1f6f (deleted 4b71c699-45-542148b7000adc83)
+|   |           c9186bf997450a17463351b405dc19a7aa3e42 (deleted 4b71c699-1a1-542148c9000adc83)
+|   |           cc33270dcc0cc93b08f7cae4d58c9aba142d6e (deleted 4b71c699-85-542148bc000adc83)
+|   |           d27593f25ced84f44e7df13ab2ee69449ec6d9 (deleted 4b71c677-210-542148ae000adc83)
+|   |           d92278151aeab04f85567de7aa916bc88a57fc (deleted 4b71c677-20ae-542148f1000adc83)
+|   |           df4391af25a383e462af6b9154dbe93d9ba4cd (deleted 4b71c699-53-542148ba000adc83)
+|   |           e890c91f7d821f58ffdd577462c19a19ebcf0f (deleted 4b71c699-c0-542148c0000adc83)
+|   |           ecec851ab4deae63e81647b4655c7d1fe6dfd7 (deleted 4b71c677-647-5421489f000adc83)
+|   |           ed6c0c8c1cf063b077b0f15cbc4b855c47d780 (deleted 4b71c677-1b0e-542148b1000adc83)
+|   |           eec1f077bc541d36630edd45c05e3012b895ac (deleted 4b71c677-4be-542148d8000adc83)
+|   |           f0ca39f5f74223a8916103294fea2b77457c72 (deleted 4b71c677-1f9-542148ca000adc83)
+|   |           f10da70ab89be89101148c0d14f497758bde5f (deleted 4b71c677-378-542148cf000adc83)
+|   |           f17ab17cc4000fa3099ba3283aa01cb119101f (deleted 4b71c677-3df-542148d4000adc83)
+|   |           f25879b175e8cbf354966e25cd759e0261df97 (deleted 4b71c677-191-542148c8000adc83)
+|   |           f36c5d3d7a33baabb780c9dffef3d804ceb62f (deleted 4b71c677-bc-542148aa000adc83)
+|   |           f3943f7c3512e74da0f9b966cd1dfb5c4e0cef (deleted 4b71c677-5a-542148a9000adc83)
+|   |           f537d9f2a75beffd929110db58298390160417 (deleted 4b71c677-4bc-542148d7000adc83)
+|   |           fe7ff5d07c5d6e36275c80efd422fd9f9d940c (deleted 4b71c677-220-542148b0000adc83)
+|   |           fffe6b2aa3cacbef445021c5f21e30af404bba (deleted 4b71c677-1157-542148ef000adc83)
+|   |           
+|   +---installer
+|   |   \---l
+|   |           4de4f045
+|   |           
+|   +---l
+|   |       4de63e85
+|   |       
+|   \---shellext
+|       \---l
+|               4de539e1
+|               4de541fb
+|               4de55278
+|               4de5536f
+|               4de55a05
+|               4de63e46
+|               4de63e67
+|               4de63eff
+|               4de64a63
+|               4de64b3c
+|               4de64bf0
+|               4de64c96
+|               4de64ceb
+|               new_trace
+|               
++---Durkin_Group
+|   +---Contrax.exe_Url_hbdzyovjxk3vbzkknv3514a0ue4xvja3
+|   |   \---1.0.0.0
+|   |           user.config
+|   |           
+|   +---Contrax.exe_Url_kivcm32wxtx0f5opfa01uhqkqygcigir
+|   |   \---1.0.0.0
+|   |           user.config
+|   |           
+|   +---Contrax.vshost.exe_Url_hbdzyovjxk3vbzkknv3514a0ue4xvja3
+|   |   \---1.0.0.0
+|   |           user.config
+|   |           
+|   +---Contrax.vshost.exe_Url_kivcm32wxtx0f5opfa01uhqkqygcigir
+|   |   \---1.0.0.0
+|   |           user.config
+|   |           
+|   +---DurkinGroupTemplate.exe_Url_dbq3pcmcwrb4foyxlcztamojslaoelnq
+|   |   \---1.0.0.0
+|   |           user.config
+|   |           
+|   +---DurkinGroupTemplate.exe_Url_rdklgc5gydgp3i5ao5f0yot35ecxloum
+|   |   \---1.0.0.0
+|   |           user.config
+|   |           
+|   +---DurkinGroupTemplate.vshos_Url_dbq3pcmcwrb4foyxlcztamojslaoelnq
+|   |   \---1.0.0.0
+|   |           user.config
+|   |           
+|   +---DurkinGroupTemplate.vshos_Url_rdklgc5gydgp3i5ao5f0yot35ecxloum
+|   |   \---1.0.0.0
+|   |           user.config
+|   |           
+|   +---WindowsFormsApplication1._Url_jly44fcscfd11yy4y1emaliukgfd1gjd
+|   |   \---1.0.0.0
+|   |           user.config
+|   |           
+|   \---WindowsFormsApplication1._Url_nokcdrulbj4l4doos0mb0qlo4pctyqp1
+|       \---1.0.0.0
+|               user.config
+|               
++---dvdcss
+|   |   CACHEDIR.TAG
+|   |   
+|   +----462ece236724875c-0000000000
+|   \----a8b8bcb819603e25-0000000000
++---ElevatedDiagnostics
+|   \---2513391507
+|       |   latest.cab
+|       |   
+|       \---2011053120.000
+|           |   DIAG_IEAddOnDiagnostic.0.debugreport.xml
+|           |   latest.cab
+|           |   ResultReport.xml
+|           |   results.xml
+|           |   results.xsl
+|           |   
+|           +---ElevatedDiagnostics
+|           |   |   DIAG_IEAddOnDiagnostic.0.debugreport.xml
+|           |   |   ResultReport.xml
+|           |   |   results.xml
+|           |   |   results.xsl
+|           |   |   
+|           |   \---Images
+|           |           CHECK.PNG
+|           |           COLLAPSE.PNG
+|           |           ERROR.PNG
+|           |           EXPAND.PNG
+|           |           INFO.PNG
+|           |           PRINT.PNG
+|           |           WARNING.PNG
+|           |           
+|           \---Images
+|                   CHECK.PNG
+|                   COLLAPSE.PNG
+|                   ERROR.PNG
+|                   EXPAND.PNG
+|                   INFO.PNG
+|                   PRINT.PNG
+|                   WARNING.PNG
+|                   
++---FileZilla
+|       bookmarks.xml
+|       filezilla.xml
+|       filters.xml
+|       layout.xml
+|       queue.xml
+|       recentservers.xml
+|       
++---GHISLER
+|       fsplugin.ini
+|       wincmd.ini
+|       
++---gnupg
+|       gpg.conf
+|       gpg.conf.bak
+|       pubring.bak
+|       pubring.gpg
+|       random_seed
+|       secring.gpg
+|       trustdb.gpg
+|       
++---GrabPro
++---gtk-2.0
+|       gtkfilechooser.ini
+|       
++---Help
++---IcoFX
+|       colors.dat
+|       config.cfg
+|       quickcolors.dat
+|       
++---Identities
+|   \---{717A0782-C08F-43BB-8619-F59CC7F78672}
++---Macromedia
+|   \---Flash Player
+|       +---#SharedObjects
+|       |   \---U89B9LBJ
+|       |       +---bin.clearspring.com
+|       |       |       clearspring.sol
+|       |       |       
+|       |       +---cdn.static.viddler.com
+|       |       |   \---flash
+|       |       |       +---player755.swf
+|       |       |       |       undefined.sol
+|       |       |       |       
+|       |       |       \---simple_player_216.swf
+|       |       |               undefined.sol
+|       |       |               
+|       |       +---d.yimg.com
+|       |       |   |   VolumePrefs.sol
+|       |       |   |   YEPBWPrefs.sol
+|       |       |   |   
+|       |       |   \---ht
+|       |       |       \---yep
+|       |       |           \---vyc_player.swf
+|       |       +---doug1izaerwt3.cloudfront.net
+|       |       |       406e8bf3a2b8846ead55afb3cfaf6664523e3a54.sol
+|       |       |       
+|       |       +---inplay.tubemogul.com
+|       |       |       InPlayInfo.sol
+|       |       |       
+|       |       +---macromedia.com
+|       |       +---s.ytimg.com
+|       |       |       soundData.sol
+|       |       |       videostats.sol
+|       |       |       
+|       |       +---secure.join.me
+|       |       |   \---Client
+|       |       |       \---JoinMe.swf
+|       |       |               LogMeIn-JoinMe-Flash.ssl
+|       |       |               
+|       |       +---video.google.com
+|       |       |   |   videostats.sol
+|       |       |   |   
+|       |       |   +---googleplayer.swf
+|       |       |   \---s
+|       |       |       \---2XU23CJ1KaQ
+|       |       |           \---googleplayer.swf
+|       |       |                   mediaPlayerUserSettings.sol
+|       |       |                   
+|       |       \---www.dailymotion.com
+|       |           \---flash
+|       |               \---dmplayer
+|       |                   \---dmplayer.swf
+|       |                           dmplayer.sol
+|       |                           
+|       +---macromedia.com
+|       |   \---support
+|       |       \---flashplayer
+|       |           \---sys
+|       |               |   settings.sol
+|       |               |   
+|       |               +---#almostgolf.com
+|       |               |       settings.sol
+|       |               |       
+|       |               +---#bin.clearspring.com
+|       |               |       settings.sol
+|       |               |       
+|       |               +---#cdn.static.viddler.com
+|       |               |       settings.sol
+|       |               |       
+|       |               +---#d.yimg.com
+|       |               |       settings.sol
+|       |               |       
+|       |               +---#doug1izaerwt3.cloudfront.net
+|       |               |       settings.sol
+|       |               |       
+|       |               +---#inplay.tubemogul.com
+|       |               |       settings.sol
+|       |               |       
+|       |               +---#macromedia.com
+|       |               |       settings.sol
+|       |               |       
+|       |               +---#s.ytimg.com
+|       |               |       settings.sol
+|       |               |       
+|       |               +---#secure.join.me
+|       |               |       settings.sol
+|       |               |       
+|       |               +---#twitter.com
+|       |               |       settings.sol
+|       |               |       
+|       |               +---#video.google.com
+|       |               |       settings.sol
+|       |               |       
+|       |               \---#www.dailymotion.com
+|       |                       settings.sol
+|       |                       
+|       +---twitter.com
+|       |   \---flash
+|       |       \---twitter_badge.swf
+|       |               OdeoPodcastPlayerColors.sol
+|       |               
+|       \---www.macromedia.com
+|           \---bin
+|               +---airappinstaller
+|               |       airappinstaller.exe
+|               |       digest.s
+|               |       
+|               \---fpupdateax
+|                       fpupdateax.exe
+|                       
++---Malwarebytes
+|   \---Malwarebytes' Anti-Malware
+|       +---Logs
+|       |       mbam-log-2011-05-02 (10-00-50).txt
+|       |       
+|       \---Quarantine
+|               BACKUP1.60054
+|               QUAR1.60054
+|               
++---Mozilla
+|   +---Extensions
+|   |   \---{ec8030f7-c20a-464f-9b0e-13a3a9e97384}
+|   \---Firefox
+|       |   profiles.ini
+|       |   
+|       +---Crash Reports
+|       |       InstallTime2008120122
+|       |       InstallTime2010031422
+|       |       InstallTime20101012113537
+|       |       InstallTime20101026210630
+|       |       InstallTime20101203075014
+|       |       UserID
+|       |       
+|       \---Profiles
+|           +---podqvj8k.default
+|           |   |   blocklist.xml
+|           |   |   bookmarks.html
+|           |   |   cert8.db
+|           |   |   cert_override.txt
+|           |   |   compatibility.ini
+|           |   |   compreg.dat
+|           |   |   content-prefs.sqlite
+|           |   |   cookies.sqlite
+|           |   |   downloads.sqlite
+|           |   |   extensions.cache
+|           |   |   extensions.ini
+|           |   |   extensions.rdf
+|           |   |   formhistory.sqlite
+|           |   |   key3.db
+|           |   |   localstore-safe.rdf
+|           |   |   localstore.rdf
+|           |   |   mimeTypes.rdf
+|           |   |   permissions.sqlite
+|           |   |   places.sqlite
+|           |   |   pluginreg.dat
+|           |   |   prefs.js
+|           |   |   search.sqlite
+|           |   |   secmod.db
+|           |   |   signons3.txt
+|           |   |   urlclassifierkey3.txt
+|           |   |   xpti.dat
+|           |   |   
+|           |   +---bookmarkbackups
+|           |   |       bookmarks-2009-08-18.json
+|           |   |       bookmarks-2010-05-25.json
+|           |   |       bookmarks-2010-06-09.json
+|           |   |       bookmarks-2010-08-26.json
+|           |   |       bookmarks-2010-09-09.json
+|           |   |       
+|           |   +---chrome
+|           |   |       userChrome-example.css
+|           |   |       userContent-example.css
+|           |   |       
+|           |   +---extensions
+|           |   |   \---{20a82645-c095-46ed-80e3-08825760534b}
+|           |   |       |   chrome.manifest
+|           |   |       |   install.rdf
+|           |   |       |   
+|           |   |       +---chrome
+|           |   |       |       chrome_user.jar
+|           |   |       |       
+|           |   |       \---defaults
+|           |   |           \---preferences
+|           |   |                   defaults.js
+|           |   |                   
+|           |   \---minidumps
+|           \---uosr40q4.Default User
+|               |   blocklist.xml
+|               |   bookmarks.html
+|               |   cert8.db
+|               |   cert_override.txt
+|               |   compatibility.ini
+|               |   compreg.dat
+|               |   content-prefs.sqlite
+|               |   cookies.sqlite
+|               |   downloads.sqlite
+|               |   extensions.cache
+|               |   extensions.ini
+|               |   extensions.log
+|               |   extensions.rdf
+|               |   formhistory.sqlite
+|               |   key3.db
+|               |   localstore.rdf
+|               |   mimeTypes.rdf
+|               |   permissions.sqlite
+|               |   places.sqlite
+|               |   pluginreg.dat
+|               |   prefs.js
+|               |   search.json
+|               |   search.sqlite
+|               |   secmod.db
+|               |   signons.sqlite
+|               |   signons3.txt
+|               |   urlclassifier3.sqlite
+|               |   urlclassifierkey3.txt
+|               |   webappsstore.sqlite
+|               |   xpti.dat
+|               |   
+|               +---bookmarkbackups
+|               |       bookmarks-2011-01-04.json
+|               |       bookmarks-2011-01-06.json
+|               |       bookmarks-2011-01-17.json
+|               |       bookmarks-2011-05-03.json
+|               |       bookmarks-2011-05-31.json
+|               |       
+|               +---chrome
+|               |       userChrome-example.css
+|               |       userContent-example.css
+|               |       
+|               +---extensions
+|               |   \---{20a82645-c095-46ed-80e3-08825760534b}
+|               |       |   chrome.manifest
+|               |       |   install.rdf
+|               |       |   
+|               |       +---chrome
+|               |       |       chrome_user.jar
+|               |       |       
+|               |       \---defaults
+|               |           \---preferences
+|               |                   defaults.js
+|               |                   
+|               \---minidumps
++---OfficeUpdate12
+|   |   500200_0x00000409.des
+|   |   500200_inventory.as
+|   |   ident.cab
+|   |   ident.ini
+|   |   oudetect.cab
+|   |   oudetect.dll
+|   |   
+|   \---Cache
++---Orbit
+|   |   Conf.dat
+|   |   dhtindex.dat
+|   |   dhtnodes.dat
+|   |   dhtpref.dat
+|   |   DownloadList.dat
+|   |   fileinfo.dat
+|   |   filesave.dat
+|   |   GrabConf.dat
+|   |   nconf.dat
+|   |   sitelogin.dat
+|   |   softI.dat
+|   |   
+|   +---flink
+|   \---icon
+|           2007 Microsoft Office system.ico
+|           Able2Extract Professional.ico
+|           Adobe Acrobat 8 Standard.ico
+|           Adobe AIR.ico
+|           Adobe Photoshop CS2.ico
+|           Adobe Reader.ico
+|           Adober Flashr Player 10 ActiveX.ico
+|           Adober Flashr Player 10 Plugin.ico
+|           AES Crypt.ico
+|           AssetWriter.ico
+|           Cropper.ico
+|           CrossLoop.ico
+|           Debugging Tools for Windows.ico
+|           Dropbox.ico
+|           Express ClickYes.ico
+|           Fiddler2.ico
+|           FileZilla Client.ico
+|           Git GUI.ico
+|           Google Chrome.ico
+|           HijackThis.ico
+|           Inno Setup Compiler.ico
+|           Internet Explorer.ico
+|           Java 6 Update 20.ico
+|           Java 6 Update 21.ico
+|           Microsoft .NET Framework.ico
+|           Microsoft Office Excel Viewer.ico
+|           Microsoft Office Professional Edition 2003.ico
+|           Microsoft Office Visio Professional 2007.ico
+|           Microsoft Silverlight.ico
+|           Microsoft Visual C# 2008 Express Edition - ENU.ico
+|           Monarch Pro.ico
+|           Mozilla Firefox.ico
+|           MozyHome Remote Backup.ico
+|           Orbit Downloader.ico
+|           PDFCreator.ico
+|           Pointsec Protector Client.ico
+|           SysTools PSTUPGRADE.ico
+|           TortoiseSVN.ico
+|           VLC media player.ico
+|           WebEx.ico
+|           WinDirStat.ico
+|           Windows Grep.ico
+|           Windows Media Player.ico
+|           WinMerge.ico
+|           WinRAR.ico
+|           WinZip.ico
+|           ZCS Connector for Outlook.ico
+|           Zimbra Toaster.ico
+|           
++---PGP Corporation
+|   \---PGP
+|       |   PGPlog.dat
+|       |   PGPlog.txt
+|       |   PGPlog1.txt
+|       |   PGPlog2.txt
+|       |   PGPlog3.txt
+|       |   PGPlog4.txt
+|       |   PGPlog5.txt
+|       |   PGPlog6.txt
+|       |   PGPlog7.txt
+|       |   PGPpolicy.xml
+|       |   PGPprefs.xml
+|       |   
+|       \---Cache
+|           \---IMAP
++---ProgSense
+|       User.xml
+|       
++---Setup Assistant
+|   \---Cache
+|       |   ATF-Cleaner.exe
+|       |   CloseSharedFiles.exe
+|       |   FixMyPrinter.exe
+|       |   fprot.zip
+|       |   HijackThis.exe
+|       |   InstallerCheck.exe
+|       |   putty.exe
+|       |   puttytel.exe
+|       |   
+|       +---Fport-2.0
+|       |       Fport.exe
+|       |       
+|       \---Logs
++---Subversion
+|   |   config
+|   |   README.txt
+|   |   servers
+|   |   
+|   \---auth
+|       +---svn.simple
+|       |       a8f712d9e1f18cd24bbbfc5951a86beb
+|       |       e1dc0f145c1623f3dffc0e06a777e0d9
+|       |       
+|       +---svn.ssl.server
+|       \---svn.username
++---Sun
+|   \---Java
+|       +---AU
+|       |       au.cab
+|       |       au.msi
+|       |       
+|       +---Deployment
+|       |   |   deployment.properties
+|       |   |   
+|       |   +---cache
+|       |   |   \---6.0
+|       |   |       |   lastAccessed
+|       |   |       |   
+|       |   |       +---0
+|       |   |       |       43ca7a40-5098119b
+|       |   |       |       43ca7a40-5098119b.idx
+|       |   |       |       43ca7a40-783de29f
+|       |   |       |       43ca7a40-783de29f.idx
+|       |   |       |       
+|       |   |       +---1
+|       |   |       |       50b11ac1-7bb5d2c4
+|       |   |       |       50b11ac1-7bb5d2c4.idx
+|       |   |       |       
+|       |   |       +---10
+|       |   |       +---11
+|       |   |       |       2b98eb8b-338dade3
+|       |   |       |       2b98eb8b-338dade3.idx
+|       |   |       |       
+|       |   |       +---12
+|       |   |       +---13
+|       |   |       |       11f9460d-5843f669
+|       |   |       |       11f9460d-5843f669.idx
+|       |   |       |       
+|       |   |       +---14
+|       |   |       +---15
+|       |   |       |   |   41e30cf-5b16879a
+|       |   |       |   |   41e30cf-5b16879a.idx
+|       |   |       |   |   58fb3e0f-1346f9cb
+|       |   |       |   |   58fb3e0f-1346f9cb.idx
+|       |   |       |   |   
+|       |   |       |   \---58fb3e0f-1346f9cb-n
+|       |   |       |           decora-d3d.dll
+|       |   |       |           decora-sse.dll
+|       |   |       |           jmc.dll
+|       |   |       |           msvcp71.dll
+|       |   |       |           msvcr71.dll
+|       |   |       |           
+|       |   |       +---16
+|       |   |       +---17
+|       |   |       |   |   6d0ad391-23899634
+|       |   |       |   |   6d0ad391-23899634.idx
+|       |   |       |   |   
+|       |   |       |   \---6d0ad391-23899634-n
+|       |   |       |           decora-d3d.dll
+|       |   |       |           decora-sse.dll
+|       |   |       |           
+|       |   |       +---18
+|       |   |       |       44029d52-4861de70
+|       |   |       |       44029d52-4861de70.idx
+|       |   |       |       
+|       |   |       +---19
+|       |   |       +---2
+|       |   |       +---20
+|       |   |       +---21
+|       |   |       |       124a15-5003417f
+|       |   |       |       124a15-5003417f.idx
+|       |   |       |       124a15-75d8a054
+|       |   |       |       124a15-75d8a054.idx
+|       |   |       |       
+|       |   |       +---22
+|       |   |       +---23
+|       |   |       +---24
+|       |   |       |       2a20e358-2e00262a.idx
+|       |   |       |       2a20e358-76c4a75b.idx
+|       |   |       |       
+|       |   |       +---25
+|       |   |       |       6f128c59-41c2ce7c
+|       |   |       |       6f128c59-41c2ce7c.idx
+|       |   |       |       6f128c59-5e4738b9
+|       |   |       |       6f128c59-5e4738b9.idx
+|       |   |       |       6f128c59-6a9df165
+|       |   |       |       6f128c59-6a9df165.idx
+|       |   |       |       794f2bd9-2fdad12d
+|       |   |       |       794f2bd9-2fdad12d.idx
+|       |   |       |       
+|       |   |       +---26
+|       |   |       |       6e4f8b5a-6af6faeb
+|       |   |       |       6e4f8b5a-6af6faeb.idx
+|       |   |       |       
+|       |   |       +---27
+|       |   |       +---28
+|       |   |       |       2cf0695c-6972a263
+|       |   |       |       2cf0695c-6972a263.idx
+|       |   |       |       
+|       |   |       +---29
+|       |   |       +---3
+|       |   |       |       3b3a8c43-10da9779
+|       |   |       |       3b3a8c43-10da9779.idx
+|       |   |       |       760e1403-1f32bde4
+|       |   |       |       760e1403-1f32bde4.idx
+|       |   |       |       760e1403-2eb81dd2
+|       |   |       |       760e1403-2eb81dd2.idx
+|       |   |       |       
+|       |   |       +---30
+|       |   |       |       61d5859e-233bf2e4
+|       |   |       |       61d5859e-233bf2e4.idx
+|       |   |       |       725b7bde-2e33384c
+|       |   |       |       725b7bde-2e33384c.idx
+|       |   |       |       725b7bde-70ebb6ef
+|       |   |       |       725b7bde-70ebb6ef.idx
+|       |   |       |       
+|       |   |       +---31
+|       |   |       +---32
+|       |   |       |       6c34baa0-1b9e9557.idx
+|       |   |       |       6c34baa0-69ce2783.idx
+|       |   |       |       6c34baa0-71a39fd7.idx
+|       |   |       |       
+|       |   |       +---33
+|       |   |       +---34
+|       |   |       +---35
+|       |   |       +---36
+|       |   |       +---37
+|       |   |       +---38
+|       |   |       +---39
+|       |   |       +---4
+|       |   |       |       4e99bf84-3994621d
+|       |   |       |       4e99bf84-3994621d.idx
+|       |   |       |       
+|       |   |       +---40
+|       |   |       +---41
+|       |   |       +---42
+|       |   |       +---43
+|       |   |       |       3ceabbab-2fc4fb62
+|       |   |       |       3ceabbab-2fc4fb62.idx
+|       |   |       |       
+|       |   |       +---44
+|       |   |       |       50f3f12c-1bc34bfb
+|       |   |       |       50f3f12c-1bc34bfb.idx
+|       |   |       |       
+|       |   |       +---45
+|       |   |       |   |   4f710eed-5c7f4508
+|       |   |       |   |   4f710eed-5c7f4508.idx
+|       |   |       |   |   
+|       |   |       |   \---4f710eed-5c7f4508-n
+|       |   |       |           gluegen-rt.dll
+|       |   |       |           
+|       |   |       +---46
+|       |   |       |   |   307d4fae-10652233
+|       |   |       |   |   307d4fae-10652233.idx
+|       |   |       |   |   307d4fae-10990405
+|       |   |       |   |   307d4fae-10990405.idx
+|       |   |       |   |   307d4fae-125f5bc7
+|       |   |       |   |   307d4fae-125f5bc7.idx
+|       |   |       |   |   307d4fae-1337c7a4
+|       |   |       |   |   307d4fae-1337c7a4.idx
+|       |   |       |   |   307d4fae-1685f335
+|       |   |       |   |   307d4fae-1685f335.idx
+|       |   |       |   |   307d4fae-1807b657
+|       |   |       |   |   307d4fae-1807b657.idx
+|       |   |       |   |   307d4fae-18799ed9
+|       |   |       |   |   307d4fae-18799ed9.idx
+|       |   |       |   |   307d4fae-18f43e6c
+|       |   |       |   |   307d4fae-18f43e6c.idx
+|       |   |       |   |   307d4fae-190c7207
+|       |   |       |   |   307d4fae-190c7207.idx
+|       |   |       |   |   307d4fae-1a142c55
+|       |   |       |   |   307d4fae-1a142c55.idx
+|       |   |       |   |   307d4fae-1b8b0c8c
+|       |   |       |   |   307d4fae-1b8b0c8c.idx
+|       |   |       |   |   307d4fae-1be29e93
+|       |   |       |   |   307d4fae-1be29e93.idx
+|       |   |       |   |   307d4fae-1d6212a1
+|       |   |       |   |   307d4fae-1d6212a1.idx
+|       |   |       |   |   307d4fae-205dd280
+|       |   |       |   |   307d4fae-205dd280.idx
+|       |   |       |   |   307d4fae-20c727dd
+|       |   |       |   |   307d4fae-20c727dd.idx
+|       |   |       |   |   307d4fae-22fa476f
+|       |   |       |   |   307d4fae-22fa476f.idx
+|       |   |       |   |   307d4fae-233182b0
+|       |   |       |   |   307d4fae-233182b0.idx
+|       |   |       |   |   307d4fae-2499cbae
+|       |   |       |   |   307d4fae-2499cbae.idx
+|       |   |       |   |   307d4fae-25e3c2ab
+|       |   |       |   |   307d4fae-25e3c2ab.idx
+|       |   |       |   |   307d4fae-28f4d413
+|       |   |       |   |   307d4fae-28f4d413.idx
+|       |   |       |   |   307d4fae-2aac3d70
+|       |   |       |   |   307d4fae-2aac3d70.idx
+|       |   |       |   |   307d4fae-2d5f4afb
+|       |   |       |   |   307d4fae-2d5f4afb.idx
+|       |   |       |   |   307d4fae-2e373f4c
+|       |   |       |   |   307d4fae-2e373f4c.idx
+|       |   |       |   |   307d4fae-304ff11a
+|       |   |       |   |   307d4fae-304ff11a.idx
+|       |   |       |   |   307d4fae-31fadd81
+|       |   |       |   |   307d4fae-31fadd81.idx
+|       |   |       |   |   307d4fae-32fe33d5
+|       |   |       |   |   307d4fae-32fe33d5.idx
+|       |   |       |   |   307d4fae-33b510fa
+|       |   |       |   |   307d4fae-33b510fa.idx
+|       |   |       |   |   307d4fae-3444bd0e
+|       |   |       |   |   307d4fae-3444bd0e.idx
+|       |   |       |   |   307d4fae-344e8a1e
+|       |   |       |   |   307d4fae-344e8a1e.idx
+|       |   |       |   |   307d4fae-34ea9a44
+|       |   |       |   |   307d4fae-34ea9a44.idx
+|       |   |       |   |   307d4fae-3563ceb6
+|       |   |       |   |   307d4fae-3563ceb6.idx
+|       |   |       |   |   307d4fae-39545a9e
+|       |   |       |   |   307d4fae-39545a9e.idx
+|       |   |       |   |   307d4fae-397dca16
+|       |   |       |   |   307d4fae-397dca16.idx
+|       |   |       |   |   307d4fae-3b0ec3f8
+|       |   |       |   |   307d4fae-3b0ec3f8.idx
+|       |   |       |   |   307d4fae-3b11dcd7
+|       |   |       |   |   307d4fae-3b11dcd7.idx
+|       |   |       |   |   307d4fae-3c03c7fb
+|       |   |       |   |   307d4fae-3c03c7fb.idx
+|       |   |       |   |   307d4fae-3cbdfcc9
+|       |   |       |   |   307d4fae-3cbdfcc9.idx
+|       |   |       |   |   307d4fae-3de3f022
+|       |   |       |   |   307d4fae-3de3f022.idx
+|       |   |       |   |   307d4fae-3e7fadc4
+|       |   |       |   |   307d4fae-3e7fadc4.idx
+|       |   |       |   |   307d4fae-3fd3f129
+|       |   |       |   |   307d4fae-3fd3f129.idx
+|       |   |       |   |   307d4fae-40f3d492
+|       |   |       |   |   307d4fae-40f3d492.idx
+|       |   |       |   |   307d4fae-411bc9af
+|       |   |       |   |   307d4fae-411bc9af.idx
+|       |   |       |   |   307d4fae-416f5176
+|       |   |       |   |   307d4fae-416f5176.idx
+|       |   |       |   |   307d4fae-4368e6d2
+|       |   |       |   |   307d4fae-4368e6d2.idx
+|       |   |       |   |   307d4fae-46305a85
+|       |   |       |   |   307d4fae-46305a85.idx
+|       |   |       |   |   307d4fae-47aea6ed
+|       |   |       |   |   307d4fae-47aea6ed.idx
+|       |   |       |   |   307d4fae-48154828
+|       |   |       |   |   307d4fae-48154828.idx
+|       |   |       |   |   307d4fae-484adbc8
+|       |   |       |   |   307d4fae-484adbc8.idx
+|       |   |       |   |   307d4fae-48c2bb1b
+|       |   |       |   |   307d4fae-48c2bb1b.idx
+|       |   |       |   |   307d4fae-48dd85d9
+|       |   |       |   |   307d4fae-48dd85d9.idx
+|       |   |       |   |   307d4fae-4a7b85e3
+|       |   |       |   |   307d4fae-4a7b85e3.idx
+|       |   |       |   |   307d4fae-4f870354
+|       |   |       |   |   307d4fae-4f870354.idx
+|       |   |       |   |   307d4fae-5048a8fb
+|       |   |       |   |   307d4fae-5048a8fb.idx
+|       |   |       |   |   307d4fae-512ef4c9
+|       |   |       |   |   307d4fae-512ef4c9.idx
+|       |   |       |   |   307d4fae-515dda40
+|       |   |       |   |   307d4fae-515dda40.idx
+|       |   |       |   |   307d4fae-54c6213b
+|       |   |       |   |   307d4fae-54c6213b.idx
+|       |   |       |   |   307d4fae-560a2bd3
+|       |   |       |   |   307d4fae-560a2bd3.idx
+|       |   |       |   |   307d4fae-5637787a
+|       |   |       |   |   307d4fae-5637787a.idx
+|       |   |       |   |   307d4fae-56b04183
+|       |   |       |   |   307d4fae-56b04183.idx
+|       |   |       |   |   307d4fae-57417e65
+|       |   |       |   |   307d4fae-57417e65.idx
+|       |   |       |   |   307d4fae-5c10e452
+|       |   |       |   |   307d4fae-5c10e452.idx
+|       |   |       |   |   307d4fae-60f06560
+|       |   |       |   |   307d4fae-60f06560.idx
+|       |   |       |   |   307d4fae-67ee9a3f
+|       |   |       |   |   307d4fae-67ee9a3f.idx
+|       |   |       |   |   307d4fae-6921702a
+|       |   |       |   |   307d4fae-6921702a.idx
+|       |   |       |   |   307d4fae-6991ef90
+|       |   |       |   |   307d4fae-6991ef90.idx
+|       |   |       |   |   307d4fae-6b3fff97
+|       |   |       |   |   307d4fae-6b3fff97.idx
+|       |   |       |   |   307d4fae-6c48edd3
+|       |   |       |   |   307d4fae-6c48edd3.idx
+|       |   |       |   |   307d4fae-6cf8a407
+|       |   |       |   |   307d4fae-6cf8a407.idx
+|       |   |       |   |   307d4fae-6dc2acf0
+|       |   |       |   |   307d4fae-6dc2acf0.idx
+|       |   |       |   |   307d4fae-6e0503d4
+|       |   |       |   |   307d4fae-6e0503d4.idx
+|       |   |       |   |   307d4fae-6e9cfcff
+|       |   |       |   |   307d4fae-6e9cfcff.idx
+|       |   |       |   |   307d4fae-6ee6b730
+|       |   |       |   |   307d4fae-6ee6b730.idx
+|       |   |       |   |   307d4fae-721b1721
+|       |   |       |   |   307d4fae-721b1721.idx
+|       |   |       |   |   307d4fae-77ad7bb8
+|       |   |       |   |   307d4fae-77ad7bb8.idx
+|       |   |       |   |   307d4fae-78946de8
+|       |   |       |   |   307d4fae-78946de8.idx
+|       |   |       |   |   307d4fae-7a0855e2
+|       |   |       |   |   307d4fae-7a0855e2.idx
+|       |   |       |   |   307d4fae-7a1a6011
+|       |   |       |   |   307d4fae-7a1a6011.idx
+|       |   |       |   |   307d4fae-7ac39292
+|       |   |       |   |   307d4fae-7ac39292.idx
+|       |   |       |   |   307d4fae-7cb8c111
+|       |   |       |   |   307d4fae-7cb8c111.idx
+|       |   |       |   |   307d4fae-7f72792f
+|       |   |       |   |   307d4fae-7f72792f.idx
+|       |   |       |   |   307d4fae-7f995068
+|       |   |       |   |   307d4fae-7f995068.idx
+|       |   |       |   |   759e98ee-7c265260
+|       |   |       |   |   759e98ee-7c265260.idx
+|       |   |       |   |   
+|       |   |       |   \---759e98ee-7c265260-n
+|       |   |       |           decora-d3d.dll
+|       |   |       |           decora-sse.dll
+|       |   |       |           jmc.dll
+|       |   |       |           msvcp71.dll
+|       |   |       |           msvcr71.dll
+|       |   |       |           
+|       |   |       +---47
+|       |   |       +---48
+|       |   |       +---49
+|       |   |       +---5
+|       |   |       +---50
+|       |   |       |       2e380eb2-3d88889a
+|       |   |       |       2e380eb2-3d88889a.idx
+|       |   |       |       6be08532-73c4aebf
+|       |   |       |       6be08532-73c4aebf.idx
+|       |   |       |       
+|       |   |       +---51
+|       |   |       +---52
+|       |   |       |       6107c934-7d806e27
+|       |   |       |       6107c934-7d806e27.idx
+|       |   |       |       
+|       |   |       +---53
+|       |   |       +---54
+|       |   |       |   |   14e933b6-20f54bcd
+|       |   |       |   |   14e933b6-20f54bcd.idx
+|       |   |       |   |   14e933b6-327a69e8
+|       |   |       |   |   14e933b6-327a69e8.idx
+|       |   |       |   |   1a209876-5d6b0bba
+|       |   |       |   |   1a209876-5d6b0bba.idx
+|       |   |       |   |   68746cf6-4d97cb99
+|       |   |       |   |   68746cf6-4d97cb99.idx
+|       |   |       |   |   68746cf6-4eee5a8b
+|       |   |       |   |   68746cf6-4eee5a8b.idx
+|       |   |       |   |   
+|       |   |       |   \---1a209876-5d6b0bba-n
+|       |   |       |           jmc.dll
+|       |   |       |           msvcp71.dll
+|       |   |       |           msvcr71.dll
+|       |   |       |           
+|       |   |       +---55
+|       |   |       |       4207bd37-15c0439c
+|       |   |       |       4207bd37-15c0439c.idx
+|       |   |       |       4207bd37-5b80c41f
+|       |   |       |       4207bd37-5b80c41f.idx
+|       |   |       |       
+|       |   |       +---56
+|       |   |       |       3d7cc0f8-1ca138ed
+|       |   |       |       3d7cc0f8-1ca138ed.idx
+|       |   |       |       3d7cc0f8-2eebf00e
+|       |   |       |       3d7cc0f8-2eebf00e.idx
+|       |   |       |       3d7cc0f8-3a1cb424
+|       |   |       |       3d7cc0f8-3a1cb424.idx
+|       |   |       |       3d7cc0f8-3d97c192
+|       |   |       |       3d7cc0f8-3d97c192.idx
+|       |   |       |       3d7cc0f8-5495d0e5
+|       |   |       |       3d7cc0f8-5495d0e5.idx
+|       |   |       |       3d7cc0f8-6732f543
+|       |   |       |       3d7cc0f8-6732f543.idx
+|       |   |       |       3d7cc0f8-7e7df0d7
+|       |   |       |       3d7cc0f8-7e7df0d7.idx
+|       |   |       |       
+|       |   |       +---57
+|       |   |       +---58
+|       |   |       +---59
+|       |   |       |       1ea183bb-5ba5c347
+|       |   |       |       1ea183bb-5ba5c347.idx
+|       |   |       |       3fefec7b-1beae0fa
+|       |   |       |       3fefec7b-1beae0fa.idx
+|       |   |       |       3fefec7b-79a9095c
+|       |   |       |       3fefec7b-79a9095c.idx
+|       |   |       |       
+|       |   |       +---6
+|       |   |       +---60
+|       |   |       |       3d9eafbc-46c44b73
+|       |   |       |       3d9eafbc-46c44b73.idx
+|       |   |       |       3d9eafbc-7a3c5893
+|       |   |       |       3d9eafbc-7a3c5893.idx
+|       |   |       |       
+|       |   |       +---61
+|       |   |       |       41f90e7d-4851b20f
+|       |   |       |       41f90e7d-4851b20f.idx
+|       |   |       |       41f90e7d-629e3faa
+|       |   |       |       41f90e7d-629e3faa.idx
+|       |   |       |       
+|       |   |       +---62
+|       |   |       |   |   180113fe-7728e732
+|       |   |       |   |   180113fe-7728e732.idx
+|       |   |       |   |   2dfed4fe-706b8ce0
+|       |   |       |   |   2dfed4fe-706b8ce0.idx
+|       |   |       |   |   6baea4fe-1c11143d
+|       |   |       |   |   6baea4fe-1c11143d.idx
+|       |   |       |   |   
+|       |   |       |   \---6baea4fe-1c11143d-n
+|       |   |       |           jogl.dll
+|       |   |       |           jogl_awt.dll
+|       |   |       |           jogl_cg.dll
+|       |   |       |           
+|       |   |       +---63
+|       |   |       +---7
+|       |   |       +---8
+|       |   |       |       22738348-5ba212db
+|       |   |       |       22738348-5ba212db.idx
+|       |   |       |       7eeb3988-1558cd15
+|       |   |       |       7eeb3988-1558cd15.idx
+|       |   |       |       
+|       |   |       +---9
+|       |   |       |       17434789-2b90379a
+|       |   |       |       17434789-2b90379a.idx
+|       |   |       |       17434789-535a5cda
+|       |   |       |       17434789-535a5cda.idx
+|       |   |       |       
+|       |   |       +---host
+|       |   |       +---muffin
+|       |   |       \---tmp
+|       |   +---ext
+|       |   +---log
+|       |   +---security
+|       |   |       trusted.certs
+|       |   |       trusted.jssecerts
+|       |   |       
+|       |   +---SystemCache
+|       |   |   \---6.0
+|       |   |       |   lastAccessed
+|       |   |       |   
+|       |   |       +---0
+|       |   |       +---1
+|       |   |       +---10
+|       |   |       +---11
+|       |   |       |       21e928cb-61494a08
+|       |   |       |       21e928cb-61494a08.idx
+|       |   |       |       
+|       |   |       +---12
+|       |   |       +---13
+|       |   |       +---14
+|       |   |       +---15
+|       |   |       +---16
+|       |   |       +---17
+|       |   |       |   |   6d0ad391-69df1597
+|       |   |       |   |   6d0ad391-69df1597.idx
+|       |   |       |   |   
+|       |   |       |   \---6d0ad391-69df1597-n
+|       |   |       |           decora-d3d.dll
+|       |   |       |           decora-sse.dll
+|       |   |       |           
+|       |   |       +---18
+|       |   |       +---19
+|       |   |       +---2
+|       |   |       +---20
+|       |   |       +---21
+|       |   |       +---22
+|       |   |       +---23
+|       |   |       |       3db38257-296b0b41
+|       |   |       |       3db38257-296b0b41.idx
+|       |   |       |       6fa462d7-30fd383f
+|       |   |       |       6fa462d7-30fd383f.idx
+|       |   |       |       
+|       |   |       +---24
+|       |   |       |       2a20e358-4bf8be95
+|       |   |       |       2a20e358-4bf8be95.idx
+|       |   |       |       
+|       |   |       +---25
+|       |   |       |       794f2bd9-2de7f4c2
+|       |   |       |       794f2bd9-2de7f4c2.idx
+|       |   |       |       
+|       |   |       +---26
+|       |   |       |       457dee9a-22b234a9
+|       |   |       |       457dee9a-22b234a9.idx
+|       |   |       |       457dee9a-24cf7e19.idx
+|       |   |       |       
+|       |   |       +---27
+|       |   |       +---28
+|       |   |       +---29
+|       |   |       |       2d9f109d-31b3e231
+|       |   |       |       2d9f109d-31b3e231.idx
+|       |   |       |       
+|       |   |       +---3
+|       |   |       |       1cfa1583-25bd6373
+|       |   |       |       1cfa1583-25bd6373.idx
+|       |   |       |       
+|       |   |       +---30
+|       |   |       +---31
+|       |   |       +---32
+|       |   |       |       6c34baa0-4b9e6a84.idx
+|       |   |       |       6c34baa0-6454d8e3.idx
+|       |   |       |       6c34baa0-741a7c35
+|       |   |       |       6c34baa0-741a7c35.idx
+|       |   |       |       
+|       |   |       +---33
+|       |   |       +---34
+|       |   |       +---35
+|       |   |       +---36
+|       |   |       +---37
+|       |   |       +---38
+|       |   |       +---39
+|       |   |       +---4
+|       |   |       |   |   7ec4bf04-30a8ec69
+|       |   |       |   |   7ec4bf04-30a8ec69.idx
+|       |   |       |   |   
+|       |   |       |   \---7ec4bf04-30a8ec69-n
+|       |   |       |           jmc.dll
+|       |   |       |           msvcp71.dll
+|       |   |       |           msvcr71.dll
+|       |   |       |           
+|       |   |       +---40
+|       |   |       +---41
+|       |   |       +---42
+|       |   |       |   |   4488892a-6dfac403
+|       |   |       |   |   4488892a-6dfac403.idx
+|       |   |       |   |   
+|       |   |       |   \---4488892a-6dfac403-n
+|       |   |       |           decora-d3d.dll
+|       |   |       |           decora-sse.dll
+|       |   |       |           
+|       |   |       +---43
+|       |   |       +---44
+|       |   |       +---45
+|       |   |       +---46
+|       |   |       |   |   f84c6ae-220e7de9
+|       |   |       |   |   f84c6ae-220e7de9.idx
+|       |   |       |   |   
+|       |   |       |   \---f84c6ae-220e7de9-n
+|       |   |       |           jmc.dll
+|       |   |       |           msvcp71.dll
+|       |   |       |           msvcr71.dll
+|       |   |       |           
+|       |   |       +---47
+|       |   |       +---48
+|       |   |       +---49
+|       |   |       +---5
+|       |   |       +---50
+|       |   |       |   |   5535ab32-73041d27
+|       |   |       |   |   5535ab32-73041d27.idx
+|       |   |       |   |   
+|       |   |       |   \---5535ab32-73041d27-n
+|       |   |       |           decora-d3d.dll
+|       |   |       |           decora-sse.dll
+|       |   |       |           
+|       |   |       +---51
+|       |   |       +---52
+|       |   |       +---53
+|       |   |       +---54
+|       |   |       |   |   1a209876-4061df17
+|       |   |       |   |   1a209876-4061df17.idx
+|       |   |       |   |   
+|       |   |       |   \---1a209876-4061df17-n
+|       |   |       |           jmc.dll
+|       |   |       |           msvcp71.dll
+|       |   |       |           msvcr71.dll
+|       |   |       |           
+|       |   |       +---55
+|       |   |       +---56
+|       |   |       +---57
+|       |   |       +---58
+|       |   |       +---59
+|       |   |       +---6
+|       |   |       +---60
+|       |   |       +---61
+|       |   |       +---62
+|       |   |       +---63
+|       |   |       +---7
+|       |   |       +---8
+|       |   |       \---9
+|       |   \---tmp
+|       |       \---si
+|       +---jre1.6.0_10
+|       |       lzma.dll
+|       |       
+|       +---jre1.6.0_11
+|       |       jre1.6.0_11-c.msi
+|       |       sp1033.MST
+|       |       
+|       +---jre1.6.0_16
+|       |       lzma.dll
+|       |       
+|       +---jre1.6.0_20
+|       |       OpenOffice_banner.jpg
+|       |       
+|       +---jre1.6.0_21
+|       |       OpenOffice_banner.jpg
+|       |       
+|       +---jre1.6.0_22
+|       |       OpenOffice_banner.jpg
+|       |       
+|       +---jre1.6.0_23
+|       |       OpenOffice_banner.jpg
+|       |       
+|       \---jre1.6.0_24
+|               OpenOffice_banner.jpg
+|               
++---Thinstall
+|   \---Microsoft Office Visio Professional 2007
+|       |   Registry.rw.lck
+|       |   Registry.rw.tvr
+|       |   
+|       +---%AppData%
+|       |   \---Microsoft
+|       |       \---Office
+|       |               Visio12.pip
+|       |               
+|       +---%Common AppData%
+|       |   \---Microsoft
+|       |       \---OFFICE
+|       |           \---DATA
+|       |                   opa12.dat
+|       |                   
+|       +---%Local AppData%
+|       |   \---Microsoft
+|       |       \---Visio
+|       |               thumbs.dat
+|       |               
+|       +---%ProgramFilesDir%
+|       |   \---microsoft office
+|       |       \---office12
+|       |           \---1033
+|       |                   Annot_U.vss
+|       |                   Border_U.vss
+|       |                   Calout_U.vss
+|       |                   Comps_U.vss
+|       |                   DtlNet_U.vss
+|       |                   dtlnet_u.vst
+|       |                   EntApp_U.vss
+|       |                   entapp_u.vst
+|       |                   NetLoc_U.vss
+|       |                   NetSym_U.vss
+|       |                   Periph_U.vss
+|       |                   RckSvr_u.vss
+|       |                   Server_U.vss
+|       |                   
+|       +---1000000500002h
+|       |       hh.exe
+|       |       
+|       +---1000000be00002h
+|       |       helpctr.exe
+|       |       
+|       +---1000000c00002h
+|       |       MSInfo32.exe
+|       |       
+|       +---300000003f00002h
+|       |       CLVIEW.EXE
+|       |       
+|       \---300000007100002h
+|               SETUP.EXE
+|               
++---TortoiseSVN
+|       1033.dic
+|       
++---TrueCrypt
+|       Configuration.xml
+|       
++---vlc
+|       CACHEDIR.TAG
+|       ml.xspf
+|       plugins-04041e.dat
+|       vlc-qt-interface.ini
+|       vlcrc
+|       
++---WDPlugin
+|       DLLList821.dll
+|       wdappview821.dll
+|       wd_hook821.dll
+|       
++---webex
+|       WebexQS_mc.ucf
+|       
++---winpt
+|       keyserver.conf
+|       
++---WinRAR
+|       version.dat
+|       
+\---Zimbra
+    \---Zimbra Toaster
+        |   ztoastcfg.xml
+        |   
+        \---5.0.3016.16
+
+########################################################
+	 SYSTEM DRIVE DIRECTORIES: 
+########################################################
+
+ Volume in drive C has no label.
+ Volume Serial Number is F406-743F
+
+ Directory of C:\
+
+[.sslvpn-ids]
+[32788R22FWJFW]
+AUTOEXEC.BAT
+bar.emf
+[bin]
+CONFIG.SYS
+[Data]
+[DELL]
+[Documents]
+[Documents and Settings]
+[Downloads]
+foo.txt
+lmaciak_MSIALog.txt
+[New Folder]
+office2003-KB951982-GLB.exe
+[Options]
+[Program Files]
+README.txt
+[rsit]
+setupACE.bat
+[symbols]
+TDSSKiller.2.4.10.1_07.12.2010_16.29.55_log.txt
+TDSSKiller.2.4.10.1_07.12.2010_16.30.06_log.txt
+TDSSKiller.2.4.21.0_05.04.2011_16.22.36_log.txt
+TDSSKiller.2.4.21.0_25.04.2011_12.34.08_log.txt
+TDSSKiller.2.4.4.0_04.10.2010_13.32.33_log.txt
+TDSSKiller.2.4.4.0_09.11.2010_15.15.02_log.txt
+TDSSKiller.2.5.0.0_09.05.2011_15.00.58_log.txt
+[totalcmd]
+[VB6ScrollWheelFix7]
+[WINDOWS]
+workspace.cmd
+YouTubeVideo.ppa
+              17 File(s)      5,387,994 bytes
+              16 Dir(s)     161,783,808 bytes free

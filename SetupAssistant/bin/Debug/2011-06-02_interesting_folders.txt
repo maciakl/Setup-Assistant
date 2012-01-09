@@ -1,0 +1,15 @@
+SystemSnooper (c) 2011 Lukasz Grzegorz Maciak
+
+This appears to be a 32 bit system.
+
+Detected Office 2003 in the default folder.
+	- Word
+	- Excel
+	- Outlook
+	- Powerpoint
+	- Publisher
+
+Detected Office 2007 in the default folder.
+	- Word
+	- Excel
+
