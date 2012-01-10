@@ -57,6 +57,12 @@ namespace SetupAssistant
 
         private string NORMAL_DOT_BACKUP = System.Environment.GetEnvironmentVariable("APPDATA") + "\\Microsoft\\Templates\\Normal.dot" + ".sa.backup";
         private string NORMAL_DOTM_BACKUP = System.Environment.GetEnvironmentVariable("APPDATA") + "\\Microsoft\\Templates\\Normal.dotm" + ".sa.backup";
+
+        private string WEB_ERROR = @"Unable to download the requested application.
+
+The website seems to be down or blocked.
+Please try again later. If the problem continues
+please file a bug report at http://sa.maciak.net";
                 
         private System.Windows.Forms.Label helpLabel;
 
@@ -265,7 +271,7 @@ namespace SetupAssistant
                         using (new CenterWinDialog(this)) { MessageBox.Show(this, "There was a problem downloading the file.", "File Download Error", MessageBoxButtons.OK, MessageBoxIcon.Error); }
 
                 }
-                catch (WebException we) { using (new CenterWinDialog(this)) { MessageBox.Show(this, we.Message + "\r\n\r\n" + we.ToString(), "Web Error", MessageBoxButtons.OK, MessageBoxIcon.Error); }  }
+                catch (WebException we) { using (new CenterWinDialog(this)) { MessageBox.Show(this, WEB_ERROR, "Web Error", MessageBoxButtons.OK, MessageBoxIcon.Error); }  }
                 catch (Exception ee) { using (new CenterWinDialog(this)) { MessageBox.Show(this, ee.Message + "\r\n\r\n" + ee.ToString(), "Unexpected Error", MessageBoxButtons.OK, MessageBoxIcon.Error); }  }
                 finally { this.Cursor = Cursors.Default; }
 
@@ -342,7 +348,7 @@ namespace SetupAssistant
 
                     Process.Start(path);
                 }
-                catch (WebException we) { using (new CenterWinDialog(this)) { MessageBox.Show(this, we.Message + "\r\n\r\n" + we.ToString(), "Web Error", MessageBoxButtons.OK, MessageBoxIcon.Error); }  }
+                catch (WebException we) { using (new CenterWinDialog(this)) { MessageBox.Show(this, WEB_ERROR, "Web Error", MessageBoxButtons.OK, MessageBoxIcon.Error); }  }
                 finally { this.Cursor = Cursors.Default; }
             }
         }
@@ -2518,9 +2524,10 @@ namespace SetupAssistant
 
         private void button162_Click(object sender, EventArgs e)
         {
+            //string url = "http://go.microsoft.com/?linkid=9708413";
             string url = "http://go.microsoft.com/?linkid=9708413";
-            string file = "Mats_Run.IEAddon.exe";
-
+            string file = "MicrosoftFixit.IEAddon.Run.exe";
+            
             runFromCacheOrDownload(file, url);
         }
 
@@ -2783,6 +2790,63 @@ namespace SetupAssistant
             string zip = "XLCleaner.zip";
 
             runFromCacheOrDownloadZipfile(file, url, zip);
+        }
+
+        private void button186_Click_1(object sender, EventArgs e)
+        {
+            string message = "";
+
+            string url = @"http://winhelp2002.mvps.org/hosts.txt";
+            string file = @"hosts";
+
+
+            try
+            {
+                    if (File.Exists(HOSTS_FILE))
+                    {
+                        if (File.Exists(HOTSTS_BACKUP))
+                        {
+                            File.SetAttributes(this.HOTSTS_BACKUP, FileAttributes.Normal);
+                            deleteHostsBackup();
+                        }
+
+                        hostsBackup();
+                        File.Delete(HOSTS_FILE);
+                        message = "HOSTS backed up to " + HOTSTS_BACKUP + "\r\n\r\n";
+                    }
+
+                    //createHostsFile();
+                    
+                    this.Cursor = Cursors.WaitCursor;
+
+                    Uri uri = new Uri(url);
+                    String path = CACHE + file;
+                    downloadFileToCache(uri, path);
+                    
+                    CalculateCacheSize();
+
+                   
+                    File.Copy(path, HOSTS_FILE);
+
+                    if (File.Exists(HOSTS_FILE))
+                        using (new CenterWinDialog(this))
+                        using (new CenterWinDialog(this)) MessageBox.Show(this, "Your HOSTS file was replaced with MVPS HOSTS file. To undo, try restoring from backup or recreating.", "MVPS HOSTS", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                    else
+                    {
+                        File.Copy(HOTSTS_BACKUP, HOSTS_FILE, true);
+                        using (new CenterWinDialog(this)) { MessageBox.Show(this, "Something went wrong while copying.\r\nHOSTS file restored from backup.\r\nPlease try again later.", "Copy Error", MessageBoxButtons.OK, MessageBoxIcon.Error); }
+                    }
+                    
+             }
+             catch (UnauthorizedAccessException) { using (new CenterWinDialog(this)) { MessageBox.Show(this, "HOSTS file is read only. Set it to Read/Write to perform this action.", "File Access Error", MessageBoxButtons.OK, MessageBoxIcon.Error); } }
+             catch (WebException we) { using (new CenterWinDialog(this)) { MessageBox.Show(this, WEB_ERROR, "Web Error", MessageBoxButtons.OK, MessageBoxIcon.Error); }  }
+             finally { this.Cursor = Cursors.Default; }
+            
+        }
+
+        private void linkLabel5_LinkClicked_1(object sender, LinkLabelLinkClickedEventArgs e)
+        {
+            Process.Start("http://mvt.mcafee.com/mvt/");
         }
 
        

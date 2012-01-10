@@ -200,6 +200,7 @@
             this.groupBox6 = new System.Windows.Forms.GroupBox();
             this.tabPage3 = new System.Windows.Forms.TabPage();
             this.groupBox45 = new System.Windows.Forms.GroupBox();
+            this.button185 = new System.Windows.Forms.Button();
             this.button162 = new System.Windows.Forms.Button();
             this.button161 = new System.Windows.Forms.Button();
             this.groupBox42 = new System.Windows.Forms.GroupBox();
@@ -308,7 +309,8 @@
             this.label10 = new System.Windows.Forms.Label();
             this.label11 = new System.Windows.Forms.Label();
             this.helpButton = new System.Windows.Forms.Button();
-            this.button185 = new System.Windows.Forms.Button();
+            this.button186 = new System.Windows.Forms.Button();
+            this.linkLabel5 = new System.Windows.Forms.LinkLabel();
             this.groupBox1.SuspendLayout();
             this.groupBox2.SuspendLayout();
             this.groupBox3.SuspendLayout();
@@ -2039,6 +2041,7 @@
             // 
             // groupBox47
             // 
+            this.groupBox47.Controls.Add(this.linkLabel5);
             this.groupBox47.Controls.Add(this.button170);
             this.groupBox47.Location = new System.Drawing.Point(434, 295);
             this.groupBox47.Name = "groupBox47";
@@ -2899,6 +2902,23 @@
             this.groupBox45.TabStop = false;
             this.groupBox45.Text = "Internet Explorer Issues";
             // 
+            // button185
+            // 
+            this.button185.BackColor = System.Drawing.SystemColors.Control;
+            this.button185.ForeColor = System.Drawing.Color.Blue;
+            this.button185.Image = ((System.Drawing.Image)(resources.GetObject("button185.Image")));
+            this.button185.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.button185.Location = new System.Drawing.Point(15, 73);
+            this.button185.Name = "button185";
+            this.button185.Size = new System.Drawing.Size(179, 20);
+            this.button185.TabIndex = 76;
+            this.button185.Tag = "Downloads and runs the IE Re-Registration script by Kai Schaetzl from http://iefa" +
+                "q.info/index.php?action=artikel&;cat=42&id=133&artlang=en";
+            this.button185.Text = "IE8 Re-Reg by Kai Schaetzl";
+            this.button185.UseVisualStyleBackColor = true;
+            this.button185.HelpRequested += new System.Windows.Forms.HelpEventHandler(this.button_HelpRequested);
+            this.button185.Click += new System.EventHandler(this.button185_Click);
+            // 
             // button162
             // 
             this.button162.BackColor = System.Drawing.SystemColors.Control;
@@ -2983,9 +3003,9 @@
             this.groupBox38.Controls.Add(this.button159);
             this.groupBox38.Controls.Add(this.button158);
             this.groupBox38.Controls.Add(this.button157);
-            this.groupBox38.Location = new System.Drawing.Point(6, 382);
+            this.groupBox38.Location = new System.Drawing.Point(6, 389);
             this.groupBox38.Name = "groupBox38";
-            this.groupBox38.Size = new System.Drawing.Size(399, 74);
+            this.groupBox38.Size = new System.Drawing.Size(399, 67);
             this.groupBox38.TabIndex = 77;
             this.groupBox38.TabStop = false;
             this.groupBox38.Text = "Telnet / SSH";
@@ -3097,6 +3117,7 @@
             // 
             // groupBox27
             // 
+            this.groupBox27.Controls.Add(this.button186);
             this.groupBox27.Controls.Add(this.button104);
             this.groupBox27.Controls.Add(this.button103);
             this.groupBox27.Controls.Add(this.button102);
@@ -3107,7 +3128,7 @@
             this.groupBox27.Controls.Add(this.button77);
             this.groupBox27.Location = new System.Drawing.Point(217, 132);
             this.groupBox27.Name = "groupBox27";
-            this.groupBox27.Size = new System.Drawing.Size(187, 241);
+            this.groupBox27.Size = new System.Drawing.Size(187, 257);
             this.groupBox27.TabIndex = 75;
             this.groupBox27.TabStop = false;
             this.groupBox27.Text = "HOSTS File";
@@ -3204,7 +3225,7 @@
             this.groupBox26.Controls.Add(this.button48);
             this.groupBox26.Location = new System.Drawing.Point(6, 287);
             this.groupBox26.Name = "groupBox26";
-            this.groupBox26.Size = new System.Drawing.Size(205, 86);
+            this.groupBox26.Size = new System.Drawing.Size(205, 102);
             this.groupBox26.TabIndex = 74;
             this.groupBox26.TabStop = false;
             this.groupBox26.Text = "DNS";
@@ -4437,22 +4458,37 @@
             this.helpButton.UseVisualStyleBackColor = true;
             this.helpButton.Click += new System.EventHandler(this.button144_Click);
             // 
-            // button185
+            // button186
             // 
-            this.button185.BackColor = System.Drawing.SystemColors.Control;
-            this.button185.ForeColor = System.Drawing.Color.Blue;
-            this.button185.Image = ((System.Drawing.Image)(resources.GetObject("button185.Image")));
-            this.button185.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.button185.Location = new System.Drawing.Point(15, 73);
-            this.button185.Name = "button185";
-            this.button185.Size = new System.Drawing.Size(179, 20);
-            this.button185.TabIndex = 76;
-            this.button185.Tag = "Downloads and runs the IE Re-Registration script by Kai Schaetzl from http://iefa" +
-                "q.info/index.php?action=artikel&;cat=42&id=133&artlang=en";
-            this.button185.Text = "IE8 Re-Reg by Kai Schaetzl";
-            this.button185.UseVisualStyleBackColor = true;
-            this.button185.HelpRequested += new System.Windows.Forms.HelpEventHandler(this.button_HelpRequested);
-            this.button185.Click += new System.EventHandler(this.button185_Click);
+            this.button186.Image = ((System.Drawing.Image)(resources.GetObject("button186.Image")));
+            this.button186.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.button186.Location = new System.Drawing.Point(8, 227);
+            this.button186.Name = "button186";
+            this.button186.Size = new System.Drawing.Size(175, 20);
+            this.button186.TabIndex = 78;
+            this.button186.Tag = "Replaces your hosts file with MVPS blacklist. See http://winhelp2002.mvps.org/hos" +
+                "ts.htm for details.";
+            this.button186.Text = "Use MVPS HOSTS file";
+            this.button186.UseVisualStyleBackColor = true;
+            this.button186.HelpRequested += new System.Windows.Forms.HelpEventHandler(this.button_HelpRequested);
+            this.button186.Click += new System.EventHandler(this.button186_Click_1);
+            // 
+            // linkLabel5
+            // 
+            this.linkLabel5.AutoSize = true;
+            this.linkLabel5.Image = ((System.Drawing.Image)(resources.GetObject("linkLabel5.Image")));
+            this.linkLabel5.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.linkLabel5.Location = new System.Drawing.Point(6, 39);
+            this.linkLabel5.Name = "linkLabel5";
+            this.linkLabel5.Padding = new System.Windows.Forms.Padding(20, 0, 0, 0);
+            this.linkLabel5.Size = new System.Drawing.Size(152, 13);
+            this.linkLabel5.TabIndex = 49;
+            this.linkLabel5.TabStop = true;
+            this.linkLabel5.Tag = "Run McAfee Virtual Technician tool to diagnose and repair your McAfee products. O" +
+                "pens in default browser.";
+            this.linkLabel5.Text = "McAfee Virtual Technician";
+            this.linkLabel5.HelpRequested += new System.Windows.Forms.HelpEventHandler(this.button_HelpRequested);
+            this.linkLabel5.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.linkLabel5_LinkClicked_1);
             // 
             // SetupAssistant
             // 
@@ -4490,6 +4526,7 @@
             this.groupBox12.ResumeLayout(false);
             this.tabPage6.ResumeLayout(false);
             this.groupBox47.ResumeLayout(false);
+            this.groupBox47.PerformLayout();
             this.groupBox41.ResumeLayout(false);
             this.groupBox18.ResumeLayout(false);
             this.groupBox18.PerformLayout();
@@ -4826,6 +4863,8 @@
         private System.Windows.Forms.Button button183;
         private System.Windows.Forms.Button button184;
         private System.Windows.Forms.Button button185;
+        private System.Windows.Forms.Button button186;
+        private System.Windows.Forms.LinkLabel linkLabel5;
     }
 }
 
