@@ -2867,6 +2867,14 @@ please file a bug report at http://sa.maciak.net";
             runFromCacheOrDownloadZipfile(file, url, zip);
         }
 
+        private void button189_Click(object sender, EventArgs e)
+        {
+            string url = @"http://www.stevengould.org/downloads/cleanup/CleanUp40.exe";
+            string file = @"CleanUp40.exe";
+
+            runFromCacheOrDownload(file, url);
+        }
+
        
         
         //

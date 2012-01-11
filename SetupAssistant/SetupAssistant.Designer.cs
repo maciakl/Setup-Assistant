@@ -313,6 +313,7 @@
             this.label11 = new System.Windows.Forms.Label();
             this.helpButton = new System.Windows.Forms.Button();
             this.button188 = new System.Windows.Forms.Button();
+            this.button189 = new System.Windows.Forms.Button();
             this.groupBox1.SuspendLayout();
             this.groupBox2.SuspendLayout();
             this.groupBox3.SuspendLayout();
@@ -2396,6 +2397,7 @@
             // 
             // groupBox32
             // 
+            this.groupBox32.Controls.Add(this.button189);
             this.groupBox32.Controls.Add(this.button188);
             this.groupBox32.Controls.Add(this.button183);
             this.groupBox32.Controls.Add(this.button169);
@@ -4528,6 +4530,24 @@
             this.button188.HelpRequested += new System.Windows.Forms.HelpEventHandler(this.button_HelpRequested);
             this.button188.Click += new System.EventHandler(this.button188_Click);
             // 
+            // button189
+            // 
+            this.button189.BackColor = System.Drawing.SystemColors.Control;
+            this.button189.ForeColor = System.Drawing.Color.Blue;
+            this.button189.Image = ((System.Drawing.Image)(resources.GetObject("button189.Image")));
+            this.button189.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.button189.Location = new System.Drawing.Point(5, 215);
+            this.button189.Name = "button189";
+            this.button189.Size = new System.Drawing.Size(183, 20);
+            this.button189.TabIndex = 50;
+            this.button189.Tag = "CleanUp! is a powerful and easy-to-use application that removes temporary files c" +
+                "reated while surfing the web, empties the Recycle Bin, deletes files from your t" +
+                "emporary folders and more.";
+            this.button189.Text = "Install CleanUp!";
+            this.button189.UseVisualStyleBackColor = true;
+            this.button189.HelpRequested += new System.Windows.Forms.HelpEventHandler(this.button_HelpRequested);
+            this.button189.Click += new System.EventHandler(this.button189_Click);
+            // 
             // SetupAssistant
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -4905,6 +4925,7 @@
         private System.Windows.Forms.LinkLabel linkLabel5;
         private System.Windows.Forms.Button button187;
         private System.Windows.Forms.Button button188;
+        private System.Windows.Forms.Button button189;
     }
 }
 
