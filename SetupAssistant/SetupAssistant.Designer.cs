@@ -317,6 +317,7 @@
             this.button190 = new System.Windows.Forms.Button();
             this.button191 = new System.Windows.Forms.Button();
             this.button192 = new System.Windows.Forms.Button();
+            this.button193 = new System.Windows.Forms.Button();
             this.groupBox1.SuspendLayout();
             this.groupBox2.SuspendLayout();
             this.groupBox3.SuspendLayout();
@@ -1532,6 +1533,7 @@
             // 
             // groupBox4
             // 
+            this.groupBox4.Controls.Add(this.button193);
             this.groupBox4.Controls.Add(this.button74);
             this.groupBox4.Controls.Add(this.button27);
             this.groupBox4.Controls.Add(this.button38);
@@ -4604,6 +4606,22 @@
             this.button192.HelpRequested += new System.Windows.Forms.HelpEventHandler(this.button_HelpRequested);
             this.button192.Click += new System.EventHandler(this.button192_Click);
             // 
+            // button193
+            // 
+            this.button193.BackColor = System.Drawing.SystemColors.Control;
+            this.button193.ForeColor = System.Drawing.Color.Blue;
+            this.button193.Image = ((System.Drawing.Image)(resources.GetObject("button193.Image")));
+            this.button193.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.button193.Location = new System.Drawing.Point(15, 177);
+            this.button193.Name = "button193";
+            this.button193.Size = new System.Drawing.Size(189, 20);
+            this.button193.TabIndex = 59;
+            this.button193.Tag = "OpenedFilesView displays the list of all opened files on your system.";
+            this.button193.Text = "Opened Files View (nirsoft)";
+            this.button193.UseVisualStyleBackColor = true;
+            this.button193.HelpRequested += new System.Windows.Forms.HelpEventHandler(this.button_HelpRequested);
+            this.button193.Click += new System.EventHandler(this.button193_Click);
+            // 
             // SetupAssistant
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -4985,6 +5003,7 @@
         private System.Windows.Forms.Button button190;
         private System.Windows.Forms.Button button191;
         private System.Windows.Forms.Button button192;
+        private System.Windows.Forms.Button button193;
     }
 }
 

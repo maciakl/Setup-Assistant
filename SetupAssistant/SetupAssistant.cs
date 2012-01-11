@@ -2902,6 +2902,15 @@ please file a bug report at http://sa.maciak.net";
             runFromCacheOrDownloadZipfile(file, url, zip);
         }
 
+        private void button193_Click(object sender, EventArgs e)
+        {
+            string url = @"http://www.nirsoft.net/utils/ofview.zip";
+            string file = @"OpenedFilesView.exe";
+            string zip = "ofview.zip";
+
+            runFromCacheOrDownloadZipfile(file, url, zip);
+        }
+
        
         
         //
