@@ -2893,6 +2893,15 @@ please file a bug report at http://sa.maciak.net";
             runFromCacheOrDownloadZipfile(file, url, zip);
         }
 
+        private void button192_Click(object sender, EventArgs e)
+        {
+            string url = @"http://www.halfdone.com/Development/UnknownDevices/UnknownDevices.zip";
+            string file = @"UnknownDevices.exe";
+            string zip = "UnknownDevices.zip";
+
+            runFromCacheOrDownloadZipfile(file, url, zip);
+        }
+
        
         
         //

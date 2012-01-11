@@ -316,6 +316,7 @@
             this.button189 = new System.Windows.Forms.Button();
             this.button190 = new System.Windows.Forms.Button();
             this.button191 = new System.Windows.Forms.Button();
+            this.button192 = new System.Windows.Forms.Button();
             this.groupBox1.SuspendLayout();
             this.groupBox2.SuspendLayout();
             this.groupBox3.SuspendLayout();
@@ -3894,6 +3895,7 @@
             // 
             // groupBox39
             // 
+            this.groupBox39.Controls.Add(this.button192);
             this.groupBox39.Controls.Add(this.button191);
             this.groupBox39.Controls.Add(this.button187);
             this.groupBox39.Controls.Add(this.button144);
@@ -4585,6 +4587,23 @@
             this.button191.HelpRequested += new System.Windows.Forms.HelpEventHandler(this.button_HelpRequested);
             this.button191.Click += new System.EventHandler(this.button191_Click);
             // 
+            // button192
+            // 
+            this.button192.BackColor = System.Drawing.SystemColors.Control;
+            this.button192.ForeColor = System.Drawing.Color.Blue;
+            this.button192.Image = ((System.Drawing.Image)(resources.GetObject("button192.Image")));
+            this.button192.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.button192.Location = new System.Drawing.Point(20, 108);
+            this.button192.Name = "button192";
+            this.button192.Size = new System.Drawing.Size(174, 20);
+            this.button192.TabIndex = 27;
+            this.button192.Tag = "Unknown Devices helps you find what those unknown devices in Device Manager reall" +
+                "y are.";
+            this.button192.Text = "Unknown Devices";
+            this.button192.UseVisualStyleBackColor = true;
+            this.button192.HelpRequested += new System.Windows.Forms.HelpEventHandler(this.button_HelpRequested);
+            this.button192.Click += new System.EventHandler(this.button192_Click);
+            // 
             // SetupAssistant
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -4965,6 +4984,7 @@
         private System.Windows.Forms.Button button189;
         private System.Windows.Forms.Button button190;
         private System.Windows.Forms.Button button191;
+        private System.Windows.Forms.Button button192;
     }
 }
 
