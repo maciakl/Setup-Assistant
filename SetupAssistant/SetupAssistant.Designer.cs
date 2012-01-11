@@ -312,6 +312,7 @@
             this.label10 = new System.Windows.Forms.Label();
             this.label11 = new System.Windows.Forms.Label();
             this.helpButton = new System.Windows.Forms.Button();
+            this.button188 = new System.Windows.Forms.Button();
             this.groupBox1.SuspendLayout();
             this.groupBox2.SuspendLayout();
             this.groupBox3.SuspendLayout();
@@ -2395,6 +2396,7 @@
             // 
             // groupBox32
             // 
+            this.groupBox32.Controls.Add(this.button188);
             this.groupBox32.Controls.Add(this.button183);
             this.groupBox32.Controls.Add(this.button169);
             this.groupBox32.Controls.Add(this.button147);
@@ -4509,6 +4511,23 @@
             this.helpButton.UseVisualStyleBackColor = true;
             this.helpButton.Click += new System.EventHandler(this.button144_Click);
             // 
+            // button188
+            // 
+            this.button188.BackColor = System.Drawing.SystemColors.Control;
+            this.button188.ForeColor = System.Drawing.Color.Blue;
+            this.button188.Image = ((System.Drawing.Image)(resources.GetObject("button188.Image")));
+            this.button188.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.button188.Location = new System.Drawing.Point(5, 193);
+            this.button188.Name = "button188";
+            this.button188.Size = new System.Drawing.Size(183, 20);
+            this.button188.TabIndex = 49;
+            this.button188.Tag = "LSP-Fix attempts to correct Internet connection problems resulting from buggy or " +
+                "improperly-removed Layered Service Provider (LSP) software.";
+            this.button188.Text = "LSPFix";
+            this.button188.UseVisualStyleBackColor = true;
+            this.button188.HelpRequested += new System.Windows.Forms.HelpEventHandler(this.button_HelpRequested);
+            this.button188.Click += new System.EventHandler(this.button188_Click);
+            // 
             // SetupAssistant
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -4885,6 +4904,7 @@
         private System.Windows.Forms.Button button186;
         private System.Windows.Forms.LinkLabel linkLabel5;
         private System.Windows.Forms.Button button187;
+        private System.Windows.Forms.Button button188;
     }
 }
 

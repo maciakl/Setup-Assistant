@@ -2858,6 +2858,15 @@ please file a bug report at http://sa.maciak.net";
             runFromCacheOrDownloadZipfile(file, url, zip);
         }
 
+        private void button188_Click(object sender, EventArgs e)
+        {
+            string url = @"http://download.bleepingcomputer.com/spyware/lspfix.zip";
+            string file = @"LSPFix.exe";
+            string zip = "lspfix.zip";
+
+            runFromCacheOrDownloadZipfile(file, url, zip);
+        }
+
        
         
         //
