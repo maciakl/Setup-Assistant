@@ -315,6 +315,7 @@
             this.button188 = new System.Windows.Forms.Button();
             this.button189 = new System.Windows.Forms.Button();
             this.button190 = new System.Windows.Forms.Button();
+            this.button191 = new System.Windows.Forms.Button();
             this.groupBox1.SuspendLayout();
             this.groupBox2.SuspendLayout();
             this.groupBox3.SuspendLayout();
@@ -3893,6 +3894,7 @@
             // 
             // groupBox39
             // 
+            this.groupBox39.Controls.Add(this.button191);
             this.groupBox39.Controls.Add(this.button187);
             this.groupBox39.Controls.Add(this.button144);
             this.groupBox39.Controls.Add(this.button129);
@@ -4566,6 +4568,23 @@
             this.button190.HelpRequested += new System.Windows.Forms.HelpEventHandler(this.button_HelpRequested);
             this.button190.Click += new System.EventHandler(this.button190_Click);
             // 
+            // button191
+            // 
+            this.button191.BackColor = System.Drawing.SystemColors.Control;
+            this.button191.ForeColor = System.Drawing.Color.Blue;
+            this.button191.Image = ((System.Drawing.Image)(resources.GetObject("button191.Image")));
+            this.button191.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.button191.Location = new System.Drawing.Point(20, 85);
+            this.button191.Name = "button191";
+            this.button191.Size = new System.Drawing.Size(174, 20);
+            this.button191.TabIndex = 26;
+            this.button191.Tag = "MemTest is a RAM tester that runs under Windows. It verifies that your computer c" +
+                "an reliably store and retrieve data from memory.";
+            this.button191.Text = "MemTest";
+            this.button191.UseVisualStyleBackColor = true;
+            this.button191.HelpRequested += new System.Windows.Forms.HelpEventHandler(this.button_HelpRequested);
+            this.button191.Click += new System.EventHandler(this.button191_Click);
+            // 
             // SetupAssistant
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -4945,6 +4964,7 @@
         private System.Windows.Forms.Button button188;
         private System.Windows.Forms.Button button189;
         private System.Windows.Forms.Button button190;
+        private System.Windows.Forms.Button button191;
     }
 }
 

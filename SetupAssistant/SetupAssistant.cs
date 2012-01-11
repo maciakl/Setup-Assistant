@@ -2884,6 +2884,15 @@ please file a bug report at http://sa.maciak.net";
             runFromCacheOrDownload(file, url);
         }
 
+        private void button191_Click(object sender, EventArgs e)
+        {
+            string url = @"http://hcidesign.com/memtest/MemTest.zip";
+            string file = @"memtest.exe";
+            string zip = "MemTest.zip";
+
+            runFromCacheOrDownloadZipfile(file, url, zip);
+        }
+
        
         
         //
