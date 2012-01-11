@@ -474,7 +474,7 @@
             // 
             this.button7.Image = ((System.Drawing.Image)(resources.GetObject("button7.Image")));
             this.button7.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.button7.Location = new System.Drawing.Point(208, 151);
+            this.button7.Location = new System.Drawing.Point(209, 128);
             this.button7.Name = "button7";
             this.button7.Size = new System.Drawing.Size(179, 20);
             this.button7.TabIndex = 6;
@@ -587,9 +587,9 @@
             // 
             this.button16.Image = ((System.Drawing.Image)(resources.GetObject("button16.Image")));
             this.button16.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.button16.Location = new System.Drawing.Point(210, 47);
+            this.button16.Location = new System.Drawing.Point(207, 43);
             this.button16.Name = "button16";
-            this.button16.Size = new System.Drawing.Size(178, 20);
+            this.button16.Size = new System.Drawing.Size(181, 20);
             this.button16.TabIndex = 15;
             this.button16.Tag = "Opens Windows Device Manager.";
             this.button16.Text = "Device Manager";
@@ -602,7 +602,7 @@
             this.button17.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button17.Image = ((System.Drawing.Image)(resources.GetObject("button17.Image")));
             this.button17.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.button17.Location = new System.Drawing.Point(16, 47);
+            this.button17.Location = new System.Drawing.Point(15, 43);
             this.button17.Name = "button17";
             this.button17.Size = new System.Drawing.Size(178, 20);
             this.button17.TabIndex = 16;
@@ -616,7 +616,7 @@
             // 
             this.button18.Image = ((System.Drawing.Image)(resources.GetObject("button18.Image")));
             this.button18.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.button18.Location = new System.Drawing.Point(208, 99);
+            this.button18.Location = new System.Drawing.Point(208, 86);
             this.button18.Name = "button18";
             this.button18.Size = new System.Drawing.Size(180, 20);
             this.button18.TabIndex = 17;
@@ -738,7 +738,7 @@
             // 
             this.button27.Image = ((System.Drawing.Image)(resources.GetObject("button27.Image")));
             this.button27.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.button27.Location = new System.Drawing.Point(18, 19);
+            this.button27.Location = new System.Drawing.Point(18, 21);
             this.button27.Name = "button27";
             this.button27.Size = new System.Drawing.Size(186, 20);
             this.button27.TabIndex = 26;
@@ -752,7 +752,7 @@
             // 
             this.button29.Image = ((System.Drawing.Image)(resources.GetObject("button29.Image")));
             this.button29.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.button29.Location = new System.Drawing.Point(15, 99);
+            this.button29.Location = new System.Drawing.Point(15, 86);
             this.button29.Name = "button29";
             this.button29.Size = new System.Drawing.Size(189, 20);
             this.button29.TabIndex = 28;
@@ -766,9 +766,9 @@
             // 
             this.button30.Image = ((System.Drawing.Image)(resources.GetObject("button30.Image")));
             this.button30.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.button30.Location = new System.Drawing.Point(16, 125);
+            this.button30.Location = new System.Drawing.Point(15, 107);
             this.button30.Name = "button30";
-            this.button30.Size = new System.Drawing.Size(180, 20);
+            this.button30.Size = new System.Drawing.Size(178, 20);
             this.button30.TabIndex = 29;
             this.button30.Tag = "Opens Windows User Management console.";
             this.button30.Text = "User Accounts";
@@ -780,7 +780,7 @@
             // 
             this.button31.Image = ((System.Drawing.Image)(resources.GetObject("button31.Image")));
             this.button31.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.button31.Location = new System.Drawing.Point(16, 99);
+            this.button31.Location = new System.Drawing.Point(15, 86);
             this.button31.Name = "button31";
             this.button31.Size = new System.Drawing.Size(178, 20);
             this.button31.TabIndex = 30;
@@ -794,7 +794,7 @@
             // 
             this.button32.Image = ((System.Drawing.Image)(resources.GetObject("button32.Image")));
             this.button32.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.button32.Location = new System.Drawing.Point(208, 73);
+            this.button32.Location = new System.Drawing.Point(207, 65);
             this.button32.Name = "button32";
             this.button32.Size = new System.Drawing.Size(180, 20);
             this.button32.TabIndex = 31;
@@ -808,7 +808,7 @@
             // 
             this.button33.Image = ((System.Drawing.Image)(resources.GetObject("button33.Image")));
             this.button33.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.button33.Location = new System.Drawing.Point(207, 19);
+            this.button33.Location = new System.Drawing.Point(207, 21);
             this.button33.Name = "button33";
             this.button33.Size = new System.Drawing.Size(181, 20);
             this.button33.TabIndex = 32;
@@ -822,7 +822,7 @@
             // 
             this.button34.Image = ((System.Drawing.Image)(resources.GetObject("button34.Image")));
             this.button34.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.button34.Location = new System.Drawing.Point(17, 73);
+            this.button34.Location = new System.Drawing.Point(15, 65);
             this.button34.Name = "button34";
             this.button34.Size = new System.Drawing.Size(178, 20);
             this.button34.TabIndex = 33;
@@ -836,7 +836,7 @@
             // 
             this.button35.Image = ((System.Drawing.Image)(resources.GetObject("button35.Image")));
             this.button35.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.button35.Location = new System.Drawing.Point(16, 45);
+            this.button35.Location = new System.Drawing.Point(15, 41);
             this.button35.Name = "button35";
             this.button35.Size = new System.Drawing.Size(163, 20);
             this.button35.TabIndex = 34;
@@ -865,9 +865,9 @@
             this.button37.BackColor = System.Drawing.SystemColors.Control;
             this.button37.Image = ((System.Drawing.Image)(resources.GetObject("button37.Image")));
             this.button37.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.button37.Location = new System.Drawing.Point(17, 177);
+            this.button37.Location = new System.Drawing.Point(14, 150);
             this.button37.Name = "button37";
-            this.button37.Size = new System.Drawing.Size(180, 20);
+            this.button37.Size = new System.Drawing.Size(178, 20);
             this.button37.TabIndex = 36;
             this.button37.Tag = "Open windows command line console.";
             this.button37.Text = "Open Command Line";
@@ -879,7 +879,7 @@
             // 
             this.button38.Image = ((System.Drawing.Image)(resources.GetObject("button38.Image")));
             this.button38.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.button38.Location = new System.Drawing.Point(18, 47);
+            this.button38.Location = new System.Drawing.Point(18, 43);
             this.button38.Name = "button38";
             this.button38.Size = new System.Drawing.Size(186, 20);
             this.button38.TabIndex = 37;
@@ -952,7 +952,7 @@
             this.button43.BackColor = System.Drawing.SystemColors.Control;
             this.button43.Image = ((System.Drawing.Image)(resources.GetObject("button43.Image")));
             this.button43.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.button43.Location = new System.Drawing.Point(15, 125);
+            this.button43.Location = new System.Drawing.Point(15, 107);
             this.button43.Name = "button43";
             this.button43.Size = new System.Drawing.Size(189, 20);
             this.button43.TabIndex = 42;
@@ -968,7 +968,7 @@
             this.button44.BackColor = System.Drawing.SystemColors.Control;
             this.button44.Image = ((System.Drawing.Image)(resources.GetObject("button44.Image")));
             this.button44.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.button44.Location = new System.Drawing.Point(15, 73);
+            this.button44.Location = new System.Drawing.Point(15, 65);
             this.button44.Name = "button44";
             this.button44.Size = new System.Drawing.Size(189, 20);
             this.button44.TabIndex = 43;
@@ -1145,7 +1145,7 @@
             this.button55.ForeColor = System.Drawing.Color.Blue;
             this.button55.Image = ((System.Drawing.Image)(resources.GetObject("button55.Image")));
             this.button55.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.button55.Location = new System.Drawing.Point(13, 97);
+            this.button55.Location = new System.Drawing.Point(13, 85);
             this.button55.Name = "button55";
             this.button55.Size = new System.Drawing.Size(180, 20);
             this.button55.TabIndex = 56;
@@ -1161,7 +1161,7 @@
             this.button56.ForeColor = System.Drawing.Color.Blue;
             this.button56.Image = ((System.Drawing.Image)(resources.GetObject("button56.Image")));
             this.button56.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.button56.Location = new System.Drawing.Point(12, 45);
+            this.button56.Location = new System.Drawing.Point(12, 41);
             this.button56.Name = "button56";
             this.button56.Size = new System.Drawing.Size(180, 20);
             this.button56.TabIndex = 57;
@@ -1178,7 +1178,7 @@
             this.button57.ForeColor = System.Drawing.Color.Blue;
             this.button57.Image = ((System.Drawing.Image)(resources.GetObject("button57.Image")));
             this.button57.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.button57.Location = new System.Drawing.Point(12, 71);
+            this.button57.Location = new System.Drawing.Point(12, 63);
             this.button57.Name = "button57";
             this.button57.Size = new System.Drawing.Size(180, 20);
             this.button57.TabIndex = 58;
@@ -1421,9 +1421,9 @@
             // 
             this.button79.Image = ((System.Drawing.Image)(resources.GetObject("button79.Image")));
             this.button79.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.button79.Location = new System.Drawing.Point(17, 151);
+            this.button79.Location = new System.Drawing.Point(15, 128);
             this.button79.Name = "button79";
-            this.button79.Size = new System.Drawing.Size(179, 20);
+            this.button79.Size = new System.Drawing.Size(177, 20);
             this.button79.TabIndex = 40;
             this.button79.Tag = "Opens Windows Task manager.";
             this.button79.Text = "Tasks";
@@ -1435,7 +1435,7 @@
             // 
             this.button11.Image = ((System.Drawing.Image)(resources.GetObject("button11.Image")));
             this.button11.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.button11.Location = new System.Drawing.Point(15, 21);
+            this.button11.Location = new System.Drawing.Point(16, 21);
             this.button11.Name = "button11";
             this.button11.Size = new System.Drawing.Size(178, 20);
             this.button11.TabIndex = 39;
@@ -1450,7 +1450,7 @@
             this.button66.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button66.Image = ((System.Drawing.Image)(resources.GetObject("button66.Image")));
             this.button66.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.button66.Location = new System.Drawing.Point(207, 125);
+            this.button66.Location = new System.Drawing.Point(207, 107);
             this.button66.Name = "button66";
             this.button66.Size = new System.Drawing.Size(181, 20);
             this.button66.TabIndex = 38;
@@ -1467,7 +1467,7 @@
             this.button53.ForeColor = System.Drawing.Color.Blue;
             this.button53.Image = ((System.Drawing.Image)(resources.GetObject("button53.Image")));
             this.button53.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.button53.Location = new System.Drawing.Point(207, 177);
+            this.button53.Location = new System.Drawing.Point(207, 150);
             this.button53.Name = "button53";
             this.button53.Size = new System.Drawing.Size(180, 20);
             this.button53.TabIndex = 37;
@@ -1553,7 +1553,7 @@
             this.button74.ForeColor = System.Drawing.Color.Blue;
             this.button74.Image = ((System.Drawing.Image)(resources.GetObject("button74.Image")));
             this.button74.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.button74.Location = new System.Drawing.Point(15, 151);
+            this.button74.Location = new System.Drawing.Point(15, 128);
             this.button74.Name = "button74";
             this.button74.Size = new System.Drawing.Size(189, 20);
             this.button74.TabIndex = 58;
@@ -1581,7 +1581,7 @@
             // 
             this.button85.Image = ((System.Drawing.Image)(resources.GetObject("button85.Image")));
             this.button85.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.button85.Location = new System.Drawing.Point(13, 123);
+            this.button85.Location = new System.Drawing.Point(13, 107);
             this.button85.Name = "button85";
             this.button85.Size = new System.Drawing.Size(181, 20);
             this.button85.TabIndex = 59;
@@ -1610,7 +1610,7 @@
             // 
             this.button164.Image = ((System.Drawing.Image)(resources.GetObject("button164.Image")));
             this.button164.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.button164.Location = new System.Drawing.Point(15, 123);
+            this.button164.Location = new System.Drawing.Point(15, 107);
             this.button164.Name = "button164";
             this.button164.Size = new System.Drawing.Size(163, 20);
             this.button164.TabIndex = 59;
@@ -1624,7 +1624,7 @@
             // 
             this.button84.Image = ((System.Drawing.Image)(resources.GetObject("button84.Image")));
             this.button84.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.button84.Location = new System.Drawing.Point(15, 97);
+            this.button84.Location = new System.Drawing.Point(15, 85);
             this.button84.Name = "button84";
             this.button84.Size = new System.Drawing.Size(163, 20);
             this.button84.TabIndex = 58;
@@ -1640,7 +1640,7 @@
             this.button28.ForeColor = System.Drawing.Color.Blue;
             this.button28.Image = ((System.Drawing.Image)(resources.GetObject("button28.Image")));
             this.button28.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.button28.Location = new System.Drawing.Point(16, 71);
+            this.button28.Location = new System.Drawing.Point(15, 63);
             this.button28.Name = "button28";
             this.button28.Size = new System.Drawing.Size(163, 20);
             this.button28.TabIndex = 57;
@@ -1929,7 +1929,7 @@
             // 
             this.button155.Image = ((System.Drawing.Image)(resources.GetObject("button155.Image")));
             this.button155.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.button155.Location = new System.Drawing.Point(204, 18);
+            this.button155.Location = new System.Drawing.Point(204, 16);
             this.button155.Name = "button155";
             this.button155.Size = new System.Drawing.Size(180, 20);
             this.button155.TabIndex = 62;
@@ -1944,7 +1944,7 @@
             // 
             this.button154.Image = ((System.Drawing.Image)(resources.GetObject("button154.Image")));
             this.button154.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.button154.Location = new System.Drawing.Point(13, 44);
+            this.button154.Location = new System.Drawing.Point(13, 38);
             this.button154.Name = "button154";
             this.button154.Size = new System.Drawing.Size(176, 20);
             this.button154.TabIndex = 61;
@@ -1959,7 +1959,7 @@
             // 
             this.button153.Image = ((System.Drawing.Image)(resources.GetObject("button153.Image")));
             this.button153.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.button153.Location = new System.Drawing.Point(14, 18);
+            this.button153.Location = new System.Drawing.Point(14, 16);
             this.button153.Name = "button153";
             this.button153.Size = new System.Drawing.Size(176, 20);
             this.button153.TabIndex = 60;
@@ -3831,7 +3831,7 @@
             this.groupBox43.Controls.Add(this.button150);
             this.groupBox43.Location = new System.Drawing.Point(216, 155);
             this.groupBox43.Name = "groupBox43";
-            this.groupBox43.Size = new System.Drawing.Size(195, 141);
+            this.groupBox43.Size = new System.Drawing.Size(195, 140);
             this.groupBox43.TabIndex = 84;
             this.groupBox43.TabStop = false;
             this.groupBox43.Text = "Windows Update Issues";
@@ -3842,7 +3842,7 @@
             this.button171.ForeColor = System.Drawing.Color.Blue;
             this.button171.Image = ((System.Drawing.Image)(resources.GetObject("button171.Image")));
             this.button171.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.button171.Location = new System.Drawing.Point(10, 71);
+            this.button171.Location = new System.Drawing.Point(10, 63);
             this.button171.Name = "button171";
             this.button171.Size = new System.Drawing.Size(174, 20);
             this.button171.TabIndex = 86;
@@ -3856,7 +3856,7 @@
             // 
             this.button152.Image = ((System.Drawing.Image)(resources.GetObject("button152.Image")));
             this.button152.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.button152.Location = new System.Drawing.Point(102, 46);
+            this.button152.Location = new System.Drawing.Point(102, 42);
             this.button152.Name = "button152";
             this.button152.Size = new System.Drawing.Size(82, 19);
             this.button152.TabIndex = 85;
@@ -3870,7 +3870,7 @@
             // 
             this.button151.Image = ((System.Drawing.Image)(resources.GetObject("button151.Image")));
             this.button151.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.button151.Location = new System.Drawing.Point(10, 46);
+            this.button151.Location = new System.Drawing.Point(10, 42);
             this.button151.Name = "button151";
             this.button151.Size = new System.Drawing.Size(82, 19);
             this.button151.TabIndex = 84;
@@ -4612,7 +4612,7 @@
             this.button193.ForeColor = System.Drawing.Color.Blue;
             this.button193.Image = ((System.Drawing.Image)(resources.GetObject("button193.Image")));
             this.button193.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.button193.Location = new System.Drawing.Point(15, 177);
+            this.button193.Location = new System.Drawing.Point(15, 150);
             this.button193.Name = "button193";
             this.button193.Size = new System.Drawing.Size(189, 20);
             this.button193.TabIndex = 59;
