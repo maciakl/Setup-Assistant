@@ -314,6 +314,7 @@
             this.helpButton = new System.Windows.Forms.Button();
             this.button188 = new System.Windows.Forms.Button();
             this.button189 = new System.Windows.Forms.Button();
+            this.button190 = new System.Windows.Forms.Button();
             this.groupBox1.SuspendLayout();
             this.groupBox2.SuspendLayout();
             this.groupBox3.SuspendLayout();
@@ -2547,6 +2548,7 @@
             // 
             // groupBox31
             // 
+            this.groupBox31.Controls.Add(this.button190);
             this.groupBox31.Controls.Add(this.button143);
             this.groupBox31.Controls.Add(this.button142);
             this.groupBox31.Controls.Add(this.button141);
@@ -4548,6 +4550,22 @@
             this.button189.HelpRequested += new System.Windows.Forms.HelpEventHandler(this.button_HelpRequested);
             this.button189.Click += new System.EventHandler(this.button189_Click);
             // 
+            // button190
+            // 
+            this.button190.BackColor = System.Drawing.SystemColors.Control;
+            this.button190.ForeColor = System.Drawing.Color.Blue;
+            this.button190.Image = ((System.Drawing.Image)(resources.GetObject("button190.Image")));
+            this.button190.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.button190.Location = new System.Drawing.Point(6, 149);
+            this.button190.Name = "button190";
+            this.button190.Size = new System.Drawing.Size(180, 20);
+            this.button190.TabIndex = 47;
+            this.button190.Tag = resources.GetString("button190.Tag");
+            this.button190.Text = "F-Secure Blacklight";
+            this.button190.UseVisualStyleBackColor = true;
+            this.button190.HelpRequested += new System.Windows.Forms.HelpEventHandler(this.button_HelpRequested);
+            this.button190.Click += new System.EventHandler(this.button190_Click);
+            // 
             // SetupAssistant
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -4926,6 +4944,7 @@
         private System.Windows.Forms.Button button187;
         private System.Windows.Forms.Button button188;
         private System.Windows.Forms.Button button189;
+        private System.Windows.Forms.Button button190;
     }
 }
 

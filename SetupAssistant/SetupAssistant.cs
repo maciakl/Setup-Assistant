@@ -361,7 +361,8 @@ please file a bug report at http://sa.maciak.net";
         private void downloadFileToCache(Uri url, string path, string referrer)
         {
                 WebClient webClient = new WebClient();
-                webClient.Credentials = CredentialCache.DefaultCredentials;
+                //webClient.Credentials = CredentialCache.DefaultCredentials;
+                webClient.Credentials = new NetworkCredential("anonymous", "anonymous@example.com");
                 webClient.Headers.Add(HttpRequestHeader.UserAgent, "anything");
                 if(referrer != null) webClient.Headers.Add("Referer", referrer);
 
@@ -2871,6 +2872,14 @@ please file a bug report at http://sa.maciak.net";
         {
             string url = @"http://www.stevengould.org/downloads/cleanup/CleanUp40.exe";
             string file = @"CleanUp40.exe";
+
+            runFromCacheOrDownload(file, url);
+        }
+
+        private void button190_Click(object sender, EventArgs e)
+        {
+            string url = @"ftp://ftp.f-secure.com/anti-virus/tools/fsbl.exe";
+            string file = @"fsbl.exe";
 
             runFromCacheOrDownload(file, url);
         }
