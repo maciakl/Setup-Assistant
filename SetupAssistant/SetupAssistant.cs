@@ -2849,6 +2849,15 @@ please file a bug report at http://sa.maciak.net";
             Process.Start("http://mvt.mcafee.com/mvt/");
         }
 
+        private void button187_Click(object sender, EventArgs e)
+        {
+            string url = @"http://downloads.sourceforge.net/project/javara/javara/JavaRa/JavaRa.zip?r=http%3A%2F%2Fsourceforge.net%2Fprojects%2Fjavara%2F&ts=1326245059&use_mirror=superb-sea2";
+            string file = @"JavaRa.exe";
+            string zip = "JavaRa.zip";
+
+            runFromCacheOrDownloadZipfile(file, url, zip);
+        }
+
        
         
         //

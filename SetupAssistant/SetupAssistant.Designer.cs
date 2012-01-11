@@ -144,6 +144,7 @@
             this.groupBox12 = new System.Windows.Forms.GroupBox();
             this.tabPage6 = new System.Windows.Forms.TabPage();
             this.groupBox47 = new System.Windows.Forms.GroupBox();
+            this.linkLabel5 = new System.Windows.Forms.LinkLabel();
             this.button170 = new System.Windows.Forms.Button();
             this.groupBox41 = new System.Windows.Forms.GroupBox();
             this.button126 = new System.Windows.Forms.Button();
@@ -215,6 +216,7 @@
             this.button123 = new System.Windows.Forms.Button();
             this.button122 = new System.Windows.Forms.Button();
             this.groupBox27 = new System.Windows.Forms.GroupBox();
+            this.button186 = new System.Windows.Forms.Button();
             this.button104 = new System.Windows.Forms.Button();
             this.button103 = new System.Windows.Forms.Button();
             this.button102 = new System.Windows.Forms.Button();
@@ -264,6 +266,7 @@
             this.button151 = new System.Windows.Forms.Button();
             this.button150 = new System.Windows.Forms.Button();
             this.groupBox39 = new System.Windows.Forms.GroupBox();
+            this.button187 = new System.Windows.Forms.Button();
             this.button144 = new System.Windows.Forms.Button();
             this.button129 = new System.Windows.Forms.Button();
             this.groupBox37 = new System.Windows.Forms.GroupBox();
@@ -309,8 +312,6 @@
             this.label10 = new System.Windows.Forms.Label();
             this.label11 = new System.Windows.Forms.Label();
             this.helpButton = new System.Windows.Forms.Button();
-            this.button186 = new System.Windows.Forms.Button();
-            this.linkLabel5 = new System.Windows.Forms.LinkLabel();
             this.groupBox1.SuspendLayout();
             this.groupBox2.SuspendLayout();
             this.groupBox3.SuspendLayout();
@@ -2050,6 +2051,23 @@
             this.groupBox47.TabStop = false;
             this.groupBox47.Text = "Antivirus Maintenance";
             // 
+            // linkLabel5
+            // 
+            this.linkLabel5.AutoSize = true;
+            this.linkLabel5.Image = ((System.Drawing.Image)(resources.GetObject("linkLabel5.Image")));
+            this.linkLabel5.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.linkLabel5.Location = new System.Drawing.Point(6, 39);
+            this.linkLabel5.Name = "linkLabel5";
+            this.linkLabel5.Padding = new System.Windows.Forms.Padding(20, 0, 0, 0);
+            this.linkLabel5.Size = new System.Drawing.Size(152, 13);
+            this.linkLabel5.TabIndex = 49;
+            this.linkLabel5.TabStop = true;
+            this.linkLabel5.Tag = "Run McAfee Virtual Technician tool to diagnose and repair your McAfee products. O" +
+                "pens in default browser.";
+            this.linkLabel5.Text = "McAfee Virtual Technician";
+            this.linkLabel5.HelpRequested += new System.Windows.Forms.HelpEventHandler(this.button_HelpRequested);
+            this.linkLabel5.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.linkLabel5_LinkClicked_1);
+            // 
             // button170
             // 
             this.button170.BackColor = System.Drawing.SystemColors.Control;
@@ -3133,6 +3151,21 @@
             this.groupBox27.TabStop = false;
             this.groupBox27.Text = "HOSTS File";
             // 
+            // button186
+            // 
+            this.button186.Image = ((System.Drawing.Image)(resources.GetObject("button186.Image")));
+            this.button186.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.button186.Location = new System.Drawing.Point(8, 227);
+            this.button186.Name = "button186";
+            this.button186.Size = new System.Drawing.Size(175, 20);
+            this.button186.TabIndex = 78;
+            this.button186.Tag = "Replaces your hosts file with MVPS blacklist. See http://winhelp2002.mvps.org/hos" +
+                "ts.htm for details.";
+            this.button186.Text = "Use MVPS HOSTS file";
+            this.button186.UseVisualStyleBackColor = true;
+            this.button186.HelpRequested += new System.Windows.Forms.HelpEventHandler(this.button_HelpRequested);
+            this.button186.Click += new System.EventHandler(this.button186_Click_1);
+            // 
             // button104
             // 
             this.button104.Image = ((System.Drawing.Image)(resources.GetObject("button104.Image")));
@@ -3854,6 +3887,7 @@
             // 
             // groupBox39
             // 
+            this.groupBox39.Controls.Add(this.button187);
             this.groupBox39.Controls.Add(this.button144);
             this.groupBox39.Controls.Add(this.button129);
             this.groupBox39.Location = new System.Drawing.Point(417, 155);
@@ -3862,6 +3896,23 @@
             this.groupBox39.TabIndex = 83;
             this.groupBox39.TabStop = false;
             this.groupBox39.Text = "Other Useful Tools";
+            // 
+            // button187
+            // 
+            this.button187.BackColor = System.Drawing.SystemColors.Control;
+            this.button187.ForeColor = System.Drawing.Color.Blue;
+            this.button187.Image = ((System.Drawing.Image)(resources.GetObject("button187.Image")));
+            this.button187.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.button187.Location = new System.Drawing.Point(20, 63);
+            this.button187.Name = "button187";
+            this.button187.Size = new System.Drawing.Size(174, 20);
+            this.button187.TabIndex = 25;
+            this.button187.Tag = "JavaRa is a simple tool that does a simple job: it removes old and redundant vers" +
+                "ions of the Java Runtime Environment (JRE).";
+            this.button187.Text = "JavaRa";
+            this.button187.UseVisualStyleBackColor = true;
+            this.button187.HelpRequested += new System.Windows.Forms.HelpEventHandler(this.button_HelpRequested);
+            this.button187.Click += new System.EventHandler(this.button187_Click);
             // 
             // button144
             // 
@@ -4458,38 +4509,6 @@
             this.helpButton.UseVisualStyleBackColor = true;
             this.helpButton.Click += new System.EventHandler(this.button144_Click);
             // 
-            // button186
-            // 
-            this.button186.Image = ((System.Drawing.Image)(resources.GetObject("button186.Image")));
-            this.button186.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.button186.Location = new System.Drawing.Point(8, 227);
-            this.button186.Name = "button186";
-            this.button186.Size = new System.Drawing.Size(175, 20);
-            this.button186.TabIndex = 78;
-            this.button186.Tag = "Replaces your hosts file with MVPS blacklist. See http://winhelp2002.mvps.org/hos" +
-                "ts.htm for details.";
-            this.button186.Text = "Use MVPS HOSTS file";
-            this.button186.UseVisualStyleBackColor = true;
-            this.button186.HelpRequested += new System.Windows.Forms.HelpEventHandler(this.button_HelpRequested);
-            this.button186.Click += new System.EventHandler(this.button186_Click_1);
-            // 
-            // linkLabel5
-            // 
-            this.linkLabel5.AutoSize = true;
-            this.linkLabel5.Image = ((System.Drawing.Image)(resources.GetObject("linkLabel5.Image")));
-            this.linkLabel5.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.linkLabel5.Location = new System.Drawing.Point(6, 39);
-            this.linkLabel5.Name = "linkLabel5";
-            this.linkLabel5.Padding = new System.Windows.Forms.Padding(20, 0, 0, 0);
-            this.linkLabel5.Size = new System.Drawing.Size(152, 13);
-            this.linkLabel5.TabIndex = 49;
-            this.linkLabel5.TabStop = true;
-            this.linkLabel5.Tag = "Run McAfee Virtual Technician tool to diagnose and repair your McAfee products. O" +
-                "pens in default browser.";
-            this.linkLabel5.Text = "McAfee Virtual Technician";
-            this.linkLabel5.HelpRequested += new System.Windows.Forms.HelpEventHandler(this.button_HelpRequested);
-            this.linkLabel5.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.linkLabel5_LinkClicked_1);
-            // 
             // SetupAssistant
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -4865,6 +4884,7 @@
         private System.Windows.Forms.Button button185;
         private System.Windows.Forms.Button button186;
         private System.Windows.Forms.LinkLabel linkLabel5;
+        private System.Windows.Forms.Button button187;
     }
 }
 
