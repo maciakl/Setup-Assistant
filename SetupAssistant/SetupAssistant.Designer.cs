@@ -320,6 +320,7 @@
             this.helpButton = new System.Windows.Forms.Button();
             this.button194 = new System.Windows.Forms.Button();
             this.button195 = new System.Windows.Forms.Button();
+            this.button196 = new System.Windows.Forms.Button();
             this.groupBox1.SuspendLayout();
             this.groupBox2.SuspendLayout();
             this.groupBox3.SuspendLayout();
@@ -867,9 +868,9 @@
             this.button37.BackColor = System.Drawing.SystemColors.Control;
             this.button37.Image = ((System.Drawing.Image)(resources.GetObject("button37.Image")));
             this.button37.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.button37.Location = new System.Drawing.Point(14, 150);
+            this.button37.Location = new System.Drawing.Point(18, 56);
             this.button37.Name = "button37";
-            this.button37.Size = new System.Drawing.Size(178, 20);
+            this.button37.Size = new System.Drawing.Size(186, 20);
             this.button37.TabIndex = 36;
             this.button37.Tag = "Open windows command line console.";
             this.button37.Text = "Open Command Line";
@@ -909,7 +910,7 @@
             // 
             this.button40.Image = ((System.Drawing.Image)(resources.GetObject("button40.Image")));
             this.button40.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.button40.Location = new System.Drawing.Point(18, 45);
+            this.button40.Location = new System.Drawing.Point(18, 34);
             this.button40.Name = "button40";
             this.button40.Size = new System.Drawing.Size(186, 20);
             this.button40.TabIndex = 39;
@@ -985,7 +986,7 @@
             // 
             this.button45.Image = ((System.Drawing.Image)(resources.GetObject("button45.Image")));
             this.button45.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.button45.Location = new System.Drawing.Point(18, 19);
+            this.button45.Location = new System.Drawing.Point(18, 13);
             this.button45.Name = "button45";
             this.button45.Size = new System.Drawing.Size(186, 20);
             this.button45.TabIndex = 44;
@@ -1398,6 +1399,7 @@
             // 
             // groupBox2
             // 
+            this.groupBox2.Controls.Add(this.button196);
             this.groupBox2.Controls.Add(this.button195);
             this.groupBox2.Controls.Add(this.button79);
             this.groupBox2.Controls.Add(this.button11);
@@ -1412,7 +1414,6 @@
             this.groupBox2.Controls.Add(this.button18);
             this.groupBox2.Controls.Add(this.button31);
             this.groupBox2.Controls.Add(this.button30);
-            this.groupBox2.Controls.Add(this.button37);
             this.groupBox2.Location = new System.Drawing.Point(6, 10);
             this.groupBox2.Name = "groupBox2";
             this.groupBox2.Size = new System.Drawing.Size(398, 209);
@@ -1998,7 +1999,7 @@
             this.groupBox34.Controls.Add(this.button9);
             this.groupBox34.Location = new System.Drawing.Point(411, 249);
             this.groupBox34.Name = "groupBox34";
-            this.groupBox34.Size = new System.Drawing.Size(219, 127);
+            this.groupBox34.Size = new System.Drawing.Size(219, 124);
             this.groupBox34.TabIndex = 74;
             this.groupBox34.TabStop = false;
             this.groupBox34.Text = "Printing";
@@ -2039,9 +2040,10 @@
             // 
             this.groupBox12.Controls.Add(this.button45);
             this.groupBox12.Controls.Add(this.button40);
-            this.groupBox12.Location = new System.Drawing.Point(410, 382);
+            this.groupBox12.Controls.Add(this.button37);
+            this.groupBox12.Location = new System.Drawing.Point(410, 372);
             this.groupBox12.Name = "groupBox12";
-            this.groupBox12.Size = new System.Drawing.Size(221, 74);
+            this.groupBox12.Size = new System.Drawing.Size(221, 84);
             this.groupBox12.TabIndex = 73;
             this.groupBox12.TabStop = false;
             this.groupBox12.Text = "Misc";
@@ -4658,6 +4660,21 @@
             this.button195.HelpRequested += new System.Windows.Forms.HelpEventHandler(this.button_HelpRequested);
             this.button195.Click += new System.EventHandler(this.button195_Click);
             // 
+            // button196
+            // 
+            this.button196.BackColor = System.Drawing.SystemColors.Control;
+            this.button196.ForeColor = System.Drawing.Color.Blue;
+            this.button196.Image = ((System.Drawing.Image)(resources.GetObject("button196.Image")));
+            this.button196.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.button196.Location = new System.Drawing.Point(15, 150);
+            this.button196.Name = "button196";
+            this.button196.Size = new System.Drawing.Size(177, 20);
+            this.button196.TabIndex = 42;
+            this.button196.Tag = "Tool from nirsoft.net that lets you analyze error dump files left by BSOD.";
+            this.button196.Text = "RegDLLView  (nirsoft.net)";
+            this.button196.UseVisualStyleBackColor = true;
+            this.button196.Click += new System.EventHandler(this.button196_Click);
+            // 
             // SetupAssistant
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -5042,6 +5059,7 @@
         private System.Windows.Forms.Button button193;
         private System.Windows.Forms.Button button194;
         private System.Windows.Forms.Button button195;
+        private System.Windows.Forms.Button button196;
     }
 }
 

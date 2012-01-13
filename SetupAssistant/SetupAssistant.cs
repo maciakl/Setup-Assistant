@@ -2929,6 +2929,15 @@ please file a bug report at http://sa.maciak.net";
             runFromCacheOrDownloadZipfile(file, url, zip);
         }
 
+        private void button196_Click(object sender, EventArgs e)
+        {
+            string url = @"http://www.nirsoft.net/utils/regdllview.zip";
+            string file = @"RegDllView.exe";
+            string zip = "regdllview.zip";
+
+            runFromCacheOrDownloadZipfile(file, url, zip);
+        }
+
        
         
         //
