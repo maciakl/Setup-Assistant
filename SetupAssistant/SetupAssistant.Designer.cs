@@ -109,6 +109,7 @@
             this.button92 = new System.Windows.Forms.Button();
             this.button77 = new System.Windows.Forms.Button();
             this.groupBox4 = new System.Windows.Forms.GroupBox();
+            this.button193 = new System.Windows.Forms.Button();
             this.button74 = new System.Windows.Forms.Button();
             this.groupBox5 = new System.Windows.Forms.GroupBox();
             this.button85 = new System.Windows.Forms.Button();
@@ -169,6 +170,8 @@
             this.linkLabel18 = new System.Windows.Forms.LinkLabel();
             this.linkLabel17 = new System.Windows.Forms.LinkLabel();
             this.groupBox32 = new System.Windows.Forms.GroupBox();
+            this.button189 = new System.Windows.Forms.Button();
+            this.button188 = new System.Windows.Forms.Button();
             this.button183 = new System.Windows.Forms.Button();
             this.button169 = new System.Windows.Forms.Button();
             this.button147 = new System.Windows.Forms.Button();
@@ -178,6 +181,7 @@
             this.button76 = new System.Windows.Forms.Button();
             this.button114 = new System.Windows.Forms.Button();
             this.groupBox31 = new System.Windows.Forms.GroupBox();
+            this.button190 = new System.Windows.Forms.Button();
             this.button143 = new System.Windows.Forms.Button();
             this.button142 = new System.Windows.Forms.Button();
             this.button141 = new System.Windows.Forms.Button();
@@ -266,6 +270,8 @@
             this.button151 = new System.Windows.Forms.Button();
             this.button150 = new System.Windows.Forms.Button();
             this.groupBox39 = new System.Windows.Forms.GroupBox();
+            this.button192 = new System.Windows.Forms.Button();
+            this.button191 = new System.Windows.Forms.Button();
             this.button187 = new System.Windows.Forms.Button();
             this.button144 = new System.Windows.Forms.Button();
             this.button129 = new System.Windows.Forms.Button();
@@ -312,12 +318,7 @@
             this.label10 = new System.Windows.Forms.Label();
             this.label11 = new System.Windows.Forms.Label();
             this.helpButton = new System.Windows.Forms.Button();
-            this.button188 = new System.Windows.Forms.Button();
-            this.button189 = new System.Windows.Forms.Button();
-            this.button190 = new System.Windows.Forms.Button();
-            this.button191 = new System.Windows.Forms.Button();
-            this.button192 = new System.Windows.Forms.Button();
-            this.button193 = new System.Windows.Forms.Button();
+            this.button194 = new System.Windows.Forms.Button();
             this.groupBox1.SuspendLayout();
             this.groupBox2.SuspendLayout();
             this.groupBox3.SuspendLayout();
@@ -1547,6 +1548,22 @@
             this.groupBox4.TabStop = false;
             this.groupBox4.Text = "Disk and File Utils";
             // 
+            // button193
+            // 
+            this.button193.BackColor = System.Drawing.SystemColors.Control;
+            this.button193.ForeColor = System.Drawing.Color.Blue;
+            this.button193.Image = ((System.Drawing.Image)(resources.GetObject("button193.Image")));
+            this.button193.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.button193.Location = new System.Drawing.Point(15, 150);
+            this.button193.Name = "button193";
+            this.button193.Size = new System.Drawing.Size(189, 20);
+            this.button193.TabIndex = 59;
+            this.button193.Tag = "OpenedFilesView displays the list of all opened files on your system.";
+            this.button193.Text = "Opened Files View (nirsoft)";
+            this.button193.UseVisualStyleBackColor = true;
+            this.button193.HelpRequested += new System.Windows.Forms.HelpEventHandler(this.button_HelpRequested);
+            this.button193.Click += new System.EventHandler(this.button193_Click);
+            // 
             // button74
             // 
             this.button74.BackColor = System.Drawing.SystemColors.Control;
@@ -2402,6 +2419,7 @@
             // 
             // groupBox32
             // 
+            this.groupBox32.Controls.Add(this.button194);
             this.groupBox32.Controls.Add(this.button189);
             this.groupBox32.Controls.Add(this.button188);
             this.groupBox32.Controls.Add(this.button183);
@@ -2418,6 +2436,41 @@
             this.groupBox32.TabIndex = 75;
             this.groupBox32.TabStop = false;
             this.groupBox32.Text = "Misc Tools";
+            // 
+            // button189
+            // 
+            this.button189.BackColor = System.Drawing.SystemColors.Control;
+            this.button189.ForeColor = System.Drawing.Color.Blue;
+            this.button189.Image = ((System.Drawing.Image)(resources.GetObject("button189.Image")));
+            this.button189.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.button189.Location = new System.Drawing.Point(5, 213);
+            this.button189.Name = "button189";
+            this.button189.Size = new System.Drawing.Size(183, 20);
+            this.button189.TabIndex = 50;
+            this.button189.Tag = "CleanUp! is a powerful and easy-to-use application that removes temporary files c" +
+                "reated while surfing the web, empties the Recycle Bin, deletes files from your t" +
+                "emporary folders and more.";
+            this.button189.Text = "Install CleanUp!";
+            this.button189.UseVisualStyleBackColor = true;
+            this.button189.HelpRequested += new System.Windows.Forms.HelpEventHandler(this.button_HelpRequested);
+            this.button189.Click += new System.EventHandler(this.button189_Click);
+            // 
+            // button188
+            // 
+            this.button188.BackColor = System.Drawing.SystemColors.Control;
+            this.button188.ForeColor = System.Drawing.Color.Blue;
+            this.button188.Image = ((System.Drawing.Image)(resources.GetObject("button188.Image")));
+            this.button188.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.button188.Location = new System.Drawing.Point(5, 192);
+            this.button188.Name = "button188";
+            this.button188.Size = new System.Drawing.Size(183, 20);
+            this.button188.TabIndex = 49;
+            this.button188.Tag = "LSP-Fix attempts to correct Internet connection problems resulting from buggy or " +
+                "improperly-removed Layered Service Provider (LSP) software.";
+            this.button188.Text = "LSPFix";
+            this.button188.UseVisualStyleBackColor = true;
+            this.button188.HelpRequested += new System.Windows.Forms.HelpEventHandler(this.button_HelpRequested);
+            this.button188.Click += new System.EventHandler(this.button188_Click);
             // 
             // button183
             // 
@@ -2565,6 +2618,22 @@
             this.groupBox31.TabIndex = 74;
             this.groupBox31.TabStop = false;
             this.groupBox31.Text = "Removal Tools";
+            // 
+            // button190
+            // 
+            this.button190.BackColor = System.Drawing.SystemColors.Control;
+            this.button190.ForeColor = System.Drawing.Color.Blue;
+            this.button190.Image = ((System.Drawing.Image)(resources.GetObject("button190.Image")));
+            this.button190.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.button190.Location = new System.Drawing.Point(6, 149);
+            this.button190.Name = "button190";
+            this.button190.Size = new System.Drawing.Size(180, 20);
+            this.button190.TabIndex = 47;
+            this.button190.Tag = resources.GetString("button190.Tag");
+            this.button190.Text = "F-Secure Blacklight";
+            this.button190.UseVisualStyleBackColor = true;
+            this.button190.HelpRequested += new System.Windows.Forms.HelpEventHandler(this.button_HelpRequested);
+            this.button190.Click += new System.EventHandler(this.button190_Click);
             // 
             // button143
             // 
@@ -3909,6 +3978,40 @@
             this.groupBox39.TabStop = false;
             this.groupBox39.Text = "Other Useful Tools";
             // 
+            // button192
+            // 
+            this.button192.BackColor = System.Drawing.SystemColors.Control;
+            this.button192.ForeColor = System.Drawing.Color.Blue;
+            this.button192.Image = ((System.Drawing.Image)(resources.GetObject("button192.Image")));
+            this.button192.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.button192.Location = new System.Drawing.Point(20, 108);
+            this.button192.Name = "button192";
+            this.button192.Size = new System.Drawing.Size(174, 20);
+            this.button192.TabIndex = 27;
+            this.button192.Tag = "Unknown Devices helps you find what those unknown devices in Device Manager reall" +
+                "y are.";
+            this.button192.Text = "Unknown Devices";
+            this.button192.UseVisualStyleBackColor = true;
+            this.button192.HelpRequested += new System.Windows.Forms.HelpEventHandler(this.button_HelpRequested);
+            this.button192.Click += new System.EventHandler(this.button192_Click);
+            // 
+            // button191
+            // 
+            this.button191.BackColor = System.Drawing.SystemColors.Control;
+            this.button191.ForeColor = System.Drawing.Color.Blue;
+            this.button191.Image = ((System.Drawing.Image)(resources.GetObject("button191.Image")));
+            this.button191.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.button191.Location = new System.Drawing.Point(20, 85);
+            this.button191.Name = "button191";
+            this.button191.Size = new System.Drawing.Size(174, 20);
+            this.button191.TabIndex = 26;
+            this.button191.Tag = "MemTest is a RAM tester that runs under Windows. It verifies that your computer c" +
+                "an reliably store and retrieve data from memory.";
+            this.button191.Text = "MemTest";
+            this.button191.UseVisualStyleBackColor = true;
+            this.button191.HelpRequested += new System.Windows.Forms.HelpEventHandler(this.button_HelpRequested);
+            this.button191.Click += new System.EventHandler(this.button191_Click);
+            // 
             // button187
             // 
             this.button187.BackColor = System.Drawing.SystemColors.Control;
@@ -4521,106 +4624,22 @@
             this.helpButton.UseVisualStyleBackColor = true;
             this.helpButton.Click += new System.EventHandler(this.button144_Click);
             // 
-            // button188
+            // button194
             // 
-            this.button188.BackColor = System.Drawing.SystemColors.Control;
-            this.button188.ForeColor = System.Drawing.Color.Blue;
-            this.button188.Image = ((System.Drawing.Image)(resources.GetObject("button188.Image")));
-            this.button188.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.button188.Location = new System.Drawing.Point(5, 193);
-            this.button188.Name = "button188";
-            this.button188.Size = new System.Drawing.Size(183, 20);
-            this.button188.TabIndex = 49;
-            this.button188.Tag = "LSP-Fix attempts to correct Internet connection problems resulting from buggy or " +
-                "improperly-removed Layered Service Provider (LSP) software.";
-            this.button188.Text = "LSPFix";
-            this.button188.UseVisualStyleBackColor = true;
-            this.button188.HelpRequested += new System.Windows.Forms.HelpEventHandler(this.button_HelpRequested);
-            this.button188.Click += new System.EventHandler(this.button188_Click);
-            // 
-            // button189
-            // 
-            this.button189.BackColor = System.Drawing.SystemColors.Control;
-            this.button189.ForeColor = System.Drawing.Color.Blue;
-            this.button189.Image = ((System.Drawing.Image)(resources.GetObject("button189.Image")));
-            this.button189.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.button189.Location = new System.Drawing.Point(5, 215);
-            this.button189.Name = "button189";
-            this.button189.Size = new System.Drawing.Size(183, 20);
-            this.button189.TabIndex = 50;
-            this.button189.Tag = "CleanUp! is a powerful and easy-to-use application that removes temporary files c" +
+            this.button194.BackColor = System.Drawing.SystemColors.Control;
+            this.button194.ForeColor = System.Drawing.Color.Blue;
+            this.button194.Image = ((System.Drawing.Image)(resources.GetObject("button194.Image")));
+            this.button194.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.button194.Location = new System.Drawing.Point(5, 235);
+            this.button194.Name = "button194";
+            this.button194.Size = new System.Drawing.Size(183, 20);
+            this.button194.TabIndex = 51;
+            this.button194.Tag = "CleanUp! is a powerful and easy-to-use application that removes temporary files c" +
                 "reated while surfing the web, empties the Recycle Bin, deletes files from your t" +
                 "emporary folders and more.";
-            this.button189.Text = "Install CleanUp!";
-            this.button189.UseVisualStyleBackColor = true;
-            this.button189.HelpRequested += new System.Windows.Forms.HelpEventHandler(this.button_HelpRequested);
-            this.button189.Click += new System.EventHandler(this.button189_Click);
-            // 
-            // button190
-            // 
-            this.button190.BackColor = System.Drawing.SystemColors.Control;
-            this.button190.ForeColor = System.Drawing.Color.Blue;
-            this.button190.Image = ((System.Drawing.Image)(resources.GetObject("button190.Image")));
-            this.button190.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.button190.Location = new System.Drawing.Point(6, 149);
-            this.button190.Name = "button190";
-            this.button190.Size = new System.Drawing.Size(180, 20);
-            this.button190.TabIndex = 47;
-            this.button190.Tag = resources.GetString("button190.Tag");
-            this.button190.Text = "F-Secure Blacklight";
-            this.button190.UseVisualStyleBackColor = true;
-            this.button190.HelpRequested += new System.Windows.Forms.HelpEventHandler(this.button_HelpRequested);
-            this.button190.Click += new System.EventHandler(this.button190_Click);
-            // 
-            // button191
-            // 
-            this.button191.BackColor = System.Drawing.SystemColors.Control;
-            this.button191.ForeColor = System.Drawing.Color.Blue;
-            this.button191.Image = ((System.Drawing.Image)(resources.GetObject("button191.Image")));
-            this.button191.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.button191.Location = new System.Drawing.Point(20, 85);
-            this.button191.Name = "button191";
-            this.button191.Size = new System.Drawing.Size(174, 20);
-            this.button191.TabIndex = 26;
-            this.button191.Tag = "MemTest is a RAM tester that runs under Windows. It verifies that your computer c" +
-                "an reliably store and retrieve data from memory.";
-            this.button191.Text = "MemTest";
-            this.button191.UseVisualStyleBackColor = true;
-            this.button191.HelpRequested += new System.Windows.Forms.HelpEventHandler(this.button_HelpRequested);
-            this.button191.Click += new System.EventHandler(this.button191_Click);
-            // 
-            // button192
-            // 
-            this.button192.BackColor = System.Drawing.SystemColors.Control;
-            this.button192.ForeColor = System.Drawing.Color.Blue;
-            this.button192.Image = ((System.Drawing.Image)(resources.GetObject("button192.Image")));
-            this.button192.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.button192.Location = new System.Drawing.Point(20, 108);
-            this.button192.Name = "button192";
-            this.button192.Size = new System.Drawing.Size(174, 20);
-            this.button192.TabIndex = 27;
-            this.button192.Tag = "Unknown Devices helps you find what those unknown devices in Device Manager reall" +
-                "y are.";
-            this.button192.Text = "Unknown Devices";
-            this.button192.UseVisualStyleBackColor = true;
-            this.button192.HelpRequested += new System.Windows.Forms.HelpEventHandler(this.button_HelpRequested);
-            this.button192.Click += new System.EventHandler(this.button192_Click);
-            // 
-            // button193
-            // 
-            this.button193.BackColor = System.Drawing.SystemColors.Control;
-            this.button193.ForeColor = System.Drawing.Color.Blue;
-            this.button193.Image = ((System.Drawing.Image)(resources.GetObject("button193.Image")));
-            this.button193.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.button193.Location = new System.Drawing.Point(15, 150);
-            this.button193.Name = "button193";
-            this.button193.Size = new System.Drawing.Size(189, 20);
-            this.button193.TabIndex = 59;
-            this.button193.Tag = "OpenedFilesView displays the list of all opened files on your system.";
-            this.button193.Text = "Opened Files View (nirsoft)";
-            this.button193.UseVisualStyleBackColor = true;
-            this.button193.HelpRequested += new System.Windows.Forms.HelpEventHandler(this.button_HelpRequested);
-            this.button193.Click += new System.EventHandler(this.button193_Click);
+            this.button194.Text = "Temp File Cleaner";
+            this.button194.UseVisualStyleBackColor = true;
+            this.button194.Click += new System.EventHandler(this.button194_Click);
             // 
             // SetupAssistant
             // 
@@ -5004,6 +5023,7 @@
         private System.Windows.Forms.Button button191;
         private System.Windows.Forms.Button button192;
         private System.Windows.Forms.Button button193;
+        private System.Windows.Forms.Button button194;
     }
 }
 

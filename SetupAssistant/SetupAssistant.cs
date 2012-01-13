@@ -2911,6 +2911,15 @@ please file a bug report at http://sa.maciak.net";
             runFromCacheOrDownloadZipfile(file, url, zip);
         }
 
+        private void button194_Click(object sender, EventArgs e)
+        {
+            string url = @"http://software.addpcs.com/get.php?dl=17";
+            string file = @"TempFileCleaner.exe";
+            string zip = "TempFileCleaner_portable.zip";
+
+            runFromCacheOrDownloadZipfile(file, url, zip);
+        }
+
        
         
         //
