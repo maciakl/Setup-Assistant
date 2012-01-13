@@ -2938,6 +2938,15 @@ please file a bug report at http://sa.maciak.net";
             runFromCacheOrDownloadZipfile(file, url, zip);
         }
 
+        private void button197_Click(object sender, EventArgs e)
+        {
+            string url = @"http://www.nirsoft.net/utils/driverview.zip";
+            string file = @"DriverView.exe";
+            string zip = "driverview.zip";
+
+            runFromCacheOrDownloadZipfile(file, url, zip);
+        }
+
        
         
         //

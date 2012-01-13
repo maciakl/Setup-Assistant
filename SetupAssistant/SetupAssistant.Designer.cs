@@ -321,6 +321,7 @@
             this.button194 = new System.Windows.Forms.Button();
             this.button195 = new System.Windows.Forms.Button();
             this.button196 = new System.Windows.Forms.Button();
+            this.button197 = new System.Windows.Forms.Button();
             this.groupBox1.SuspendLayout();
             this.groupBox2.SuspendLayout();
             this.groupBox3.SuspendLayout();
@@ -1399,6 +1400,7 @@
             // 
             // groupBox2
             // 
+            this.groupBox2.Controls.Add(this.button197);
             this.groupBox2.Controls.Add(this.button196);
             this.groupBox2.Controls.Add(this.button195);
             this.groupBox2.Controls.Add(this.button79);
@@ -4670,10 +4672,28 @@
             this.button196.Name = "button196";
             this.button196.Size = new System.Drawing.Size(177, 20);
             this.button196.TabIndex = 42;
-            this.button196.Tag = "Tool from nirsoft.net that lets you analyze error dump files left by BSOD.";
-            this.button196.Text = "RegDLLView  (nirsoft.net)";
+            this.button196.Tag = resources.GetString("button196.Tag");
+            this.button196.Text = "Reg DLL View  (nirsoft.net)";
             this.button196.UseVisualStyleBackColor = true;
+            this.button196.HelpRequested += new System.Windows.Forms.HelpEventHandler(this.button_HelpRequested);
             this.button196.Click += new System.EventHandler(this.button196_Click);
+            // 
+            // button197
+            // 
+            this.button197.BackColor = System.Drawing.SystemColors.Control;
+            this.button197.ForeColor = System.Drawing.Color.Blue;
+            this.button197.Image = ((System.Drawing.Image)(resources.GetObject("button197.Image")));
+            this.button197.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.button197.Location = new System.Drawing.Point(15, 171);
+            this.button197.Name = "button197";
+            this.button197.Size = new System.Drawing.Size(177, 20);
+            this.button197.TabIndex = 43;
+            this.button197.Tag = "DriverView utility displays the list of all device drivers currently loaded on yo" +
+                "ur system.";
+            this.button197.Text = "Driver View  (nirsoft.net)";
+            this.button197.UseVisualStyleBackColor = true;
+            this.button197.HelpRequested += new System.Windows.Forms.HelpEventHandler(this.button_HelpRequested);
+            this.button197.Click += new System.EventHandler(this.button197_Click);
             // 
             // SetupAssistant
             // 
@@ -5060,6 +5080,7 @@
         private System.Windows.Forms.Button button194;
         private System.Windows.Forms.Button button195;
         private System.Windows.Forms.Button button196;
+        private System.Windows.Forms.Button button197;
     }
 }
 
