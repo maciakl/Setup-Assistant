@@ -319,6 +319,7 @@
             this.label11 = new System.Windows.Forms.Label();
             this.helpButton = new System.Windows.Forms.Button();
             this.button194 = new System.Windows.Forms.Button();
+            this.button195 = new System.Windows.Forms.Button();
             this.groupBox1.SuspendLayout();
             this.groupBox2.SuspendLayout();
             this.groupBox3.SuspendLayout();
@@ -1397,6 +1398,7 @@
             // 
             // groupBox2
             // 
+            this.groupBox2.Controls.Add(this.button195);
             this.groupBox2.Controls.Add(this.button79);
             this.groupBox2.Controls.Add(this.button11);
             this.groupBox2.Controls.Add(this.button66);
@@ -2483,7 +2485,7 @@
             this.button183.Size = new System.Drawing.Size(183, 20);
             this.button183.TabIndex = 48;
             this.button183.Tag = "Tool for deleting temp files and cache.";
-            this.button183.Text = "Temp File Cleaner (TFC)";
+            this.button183.Text = "TempFileCleaner by OldTimer";
             this.button183.UseVisualStyleBackColor = true;
             this.button183.HelpRequested += new System.Windows.Forms.HelpEventHandler(this.button_HelpRequested);
             this.button183.Click += new System.EventHandler(this.button183_Click);
@@ -4634,12 +4636,27 @@
             this.button194.Name = "button194";
             this.button194.Size = new System.Drawing.Size(183, 20);
             this.button194.TabIndex = 51;
-            this.button194.Tag = "CleanUp! is a powerful and easy-to-use application that removes temporary files c" +
-                "reated while surfing the web, empties the Recycle Bin, deletes files from your t" +
-                "emporary folders and more.";
+            this.button194.Tag = resources.GetString("button194.Tag");
             this.button194.Text = "Temp File Cleaner";
             this.button194.UseVisualStyleBackColor = true;
+            this.button194.HelpRequested += new System.Windows.Forms.HelpEventHandler(this.button_HelpRequested);
             this.button194.Click += new System.EventHandler(this.button194_Click);
+            // 
+            // button195
+            // 
+            this.button195.BackColor = System.Drawing.SystemColors.Control;
+            this.button195.ForeColor = System.Drawing.Color.Blue;
+            this.button195.Image = ((System.Drawing.Image)(resources.GetObject("button195.Image")));
+            this.button195.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.button195.Location = new System.Drawing.Point(207, 171);
+            this.button195.Name = "button195";
+            this.button195.Size = new System.Drawing.Size(180, 20);
+            this.button195.TabIndex = 41;
+            this.button195.Tag = resources.GetString("button195.Tag");
+            this.button195.Text = "What is Hang (nirsoft.net)";
+            this.button195.UseVisualStyleBackColor = true;
+            this.button195.HelpRequested += new System.Windows.Forms.HelpEventHandler(this.button_HelpRequested);
+            this.button195.Click += new System.EventHandler(this.button195_Click);
             // 
             // SetupAssistant
             // 
@@ -5024,6 +5041,7 @@
         private System.Windows.Forms.Button button192;
         private System.Windows.Forms.Button button193;
         private System.Windows.Forms.Button button194;
+        private System.Windows.Forms.Button button195;
     }
 }
 
