@@ -323,6 +323,7 @@
             this.helpButton = new System.Windows.Forms.Button();
             this.button198 = new System.Windows.Forms.Button();
             this.linkLabel6 = new System.Windows.Forms.LinkLabel();
+            this.button199 = new System.Windows.Forms.Button();
             this.groupBox1.SuspendLayout();
             this.groupBox2.SuspendLayout();
             this.groupBox3.SuspendLayout();
@@ -1725,6 +1726,7 @@
             // 
             // groupBox8
             // 
+            this.groupBox8.Controls.Add(this.button199);
             this.groupBox8.Controls.Add(this.button62);
             this.groupBox8.Controls.Add(this.button8);
             this.groupBox8.Controls.Add(this.button21);
@@ -4712,6 +4714,20 @@
             this.linkLabel6.Text = "MSE Microsoft Security Essentials";
             this.linkLabel6.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.linkLabel6_LinkClicked_1);
             // 
+            // button199
+            // 
+            this.button199.Image = ((System.Drawing.Image)(resources.GetObject("button199.Image")));
+            this.button199.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.button199.Location = new System.Drawing.Point(17, 106);
+            this.button199.Name = "button199";
+            this.button199.Size = new System.Drawing.Size(179, 23);
+            this.button199.TabIndex = 22;
+            this.button199.Tag = "Open Outlook Mail Settings dialog. This only works if Microsoft Office Outlook is" +
+                " installed.";
+            this.button199.Text = "Backup Outlook Email";
+            this.button199.UseVisualStyleBackColor = true;
+            this.button199.Click += new System.EventHandler(this.button199_Click);
+            // 
             // SetupAssistant
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -5099,6 +5115,7 @@
         private System.Windows.Forms.Button button197;
         private System.Windows.Forms.Button button198;
         private System.Windows.Forms.LinkLabel linkLabel6;
+        private System.Windows.Forms.Button button199;
     }
 }
 

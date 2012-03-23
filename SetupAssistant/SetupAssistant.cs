@@ -2962,6 +2962,31 @@ please file a bug report at http://sa.maciak.net";
             Process.Start(url);
         }
 
+        private void button199_Click(object sender, EventArgs e)
+        {
+            using (new CenterWinDialog(this))
+            {
+                if (MessageBox.Show("This will copy your email files and place them in an EmailBackup folder on the dekstop.\r\nThis process may take a while, and will spawn several new windows. Please don't close them.\r\nWait patiently for the copying to finish.\r\n\r\nDo you wish to continue?", "Slow Process Warning!", MessageBoxButtons.YesNo, MessageBoxIcon.Question) == DialogResult.Yes)
+                {
+
+                    string pstfolder = System.Environment.GetEnvironmentVariable("USERPROFILE") + "\\Local Settings\\Application Data\\Microsoft\\Outlook\\";
+                    string nk2folder = System.Environment.GetEnvironmentVariable("APPDATA") + "\\Microsoft\\Outlook\\";
+                    string desktop = Environment.GetFolderPath(Environment.SpecialFolder.Desktop);
+
+                    if (!Directory.Exists(desktop + "\\EmailBackup"))
+                        Directory.CreateDirectory(desktop + "\\EmailBackup");
+
+                    Process.Start("cmd", "/c xcopy /Y \"" + pstfolder + "*.pst\" \"" + desktop + "\\EmailBackup\"");
+                    Process.Start("cmd", "/c xcopy /Y \"" + nk2folder + "*.NK2\" \"" + desktop + "\\EmailBackup\"");
+
+                    Process.Start(desktop + "\\EmailBackup");
+                }
+
+            }
+
+
+        }
+
        
         
         //
