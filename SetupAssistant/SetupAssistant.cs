@@ -2955,6 +2955,13 @@ please file a bug report at http://sa.maciak.net";
             runFromCacheOrDownload(file, url);
         }
 
+        private void linkLabel6_LinkClicked_1(object sender, LinkLabelLinkClickedEventArgs e)
+        {
+            string url = "http://windows.microsoft.com/en-US/windows/products/security-essentials/download";
+
+            Process.Start(url);
+        }
+
        
         
         //

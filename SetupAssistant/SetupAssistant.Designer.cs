@@ -156,7 +156,6 @@
             this.button136 = new System.Windows.Forms.Button();
             this.groupBox18 = new System.Windows.Forms.GroupBox();
             this.linkLabel27 = new System.Windows.Forms.LinkLabel();
-            this.linkLabel26 = new System.Windows.Forms.LinkLabel();
             this.linkLabel25 = new System.Windows.Forms.LinkLabel();
             this.linkLabel11 = new System.Windows.Forms.LinkLabel();
             this.linkLabel4 = new System.Windows.Forms.LinkLabel();
@@ -323,6 +322,7 @@
             this.label11 = new System.Windows.Forms.Label();
             this.helpButton = new System.Windows.Forms.Button();
             this.button198 = new System.Windows.Forms.Button();
+            this.linkLabel6 = new System.Windows.Forms.LinkLabel();
             this.groupBox1.SuspendLayout();
             this.groupBox2.SuspendLayout();
             this.groupBox3.SuspendLayout();
@@ -2230,14 +2230,13 @@
             // groupBox18
             // 
             this.groupBox18.Controls.Add(this.linkLabel27);
-            this.groupBox18.Controls.Add(this.linkLabel26);
             this.groupBox18.Controls.Add(this.linkLabel25);
             this.groupBox18.Controls.Add(this.linkLabel11);
             this.groupBox18.Controls.Add(this.linkLabel4);
             this.groupBox18.Controls.Add(this.linkLabel3);
-            this.groupBox18.Location = new System.Drawing.Point(7, 320);
+            this.groupBox18.Location = new System.Drawing.Point(7, 339);
             this.groupBox18.Name = "groupBox18";
-            this.groupBox18.Size = new System.Drawing.Size(194, 128);
+            this.groupBox18.Size = new System.Drawing.Size(194, 109);
             this.groupBox18.TabIndex = 79;
             this.groupBox18.TabStop = false;
             this.groupBox18.Text = "Online Scanners";
@@ -2247,7 +2246,7 @@
             this.linkLabel27.AutoSize = true;
             this.linkLabel27.Image = ((System.Drawing.Image)(resources.GetObject("linkLabel27.Image")));
             this.linkLabel27.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.linkLabel27.Location = new System.Drawing.Point(6, 107);
+            this.linkLabel27.Location = new System.Drawing.Point(6, 90);
             this.linkLabel27.Name = "linkLabel27";
             this.linkLabel27.Padding = new System.Windows.Forms.Padding(20, 0, 0, 0);
             this.linkLabel27.Size = new System.Drawing.Size(134, 13);
@@ -2255,21 +2254,6 @@
             this.linkLabel27.TabStop = true;
             this.linkLabel27.Text = "Panda ActiveScan 2.0";
             this.linkLabel27.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.linkLabel27_LinkClicked);
-            // 
-            // linkLabel26
-            // 
-            this.linkLabel26.AutoSize = true;
-            this.linkLabel26.Enabled = false;
-            this.linkLabel26.Image = ((System.Drawing.Image)(resources.GetObject("linkLabel26.Image")));
-            this.linkLabel26.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.linkLabel26.Location = new System.Drawing.Point(6, 90);
-            this.linkLabel26.Name = "linkLabel26";
-            this.linkLabel26.Padding = new System.Windows.Forms.Padding(20, 0, 0, 0);
-            this.linkLabel26.Size = new System.Drawing.Size(152, 13);
-            this.linkLabel26.TabIndex = 84;
-            this.linkLabel26.TabStop = true;
-            this.linkLabel26.Text = "Kaspersky Online Scanner";
-            this.linkLabel26.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.linkLabel26_LinkClicked);
             // 
             // linkLabel25
             // 
@@ -2422,12 +2406,13 @@
             // 
             // groupBox10
             // 
+            this.groupBox10.Controls.Add(this.linkLabel6);
             this.groupBox10.Controls.Add(this.linkLabel19);
             this.groupBox10.Controls.Add(this.linkLabel18);
             this.groupBox10.Controls.Add(this.linkLabel17);
             this.groupBox10.Location = new System.Drawing.Point(7, 244);
             this.groupBox10.Name = "groupBox10";
-            this.groupBox10.Size = new System.Drawing.Size(194, 75);
+            this.groupBox10.Size = new System.Drawing.Size(194, 93);
             this.groupBox10.TabIndex = 76;
             this.groupBox10.TabStop = false;
             this.groupBox10.Text = "Removal Links";
@@ -4713,6 +4698,20 @@
             this.button198.HelpRequested += new System.Windows.Forms.HelpEventHandler(this.button_HelpRequested);
             this.button198.Click += new System.EventHandler(this.button198_Click);
             // 
+            // linkLabel6
+            // 
+            this.linkLabel6.AutoSize = true;
+            this.linkLabel6.Image = ((System.Drawing.Image)(resources.GetObject("linkLabel6.Image")));
+            this.linkLabel6.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.linkLabel6.Location = new System.Drawing.Point(6, 70);
+            this.linkLabel6.Name = "linkLabel6";
+            this.linkLabel6.Padding = new System.Windows.Forms.Padding(20, 0, 0, 0);
+            this.linkLabel6.Size = new System.Drawing.Size(187, 13);
+            this.linkLabel6.TabIndex = 6;
+            this.linkLabel6.TabStop = true;
+            this.linkLabel6.Text = "MSE Microsoft Security Essentials";
+            this.linkLabel6.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.linkLabel6_LinkClicked_1);
+            // 
             // SetupAssistant
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -5003,7 +5002,6 @@
         private System.Windows.Forms.LinkLabel linkLabel4;
         private System.Windows.Forms.LinkLabel linkLabel11;
         private System.Windows.Forms.LinkLabel linkLabel25;
-        private System.Windows.Forms.LinkLabel linkLabel26;
         private System.Windows.Forms.LinkLabel linkLabel27;
         private System.Windows.Forms.GroupBox groupBox37;
         private System.Windows.Forms.GroupBox groupBox38;
@@ -5100,6 +5098,7 @@
         private System.Windows.Forms.Button button196;
         private System.Windows.Forms.Button button197;
         private System.Windows.Forms.Button button198;
+        private System.Windows.Forms.LinkLabel linkLabel6;
     }
 }
 
