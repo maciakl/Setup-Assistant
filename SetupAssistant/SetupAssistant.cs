@@ -2947,6 +2947,14 @@ please file a bug report at http://sa.maciak.net";
             runFromCacheOrDownloadZipfile(file, url, zip);
         }
 
+        private void button198_Click(object sender, EventArgs e)
+        {
+            string url = @"http://www.teamviewer.com/download/TeamViewerQS_en.exe";
+            string file = @"TeamViewerQS_en.exe";
+
+            runFromCacheOrDownload(file, url);
+        }
+
        
         
         //

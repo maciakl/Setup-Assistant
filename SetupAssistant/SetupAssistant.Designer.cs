@@ -100,6 +100,9 @@
             this.button65 = new System.Windows.Forms.Button();
             this.button64 = new System.Windows.Forms.Button();
             this.groupBox2 = new System.Windows.Forms.GroupBox();
+            this.button197 = new System.Windows.Forms.Button();
+            this.button196 = new System.Windows.Forms.Button();
+            this.button195 = new System.Windows.Forms.Button();
             this.button79 = new System.Windows.Forms.Button();
             this.button11 = new System.Windows.Forms.Button();
             this.button66 = new System.Windows.Forms.Button();
@@ -170,6 +173,7 @@
             this.linkLabel18 = new System.Windows.Forms.LinkLabel();
             this.linkLabel17 = new System.Windows.Forms.LinkLabel();
             this.groupBox32 = new System.Windows.Forms.GroupBox();
+            this.button194 = new System.Windows.Forms.Button();
             this.button189 = new System.Windows.Forms.Button();
             this.button188 = new System.Windows.Forms.Button();
             this.button183 = new System.Windows.Forms.Button();
@@ -318,10 +322,7 @@
             this.label10 = new System.Windows.Forms.Label();
             this.label11 = new System.Windows.Forms.Label();
             this.helpButton = new System.Windows.Forms.Button();
-            this.button194 = new System.Windows.Forms.Button();
-            this.button195 = new System.Windows.Forms.Button();
-            this.button196 = new System.Windows.Forms.Button();
-            this.button197 = new System.Windows.Forms.Button();
+            this.button198 = new System.Windows.Forms.Button();
             this.groupBox1.SuspendLayout();
             this.groupBox2.SuspendLayout();
             this.groupBox3.SuspendLayout();
@@ -1423,6 +1424,55 @@
             this.groupBox2.TabStop = false;
             this.groupBox2.Text = "Core OS Utils";
             // 
+            // button197
+            // 
+            this.button197.BackColor = System.Drawing.SystemColors.Control;
+            this.button197.ForeColor = System.Drawing.Color.Blue;
+            this.button197.Image = ((System.Drawing.Image)(resources.GetObject("button197.Image")));
+            this.button197.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.button197.Location = new System.Drawing.Point(15, 171);
+            this.button197.Name = "button197";
+            this.button197.Size = new System.Drawing.Size(177, 20);
+            this.button197.TabIndex = 43;
+            this.button197.Tag = "DriverView utility displays the list of all device drivers currently loaded on yo" +
+                "ur system.";
+            this.button197.Text = "Driver View  (nirsoft.net)";
+            this.button197.UseVisualStyleBackColor = true;
+            this.button197.HelpRequested += new System.Windows.Forms.HelpEventHandler(this.button_HelpRequested);
+            this.button197.Click += new System.EventHandler(this.button197_Click);
+            // 
+            // button196
+            // 
+            this.button196.BackColor = System.Drawing.SystemColors.Control;
+            this.button196.ForeColor = System.Drawing.Color.Blue;
+            this.button196.Image = ((System.Drawing.Image)(resources.GetObject("button196.Image")));
+            this.button196.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.button196.Location = new System.Drawing.Point(15, 150);
+            this.button196.Name = "button196";
+            this.button196.Size = new System.Drawing.Size(177, 20);
+            this.button196.TabIndex = 42;
+            this.button196.Tag = resources.GetString("button196.Tag");
+            this.button196.Text = "Reg DLL View  (nirsoft.net)";
+            this.button196.UseVisualStyleBackColor = true;
+            this.button196.HelpRequested += new System.Windows.Forms.HelpEventHandler(this.button_HelpRequested);
+            this.button196.Click += new System.EventHandler(this.button196_Click);
+            // 
+            // button195
+            // 
+            this.button195.BackColor = System.Drawing.SystemColors.Control;
+            this.button195.ForeColor = System.Drawing.Color.Blue;
+            this.button195.Image = ((System.Drawing.Image)(resources.GetObject("button195.Image")));
+            this.button195.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.button195.Location = new System.Drawing.Point(207, 171);
+            this.button195.Name = "button195";
+            this.button195.Size = new System.Drawing.Size(180, 20);
+            this.button195.TabIndex = 41;
+            this.button195.Tag = resources.GetString("button195.Tag");
+            this.button195.Text = "What is Hang (nirsoft.net)";
+            this.button195.UseVisualStyleBackColor = true;
+            this.button195.HelpRequested += new System.Windows.Forms.HelpEventHandler(this.button_HelpRequested);
+            this.button195.Click += new System.EventHandler(this.button195_Click);
+            // 
             // button79
             // 
             this.button79.Image = ((System.Drawing.Image)(resources.GetObject("button79.Image")));
@@ -1737,6 +1787,7 @@
             // 
             // groupBox9
             // 
+            this.groupBox9.Controls.Add(this.button198);
             this.groupBox9.Controls.Add(this.button90);
             this.groupBox9.Controls.Add(this.button89);
             this.groupBox9.Controls.Add(this.button70);
@@ -1754,9 +1805,9 @@
             this.button90.ForeColor = System.Drawing.Color.Blue;
             this.button90.Image = ((System.Drawing.Image)(resources.GetObject("button90.Image")));
             this.button90.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.button90.Location = new System.Drawing.Point(16, 106);
+            this.button90.Location = new System.Drawing.Point(16, 85);
             this.button90.Name = "button90";
-            this.button90.Size = new System.Drawing.Size(179, 23);
+            this.button90.Size = new System.Drawing.Size(179, 20);
             this.button90.TabIndex = 61;
             this.button90.Tag = "Link to join.me screen sharing site.";
             this.button90.Text = "Join Me (join.me)";
@@ -1770,9 +1821,9 @@
             this.button89.ForeColor = System.Drawing.Color.Blue;
             this.button89.Image = ((System.Drawing.Image)(resources.GetObject("button89.Image")));
             this.button89.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.button89.Location = new System.Drawing.Point(16, 77);
+            this.button89.Location = new System.Drawing.Point(16, 63);
             this.button89.Name = "button89";
-            this.button89.Size = new System.Drawing.Size(179, 23);
+            this.button89.Size = new System.Drawing.Size(179, 20);
             this.button89.TabIndex = 60;
             this.button89.Tag = "Link to Crosloop.com homepage.";
             this.button89.Text = "CrossLoop (crossloop.com)";
@@ -1784,9 +1835,9 @@
             // 
             this.button70.Image = ((System.Drawing.Image)(resources.GetObject("button70.Image")));
             this.button70.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.button70.Location = new System.Drawing.Point(18, 48);
+            this.button70.Location = new System.Drawing.Point(18, 41);
             this.button70.Name = "button70";
-            this.button70.Size = new System.Drawing.Size(179, 23);
+            this.button70.Size = new System.Drawing.Size(179, 20);
             this.button70.TabIndex = 22;
             this.button70.Tag = "Launches Windows Remote Desktop application.";
             this.button70.Text = "Remote Desktop";
@@ -1800,7 +1851,7 @@
             this.button69.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.button69.Location = new System.Drawing.Point(18, 19);
             this.button69.Name = "button69";
-            this.button69.Size = new System.Drawing.Size(179, 23);
+            this.button69.Size = new System.Drawing.Size(179, 20);
             this.button69.TabIndex = 21;
             this.button69.Tag = "Launchers Windows Remote Assist dialog.";
             this.button69.Text = "Windows Remote Assist";
@@ -2442,6 +2493,22 @@
             this.groupBox32.TabIndex = 75;
             this.groupBox32.TabStop = false;
             this.groupBox32.Text = "Misc Tools";
+            // 
+            // button194
+            // 
+            this.button194.BackColor = System.Drawing.SystemColors.Control;
+            this.button194.ForeColor = System.Drawing.Color.Blue;
+            this.button194.Image = ((System.Drawing.Image)(resources.GetObject("button194.Image")));
+            this.button194.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.button194.Location = new System.Drawing.Point(5, 235);
+            this.button194.Name = "button194";
+            this.button194.Size = new System.Drawing.Size(183, 20);
+            this.button194.TabIndex = 51;
+            this.button194.Tag = resources.GetString("button194.Tag");
+            this.button194.Text = "Temp File Cleaner";
+            this.button194.UseVisualStyleBackColor = true;
+            this.button194.HelpRequested += new System.Windows.Forms.HelpEventHandler(this.button_HelpRequested);
+            this.button194.Click += new System.EventHandler(this.button194_Click);
             // 
             // button189
             // 
@@ -4630,70 +4697,21 @@
             this.helpButton.UseVisualStyleBackColor = true;
             this.helpButton.Click += new System.EventHandler(this.button144_Click);
             // 
-            // button194
+            // button198
             // 
-            this.button194.BackColor = System.Drawing.SystemColors.Control;
-            this.button194.ForeColor = System.Drawing.Color.Blue;
-            this.button194.Image = ((System.Drawing.Image)(resources.GetObject("button194.Image")));
-            this.button194.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.button194.Location = new System.Drawing.Point(5, 235);
-            this.button194.Name = "button194";
-            this.button194.Size = new System.Drawing.Size(183, 20);
-            this.button194.TabIndex = 51;
-            this.button194.Tag = resources.GetString("button194.Tag");
-            this.button194.Text = "Temp File Cleaner";
-            this.button194.UseVisualStyleBackColor = true;
-            this.button194.HelpRequested += new System.Windows.Forms.HelpEventHandler(this.button_HelpRequested);
-            this.button194.Click += new System.EventHandler(this.button194_Click);
-            // 
-            // button195
-            // 
-            this.button195.BackColor = System.Drawing.SystemColors.Control;
-            this.button195.ForeColor = System.Drawing.Color.Blue;
-            this.button195.Image = ((System.Drawing.Image)(resources.GetObject("button195.Image")));
-            this.button195.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.button195.Location = new System.Drawing.Point(207, 171);
-            this.button195.Name = "button195";
-            this.button195.Size = new System.Drawing.Size(180, 20);
-            this.button195.TabIndex = 41;
-            this.button195.Tag = resources.GetString("button195.Tag");
-            this.button195.Text = "What is Hang (nirsoft.net)";
-            this.button195.UseVisualStyleBackColor = true;
-            this.button195.HelpRequested += new System.Windows.Forms.HelpEventHandler(this.button_HelpRequested);
-            this.button195.Click += new System.EventHandler(this.button195_Click);
-            // 
-            // button196
-            // 
-            this.button196.BackColor = System.Drawing.SystemColors.Control;
-            this.button196.ForeColor = System.Drawing.Color.Blue;
-            this.button196.Image = ((System.Drawing.Image)(resources.GetObject("button196.Image")));
-            this.button196.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.button196.Location = new System.Drawing.Point(15, 150);
-            this.button196.Name = "button196";
-            this.button196.Size = new System.Drawing.Size(177, 20);
-            this.button196.TabIndex = 42;
-            this.button196.Tag = resources.GetString("button196.Tag");
-            this.button196.Text = "Reg DLL View  (nirsoft.net)";
-            this.button196.UseVisualStyleBackColor = true;
-            this.button196.HelpRequested += new System.Windows.Forms.HelpEventHandler(this.button_HelpRequested);
-            this.button196.Click += new System.EventHandler(this.button196_Click);
-            // 
-            // button197
-            // 
-            this.button197.BackColor = System.Drawing.SystemColors.Control;
-            this.button197.ForeColor = System.Drawing.Color.Blue;
-            this.button197.Image = ((System.Drawing.Image)(resources.GetObject("button197.Image")));
-            this.button197.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.button197.Location = new System.Drawing.Point(15, 171);
-            this.button197.Name = "button197";
-            this.button197.Size = new System.Drawing.Size(177, 20);
-            this.button197.TabIndex = 43;
-            this.button197.Tag = "DriverView utility displays the list of all device drivers currently loaded on yo" +
-                "ur system.";
-            this.button197.Text = "Driver View  (nirsoft.net)";
-            this.button197.UseVisualStyleBackColor = true;
-            this.button197.HelpRequested += new System.Windows.Forms.HelpEventHandler(this.button_HelpRequested);
-            this.button197.Click += new System.EventHandler(this.button197_Click);
+            this.button198.BackColor = System.Drawing.SystemColors.Control;
+            this.button198.ForeColor = System.Drawing.Color.Blue;
+            this.button198.Image = ((System.Drawing.Image)(resources.GetObject("button198.Image")));
+            this.button198.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.button198.Location = new System.Drawing.Point(16, 107);
+            this.button198.Name = "button198";
+            this.button198.Size = new System.Drawing.Size(179, 20);
+            this.button198.TabIndex = 62;
+            this.button198.Tag = "Downloads and opens Team Viewer, Quick Start version.";
+            this.button198.Text = "Team Viewer QS";
+            this.button198.UseVisualStyleBackColor = true;
+            this.button198.HelpRequested += new System.Windows.Forms.HelpEventHandler(this.button_HelpRequested);
+            this.button198.Click += new System.EventHandler(this.button198_Click);
             // 
             // SetupAssistant
             // 
@@ -5081,6 +5099,7 @@
         private System.Windows.Forms.Button button195;
         private System.Windows.Forms.Button button196;
         private System.Windows.Forms.Button button197;
+        private System.Windows.Forms.Button button198;
     }
 }
 
