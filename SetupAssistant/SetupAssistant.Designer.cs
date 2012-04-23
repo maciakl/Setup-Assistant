@@ -324,6 +324,7 @@
             this.label11 = new System.Windows.Forms.Label();
             this.helpButton = new System.Windows.Forms.Button();
             this.button200 = new System.Windows.Forms.Button();
+            this.button114 = new System.Windows.Forms.Button();
             this.groupBox1.SuspendLayout();
             this.groupBox2.SuspendLayout();
             this.groupBox3.SuspendLayout();
@@ -2692,6 +2693,7 @@
             // 
             // groupBox31
             // 
+            this.groupBox31.Controls.Add(this.button114);
             this.groupBox31.Controls.Add(this.button190);
             this.groupBox31.Controls.Add(this.button143);
             this.groupBox31.Controls.Add(this.button142);
@@ -4724,7 +4726,24 @@
             this.button200.Tag = "Rogue Killer by Tigzy - a diagnostic, removal and repair tool.";
             this.button200.Text = "Rogue Killer by Tigzy";
             this.button200.UseVisualStyleBackColor = true;
+            this.button200.HelpRequested += new System.Windows.Forms.HelpEventHandler(this.button_HelpRequested);
             this.button200.Click += new System.EventHandler(this.button200_Click);
+            // 
+            // button114
+            // 
+            this.button114.BackColor = System.Drawing.SystemColors.Control;
+            this.button114.ForeColor = System.Drawing.Color.Blue;
+            this.button114.Image = ((System.Drawing.Image)(resources.GetObject("button114.Image")));
+            this.button114.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.button114.Location = new System.Drawing.Point(6, 170);
+            this.button114.Name = "button114";
+            this.button114.Size = new System.Drawing.Size(180, 20);
+            this.button114.TabIndex = 48;
+            this.button114.Tag = "Hitman Pro cloud based anti-malware scanner.";
+            this.button114.Text = "Hitman Pro";
+            this.button114.UseVisualStyleBackColor = true;
+            this.button114.HelpRequested += new System.Windows.Forms.HelpEventHandler(this.button_HelpRequested);
+            this.button114.Click += new System.EventHandler(this.button114_Click_1);
             // 
             // SetupAssistant
             // 
@@ -5114,6 +5133,7 @@
         private System.Windows.Forms.LinkLabel linkLabel6;
         private System.Windows.Forms.Button button199;
         private System.Windows.Forms.Button button200;
+        private System.Windows.Forms.Button button114;
     }
 }
 

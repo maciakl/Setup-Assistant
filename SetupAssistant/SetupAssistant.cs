@@ -2995,6 +2995,14 @@ please file a bug report at http://sa.maciak.net";
             runFromCacheOrDownload(file, url);
         }
 
+        private void button114_Click_1(object sender, EventArgs e)
+        {
+            string url = @"http://dl.surfright.nl/HitmanPro36.exe";
+            string file = @"HitmanPro36.exe";
+
+            runFromCacheOrDownload(file, url);
+        }
+
        
         
         //
