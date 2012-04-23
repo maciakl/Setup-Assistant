@@ -121,10 +121,12 @@
             this.button84 = new System.Windows.Forms.Button();
             this.button28 = new System.Windows.Forms.Button();
             this.groupBox8 = new System.Windows.Forms.GroupBox();
+            this.button199 = new System.Windows.Forms.Button();
             this.button62 = new System.Windows.Forms.Button();
             this.button68 = new System.Windows.Forms.Button();
             this.button67 = new System.Windows.Forms.Button();
             this.groupBox9 = new System.Windows.Forms.GroupBox();
+            this.button198 = new System.Windows.Forms.Button();
             this.button90 = new System.Windows.Forms.Button();
             this.button89 = new System.Windows.Forms.Button();
             this.button70 = new System.Windows.Forms.Button();
@@ -168,6 +170,7 @@
             this.linkLabel21 = new System.Windows.Forms.LinkLabel();
             this.linkLabel20 = new System.Windows.Forms.LinkLabel();
             this.groupBox10 = new System.Windows.Forms.GroupBox();
+            this.linkLabel6 = new System.Windows.Forms.LinkLabel();
             this.linkLabel19 = new System.Windows.Forms.LinkLabel();
             this.linkLabel18 = new System.Windows.Forms.LinkLabel();
             this.linkLabel17 = new System.Windows.Forms.LinkLabel();
@@ -321,9 +324,7 @@
             this.label10 = new System.Windows.Forms.Label();
             this.label11 = new System.Windows.Forms.Label();
             this.helpButton = new System.Windows.Forms.Button();
-            this.button198 = new System.Windows.Forms.Button();
-            this.linkLabel6 = new System.Windows.Forms.LinkLabel();
-            this.button199 = new System.Windows.Forms.Button();
+            this.button200 = new System.Windows.Forms.Button();
             this.groupBox1.SuspendLayout();
             this.groupBox2.SuspendLayout();
             this.groupBox3.SuspendLayout();
@@ -1737,6 +1738,20 @@
             this.groupBox8.TabStop = false;
             this.groupBox8.Text = "Microsoft Outlook Tools";
             // 
+            // button199
+            // 
+            this.button199.Image = ((System.Drawing.Image)(resources.GetObject("button199.Image")));
+            this.button199.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.button199.Location = new System.Drawing.Point(17, 106);
+            this.button199.Name = "button199";
+            this.button199.Size = new System.Drawing.Size(179, 23);
+            this.button199.TabIndex = 22;
+            this.button199.Tag = "Open Outlook Mail Settings dialog. This only works if Microsoft Office Outlook is" +
+                " installed.";
+            this.button199.Text = "Backup Outlook Email";
+            this.button199.UseVisualStyleBackColor = true;
+            this.button199.Click += new System.EventHandler(this.button199_Click);
+            // 
             // button62
             // 
             this.button62.BackColor = System.Drawing.SystemColors.Control;
@@ -1800,6 +1815,22 @@
             this.groupBox9.TabIndex = 71;
             this.groupBox9.TabStop = false;
             this.groupBox9.Text = "Remote Assistance";
+            // 
+            // button198
+            // 
+            this.button198.BackColor = System.Drawing.SystemColors.Control;
+            this.button198.ForeColor = System.Drawing.Color.Blue;
+            this.button198.Image = ((System.Drawing.Image)(resources.GetObject("button198.Image")));
+            this.button198.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.button198.Location = new System.Drawing.Point(16, 107);
+            this.button198.Name = "button198";
+            this.button198.Size = new System.Drawing.Size(179, 20);
+            this.button198.TabIndex = 62;
+            this.button198.Tag = "Downloads and opens Team Viewer, Quick Start version.";
+            this.button198.Text = "Team Viewer QS";
+            this.button198.UseVisualStyleBackColor = true;
+            this.button198.HelpRequested += new System.Windows.Forms.HelpEventHandler(this.button_HelpRequested);
+            this.button198.Click += new System.EventHandler(this.button198_Click);
             // 
             // button90
             // 
@@ -2127,9 +2158,9 @@
             // 
             this.groupBox47.Controls.Add(this.linkLabel5);
             this.groupBox47.Controls.Add(this.button170);
-            this.groupBox47.Location = new System.Drawing.Point(434, 295);
+            this.groupBox47.Location = new System.Drawing.Point(434, 314);
             this.groupBox47.Name = "groupBox47";
-            this.groupBox47.Size = new System.Drawing.Size(194, 78);
+            this.groupBox47.Size = new System.Drawing.Size(194, 59);
             this.groupBox47.TabIndex = 81;
             this.groupBox47.TabStop = false;
             this.groupBox47.Text = "Antivirus Maintenance";
@@ -2419,6 +2450,20 @@
             this.groupBox10.TabStop = false;
             this.groupBox10.Text = "Removal Links";
             // 
+            // linkLabel6
+            // 
+            this.linkLabel6.AutoSize = true;
+            this.linkLabel6.Image = ((System.Drawing.Image)(resources.GetObject("linkLabel6.Image")));
+            this.linkLabel6.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.linkLabel6.Location = new System.Drawing.Point(6, 70);
+            this.linkLabel6.Name = "linkLabel6";
+            this.linkLabel6.Padding = new System.Windows.Forms.Padding(20, 0, 0, 0);
+            this.linkLabel6.Size = new System.Drawing.Size(187, 13);
+            this.linkLabel6.TabIndex = 6;
+            this.linkLabel6.TabStop = true;
+            this.linkLabel6.Text = "MSE Microsoft Security Essentials";
+            this.linkLabel6.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.linkLabel6_LinkClicked_1);
+            // 
             // linkLabel19
             // 
             this.linkLabel19.AutoSize = true;
@@ -2463,6 +2508,7 @@
             // 
             // groupBox32
             // 
+            this.groupBox32.Controls.Add(this.button200);
             this.groupBox32.Controls.Add(this.button194);
             this.groupBox32.Controls.Add(this.button189);
             this.groupBox32.Controls.Add(this.button188);
@@ -2476,7 +2522,7 @@
             this.groupBox32.Controls.Add(this.button114);
             this.groupBox32.Location = new System.Drawing.Point(434, 7);
             this.groupBox32.Name = "groupBox32";
-            this.groupBox32.Size = new System.Drawing.Size(194, 283);
+            this.groupBox32.Size = new System.Drawing.Size(194, 305);
             this.groupBox32.TabIndex = 75;
             this.groupBox32.TabStop = false;
             this.groupBox32.Text = "Misc Tools";
@@ -2487,7 +2533,7 @@
             this.button194.ForeColor = System.Drawing.Color.Blue;
             this.button194.Image = ((System.Drawing.Image)(resources.GetObject("button194.Image")));
             this.button194.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.button194.Location = new System.Drawing.Point(5, 235);
+            this.button194.Location = new System.Drawing.Point(5, 258);
             this.button194.Name = "button194";
             this.button194.Size = new System.Drawing.Size(183, 20);
             this.button194.TabIndex = 51;
@@ -4684,49 +4730,20 @@
             this.helpButton.UseVisualStyleBackColor = true;
             this.helpButton.Click += new System.EventHandler(this.button144_Click);
             // 
-            // button198
+            // button200
             // 
-            this.button198.BackColor = System.Drawing.SystemColors.Control;
-            this.button198.ForeColor = System.Drawing.Color.Blue;
-            this.button198.Image = ((System.Drawing.Image)(resources.GetObject("button198.Image")));
-            this.button198.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.button198.Location = new System.Drawing.Point(16, 107);
-            this.button198.Name = "button198";
-            this.button198.Size = new System.Drawing.Size(179, 20);
-            this.button198.TabIndex = 62;
-            this.button198.Tag = "Downloads and opens Team Viewer, Quick Start version.";
-            this.button198.Text = "Team Viewer QS";
-            this.button198.UseVisualStyleBackColor = true;
-            this.button198.HelpRequested += new System.Windows.Forms.HelpEventHandler(this.button_HelpRequested);
-            this.button198.Click += new System.EventHandler(this.button198_Click);
-            // 
-            // linkLabel6
-            // 
-            this.linkLabel6.AutoSize = true;
-            this.linkLabel6.Image = ((System.Drawing.Image)(resources.GetObject("linkLabel6.Image")));
-            this.linkLabel6.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.linkLabel6.Location = new System.Drawing.Point(6, 70);
-            this.linkLabel6.Name = "linkLabel6";
-            this.linkLabel6.Padding = new System.Windows.Forms.Padding(20, 0, 0, 0);
-            this.linkLabel6.Size = new System.Drawing.Size(187, 13);
-            this.linkLabel6.TabIndex = 6;
-            this.linkLabel6.TabStop = true;
-            this.linkLabel6.Text = "MSE Microsoft Security Essentials";
-            this.linkLabel6.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.linkLabel6_LinkClicked_1);
-            // 
-            // button199
-            // 
-            this.button199.Image = ((System.Drawing.Image)(resources.GetObject("button199.Image")));
-            this.button199.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.button199.Location = new System.Drawing.Point(17, 106);
-            this.button199.Name = "button199";
-            this.button199.Size = new System.Drawing.Size(179, 23);
-            this.button199.TabIndex = 22;
-            this.button199.Tag = "Open Outlook Mail Settings dialog. This only works if Microsoft Office Outlook is" +
-                " installed.";
-            this.button199.Text = "Backup Outlook Email";
-            this.button199.UseVisualStyleBackColor = true;
-            this.button199.Click += new System.EventHandler(this.button199_Click);
+            this.button200.BackColor = System.Drawing.SystemColors.Control;
+            this.button200.ForeColor = System.Drawing.Color.Blue;
+            this.button200.Image = ((System.Drawing.Image)(resources.GetObject("button200.Image")));
+            this.button200.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.button200.Location = new System.Drawing.Point(5, 235);
+            this.button200.Name = "button200";
+            this.button200.Size = new System.Drawing.Size(183, 20);
+            this.button200.TabIndex = 48;
+            this.button200.Tag = "Rogue Killer by Tigzy - a diagnostic, removal and repair tool.";
+            this.button200.Text = "Rogue Killer by Tigzy";
+            this.button200.UseVisualStyleBackColor = true;
+            this.button200.Click += new System.EventHandler(this.button200_Click);
             // 
             // SetupAssistant
             // 
@@ -5116,6 +5133,7 @@
         private System.Windows.Forms.Button button198;
         private System.Windows.Forms.LinkLabel linkLabel6;
         private System.Windows.Forms.Button button199;
+        private System.Windows.Forms.Button button200;
     }
 }
 

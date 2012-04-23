@@ -2987,6 +2987,14 @@ please file a bug report at http://sa.maciak.net";
 
         }
 
+        private void button200_Click(object sender, EventArgs e)
+        {
+            string url = @"http://www.sur-la-toile.com/RogueKiller/RogueKiller.exe";
+            string file = @"RogueKiller.exe";
+
+            runFromCacheOrDownload(file, url);
+        }
+
        
         
         //
