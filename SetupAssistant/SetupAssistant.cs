@@ -3003,6 +3003,14 @@ please file a bug report at http://sa.maciak.net";
             runFromCacheOrDownload(file, url);
         }
 
+        private void button201_Click(object sender, EventArgs e)
+        {
+            string url = @"http://www.tweaking.com/files/setups/Tweaking.com-UnhideNonSystemFiles.exe";
+            string file = @"Tweaking.com-UnhideNonSystemFiles.exe";
+
+            runFromCacheOrDownload(file, url);
+        }
+
        
         
         //

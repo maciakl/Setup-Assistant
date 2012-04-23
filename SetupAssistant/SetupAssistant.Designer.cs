@@ -325,6 +325,7 @@
             this.helpButton = new System.Windows.Forms.Button();
             this.button200 = new System.Windows.Forms.Button();
             this.button114 = new System.Windows.Forms.Button();
+            this.button201 = new System.Windows.Forms.Button();
             this.groupBox1.SuspendLayout();
             this.groupBox2.SuspendLayout();
             this.groupBox3.SuspendLayout();
@@ -2508,6 +2509,7 @@
             // 
             // groupBox32
             // 
+            this.groupBox32.Controls.Add(this.button201);
             this.groupBox32.Controls.Add(this.button200);
             this.groupBox32.Controls.Add(this.button194);
             this.groupBox32.Controls.Add(this.button189);
@@ -2532,7 +2534,7 @@
             this.button194.ForeColor = System.Drawing.Color.Blue;
             this.button194.Image = ((System.Drawing.Image)(resources.GetObject("button194.Image")));
             this.button194.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.button194.Location = new System.Drawing.Point(5, 233);
+            this.button194.Location = new System.Drawing.Point(6, 254);
             this.button194.Name = "button194";
             this.button194.Size = new System.Drawing.Size(183, 20);
             this.button194.TabIndex = 51;
@@ -4745,6 +4747,22 @@
             this.button114.HelpRequested += new System.Windows.Forms.HelpEventHandler(this.button_HelpRequested);
             this.button114.Click += new System.EventHandler(this.button114_Click_1);
             // 
+            // button201
+            // 
+            this.button201.BackColor = System.Drawing.SystemColors.Control;
+            this.button201.ForeColor = System.Drawing.Color.Blue;
+            this.button201.Image = ((System.Drawing.Image)(resources.GetObject("button201.Image")));
+            this.button201.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.button201.Location = new System.Drawing.Point(5, 233);
+            this.button201.Name = "button201";
+            this.button201.Size = new System.Drawing.Size(183, 20);
+            this.button201.TabIndex = 52;
+            this.button201.Tag = "Tweaking.com Unhide Non System Files tool. Fixes visibility settings on system fi" +
+                "les after a malicious app changed them.";
+            this.button201.Text = "Unhide Non System Files";
+            this.button201.UseVisualStyleBackColor = true;
+            this.button201.Click += new System.EventHandler(this.button201_Click);
+            // 
             // SetupAssistant
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -5134,6 +5152,7 @@
         private System.Windows.Forms.Button button199;
         private System.Windows.Forms.Button button200;
         private System.Windows.Forms.Button button114;
+        private System.Windows.Forms.Button button201;
     }
 }
 
