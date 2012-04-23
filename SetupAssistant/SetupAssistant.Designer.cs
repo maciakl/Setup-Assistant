@@ -185,7 +185,6 @@
             this.button125 = new System.Windows.Forms.Button();
             this.button112 = new System.Windows.Forms.Button();
             this.button76 = new System.Windows.Forms.Button();
-            this.button114 = new System.Windows.Forms.Button();
             this.groupBox31 = new System.Windows.Forms.GroupBox();
             this.button190 = new System.Windows.Forms.Button();
             this.button143 = new System.Windows.Forms.Button();
@@ -2519,7 +2518,6 @@
             this.groupBox32.Controls.Add(this.button125);
             this.groupBox32.Controls.Add(this.button112);
             this.groupBox32.Controls.Add(this.button76);
-            this.groupBox32.Controls.Add(this.button114);
             this.groupBox32.Location = new System.Drawing.Point(434, 7);
             this.groupBox32.Name = "groupBox32";
             this.groupBox32.Size = new System.Drawing.Size(194, 305);
@@ -2533,7 +2531,7 @@
             this.button194.ForeColor = System.Drawing.Color.Blue;
             this.button194.Image = ((System.Drawing.Image)(resources.GetObject("button194.Image")));
             this.button194.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.button194.Location = new System.Drawing.Point(5, 258);
+            this.button194.Location = new System.Drawing.Point(5, 233);
             this.button194.Name = "button194";
             this.button194.Size = new System.Drawing.Size(183, 20);
             this.button194.TabIndex = 51;
@@ -2549,7 +2547,7 @@
             this.button189.ForeColor = System.Drawing.Color.Blue;
             this.button189.Image = ((System.Drawing.Image)(resources.GetObject("button189.Image")));
             this.button189.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.button189.Location = new System.Drawing.Point(5, 213);
+            this.button189.Location = new System.Drawing.Point(5, 191);
             this.button189.Name = "button189";
             this.button189.Size = new System.Drawing.Size(183, 20);
             this.button189.TabIndex = 50;
@@ -2567,7 +2565,7 @@
             this.button188.ForeColor = System.Drawing.Color.Blue;
             this.button188.Image = ((System.Drawing.Image)(resources.GetObject("button188.Image")));
             this.button188.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.button188.Location = new System.Drawing.Point(5, 192);
+            this.button188.Location = new System.Drawing.Point(5, 170);
             this.button188.Name = "button188";
             this.button188.Size = new System.Drawing.Size(183, 20);
             this.button188.TabIndex = 49;
@@ -2691,23 +2689,6 @@
             this.button76.UseVisualStyleBackColor = true;
             this.button76.HelpRequested += new System.Windows.Forms.HelpEventHandler(this.button_HelpRequested);
             this.button76.Click += new System.EventHandler(this.button76_Click_1);
-            // 
-            // button114
-            // 
-            this.button114.BackColor = System.Drawing.SystemColors.Control;
-            this.button114.Enabled = false;
-            this.button114.ForeColor = System.Drawing.Color.Blue;
-            this.button114.Image = ((System.Drawing.Image)(resources.GetObject("button114.Image")));
-            this.button114.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.button114.Location = new System.Drawing.Point(5, 171);
-            this.button114.Name = "button114";
-            this.button114.Size = new System.Drawing.Size(183, 20);
-            this.button114.TabIndex = 39;
-            this.button114.Tag = "Tool for deleting temp files and cache.";
-            this.button114.Text = "ATF Cleaner (atribune.org)";
-            this.button114.UseVisualStyleBackColor = true;
-            this.button114.HelpRequested += new System.Windows.Forms.HelpEventHandler(this.button_HelpRequested);
-            this.button114.Click += new System.EventHandler(this.button114_Click);
             // 
             // groupBox31
             // 
@@ -4736,7 +4717,7 @@
             this.button200.ForeColor = System.Drawing.Color.Blue;
             this.button200.Image = ((System.Drawing.Image)(resources.GetObject("button200.Image")));
             this.button200.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.button200.Location = new System.Drawing.Point(5, 235);
+            this.button200.Location = new System.Drawing.Point(5, 212);
             this.button200.Name = "button200";
             this.button200.Size = new System.Drawing.Size(183, 20);
             this.button200.TabIndex = 48;
@@ -4996,7 +4977,6 @@
         private System.Windows.Forms.Button button111;
         private System.Windows.Forms.GroupBox groupBox30;
         private System.Windows.Forms.Button button113;
-        private System.Windows.Forms.Button button114;
         private System.Windows.Forms.Button button115;
         private System.Windows.Forms.GroupBox groupBox32;
         private System.Windows.Forms.GroupBox groupBox31;
