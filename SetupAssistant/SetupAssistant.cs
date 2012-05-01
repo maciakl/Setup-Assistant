@@ -3059,6 +3059,14 @@ please file a bug report at http://sa.maciak.net";
             runFromCacheOrDownload(file, url);
         }
 
+        private void button202_Click(object sender, EventArgs e)
+        {
+            string url = @"http://download.bleepingcomputer.com/FixExec/32-bit/FixExec.com";
+            string file = @"FixExec.com";
+
+            runFromCacheOrDownload(file, url);
+        }
+
        
         
         //

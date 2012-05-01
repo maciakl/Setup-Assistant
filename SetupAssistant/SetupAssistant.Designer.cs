@@ -175,6 +175,8 @@
             this.linkLabel18 = new System.Windows.Forms.LinkLabel();
             this.linkLabel17 = new System.Windows.Forms.LinkLabel();
             this.groupBox32 = new System.Windows.Forms.GroupBox();
+            this.button201 = new System.Windows.Forms.Button();
+            this.button200 = new System.Windows.Forms.Button();
             this.button194 = new System.Windows.Forms.Button();
             this.button189 = new System.Windows.Forms.Button();
             this.button188 = new System.Windows.Forms.Button();
@@ -186,6 +188,7 @@
             this.button112 = new System.Windows.Forms.Button();
             this.button76 = new System.Windows.Forms.Button();
             this.groupBox31 = new System.Windows.Forms.GroupBox();
+            this.button114 = new System.Windows.Forms.Button();
             this.button190 = new System.Windows.Forms.Button();
             this.button143 = new System.Windows.Forms.Button();
             this.button142 = new System.Windows.Forms.Button();
@@ -323,9 +326,7 @@
             this.label10 = new System.Windows.Forms.Label();
             this.label11 = new System.Windows.Forms.Label();
             this.helpButton = new System.Windows.Forms.Button();
-            this.button200 = new System.Windows.Forms.Button();
-            this.button114 = new System.Windows.Forms.Button();
-            this.button201 = new System.Windows.Forms.Button();
+            this.button202 = new System.Windows.Forms.Button();
             this.groupBox1.SuspendLayout();
             this.groupBox2.SuspendLayout();
             this.groupBox3.SuspendLayout();
@@ -2509,8 +2510,8 @@
             // 
             // groupBox32
             // 
+            this.groupBox32.Controls.Add(this.button202);
             this.groupBox32.Controls.Add(this.button201);
-            this.groupBox32.Controls.Add(this.button200);
             this.groupBox32.Controls.Add(this.button194);
             this.groupBox32.Controls.Add(this.button189);
             this.groupBox32.Controls.Add(this.button188);
@@ -2527,6 +2528,38 @@
             this.groupBox32.TabIndex = 75;
             this.groupBox32.TabStop = false;
             this.groupBox32.Text = "Misc Tools";
+            // 
+            // button201
+            // 
+            this.button201.BackColor = System.Drawing.SystemColors.Control;
+            this.button201.ForeColor = System.Drawing.Color.Blue;
+            this.button201.Image = ((System.Drawing.Image)(resources.GetObject("button201.Image")));
+            this.button201.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.button201.Location = new System.Drawing.Point(5, 212);
+            this.button201.Name = "button201";
+            this.button201.Size = new System.Drawing.Size(183, 20);
+            this.button201.TabIndex = 52;
+            this.button201.Tag = "Tweaking.com Unhide Non System Files tool. Fixes visibility settings on system fi" +
+                "les after a malicious app changed them.";
+            this.button201.Text = "Unhide Non System Files";
+            this.button201.UseVisualStyleBackColor = true;
+            this.button201.Click += new System.EventHandler(this.button201_Click);
+            // 
+            // button200
+            // 
+            this.button200.BackColor = System.Drawing.SystemColors.Control;
+            this.button200.ForeColor = System.Drawing.Color.Blue;
+            this.button200.Image = ((System.Drawing.Image)(resources.GetObject("button200.Image")));
+            this.button200.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.button200.Location = new System.Drawing.Point(21, 170);
+            this.button200.Name = "button200";
+            this.button200.Size = new System.Drawing.Size(180, 20);
+            this.button200.TabIndex = 48;
+            this.button200.Tag = "Rogue Killer by Tigzy - a diagnostic, removal and repair tool.";
+            this.button200.Text = "Rogue Killer by Tigzy";
+            this.button200.UseVisualStyleBackColor = true;
+            this.button200.HelpRequested += new System.Windows.Forms.HelpEventHandler(this.button_HelpRequested);
+            this.button200.Click += new System.EventHandler(this.button200_Click);
             // 
             // button194
             // 
@@ -2710,6 +2743,22 @@
             this.groupBox31.TabStop = false;
             this.groupBox31.Text = "Removal Tools";
             // 
+            // button114
+            // 
+            this.button114.BackColor = System.Drawing.SystemColors.Control;
+            this.button114.ForeColor = System.Drawing.Color.Blue;
+            this.button114.Image = ((System.Drawing.Image)(resources.GetObject("button114.Image")));
+            this.button114.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.button114.Location = new System.Drawing.Point(6, 170);
+            this.button114.Name = "button114";
+            this.button114.Size = new System.Drawing.Size(180, 20);
+            this.button114.TabIndex = 48;
+            this.button114.Tag = "Hitman Pro cloud based anti-malware scanner.";
+            this.button114.Text = "Hitman Pro";
+            this.button114.UseVisualStyleBackColor = true;
+            this.button114.HelpRequested += new System.Windows.Forms.HelpEventHandler(this.button_HelpRequested);
+            this.button114.Click += new System.EventHandler(this.button114_Click_1);
+            // 
             // button190
             // 
             this.button190.BackColor = System.Drawing.SystemColors.Control;
@@ -2825,6 +2874,7 @@
             // groupBox30
             // 
             this.groupBox30.Controls.Add(this.button184);
+            this.groupBox30.Controls.Add(this.button200);
             this.groupBox30.Controls.Add(this.button146);
             this.groupBox30.Controls.Add(this.button121);
             this.groupBox30.Controls.Add(this.button140);
@@ -4715,53 +4765,21 @@
             this.helpButton.UseVisualStyleBackColor = true;
             this.helpButton.Click += new System.EventHandler(this.button144_Click);
             // 
-            // button200
+            // button202
             // 
-            this.button200.BackColor = System.Drawing.SystemColors.Control;
-            this.button200.ForeColor = System.Drawing.Color.Blue;
-            this.button200.Image = ((System.Drawing.Image)(resources.GetObject("button200.Image")));
-            this.button200.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.button200.Location = new System.Drawing.Point(5, 212);
-            this.button200.Name = "button200";
-            this.button200.Size = new System.Drawing.Size(183, 20);
-            this.button200.TabIndex = 48;
-            this.button200.Tag = "Rogue Killer by Tigzy - a diagnostic, removal and repair tool.";
-            this.button200.Text = "Rogue Killer by Tigzy";
-            this.button200.UseVisualStyleBackColor = true;
-            this.button200.HelpRequested += new System.Windows.Forms.HelpEventHandler(this.button_HelpRequested);
-            this.button200.Click += new System.EventHandler(this.button200_Click);
-            // 
-            // button114
-            // 
-            this.button114.BackColor = System.Drawing.SystemColors.Control;
-            this.button114.ForeColor = System.Drawing.Color.Blue;
-            this.button114.Image = ((System.Drawing.Image)(resources.GetObject("button114.Image")));
-            this.button114.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.button114.Location = new System.Drawing.Point(6, 170);
-            this.button114.Name = "button114";
-            this.button114.Size = new System.Drawing.Size(180, 20);
-            this.button114.TabIndex = 48;
-            this.button114.Tag = "Hitman Pro cloud based anti-malware scanner.";
-            this.button114.Text = "Hitman Pro";
-            this.button114.UseVisualStyleBackColor = true;
-            this.button114.HelpRequested += new System.Windows.Forms.HelpEventHandler(this.button_HelpRequested);
-            this.button114.Click += new System.EventHandler(this.button114_Click_1);
-            // 
-            // button201
-            // 
-            this.button201.BackColor = System.Drawing.SystemColors.Control;
-            this.button201.ForeColor = System.Drawing.Color.Blue;
-            this.button201.Image = ((System.Drawing.Image)(resources.GetObject("button201.Image")));
-            this.button201.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.button201.Location = new System.Drawing.Point(5, 233);
-            this.button201.Name = "button201";
-            this.button201.Size = new System.Drawing.Size(183, 20);
-            this.button201.TabIndex = 52;
-            this.button201.Tag = "Tweaking.com Unhide Non System Files tool. Fixes visibility settings on system fi" +
-                "les after a malicious app changed them.";
-            this.button201.Text = "Unhide Non System Files";
-            this.button201.UseVisualStyleBackColor = true;
-            this.button201.Click += new System.EventHandler(this.button201_Click);
+            this.button202.BackColor = System.Drawing.SystemColors.Control;
+            this.button202.ForeColor = System.Drawing.Color.Blue;
+            this.button202.Image = ((System.Drawing.Image)(resources.GetObject("button202.Image")));
+            this.button202.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.button202.Location = new System.Drawing.Point(5, 233);
+            this.button202.Name = "button202";
+            this.button202.Size = new System.Drawing.Size(183, 20);
+            this.button202.TabIndex = 53;
+            this.button202.Tag = resources.GetString("button202.Tag");
+            this.button202.Text = "FixExec";
+            this.button202.UseVisualStyleBackColor = true;
+            this.button202.HelpRequested += new System.Windows.Forms.HelpEventHandler(this.button_HelpRequested);
+            this.button202.Click += new System.EventHandler(this.button202_Click);
             // 
             // SetupAssistant
             // 
@@ -5153,6 +5171,7 @@
         private System.Windows.Forms.Button button200;
         private System.Windows.Forms.Button button114;
         private System.Windows.Forms.Button button201;
+        private System.Windows.Forms.Button button202;
     }
 }
 
