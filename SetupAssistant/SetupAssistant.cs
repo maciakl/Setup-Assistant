@@ -1976,7 +1976,7 @@ please file a bug report at http://sa.maciak.net";
             string contents = "Dim FSO\r\n";
             contents += "Set FSO = CreateObject(\"Scripting.FileSystemObject\")\r\n";
             contents += "FSO.CopyFile \""+ from_path +"\", \""+to_path+"\", True\r\n";
-            contents += "WScript.sleep 180\r\n";
+            contents += "WScript.sleep 360\r\n";
             contents += "Set wshShell = WScript.CreateObject (\"WSCript.shell\")\r\n";
             contents += "WshShell.run \"\"\"" + to_path + "\"\"\"\r\n";
             
