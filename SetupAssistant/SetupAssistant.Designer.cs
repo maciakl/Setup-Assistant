@@ -328,6 +328,7 @@
             this.helpButton = new System.Windows.Forms.Button();
             this.button202 = new System.Windows.Forms.Button();
             this.button203 = new System.Windows.Forms.Button();
+            this.button204 = new System.Windows.Forms.Button();
             this.groupBox1.SuspendLayout();
             this.groupBox2.SuspendLayout();
             this.groupBox3.SuspendLayout();
@@ -2511,6 +2512,7 @@
             // 
             // groupBox32
             // 
+            this.groupBox32.Controls.Add(this.button204);
             this.groupBox32.Controls.Add(this.button202);
             this.groupBox32.Controls.Add(this.button201);
             this.groupBox32.Controls.Add(this.button194);
@@ -2568,7 +2570,7 @@
             this.button194.ForeColor = System.Drawing.Color.Blue;
             this.button194.Image = ((System.Drawing.Image)(resources.GetObject("button194.Image")));
             this.button194.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.button194.Location = new System.Drawing.Point(6, 254);
+            this.button194.Location = new System.Drawing.Point(6, 274);
             this.button194.Name = "button194";
             this.button194.Size = new System.Drawing.Size(183, 20);
             this.button194.TabIndex = 51;
@@ -4799,6 +4801,22 @@
             this.button203.HelpRequested += new System.Windows.Forms.HelpEventHandler(this.button_HelpRequested);
             this.button203.Click += new System.EventHandler(this.button203_Click);
             // 
+            // button204
+            // 
+            this.button204.BackColor = System.Drawing.SystemColors.Control;
+            this.button204.ForeColor = System.Drawing.Color.Blue;
+            this.button204.Image = ((System.Drawing.Image)(resources.GetObject("button204.Image")));
+            this.button204.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.button204.Location = new System.Drawing.Point(5, 254);
+            this.button204.Name = "button204";
+            this.button204.Size = new System.Drawing.Size(183, 20);
+            this.button204.TabIndex = 54;
+            this.button204.Tag = resources.GetString("button204.Tag");
+            this.button204.Text = "WinRepair Installer";
+            this.button204.UseVisualStyleBackColor = true;
+            this.button204.HelpRequested += new System.Windows.Forms.HelpEventHandler(this.button_HelpRequested);
+            this.button204.Click += new System.EventHandler(this.button204_Click);
+            // 
             // SetupAssistant
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -5191,6 +5209,7 @@
         private System.Windows.Forms.Button button201;
         private System.Windows.Forms.Button button202;
         private System.Windows.Forms.Button button203;
+        private System.Windows.Forms.Button button204;
     }
 }
 

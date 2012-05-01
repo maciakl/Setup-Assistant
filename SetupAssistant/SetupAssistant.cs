@@ -3076,6 +3076,14 @@ please file a bug report at http://sa.maciak.net";
             runFromCacheOrDownloadZipfile(file, url, zip);
         }
 
+        private void button204_Click(object sender, EventArgs e)
+        {
+            string url = @"http://www.tweaking.com/files/setups/tweaking.com_windows_repair_aio_setup.exe";
+            string file = @"tweaking.com_windows_repair_aio_setup.exe";
+
+            runFromCacheOrDownload(file, url);
+        }
+
        
         
         //
