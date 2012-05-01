@@ -327,6 +327,7 @@
             this.label11 = new System.Windows.Forms.Label();
             this.helpButton = new System.Windows.Forms.Button();
             this.button202 = new System.Windows.Forms.Button();
+            this.button203 = new System.Windows.Forms.Button();
             this.groupBox1.SuspendLayout();
             this.groupBox2.SuspendLayout();
             this.groupBox3.SuspendLayout();
@@ -4107,6 +4108,7 @@
             // 
             // groupBox39
             // 
+            this.groupBox39.Controls.Add(this.button203);
             this.groupBox39.Controls.Add(this.button192);
             this.groupBox39.Controls.Add(this.button191);
             this.groupBox39.Controls.Add(this.button187);
@@ -4114,7 +4116,7 @@
             this.groupBox39.Controls.Add(this.button129);
             this.groupBox39.Location = new System.Drawing.Point(417, 155);
             this.groupBox39.Name = "groupBox39";
-            this.groupBox39.Size = new System.Drawing.Size(212, 140);
+            this.groupBox39.Size = new System.Drawing.Size(212, 177);
             this.groupBox39.TabIndex = 83;
             this.groupBox39.TabStop = false;
             this.groupBox39.Text = "Other Useful Tools";
@@ -4125,7 +4127,7 @@
             this.button192.ForeColor = System.Drawing.Color.Blue;
             this.button192.Image = ((System.Drawing.Image)(resources.GetObject("button192.Image")));
             this.button192.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.button192.Location = new System.Drawing.Point(20, 108);
+            this.button192.Location = new System.Drawing.Point(20, 107);
             this.button192.Name = "button192";
             this.button192.Size = new System.Drawing.Size(174, 20);
             this.button192.TabIndex = 27;
@@ -4142,7 +4144,7 @@
             this.button191.ForeColor = System.Drawing.Color.Blue;
             this.button191.Image = ((System.Drawing.Image)(resources.GetObject("button191.Image")));
             this.button191.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.button191.Location = new System.Drawing.Point(20, 85);
+            this.button191.Location = new System.Drawing.Point(20, 84);
             this.button191.Name = "button191";
             this.button191.Size = new System.Drawing.Size(174, 20);
             this.button191.TabIndex = 26;
@@ -4159,7 +4161,7 @@
             this.button187.ForeColor = System.Drawing.Color.Blue;
             this.button187.Image = ((System.Drawing.Image)(resources.GetObject("button187.Image")));
             this.button187.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.button187.Location = new System.Drawing.Point(20, 63);
+            this.button187.Location = new System.Drawing.Point(20, 62);
             this.button187.Name = "button187";
             this.button187.Size = new System.Drawing.Size(174, 20);
             this.button187.TabIndex = 25;
@@ -4176,7 +4178,7 @@
             this.button144.ForeColor = System.Drawing.Color.Blue;
             this.button144.Image = ((System.Drawing.Image)(resources.GetObject("button144.Image")));
             this.button144.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.button144.Location = new System.Drawing.Point(20, 41);
+            this.button144.Location = new System.Drawing.Point(20, 40);
             this.button144.Name = "button144";
             this.button144.Size = new System.Drawing.Size(174, 20);
             this.button144.TabIndex = 24;
@@ -4248,9 +4250,9 @@
             this.groupBox29.Controls.Add(this.button130);
             this.groupBox29.Controls.Add(this.button120);
             this.groupBox29.Controls.Add(this.button119);
-            this.groupBox29.Location = new System.Drawing.Point(417, 302);
+            this.groupBox29.Location = new System.Drawing.Point(417, 334);
             this.groupBox29.Name = "groupBox29";
-            this.groupBox29.Size = new System.Drawing.Size(212, 132);
+            this.groupBox29.Size = new System.Drawing.Size(212, 100);
             this.groupBox29.TabIndex = 81;
             this.groupBox29.TabStop = false;
             this.groupBox29.Text = "Setup Assistant Information";
@@ -4259,7 +4261,7 @@
             // 
             this.button130.Image = ((System.Drawing.Image)(resources.GetObject("button130.Image")));
             this.button130.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.button130.Location = new System.Drawing.Point(20, 89);
+            this.button130.Location = new System.Drawing.Point(20, 69);
             this.button130.Name = "button130";
             this.button130.Size = new System.Drawing.Size(174, 23);
             this.button130.TabIndex = 85;
@@ -4273,7 +4275,7 @@
             // 
             this.button120.Image = ((System.Drawing.Image)(resources.GetObject("button120.Image")));
             this.button120.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.button120.Location = new System.Drawing.Point(20, 58);
+            this.button120.Location = new System.Drawing.Point(20, 44);
             this.button120.Name = "button120";
             this.button120.Size = new System.Drawing.Size(174, 23);
             this.button120.TabIndex = 84;
@@ -4287,7 +4289,7 @@
             // 
             this.button119.Image = ((System.Drawing.Image)(resources.GetObject("button119.Image")));
             this.button119.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.button119.Location = new System.Drawing.Point(20, 29);
+            this.button119.Location = new System.Drawing.Point(20, 19);
             this.button119.Name = "button119";
             this.button119.Size = new System.Drawing.Size(174, 23);
             this.button119.TabIndex = 83;
@@ -4781,6 +4783,22 @@
             this.button202.HelpRequested += new System.Windows.Forms.HelpEventHandler(this.button_HelpRequested);
             this.button202.Click += new System.EventHandler(this.button202_Click);
             // 
+            // button203
+            // 
+            this.button203.BackColor = System.Drawing.SystemColors.Control;
+            this.button203.ForeColor = System.Drawing.Color.Blue;
+            this.button203.Image = ((System.Drawing.Image)(resources.GetObject("button203.Image")));
+            this.button203.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.button203.Location = new System.Drawing.Point(20, 129);
+            this.button203.Name = "button203";
+            this.button203.Size = new System.Drawing.Size(174, 20);
+            this.button203.TabIndex = 28;
+            this.button203.Tag = "Safely Cleanup and Remove old USB Mass Storage Drivers on your PC.";
+            this.button203.Text = "Drive Cleanup";
+            this.button203.UseVisualStyleBackColor = true;
+            this.button203.HelpRequested += new System.Windows.Forms.HelpEventHandler(this.button_HelpRequested);
+            this.button203.Click += new System.EventHandler(this.button203_Click);
+            // 
             // SetupAssistant
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -5172,6 +5190,7 @@
         private System.Windows.Forms.Button button114;
         private System.Windows.Forms.Button button201;
         private System.Windows.Forms.Button button202;
+        private System.Windows.Forms.Button button203;
     }
 }
 

@@ -3067,6 +3067,15 @@ please file a bug report at http://sa.maciak.net";
             runFromCacheOrDownload(file, url);
         }
 
+        private void button203_Click(object sender, EventArgs e)
+        {
+            string url = @"http://www.uwe-sieber.de/files/drivecleanup.zip";
+            string file = @"Win32/DriveCleanup.exe";
+            string zip = "drivecleanup.zip";
+
+            runFromCacheOrDownloadZipfile(file, url, zip);
+        }
+
        
         
         //
