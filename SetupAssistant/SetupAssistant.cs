@@ -1924,7 +1924,8 @@ please file a bug report at http://sa.maciak.net";
                     {
                         if (DialogResult.Yes == MessageBox.Show(this, question, title, MessageBoxButtons.YesNo, MessageBoxIcon.Question))
                         {
-                            Process.Start(downloadURL);
+                            //Process.Start(downloadURL);
+                            this.downloadUpdate();
                         }
                     }
                 }
@@ -1932,6 +1933,53 @@ please file a bug report at http://sa.maciak.net";
                     using (new CenterWinDialog(this)) { MessageBox.Show(this, "Luke's Setup Assistant is up to date.", "No New Version Available", MessageBoxButtons.OK, MessageBoxIcon.Asterisk); }
 
             }
+        }
+
+        private void downloadUpdate()
+        {
+            string url = @"http://sa.maciak.net/SetupAssistant.zip";
+            string current_path = System.IO.Path.GetDirectoryName(System.Diagnostics.Process.GetCurrentProcess().MainModule.FileName) + @"\Setup-Assistant.exe";
+            string cache_path = CACHE + @"SetupAssistant.zip";
+            string file_path = CACHE + @"Setup-Assistant.exe";
+
+            ClearCache();
+            
+            Uri uri = new Uri(url);
+            downloadFileToCache(uri, cache_path, null);
+
+            using (ZipFile z = ZipFile.Read(cache_path))
+            {
+                foreach (ZipEntry e in z)
+                {
+                    if (e.FileName == @"Setup-Assistant.exe")
+                        e.Extract(CACHE, ExtractExistingFileAction.OverwriteSilently);
+                }
+            }
+
+            writeUpdateScript(file_path, current_path);
+            Process.Start(CACHE + "update.vbs");
+            this.Close();
+
+            //MessageBox.Show(current_path);
+        }
+
+        private void writeUpdateScript(string from_path, string to_path)
+        {
+            /*
+            string contents = "@echo Updating Setup Assistant...\r\n";
+            contents += "@echo Please wait...\r\n";
+            contents += "@xcopy /Y \"" + from_path + "\" \"" + to_path + "\"\r\n";
+            contents += "@echo Done.\r\n";
+            contents += "@pause\r\n";
+            contents += "@\""+to_path+"\"\r\n";
+            */
+            string contents = "Dim FSO\r\n";
+            contents += "Set FSO = CreateObject(\"Scripting.FileSystemObject\")\r\n";
+            contents += "FSO.CopyFile \""+ from_path +"\", \""+to_path+"\", True\r\n";
+            contents += "Set wshShell = WScript.CreateObject (\"WSCript.shell\")\r\n";
+            contents += "WshShell.run \"\"\"" + to_path + "\"\"\"\r\n";
+            
+            System.IO.File.WriteAllText(CACHE + @"update.vbs", contents);
         }
 
         private void button130_Click(object sender, EventArgs e)
