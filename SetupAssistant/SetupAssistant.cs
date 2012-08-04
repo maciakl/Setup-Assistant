@@ -3117,6 +3117,14 @@ please file a bug report at http://sa.maciak.net";
             runFromCacheOrDownloadZipfile(file, url, zip);
         }
 
+        private void button206_Click(object sender, EventArgs e)
+        {
+            string url = @"http://dl.pcdecrapifier.com/pc-decrapifier-2.2.8.exe";
+            string file = "pc-decrapifier.exe";
+
+            runFromCacheOrDownload(file, url);
+        }
+
        
         
         //

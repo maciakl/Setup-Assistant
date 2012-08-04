@@ -330,6 +330,7 @@
             this.label11 = new System.Windows.Forms.Label();
             this.helpButton = new System.Windows.Forms.Button();
             this.button205 = new System.Windows.Forms.Button();
+            this.button206 = new System.Windows.Forms.Button();
             this.groupBox1.SuspendLayout();
             this.groupBox2.SuspendLayout();
             this.groupBox3.SuspendLayout();
@@ -1950,7 +1951,7 @@
             this.button82.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button82.Image = ((System.Drawing.Image)(resources.GetObject("button82.Image")));
             this.button82.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.button82.Location = new System.Drawing.Point(6, 77);
+            this.button82.Location = new System.Drawing.Point(6, 63);
             this.button82.Name = "button82";
             this.button82.Size = new System.Drawing.Size(188, 23);
             this.button82.TabIndex = 72;
@@ -1965,7 +1966,7 @@
             this.button81.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button81.Image = ((System.Drawing.Image)(resources.GetObject("button81.Image")));
             this.button81.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.button81.Location = new System.Drawing.Point(6, 48);
+            this.button81.Location = new System.Drawing.Point(6, 39);
             this.button81.Name = "button81";
             this.button81.Size = new System.Drawing.Size(188, 23);
             this.button81.TabIndex = 71;
@@ -1981,7 +1982,7 @@
             this.button80.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button80.Image = ((System.Drawing.Image)(resources.GetObject("button80.Image")));
             this.button80.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.button80.Location = new System.Drawing.Point(6, 19);
+            this.button80.Location = new System.Drawing.Point(6, 15);
             this.button80.Name = "button80";
             this.button80.Size = new System.Drawing.Size(188, 23);
             this.button80.TabIndex = 70;
@@ -4076,9 +4077,9 @@
             this.groupBox43.Controls.Add(this.button152);
             this.groupBox43.Controls.Add(this.button151);
             this.groupBox43.Controls.Add(this.button150);
-            this.groupBox43.Location = new System.Drawing.Point(216, 155);
+            this.groupBox43.Location = new System.Drawing.Point(7, 361);
             this.groupBox43.Name = "groupBox43";
-            this.groupBox43.Size = new System.Drawing.Size(195, 140);
+            this.groupBox43.Size = new System.Drawing.Size(204, 94);
             this.groupBox43.TabIndex = 84;
             this.groupBox43.TabStop = false;
             this.groupBox43.Text = "Windows Update Issues";
@@ -4144,15 +4145,16 @@
             // 
             // groupBox39
             // 
+            this.groupBox39.Controls.Add(this.button206);
             this.groupBox39.Controls.Add(this.button203);
             this.groupBox39.Controls.Add(this.button192);
             this.groupBox39.Controls.Add(this.button191);
             this.groupBox39.Controls.Add(this.button187);
             this.groupBox39.Controls.Add(this.button144);
             this.groupBox39.Controls.Add(this.button129);
-            this.groupBox39.Location = new System.Drawing.Point(417, 155);
+            this.groupBox39.Location = new System.Drawing.Point(217, 155);
             this.groupBox39.Name = "groupBox39";
-            this.groupBox39.Size = new System.Drawing.Size(212, 177);
+            this.groupBox39.Size = new System.Drawing.Size(212, 300);
             this.groupBox39.TabIndex = 83;
             this.groupBox39.TabStop = false;
             this.groupBox39.Text = "Other Useful Tools";
@@ -4262,9 +4264,9 @@
             // 
             this.groupBox37.Controls.Add(this.linkLabel14);
             this.groupBox37.Controls.Add(this.linkLabel1);
-            this.groupBox37.Location = new System.Drawing.Point(7, 226);
+            this.groupBox37.Location = new System.Drawing.Point(7, 197);
             this.groupBox37.Name = "groupBox37";
-            this.groupBox37.Size = new System.Drawing.Size(204, 69);
+            this.groupBox37.Size = new System.Drawing.Size(204, 55);
             this.groupBox37.TabIndex = 82;
             this.groupBox37.TabStop = false;
             this.groupBox37.Text = "Windows Update Links";
@@ -4288,7 +4290,7 @@
             this.linkLabel1.AutoSize = true;
             this.linkLabel1.Image = ((System.Drawing.Image)(resources.GetObject("linkLabel1.Image")));
             this.linkLabel1.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.linkLabel1.Location = new System.Drawing.Point(14, 33);
+            this.linkLabel1.Location = new System.Drawing.Point(14, 32);
             this.linkLabel1.Name = "linkLabel1";
             this.linkLabel1.Padding = new System.Windows.Forms.Padding(20, 0, 0, 0);
             this.linkLabel1.Size = new System.Drawing.Size(162, 13);
@@ -4302,9 +4304,9 @@
             this.groupBox29.Controls.Add(this.button130);
             this.groupBox29.Controls.Add(this.button120);
             this.groupBox29.Controls.Add(this.button119);
-            this.groupBox29.Location = new System.Drawing.Point(417, 334);
+            this.groupBox29.Location = new System.Drawing.Point(435, 312);
             this.groupBox29.Name = "groupBox29";
-            this.groupBox29.Size = new System.Drawing.Size(212, 100);
+            this.groupBox29.Size = new System.Drawing.Size(194, 100);
             this.groupBox29.TabIndex = 81;
             this.groupBox29.TabStop = false;
             this.groupBox29.Text = "Setup Assistant Information";
@@ -4313,7 +4315,7 @@
             // 
             this.button130.Image = ((System.Drawing.Image)(resources.GetObject("button130.Image")));
             this.button130.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.button130.Location = new System.Drawing.Point(20, 69);
+            this.button130.Location = new System.Drawing.Point(11, 70);
             this.button130.Name = "button130";
             this.button130.Size = new System.Drawing.Size(174, 23);
             this.button130.TabIndex = 85;
@@ -4327,7 +4329,7 @@
             // 
             this.button120.Image = ((System.Drawing.Image)(resources.GetObject("button120.Image")));
             this.button120.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.button120.Location = new System.Drawing.Point(20, 44);
+            this.button120.Location = new System.Drawing.Point(11, 44);
             this.button120.Name = "button120";
             this.button120.Size = new System.Drawing.Size(174, 23);
             this.button120.TabIndex = 84;
@@ -4341,7 +4343,7 @@
             // 
             this.button119.Image = ((System.Drawing.Image)(resources.GetObject("button119.Image")));
             this.button119.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.button119.Location = new System.Drawing.Point(20, 19);
+            this.button119.Location = new System.Drawing.Point(11, 19);
             this.button119.Name = "button119";
             this.button119.Size = new System.Drawing.Size(174, 23);
             this.button119.TabIndex = 83;
@@ -4356,7 +4358,7 @@
             this.linkLabel13.AutoSize = true;
             this.linkLabel13.Image = ((System.Drawing.Image)(resources.GetObject("linkLabel13.Image")));
             this.linkLabel13.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.linkLabel13.Location = new System.Drawing.Point(471, 437);
+            this.linkLabel13.Location = new System.Drawing.Point(454, 438);
             this.linkLabel13.Name = "linkLabel13";
             this.linkLabel13.Padding = new System.Windows.Forms.Padding(20, 0, 0, 0);
             this.linkLabel13.Size = new System.Drawing.Size(159, 13);
@@ -4375,7 +4377,7 @@
             this.groupBox25.Controls.Add(this.label4);
             this.groupBox25.Controls.Add(this.button98);
             this.groupBox25.Controls.Add(this.button97);
-            this.groupBox25.Location = new System.Drawing.Point(217, 302);
+            this.groupBox25.Location = new System.Drawing.Point(435, 155);
             this.groupBox25.Name = "groupBox25";
             this.groupBox25.Size = new System.Drawing.Size(194, 148);
             this.groupBox25.TabIndex = 80;
@@ -4576,9 +4578,9 @@
             this.groupBox23.Controls.Add(this.button156);
             this.groupBox23.Controls.Add(this.button163);
             this.groupBox23.Controls.Add(this.button172);
-            this.groupBox23.Location = new System.Drawing.Point(6, 128);
+            this.groupBox23.Location = new System.Drawing.Point(7, 106);
             this.groupBox23.Name = "groupBox23";
-            this.groupBox23.Size = new System.Drawing.Size(204, 92);
+            this.groupBox23.Size = new System.Drawing.Size(204, 85);
             this.groupBox23.TabIndex = 77;
             this.groupBox23.TabStop = false;
             this.groupBox23.Text = "Misc Windows Utils";
@@ -4587,7 +4589,7 @@
             // 
             this.button156.Image = ((System.Drawing.Image)(resources.GetObject("button156.Image")));
             this.button156.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.button156.Location = new System.Drawing.Point(6, 63);
+            this.button156.Location = new System.Drawing.Point(6, 58);
             this.button156.Name = "button156";
             this.button156.Size = new System.Drawing.Size(188, 20);
             this.button156.TabIndex = 84;
@@ -4603,7 +4605,7 @@
             this.button163.ForeColor = System.Drawing.Color.Blue;
             this.button163.Image = ((System.Drawing.Image)(resources.GetObject("button163.Image")));
             this.button163.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.button163.Location = new System.Drawing.Point(6, 40);
+            this.button163.Location = new System.Drawing.Point(6, 37);
             this.button163.Name = "button163";
             this.button163.Size = new System.Drawing.Size(188, 20);
             this.button163.TabIndex = 85;
@@ -4636,9 +4638,9 @@
             this.groupBox20.Controls.Add(this.linkLabel10);
             this.groupBox20.Controls.Add(this.linkLabel9);
             this.groupBox20.Controls.Add(this.linkLabel8);
-            this.groupBox20.Location = new System.Drawing.Point(10, 302);
+            this.groupBox20.Location = new System.Drawing.Point(6, 258);
             this.groupBox20.Name = "groupBox20";
-            this.groupBox20.Size = new System.Drawing.Size(200, 148);
+            this.groupBox20.Size = new System.Drawing.Size(205, 97);
             this.groupBox20.TabIndex = 76;
             this.groupBox20.TabStop = false;
             this.groupBox20.Text = "Microsoft .NET Installers";
@@ -4648,7 +4650,7 @@
             this.linkLabel15.AutoSize = true;
             this.linkLabel15.Image = ((System.Drawing.Image)(resources.GetObject("linkLabel15.Image")));
             this.linkLabel15.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.linkLabel15.Location = new System.Drawing.Point(11, 51);
+            this.linkLabel15.Location = new System.Drawing.Point(11, 35);
             this.linkLabel15.Name = "linkLabel15";
             this.linkLabel15.Padding = new System.Windows.Forms.Padding(20, 0, 0, 0);
             this.linkLabel15.Size = new System.Drawing.Size(171, 13);
@@ -4662,7 +4664,7 @@
             this.linkLabel10.AutoSize = true;
             this.linkLabel10.Image = ((System.Drawing.Image)(resources.GetObject("linkLabel10.Image")));
             this.linkLabel10.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.linkLabel10.Location = new System.Drawing.Point(11, 99);
+            this.linkLabel10.Location = new System.Drawing.Point(11, 72);
             this.linkLabel10.Name = "linkLabel10";
             this.linkLabel10.Padding = new System.Windows.Forms.Padding(20, 0, 0, 0);
             this.linkLabel10.Size = new System.Drawing.Size(171, 13);
@@ -4676,7 +4678,7 @@
             this.linkLabel9.AutoSize = true;
             this.linkLabel9.Image = ((System.Drawing.Image)(resources.GetObject("linkLabel9.Image")));
             this.linkLabel9.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.linkLabel9.Location = new System.Drawing.Point(11, 76);
+            this.linkLabel9.Location = new System.Drawing.Point(11, 54);
             this.linkLabel9.Name = "linkLabel9";
             this.linkLabel9.Padding = new System.Windows.Forms.Padding(20, 0, 0, 0);
             this.linkLabel9.Size = new System.Drawing.Size(171, 13);
@@ -4690,7 +4692,7 @@
             this.linkLabel8.AutoSize = true;
             this.linkLabel8.Image = ((System.Drawing.Image)(resources.GetObject("linkLabel8.Image")));
             this.linkLabel8.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.linkLabel8.Location = new System.Drawing.Point(11, 29);
+            this.linkLabel8.Location = new System.Drawing.Point(11, 17);
             this.linkLabel8.Name = "linkLabel8";
             this.linkLabel8.Padding = new System.Windows.Forms.Padding(20, 0, 0, 0);
             this.linkLabel8.Size = new System.Drawing.Size(171, 13);
@@ -4706,7 +4708,7 @@
             this.groupBox16.Controls.Add(this.button81);
             this.groupBox16.Location = new System.Drawing.Point(6, 6);
             this.groupBox16.Name = "groupBox16";
-            this.groupBox16.Size = new System.Drawing.Size(205, 116);
+            this.groupBox16.Size = new System.Drawing.Size(205, 94);
             this.groupBox16.TabIndex = 74;
             this.groupBox16.TabStop = false;
             this.groupBox16.Text = "Ini Files";
@@ -4834,6 +4836,22 @@
             this.button205.UseVisualStyleBackColor = true;
             this.button205.HelpRequested += new System.Windows.Forms.HelpEventHandler(this.button_HelpRequested);
             this.button205.Click += new System.EventHandler(this.button205_Click);
+            // 
+            // button206
+            // 
+            this.button206.BackColor = System.Drawing.SystemColors.Control;
+            this.button206.ForeColor = System.Drawing.Color.Blue;
+            this.button206.Image = ((System.Drawing.Image)(resources.GetObject("button206.Image")));
+            this.button206.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.button206.Location = new System.Drawing.Point(20, 151);
+            this.button206.Name = "button206";
+            this.button206.Size = new System.Drawing.Size(174, 20);
+            this.button206.TabIndex = 29;
+            this.button206.Tag = resources.GetString("button206.Tag");
+            this.button206.Text = "PC Decrapifier";
+            this.button206.UseVisualStyleBackColor = true;
+            this.button206.HelpRequested += new System.Windows.Forms.HelpEventHandler(this.button_HelpRequested);
+            this.button206.Click += new System.EventHandler(this.button206_Click);
             // 
             // SetupAssistant
             // 
@@ -5229,6 +5247,7 @@
         private System.Windows.Forms.Button button203;
         private System.Windows.Forms.Button button204;
         private System.Windows.Forms.Button button205;
+        private System.Windows.Forms.Button button206;
     }
 }
 
