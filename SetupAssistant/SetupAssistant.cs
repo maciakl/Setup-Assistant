@@ -933,34 +933,53 @@ please file a bug report at http://sa.maciak.net";
 
         private void button55_Click(object sender, EventArgs e)
         {
-            string url = "http://live.sysinternals.com/procexp.exe";
+            //string url = "http://live.sysinternals.com/procexp.exe";
+            string url = @"http://download.sysinternals.com/files/ProcessExplorer.zip";
             string file = "procexp.exe";
+            string zip = "ProcessExplorer.zip";
 
-            runFromCacheOrDownload(file, url);
+            //runFromCacheOrDownload(file, url);
+            runFromCacheOrDownloadZipfile(file, url, zip);
         }
 
         private void button56_Click(object sender, EventArgs e)
         {
-            string url = "http://live.sysinternals.com/autoruns.exe";
-            string file = "autoruns.exe";
 
-            runFromCacheOrDownload(file, url);
+
+            string url = @"http://download.sysinternals.com/files/Autoruns.zip";
+            string file = "autoruns.exe";
+            string zip = "Autoruns.zip";
+
+            //string url = "http://live.sysinternals.com/autoruns.exe";
+            //runFromCacheOrDownload(file, url);
+
+            runFromCacheOrDownloadZipfile(file, url, zip);
+            
+            
         }
 
         private void button57_Click(object sender, EventArgs e)
         {
-            string url = "http://live.sysinternals.com/procmon.exe";
-            string file ="procmon.exe";
+            //string url = "http://live.sysinternals.com/procmon.exe";
 
-            runFromCacheOrDownload(file, url);
+            string url = @"http://download.sysinternals.com/files/ProcessMonitor.zip";
+            string file ="Procmon.exe";
+            string zip = @"ProcessMonitor.zip";
+
+            runFromCacheOrDownloadZipfile(file, url, zip);
+            //runFromCacheOrDownload(file, url);
         }
 
         private void button58_Click(object sender, EventArgs e)
         {
-            string url = "http://live.sysinternals.com/TcpView.exe";
-            string file = "TcpView.exe";
+            //string url = "http://live.sysinternals.com/TcpView.exe";
 
-            runFromCacheOrDownload(file, url);
+            string url = @"http://download.sysinternals.com/files/TCPView.zip";
+            string file = "Tcpview.exe";
+            string zip = "TCPView.zip";
+
+            runFromCacheOrDownloadZipfile(file, url, zip);
+            //runFromCacheOrDownload(file, url);
         }
 
         private void button61_Click(object sender, EventArgs e)
@@ -1661,10 +1680,14 @@ please file a bug report at http://sa.maciak.net";
 
         private void button74_Click_2(object sender, EventArgs e)
         {
-            string url = "http://live.sysinternals.com/pagedfrg.exe";
-            string file = "pagedfrg.exe";
+            //string url = "http://live.sysinternals.com/pagedfrg.exe";
 
-            runFromCacheOrDownload(file, url);
+            string url = @"http://download.sysinternals.com/files/PageDefrag.zip";
+            string file = "pagedfrg.exe";
+            string zip = "PageDefrag.zip";
+
+            //runFromCacheOrDownload(file, url);
+            runFromCacheOrDownloadZipfile(file, url, zip);
         }
 
         private void button112_Click_1(object sender, EventArgs e)
@@ -3083,6 +3106,15 @@ please file a bug report at http://sa.maciak.net";
             string file = @"tweaking.com_windows_repair_aio_setup.exe";
 
             runFromCacheOrDownload(file, url);
+        }
+
+        private void button205_Click(object sender, EventArgs e)
+        {
+            string url = @"http://www.rjlsoftware.com/download/viewmem.zip";
+            string file = "viewmem.exe";
+            string zip = "viewmem.zip";
+
+            runFromCacheOrDownloadZipfile(file, url, zip);
         }
 
        
