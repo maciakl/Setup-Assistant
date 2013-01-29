@@ -1898,9 +1898,8 @@ please file a bug report at http://sa.maciak.net";
         {
              
             Version newVersion = null;
-            string versionURL = "http://sa.maciak.net/version.txt";
-            string downloadURL = "http://sa.maciak.net/download";
-
+            string versionURL = "http://maciakl.bitbucket.org/version.txt";
+            
             HttpWebRequest hwRequest = (HttpWebRequest)WebRequest.Create(versionURL);
             hwRequest.Timeout = 15000;
             HttpWebResponse hwResponse = null;
@@ -1923,7 +1922,8 @@ please file a bug report at http://sa.maciak.net";
             catch (Exception ex)
             {
                 using (new CenterWinDialog(this))
-                    MessageBox.Show(this, ex.StackTrace, ex.Message, MessageBoxButtons.OK, MessageBoxIcon.Error);
+                    MessageBox.Show(this, "Unable to check for updates. Please check internet connection or firewall settings", "Update Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                    //MessageBox.Show(this, ex.StackTrace, ex.Message, MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
             finally
             {
@@ -1960,7 +1960,7 @@ please file a bug report at http://sa.maciak.net";
 
         private void downloadUpdate()
         {
-            string url = @"http://sa.maciak.net/SetupAssistant.zip";
+            string url = @"http://maciakl.bitbucket.org/SetupAssistant.zip";
             string current_path = System.IO.Path.GetDirectoryName(System.Diagnostics.Process.GetCurrentProcess().MainModule.FileName) + @"\Setup-Assistant.exe";
             string cache_path = CACHE + @"SetupAssistant.zip";
             string file_path = CACHE + @"Setup-Assistant.exe";
@@ -3121,6 +3121,29 @@ please file a bug report at http://sa.maciak.net";
         {
             string url = @"http://dl.pcdecrapifier.com/pc-decrapifier-2.2.8.exe";
             string file = "pc-decrapifier.exe";
+
+            runFromCacheOrDownload(file, url);
+        }
+
+        private void button207_Click(object sender, EventArgs e)
+        {
+            Process.Start("control", "appwiz.cpl,,2");
+        }
+
+        private void button208_Click(object sender, EventArgs e)
+        {
+            Process.Start("control", "wscui.cpl");
+        }
+
+        private void button209_Click(object sender, EventArgs e)
+        {
+            Process.Start("control", "firewall.cpl");
+        }
+
+        private void button210_Click(object sender, EventArgs e)
+        {
+            string url = @"http://dl.surfright.nl/HitmanPro_x64.exe";
+            string file = @"HitmanPro64.exe";
 
             runFromCacheOrDownload(file, url);
         }

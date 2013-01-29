@@ -100,6 +100,9 @@
             this.button65 = new System.Windows.Forms.Button();
             this.button64 = new System.Windows.Forms.Button();
             this.groupBox2 = new System.Windows.Forms.GroupBox();
+            this.button209 = new System.Windows.Forms.Button();
+            this.button208 = new System.Windows.Forms.Button();
+            this.button207 = new System.Windows.Forms.Button();
             this.button197 = new System.Windows.Forms.Button();
             this.button196 = new System.Windows.Forms.Button();
             this.button195 = new System.Windows.Forms.Button();
@@ -117,6 +120,7 @@
             this.groupBox5 = new System.Windows.Forms.GroupBox();
             this.button85 = new System.Windows.Forms.Button();
             this.groupBox7 = new System.Windows.Forms.GroupBox();
+            this.button205 = new System.Windows.Forms.Button();
             this.button164 = new System.Windows.Forms.Button();
             this.button84 = new System.Windows.Forms.Button();
             this.button28 = new System.Windows.Forms.Button();
@@ -280,6 +284,7 @@
             this.button151 = new System.Windows.Forms.Button();
             this.button150 = new System.Windows.Forms.Button();
             this.groupBox39 = new System.Windows.Forms.GroupBox();
+            this.button206 = new System.Windows.Forms.Button();
             this.button203 = new System.Windows.Forms.Button();
             this.button192 = new System.Windows.Forms.Button();
             this.button191 = new System.Windows.Forms.Button();
@@ -329,8 +334,7 @@
             this.label10 = new System.Windows.Forms.Label();
             this.label11 = new System.Windows.Forms.Label();
             this.helpButton = new System.Windows.Forms.Button();
-            this.button205 = new System.Windows.Forms.Button();
-            this.button206 = new System.Windows.Forms.Button();
+            this.button210 = new System.Windows.Forms.Button();
             this.groupBox1.SuspendLayout();
             this.groupBox2.SuspendLayout();
             this.groupBox3.SuspendLayout();
@@ -779,7 +783,7 @@
             // 
             this.button30.Image = ((System.Drawing.Image)(resources.GetObject("button30.Image")));
             this.button30.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.button30.Location = new System.Drawing.Point(15, 107);
+            this.button30.Location = new System.Drawing.Point(14, 128);
             this.button30.Name = "button30";
             this.button30.Size = new System.Drawing.Size(178, 20);
             this.button30.TabIndex = 29;
@@ -837,10 +841,11 @@
             this.button34.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.button34.Location = new System.Drawing.Point(15, 65);
             this.button34.Name = "button34";
-            this.button34.Size = new System.Drawing.Size(178, 20);
+            this.button34.Size = new System.Drawing.Size(89, 20);
             this.button34.TabIndex = 33;
             this.button34.Tag = "Opens the MSCONFIG console. ";
             this.button34.Text = "MSCONFIG";
+            this.button34.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             this.button34.UseVisualStyleBackColor = true;
             this.button34.HelpRequested += new System.Windows.Forms.HelpEventHandler(this.button_HelpRequested);
             this.button34.Click += new System.EventHandler(this.button34_Click);
@@ -1409,6 +1414,9 @@
             // 
             // groupBox2
             // 
+            this.groupBox2.Controls.Add(this.button209);
+            this.groupBox2.Controls.Add(this.button208);
+            this.groupBox2.Controls.Add(this.button207);
             this.groupBox2.Controls.Add(this.button197);
             this.groupBox2.Controls.Add(this.button196);
             this.groupBox2.Controls.Add(this.button195);
@@ -1431,6 +1439,49 @@
             this.groupBox2.TabIndex = 64;
             this.groupBox2.TabStop = false;
             this.groupBox2.Text = "Core OS Utils";
+            // 
+            // button209
+            // 
+            this.button209.Image = ((System.Drawing.Image)(resources.GetObject("button209.Image")));
+            this.button209.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.button209.Location = new System.Drawing.Point(107, 65);
+            this.button209.Name = "button209";
+            this.button209.Size = new System.Drawing.Size(86, 20);
+            this.button209.TabIndex = 46;
+            this.button209.Tag = "Opens Windows Firewal config panel.";
+            this.button209.Text = "Firewall";
+            this.button209.UseVisualStyleBackColor = true;
+            this.button209.HelpRequested += new System.Windows.Forms.HelpEventHandler(this.button_HelpRequested);
+            this.button209.Click += new System.EventHandler(this.button209_Click);
+            // 
+            // button208
+            // 
+            this.button208.Image = ((System.Drawing.Image)(resources.GetObject("button208.Image")));
+            this.button208.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.button208.Location = new System.Drawing.Point(106, 107);
+            this.button208.Name = "button208";
+            this.button208.Size = new System.Drawing.Size(86, 20);
+            this.button208.TabIndex = 45;
+            this.button208.Tag = "Opens Windows Security Center.";
+            this.button208.Text = "Security";
+            this.button208.UseVisualStyleBackColor = true;
+            this.button208.HelpRequested += new System.Windows.Forms.HelpEventHandler(this.button_HelpRequested);
+            this.button208.Click += new System.EventHandler(this.button208_Click);
+            // 
+            // button207
+            // 
+            this.button207.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button207.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.button207.Location = new System.Drawing.Point(307, 107);
+            this.button207.Name = "button207";
+            this.button207.Size = new System.Drawing.Size(80, 20);
+            this.button207.TabIndex = 44;
+            this.button207.Tag = "Opens Windows component management console where you can enable or disable compon" +
+                "ents.";
+            this.button207.Text = "Components";
+            this.button207.UseVisualStyleBackColor = true;
+            this.button207.HelpRequested += new System.Windows.Forms.HelpEventHandler(this.button_HelpRequested);
+            this.button207.Click += new System.EventHandler(this.button207_Click);
             // 
             // button197
             // 
@@ -1485,9 +1536,9 @@
             // 
             this.button79.Image = ((System.Drawing.Image)(resources.GetObject("button79.Image")));
             this.button79.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.button79.Location = new System.Drawing.Point(15, 128);
+            this.button79.Location = new System.Drawing.Point(15, 107);
             this.button79.Name = "button79";
-            this.button79.Size = new System.Drawing.Size(177, 20);
+            this.button79.Size = new System.Drawing.Size(89, 20);
             this.button79.TabIndex = 40;
             this.button79.Tag = "Opens Windows Task manager.";
             this.button79.Text = "Tasks";
@@ -1516,11 +1567,12 @@
             this.button66.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.button66.Location = new System.Drawing.Point(207, 107);
             this.button66.Name = "button66";
-            this.button66.Size = new System.Drawing.Size(181, 20);
+            this.button66.Size = new System.Drawing.Size(98, 20);
             this.button66.TabIndex = 38;
             this.button66.Tag = "Opens Windows program management console where you can uninstall or repair instal" +
                 "led programs.";
-            this.button66.Text = "Add/Remove Programs";
+            this.button66.Text = "Add/Remove";
+            this.button66.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             this.button66.UseVisualStyleBackColor = true;
             this.button66.HelpRequested += new System.Windows.Forms.HelpEventHandler(this.button_HelpRequested);
             this.button66.Click += new System.EventHandler(this.button66_Click);
@@ -1686,6 +1738,22 @@
             this.groupBox7.TabIndex = 69;
             this.groupBox7.TabStop = false;
             this.groupBox7.Text = "System Information";
+            // 
+            // button205
+            // 
+            this.button205.BackColor = System.Drawing.SystemColors.Control;
+            this.button205.ForeColor = System.Drawing.Color.Blue;
+            this.button205.Image = ((System.Drawing.Image)(resources.GetObject("button205.Image")));
+            this.button205.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.button205.Location = new System.Drawing.Point(15, 77);
+            this.button205.Name = "button205";
+            this.button205.Size = new System.Drawing.Size(163, 20);
+            this.button205.TabIndex = 44;
+            this.button205.Tag = resources.GetString("button205.Tag");
+            this.button205.Text = "Memory Viewer (RJL)";
+            this.button205.UseVisualStyleBackColor = true;
+            this.button205.HelpRequested += new System.Windows.Forms.HelpEventHandler(this.button_HelpRequested);
+            this.button205.Click += new System.EventHandler(this.button205_Click);
             // 
             // button164
             // 
@@ -2750,6 +2818,7 @@
             // 
             // groupBox31
             // 
+            this.groupBox31.Controls.Add(this.button210);
             this.groupBox31.Controls.Add(this.button114);
             this.groupBox31.Controls.Add(this.button190);
             this.groupBox31.Controls.Add(this.button143);
@@ -2776,7 +2845,7 @@
             this.button114.Size = new System.Drawing.Size(180, 20);
             this.button114.TabIndex = 48;
             this.button114.Tag = "Hitman Pro cloud based anti-malware scanner.";
-            this.button114.Text = "Hitman Pro";
+            this.button114.Text = "Hitman Pro 32 Bit";
             this.button114.UseVisualStyleBackColor = true;
             this.button114.HelpRequested += new System.Windows.Forms.HelpEventHandler(this.button_HelpRequested);
             this.button114.Click += new System.EventHandler(this.button114_Click_1);
@@ -4159,6 +4228,22 @@
             this.groupBox39.TabStop = false;
             this.groupBox39.Text = "Other Useful Tools";
             // 
+            // button206
+            // 
+            this.button206.BackColor = System.Drawing.SystemColors.Control;
+            this.button206.ForeColor = System.Drawing.Color.Blue;
+            this.button206.Image = ((System.Drawing.Image)(resources.GetObject("button206.Image")));
+            this.button206.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.button206.Location = new System.Drawing.Point(20, 151);
+            this.button206.Name = "button206";
+            this.button206.Size = new System.Drawing.Size(174, 20);
+            this.button206.TabIndex = 29;
+            this.button206.Tag = resources.GetString("button206.Tag");
+            this.button206.Text = "PC Decrapifier";
+            this.button206.UseVisualStyleBackColor = true;
+            this.button206.HelpRequested += new System.Windows.Forms.HelpEventHandler(this.button_HelpRequested);
+            this.button206.Click += new System.EventHandler(this.button206_Click);
+            // 
             // button203
             // 
             this.button203.BackColor = System.Drawing.SystemColors.Control;
@@ -4821,37 +4906,20 @@
             this.helpButton.UseVisualStyleBackColor = true;
             this.helpButton.Click += new System.EventHandler(this.button144_Click);
             // 
-            // button205
+            // button210
             // 
-            this.button205.BackColor = System.Drawing.SystemColors.Control;
-            this.button205.ForeColor = System.Drawing.Color.Blue;
-            this.button205.Image = ((System.Drawing.Image)(resources.GetObject("button205.Image")));
-            this.button205.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.button205.Location = new System.Drawing.Point(15, 77);
-            this.button205.Name = "button205";
-            this.button205.Size = new System.Drawing.Size(163, 20);
-            this.button205.TabIndex = 44;
-            this.button205.Tag = resources.GetString("button205.Tag");
-            this.button205.Text = "Memory Viewer (RJL)";
-            this.button205.UseVisualStyleBackColor = true;
-            this.button205.HelpRequested += new System.Windows.Forms.HelpEventHandler(this.button_HelpRequested);
-            this.button205.Click += new System.EventHandler(this.button205_Click);
-            // 
-            // button206
-            // 
-            this.button206.BackColor = System.Drawing.SystemColors.Control;
-            this.button206.ForeColor = System.Drawing.Color.Blue;
-            this.button206.Image = ((System.Drawing.Image)(resources.GetObject("button206.Image")));
-            this.button206.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.button206.Location = new System.Drawing.Point(20, 151);
-            this.button206.Name = "button206";
-            this.button206.Size = new System.Drawing.Size(174, 20);
-            this.button206.TabIndex = 29;
-            this.button206.Tag = resources.GetString("button206.Tag");
-            this.button206.Text = "PC Decrapifier";
-            this.button206.UseVisualStyleBackColor = true;
-            this.button206.HelpRequested += new System.Windows.Forms.HelpEventHandler(this.button_HelpRequested);
-            this.button206.Click += new System.EventHandler(this.button206_Click);
+            this.button210.BackColor = System.Drawing.SystemColors.Control;
+            this.button210.ForeColor = System.Drawing.Color.Blue;
+            this.button210.Image = ((System.Drawing.Image)(resources.GetObject("button210.Image")));
+            this.button210.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.button210.Location = new System.Drawing.Point(6, 191);
+            this.button210.Name = "button210";
+            this.button210.Size = new System.Drawing.Size(180, 20);
+            this.button210.TabIndex = 49;
+            this.button210.Tag = "Hitman Pro cloud based anti-malware scanner.";
+            this.button210.Text = "Hitman Pro 64 Bit";
+            this.button210.UseVisualStyleBackColor = true;
+            this.button210.Click += new System.EventHandler(this.button210_Click);
             // 
             // SetupAssistant
             // 
@@ -5248,6 +5316,10 @@
         private System.Windows.Forms.Button button204;
         private System.Windows.Forms.Button button205;
         private System.Windows.Forms.Button button206;
+        private System.Windows.Forms.Button button207;
+        private System.Windows.Forms.Button button208;
+        private System.Windows.Forms.Button button209;
+        private System.Windows.Forms.Button button210;
     }
 }
 
