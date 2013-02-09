@@ -1347,12 +1347,12 @@ please file a bug report at http://sa.maciak.net";
 
         private void linkLabel13_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
         {
-            Process.Start("http://sa.maciak.net");
+            Process.Start("http://setupassistant.org");
         }
 
         private void linkLabel14_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
         {
-            Process.Start("http://sites.maciak.net/setup-assistant");
+            Process.Start("http://setupassistant.org");
         }
 
         private void button95_Click(object sender, EventArgs e)

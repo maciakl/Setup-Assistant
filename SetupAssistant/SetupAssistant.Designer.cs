@@ -193,6 +193,7 @@
             this.button112 = new System.Windows.Forms.Button();
             this.button76 = new System.Windows.Forms.Button();
             this.groupBox31 = new System.Windows.Forms.GroupBox();
+            this.button210 = new System.Windows.Forms.Button();
             this.button114 = new System.Windows.Forms.Button();
             this.button190 = new System.Windows.Forms.Button();
             this.button143 = new System.Windows.Forms.Button();
@@ -334,7 +335,6 @@
             this.label10 = new System.Windows.Forms.Label();
             this.label11 = new System.Windows.Forms.Label();
             this.helpButton = new System.Windows.Forms.Button();
-            this.button210 = new System.Windows.Forms.Button();
             this.groupBox1.SuspendLayout();
             this.groupBox2.SuspendLayout();
             this.groupBox3.SuspendLayout();
@@ -2834,6 +2834,21 @@
             this.groupBox31.TabStop = false;
             this.groupBox31.Text = "Removal Tools";
             // 
+            // button210
+            // 
+            this.button210.BackColor = System.Drawing.SystemColors.Control;
+            this.button210.ForeColor = System.Drawing.Color.Blue;
+            this.button210.Image = ((System.Drawing.Image)(resources.GetObject("button210.Image")));
+            this.button210.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.button210.Location = new System.Drawing.Point(6, 191);
+            this.button210.Name = "button210";
+            this.button210.Size = new System.Drawing.Size(180, 20);
+            this.button210.TabIndex = 49;
+            this.button210.Tag = "Hitman Pro cloud based anti-malware scanner.";
+            this.button210.Text = "Hitman Pro 64 Bit";
+            this.button210.UseVisualStyleBackColor = true;
+            this.button210.Click += new System.EventHandler(this.button210_Click);
+            // 
             // button114
             // 
             this.button114.BackColor = System.Drawing.SystemColors.Control;
@@ -4263,6 +4278,7 @@
             // button192
             // 
             this.button192.BackColor = System.Drawing.SystemColors.Control;
+            this.button192.Enabled = false;
             this.button192.ForeColor = System.Drawing.Color.Blue;
             this.button192.Image = ((System.Drawing.Image)(resources.GetObject("button192.Image")));
             this.button192.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -4905,21 +4921,6 @@
             this.helpButton.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.helpButton.UseVisualStyleBackColor = true;
             this.helpButton.Click += new System.EventHandler(this.button144_Click);
-            // 
-            // button210
-            // 
-            this.button210.BackColor = System.Drawing.SystemColors.Control;
-            this.button210.ForeColor = System.Drawing.Color.Blue;
-            this.button210.Image = ((System.Drawing.Image)(resources.GetObject("button210.Image")));
-            this.button210.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.button210.Location = new System.Drawing.Point(6, 191);
-            this.button210.Name = "button210";
-            this.button210.Size = new System.Drawing.Size(180, 20);
-            this.button210.TabIndex = 49;
-            this.button210.Tag = "Hitman Pro cloud based anti-malware scanner.";
-            this.button210.Text = "Hitman Pro 64 Bit";
-            this.button210.UseVisualStyleBackColor = true;
-            this.button210.Click += new System.EventHandler(this.button210_Click);
             // 
             // SetupAssistant
             // 
