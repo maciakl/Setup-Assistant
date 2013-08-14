@@ -4940,7 +4940,7 @@
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.MaximizeBox = false;
             this.Name = "SetupAssistant";
-            this.Text = "Luke\'s Setup Assistant - Configuration and Diagnostics Tool (sa.maciak.net)";
+            this.Text = "Luke\'s Setup Assistant - Configuration and Diagnostics Tool (setupassistant.org)";
             this.groupBox1.ResumeLayout(false);
             this.groupBox2.ResumeLayout(false);
             this.groupBox3.ResumeLayout(false);
