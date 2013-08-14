@@ -3164,6 +3164,14 @@ please file a bug report at http://setupassistant.org";
             runFromCacheOrDownload(file, url);
         }
 
+        private void button213_Click(object sender, EventArgs e)
+        {
+            string url = @"http://download.bleepingcomputer.com/farbar/FSS.exe";
+            string file = @"FSS.exe";
+
+            runFromCacheOrDownload(file, url);
+        }
+
        
         
         //

@@ -337,6 +337,7 @@
             this.helpButton = new System.Windows.Forms.Button();
             this.button211 = new System.Windows.Forms.Button();
             this.button212 = new System.Windows.Forms.Button();
+            this.button213 = new System.Windows.Forms.Button();
             this.groupBox1.SuspendLayout();
             this.groupBox2.SuspendLayout();
             this.groupBox3.SuspendLayout();
@@ -913,7 +914,7 @@
             // 
             this.button39.Image = ((System.Drawing.Image)(resources.GetObject("button39.Image")));
             this.button39.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.button39.Location = new System.Drawing.Point(6, 42);
+            this.button39.Location = new System.Drawing.Point(6, 38);
             this.button39.Name = "button39";
             this.button39.Size = new System.Drawing.Size(192, 23);
             this.button39.TabIndex = 38;
@@ -1090,7 +1091,7 @@
             // 
             this.button51.Image = ((System.Drawing.Image)(resources.GetObject("button51.Image")));
             this.button51.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.button51.Location = new System.Drawing.Point(7, 90);
+            this.button51.Location = new System.Drawing.Point(7, 86);
             this.button51.Name = "button51";
             this.button51.Size = new System.Drawing.Size(192, 23);
             this.button51.TabIndex = 50;
@@ -1105,7 +1106,7 @@
             // 
             this.button52.Image = ((System.Drawing.Image)(resources.GetObject("button52.Image")));
             this.button52.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.button52.Location = new System.Drawing.Point(6, 66);
+            this.button52.Location = new System.Drawing.Point(6, 62);
             this.button52.Name = "button52";
             this.button52.Size = new System.Drawing.Size(193, 23);
             this.button52.TabIndex = 51;
@@ -1148,7 +1149,7 @@
             // 
             this.button54.Image = ((System.Drawing.Image)(resources.GetObject("button54.Image")));
             this.button54.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.button54.Location = new System.Drawing.Point(7, 19);
+            this.button54.Location = new System.Drawing.Point(7, 15);
             this.button54.Name = "button54";
             this.button54.Size = new System.Drawing.Size(192, 23);
             this.button54.TabIndex = 55;
@@ -1214,7 +1215,7 @@
             this.button58.ForeColor = System.Drawing.Color.Blue;
             this.button58.Image = ((System.Drawing.Image)(resources.GetObject("button58.Image")));
             this.button58.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.button58.Location = new System.Drawing.Point(7, 114);
+            this.button58.Location = new System.Drawing.Point(7, 110);
             this.button58.Name = "button58";
             this.button58.Size = new System.Drawing.Size(191, 23);
             this.button58.TabIndex = 59;
@@ -3622,6 +3623,7 @@
             // 
             // groupBox21
             // 
+            this.groupBox21.Controls.Add(this.button213);
             this.groupBox21.Controls.Add(this.button212);
             this.groupBox21.Controls.Add(this.button58);
             this.groupBox21.Controls.Add(this.button54);
@@ -4949,15 +4951,31 @@
             this.button212.ForeColor = System.Drawing.Color.Blue;
             this.button212.Image = ((System.Drawing.Image)(resources.GetObject("button212.Image")));
             this.button212.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.button212.Location = new System.Drawing.Point(7, 138);
+            this.button212.Location = new System.Drawing.Point(7, 134);
             this.button212.Name = "button212";
             this.button212.Size = new System.Drawing.Size(191, 23);
             this.button212.TabIndex = 60;
-            this.button212.Tag = "Network diagnostic tool with multiple options.";
+            this.button212.Tag = resources.GetString("button212.Tag");
             this.button212.Text = "MiniToolBox";
             this.button212.UseVisualStyleBackColor = true;
             this.button212.HelpRequested += new System.Windows.Forms.HelpEventHandler(this.button_HelpRequested);
             this.button212.Click += new System.EventHandler(this.button212_Click);
+            // 
+            // button213
+            // 
+            this.button213.BackColor = System.Drawing.SystemColors.Control;
+            this.button213.ForeColor = System.Drawing.Color.Blue;
+            this.button213.Image = ((System.Drawing.Image)(resources.GetObject("button213.Image")));
+            this.button213.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.button213.Location = new System.Drawing.Point(7, 157);
+            this.button213.Name = "button213";
+            this.button213.Size = new System.Drawing.Size(191, 23);
+            this.button213.TabIndex = 61;
+            this.button213.Tag = "Farbar Service Scanner allows you to diagnose network connectivity issues due to " +
+                "corrupted or missing Windows services.";
+            this.button213.Text = "Farbar Service Scanner";
+            this.button213.UseVisualStyleBackColor = true;
+            this.button213.Click += new System.EventHandler(this.button213_Click);
             // 
             // SetupAssistant
             // 
@@ -5360,6 +5378,7 @@
         private System.Windows.Forms.Button button210;
         private System.Windows.Forms.Button button211;
         private System.Windows.Forms.Button button212;
+        private System.Windows.Forms.Button button213;
     }
 }
 
