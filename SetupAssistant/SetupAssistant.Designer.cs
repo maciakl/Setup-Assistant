@@ -2755,6 +2755,7 @@
             // button139
             // 
             this.button139.BackColor = System.Drawing.SystemColors.Control;
+            this.button139.Enabled = false;
             this.button139.ForeColor = System.Drawing.Color.Blue;
             this.button139.Image = ((System.Drawing.Image)(resources.GetObject("button139.Image")));
             this.button139.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
