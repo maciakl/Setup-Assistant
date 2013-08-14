@@ -62,7 +62,7 @@ namespace SetupAssistant
 
 The website seems to be down or blocked.
 Please try again later. If the problem continues
-please file a bug report at http://sa.maciak.net";
+please file a bug report at http://setupassistant.org";
                 
         private System.Windows.Forms.Label helpLabel;
 
@@ -1736,7 +1736,7 @@ please file a bug report at http://sa.maciak.net";
         {
             
 
-            string license = "Luke's Setup Assistant is a FREEWARE tool. \r\n\r\n" + "You are allowed to use and install it on any computer, for unlimited duration of time without any usage restictions. \r\n\r\n" + "This tools provided by the author and contributors \"as is\" and any express or implied warranties, including, but not limited to, the implied warranties of merchantability and fitness for a particular purpose are disclaimed. In no event shall the author or contributors be liable for any direct, indirect, incidental, special, exemplary, or consequential damages (including, but not limited to, procurement of substitute goods or services; loss of use, data, or profits; or business interruption) however caused and on any theory of liability, whether in contract, strict liability, or tort (including negligence or otherwise) arising in any way out of the use of this software, even if advised of the possibility of such damage.\r\n\r\nSee: http://sa.maciak.net/license";
+            string license = "Luke's Setup Assistant is a FREEWARE tool. \r\n\r\n" + "You are allowed to use and install it on any computer, for unlimited duration of time without any usage restictions. \r\n\r\n" + "This tools provided by the author and contributors \"as is\" and any express or implied warranties, including, but not limited to, the implied warranties of merchantability and fitness for a particular purpose are disclaimed. In no event shall the author or contributors be liable for any direct, indirect, incidental, special, exemplary, or consequential damages (including, but not limited to, procurement of substitute goods or services; loss of use, data, or profits; or business interruption) however caused and on any theory of liability, whether in contract, strict liability, or tort (including negligence or otherwise) arising in any way out of the use of this software, even if advised of the possibility of such damage.\r\n\r\nSee: http://setupassistant.org/";
             
             InformationBox f = new InformationBox(license, "License Information");
             f.ShowDialog(this);
@@ -3144,6 +3144,14 @@ please file a bug report at http://sa.maciak.net";
         {
             string url = @"http://dl.surfright.nl/HitmanPro_x64.exe";
             string file = @"HitmanPro64.exe";
+
+            runFromCacheOrDownload(file, url);
+        }
+
+        private void button211_Click(object sender, EventArgs e)
+        {
+            string url = @"http://kb.eset.com/library/ESET/KB%20Team%20Only/Malware/ServicesRepair.exe";
+            string file = @"ServicesRepair.exe";
 
             runFromCacheOrDownload(file, url);
         }

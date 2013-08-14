@@ -335,6 +335,7 @@
             this.label10 = new System.Windows.Forms.Label();
             this.label11 = new System.Windows.Forms.Label();
             this.helpButton = new System.Windows.Forms.Button();
+            this.button211 = new System.Windows.Forms.Button();
             this.groupBox1.SuspendLayout();
             this.groupBox2.SuspendLayout();
             this.groupBox3.SuspendLayout();
@@ -4229,6 +4230,7 @@
             // 
             // groupBox39
             // 
+            this.groupBox39.Controls.Add(this.button211);
             this.groupBox39.Controls.Add(this.button206);
             this.groupBox39.Controls.Add(this.button203);
             this.groupBox39.Controls.Add(this.button192);
@@ -4254,7 +4256,7 @@
             this.button206.Size = new System.Drawing.Size(174, 20);
             this.button206.TabIndex = 29;
             this.button206.Tag = resources.GetString("button206.Tag");
-            this.button206.Text = "PC Decrapifier";
+            this.button206.Text = "PC Decrapifier Installer";
             this.button206.UseVisualStyleBackColor = true;
             this.button206.HelpRequested += new System.Windows.Forms.HelpEventHandler(this.button_HelpRequested);
             this.button206.Click += new System.EventHandler(this.button206_Click);
@@ -4922,6 +4924,22 @@
             this.helpButton.UseVisualStyleBackColor = true;
             this.helpButton.Click += new System.EventHandler(this.button144_Click);
             // 
+            // button211
+            // 
+            this.button211.BackColor = System.Drawing.SystemColors.Control;
+            this.button211.ForeColor = System.Drawing.Color.Blue;
+            this.button211.Image = ((System.Drawing.Image)(resources.GetObject("button211.Image")));
+            this.button211.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.button211.Location = new System.Drawing.Point(19, 172);
+            this.button211.Name = "button211";
+            this.button211.Size = new System.Drawing.Size(174, 20);
+            this.button211.TabIndex = 30;
+            this.button211.Tag = "Repair broken services. Tool by ESET AV company.";
+            this.button211.Text = "ESET Services Repair";
+            this.button211.UseVisualStyleBackColor = true;
+            this.button211.HelpRequested += new System.Windows.Forms.HelpEventHandler(this.button_HelpRequested);
+            this.button211.Click += new System.EventHandler(this.button211_Click);
+            // 
             // SetupAssistant
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -5321,6 +5339,7 @@
         private System.Windows.Forms.Button button208;
         private System.Windows.Forms.Button button209;
         private System.Windows.Forms.Button button210;
+        private System.Windows.Forms.Button button211;
     }
 }
 
