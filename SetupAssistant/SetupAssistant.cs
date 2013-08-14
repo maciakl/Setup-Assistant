@@ -3156,6 +3156,14 @@ please file a bug report at http://setupassistant.org";
             runFromCacheOrDownload(file, url);
         }
 
+        private void button212_Click(object sender, EventArgs e)
+        {
+            string url = @"http://download.bleepingcomputer.com/farbar/MiniToolBox.exe";
+            string file = @"MiniToolBox.exe";
+
+            runFromCacheOrDownload(file, url);
+        }
+
        
         
         //
