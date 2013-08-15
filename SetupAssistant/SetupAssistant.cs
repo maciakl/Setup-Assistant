@@ -3172,6 +3172,14 @@ please file a bug report at http://setupassistant.org";
             runFromCacheOrDownload(file, url);
         }
 
+        private void button214_Click(object sender, EventArgs e)
+        {
+            string url = @"http://downloads.malwarebytes.org/file/mbar";
+            string file = @"mbar.exe";
+
+            runFromCacheOrDownload(file, url);
+        }
+
        
         
         //
