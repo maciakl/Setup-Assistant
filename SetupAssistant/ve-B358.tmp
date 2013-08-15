@@ -2132,6 +2132,14 @@ please file a bug report at http://setupassistant.org";
             runFromCacheOrDownload(file, url);
         }
 
+        private void button139_Click(object sender, EventArgs e)
+        {
+            string url = "http://www.kernelmode.info/ARKs/RKUnhookerLE.EXE";
+            string file = "RKUnhookerLE.EXE";
+
+            runFromCacheOrDownload(file, url);
+        }
+
         private void button140_Click(object sender, EventArgs e)
         {
             string url = "http://images.malwareremoval.com/random/RSIT.exe";
@@ -3168,14 +3176,6 @@ please file a bug report at http://setupassistant.org";
         {
             string url = @"http://downloads.malwarebytes.org/file/mbar";
             string file = @"mbar.exe";
-
-            runFromCacheOrDownload(file, url);
-        }
-
-        private void button139_Click(object sender, EventArgs e)
-        {
-            string url = @"http://download.bleepingcomputer.com/Xplode/AdwCleaner.exe";
-            string file = @"AdwCleaner.exe";
 
             runFromCacheOrDownload(file, url);
         }

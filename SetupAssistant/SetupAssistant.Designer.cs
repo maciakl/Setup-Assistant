@@ -180,7 +180,6 @@
             this.linkLabel18 = new System.Windows.Forms.LinkLabel();
             this.linkLabel17 = new System.Windows.Forms.LinkLabel();
             this.groupBox32 = new System.Windows.Forms.GroupBox();
-            this.button204 = new System.Windows.Forms.Button();
             this.button202 = new System.Windows.Forms.Button();
             this.button201 = new System.Windows.Forms.Button();
             this.button194 = new System.Windows.Forms.Button();
@@ -189,7 +188,6 @@
             this.button183 = new System.Windows.Forms.Button();
             this.button169 = new System.Windows.Forms.Button();
             this.button147 = new System.Windows.Forms.Button();
-            this.button139 = new System.Windows.Forms.Button();
             this.button125 = new System.Windows.Forms.Button();
             this.button112 = new System.Windows.Forms.Button();
             this.button76 = new System.Windows.Forms.Button();
@@ -339,6 +337,8 @@
             this.label10 = new System.Windows.Forms.Label();
             this.label11 = new System.Windows.Forms.Label();
             this.helpButton = new System.Windows.Forms.Button();
+            this.button204 = new System.Windows.Forms.Button();
+            this.button139 = new System.Windows.Forms.Button();
             this.groupBox1.SuspendLayout();
             this.groupBox2.SuspendLayout();
             this.groupBox3.SuspendLayout();
@@ -2604,6 +2604,7 @@
             // 
             // groupBox32
             // 
+            this.groupBox32.Controls.Add(this.button139);
             this.groupBox32.Controls.Add(this.button204);
             this.groupBox32.Controls.Add(this.button202);
             this.groupBox32.Controls.Add(this.button201);
@@ -2613,7 +2614,6 @@
             this.groupBox32.Controls.Add(this.button183);
             this.groupBox32.Controls.Add(this.button169);
             this.groupBox32.Controls.Add(this.button147);
-            this.groupBox32.Controls.Add(this.button139);
             this.groupBox32.Controls.Add(this.button125);
             this.groupBox32.Controls.Add(this.button112);
             this.groupBox32.Controls.Add(this.button76);
@@ -2624,29 +2624,13 @@
             this.groupBox32.TabStop = false;
             this.groupBox32.Text = "Misc Tools";
             // 
-            // button204
-            // 
-            this.button204.BackColor = System.Drawing.SystemColors.Control;
-            this.button204.ForeColor = System.Drawing.Color.Blue;
-            this.button204.Image = ((System.Drawing.Image)(resources.GetObject("button204.Image")));
-            this.button204.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.button204.Location = new System.Drawing.Point(5, 254);
-            this.button204.Name = "button204";
-            this.button204.Size = new System.Drawing.Size(183, 20);
-            this.button204.TabIndex = 54;
-            this.button204.Tag = resources.GetString("button204.Tag");
-            this.button204.Text = "WinRepair Installer";
-            this.button204.UseVisualStyleBackColor = true;
-            this.button204.HelpRequested += new System.Windows.Forms.HelpEventHandler(this.button_HelpRequested);
-            this.button204.Click += new System.EventHandler(this.button204_Click);
-            // 
             // button202
             // 
             this.button202.BackColor = System.Drawing.SystemColors.Control;
             this.button202.ForeColor = System.Drawing.Color.Blue;
             this.button202.Image = ((System.Drawing.Image)(resources.GetObject("button202.Image")));
             this.button202.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.button202.Location = new System.Drawing.Point(5, 233);
+            this.button202.Location = new System.Drawing.Point(5, 197);
             this.button202.Name = "button202";
             this.button202.Size = new System.Drawing.Size(183, 20);
             this.button202.TabIndex = 53;
@@ -2662,7 +2646,7 @@
             this.button201.ForeColor = System.Drawing.Color.Blue;
             this.button201.Image = ((System.Drawing.Image)(resources.GetObject("button201.Image")));
             this.button201.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.button201.Location = new System.Drawing.Point(5, 212);
+            this.button201.Location = new System.Drawing.Point(5, 177);
             this.button201.Name = "button201";
             this.button201.Size = new System.Drawing.Size(183, 20);
             this.button201.TabIndex = 52;
@@ -2678,7 +2662,7 @@
             this.button194.ForeColor = System.Drawing.Color.Blue;
             this.button194.Image = ((System.Drawing.Image)(resources.GetObject("button194.Image")));
             this.button194.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.button194.Location = new System.Drawing.Point(6, 274);
+            this.button194.Location = new System.Drawing.Point(6, 278);
             this.button194.Name = "button194";
             this.button194.Size = new System.Drawing.Size(183, 20);
             this.button194.TabIndex = 51;
@@ -2694,7 +2678,7 @@
             this.button189.ForeColor = System.Drawing.Color.Blue;
             this.button189.Image = ((System.Drawing.Image)(resources.GetObject("button189.Image")));
             this.button189.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.button189.Location = new System.Drawing.Point(5, 191);
+            this.button189.Location = new System.Drawing.Point(5, 157);
             this.button189.Name = "button189";
             this.button189.Size = new System.Drawing.Size(183, 20);
             this.button189.TabIndex = 50;
@@ -2712,7 +2696,7 @@
             this.button188.ForeColor = System.Drawing.Color.Blue;
             this.button188.Image = ((System.Drawing.Image)(resources.GetObject("button188.Image")));
             this.button188.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.button188.Location = new System.Drawing.Point(5, 170);
+            this.button188.Location = new System.Drawing.Point(5, 137);
             this.button188.Name = "button188";
             this.button188.Size = new System.Drawing.Size(183, 20);
             this.button188.TabIndex = 49;
@@ -2745,7 +2729,7 @@
             this.button169.ForeColor = System.Drawing.Color.Blue;
             this.button169.Image = ((System.Drawing.Image)(resources.GetObject("button169.Image")));
             this.button169.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.button169.Location = new System.Drawing.Point(5, 149);
+            this.button169.Location = new System.Drawing.Point(5, 117);
             this.button169.Name = "button169";
             this.button169.Size = new System.Drawing.Size(183, 20);
             this.button169.TabIndex = 47;
@@ -2762,7 +2746,7 @@
             this.button147.ForeColor = System.Drawing.Color.Blue;
             this.button147.Image = ((System.Drawing.Image)(resources.GetObject("button147.Image")));
             this.button147.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.button147.Location = new System.Drawing.Point(5, 127);
+            this.button147.Location = new System.Drawing.Point(5, 97);
             this.button147.Name = "button147";
             this.button147.Size = new System.Drawing.Size(183, 20);
             this.button147.TabIndex = 46;
@@ -2772,30 +2756,13 @@
             this.button147.HelpRequested += new System.Windows.Forms.HelpEventHandler(this.button_HelpRequested);
             this.button147.Click += new System.EventHandler(this.button147_Click);
             // 
-            // button139
-            // 
-            this.button139.BackColor = System.Drawing.SystemColors.Control;
-            this.button139.Enabled = false;
-            this.button139.ForeColor = System.Drawing.Color.Blue;
-            this.button139.Image = ((System.Drawing.Image)(resources.GetObject("button139.Image")));
-            this.button139.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.button139.Location = new System.Drawing.Point(5, 105);
-            this.button139.Name = "button139";
-            this.button139.Size = new System.Drawing.Size(183, 20);
-            this.button139.TabIndex = 43;
-            this.button139.Tag = "Rootkit removal tool. Use with caution.";
-            this.button139.Text = "RootKit Unhooker LE";
-            this.button139.UseVisualStyleBackColor = true;
-            this.button139.HelpRequested += new System.Windows.Forms.HelpEventHandler(this.button_HelpRequested);
-            this.button139.Click += new System.EventHandler(this.button139_Click);
-            // 
             // button125
             // 
             this.button125.BackColor = System.Drawing.SystemColors.Control;
             this.button125.ForeColor = System.Drawing.Color.Blue;
             this.button125.Image = ((System.Drawing.Image)(resources.GetObject("button125.Image")));
             this.button125.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.button125.Location = new System.Drawing.Point(5, 82);
+            this.button125.Location = new System.Drawing.Point(5, 77);
             this.button125.Name = "button125";
             this.button125.Size = new System.Drawing.Size(183, 20);
             this.button125.TabIndex = 42;
@@ -2811,7 +2778,7 @@
             this.button112.ForeColor = System.Drawing.Color.Blue;
             this.button112.Image = ((System.Drawing.Image)(resources.GetObject("button112.Image")));
             this.button112.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.button112.Location = new System.Drawing.Point(5, 60);
+            this.button112.Location = new System.Drawing.Point(5, 57);
             this.button112.Name = "button112";
             this.button112.Size = new System.Drawing.Size(183, 20);
             this.button112.TabIndex = 41;
@@ -2828,7 +2795,7 @@
             this.button76.ForeColor = System.Drawing.Color.Blue;
             this.button76.Image = ((System.Drawing.Image)(resources.GetObject("button76.Image")));
             this.button76.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.button76.Location = new System.Drawing.Point(5, 39);
+            this.button76.Location = new System.Drawing.Point(5, 37);
             this.button76.Name = "button76";
             this.button76.Size = new System.Drawing.Size(183, 20);
             this.button76.TabIndex = 40;
@@ -4995,6 +4962,38 @@
             this.helpButton.UseVisualStyleBackColor = true;
             this.helpButton.Click += new System.EventHandler(this.button144_Click);
             // 
+            // button204
+            // 
+            this.button204.BackColor = System.Drawing.SystemColors.Control;
+            this.button204.ForeColor = System.Drawing.Color.Blue;
+            this.button204.Image = ((System.Drawing.Image)(resources.GetObject("button204.Image")));
+            this.button204.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.button204.Location = new System.Drawing.Point(5, 217);
+            this.button204.Name = "button204";
+            this.button204.Size = new System.Drawing.Size(183, 20);
+            this.button204.TabIndex = 54;
+            this.button204.Tag = resources.GetString("button204.Tag");
+            this.button204.Text = "WinRepair Installer";
+            this.button204.UseVisualStyleBackColor = true;
+            this.button204.HelpRequested += new System.Windows.Forms.HelpEventHandler(this.button_HelpRequested);
+            this.button204.Click += new System.EventHandler(this.button204_Click);
+            // 
+            // button139
+            // 
+            this.button139.BackColor = System.Drawing.SystemColors.Control;
+            this.button139.ForeColor = System.Drawing.Color.Blue;
+            this.button139.Image = ((System.Drawing.Image)(resources.GetObject("button139.Image")));
+            this.button139.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.button139.Location = new System.Drawing.Point(6, 237);
+            this.button139.Name = "button139";
+            this.button139.Size = new System.Drawing.Size(183, 20);
+            this.button139.TabIndex = 55;
+            this.button139.Tag = resources.GetString("button139.Tag");
+            this.button139.Text = "ADW Cleaner";
+            this.button139.UseVisualStyleBackColor = true;
+            this.button139.HelpRequested += new System.Windows.Forms.HelpEventHandler(this.button_HelpRequested);
+            this.button139.Click += new System.EventHandler(this.button139_Click);
+            // 
             // SetupAssistant
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -5303,7 +5302,6 @@
         private System.Windows.Forms.Label label6;
         private System.Windows.Forms.Label label7;
         private System.Windows.Forms.NumericUpDown CacheAge;
-        private System.Windows.Forms.Button button139;
         private System.Windows.Forms.Button button140;
         private System.Windows.Forms.Button button121;
         private System.Windows.Forms.Label label8;
@@ -5387,7 +5385,6 @@
         private System.Windows.Forms.Button button201;
         private System.Windows.Forms.Button button202;
         private System.Windows.Forms.Button button203;
-        private System.Windows.Forms.Button button204;
         private System.Windows.Forms.Button button205;
         private System.Windows.Forms.Button button206;
         private System.Windows.Forms.Button button207;
@@ -5398,6 +5395,8 @@
         private System.Windows.Forms.Button button212;
         private System.Windows.Forms.Button button213;
         private System.Windows.Forms.Button button214;
+        private System.Windows.Forms.Button button204;
+        private System.Windows.Forms.Button button139;
     }
 }
 
