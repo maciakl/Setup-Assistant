@@ -1314,6 +1314,30 @@
         AW/QSeHo+DmHAAAAAElFTkSuQmCC
 </value>
   </data>
+  <data name="button215.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAAgY0hSTQAAeiYAAICEAAD6AAAAgOgAAHUwAADqYAAAOpgAABdwnLpRPAAAA3VJREFUOE89kltM
+        nFUUhX/wxZj4VMJl7pd/bjADTOcG8zMDQynYy3AbhgFKAWkDBdMoARRKAS1YIdW2VGJqbEx8IbXS4CVS
+        lRDbqKQ8GBMbLal9aEJBsDFNaR9MDPk8Q2xPsvbZ52StdfbeOSmZukz+3UZ6up5LkaT051OljBdSJduL
+        qRIpKdKjf7al3x8jrT/ZlrafMf9P0lQZpKnSd+CyZDEQ0TFaqsNizKQ3rOWTgzpmq3V8FdMzUaHHY8t6
+        xk9qpV3qDHaJpMylYrZGz/UGI9/U6fHaVdjMWST8WoaKNVyr1TEvTD6tMVCRpyZZeVIrpYngE+Qv40YW
+        EgZ+OmRiodFEuVuLxaLGaFahMaoodKi4tF/HgjCZixkIu9SkazOR1PpMLlaZ+LHJuIPlNpkrcRN2OQu1
+        EOrMakxWLeMVBnw5GqajRm62mJmJm9GbVEiRfB2LTSaWW82sHHewdNSGV7z2gTDNtmvQCpJBVnOjRWbx
+        sEys0MBSq8xCs0w0YEDq2WPiRpuFxTYr0zVmmhU9H8dlbh6x0ldqwGTRoORq+Lld5tdjNuoVI98fMu+c
+        R/eZkcajFr5olOmP6Lkq9t+6bCwfy+ZSvZWelyzk5hkJeYx81iAzk5CZqDSz3GHfqXamxYF0psbCrW47
+        t7tt3OvL4b06G4GAlUDQQTBoJ6BkEw1bufuqg/lWK6eiVpY6HdwfymO2w4k0dEBm9UQeG6NuYeDkoCLa
+        KHfQXOWmrNxNKJLL2WYX33Xk8G1nDrcH8lk/5WWl18l0o6igrtjCnT4Xm8JgXbgeLZOZ63Dxx6iPeKyQ
+        RDzIrUEPr9c62Rz38ehckMdTCptv+3itKhvJ45W51unkwZiH1ZP5DNc6uPuWj6V+DxX7PPQ0edk6r3Cm
+        3ceDd/w8nAzw5P0QK6eDokUbkq/QTnfMzZ1hL/dGPHz0ci5/CffrvbtRwk7aqnfTK0wGD/u4fFxwJhX+
+        vhBmsNWPUixmkBxS6d58+gVp7hU3F9vzWBvzsXHaz9pEAX8KPJwq4ocTBXzeF2D1bIgPe4rZH/UTKcsX
+        H0mEEoHkxfARhV/GilibDLLxrsLWdJgtIb5/LszG+TBX3gjxZlcx1bWFVFYXcKDSj5RMkuKnaEoojHVH
+        uDxQwvxICV+PlHL1ZClTvXvpat9DfaKImliQxoYQ8foi/gPQpfYdHwhjXQAAAABJRU5ErkJggg==
+</value>
+  </data>
+  <data name="button215.Tag" xml:space="preserve">
+    <value>Junkware Removal Tool is a security utility that searches for and removes common adware, toolbars, and potentially unwanted programs (PUPs) from your computer.  A common tactics among freeware publishers is to offer their products for free, but bundle them with PUPs in order to earn revenue.  This tool will help you remove these types of programs.</value>
+  </data>
   <data name="button139.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8

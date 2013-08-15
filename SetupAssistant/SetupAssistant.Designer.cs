@@ -339,6 +339,7 @@
             this.helpButton = new System.Windows.Forms.Button();
             this.button204 = new System.Windows.Forms.Button();
             this.button139 = new System.Windows.Forms.Button();
+            this.button215 = new System.Windows.Forms.Button();
             this.groupBox1.SuspendLayout();
             this.groupBox2.SuspendLayout();
             this.groupBox3.SuspendLayout();
@@ -2604,6 +2605,7 @@
             // 
             // groupBox32
             // 
+            this.groupBox32.Controls.Add(this.button215);
             this.groupBox32.Controls.Add(this.button139);
             this.groupBox32.Controls.Add(this.button204);
             this.groupBox32.Controls.Add(this.button202);
@@ -2662,7 +2664,7 @@
             this.button194.ForeColor = System.Drawing.Color.Blue;
             this.button194.Image = ((System.Drawing.Image)(resources.GetObject("button194.Image")));
             this.button194.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.button194.Location = new System.Drawing.Point(6, 278);
+            this.button194.Location = new System.Drawing.Point(6, 277);
             this.button194.Name = "button194";
             this.button194.Size = new System.Drawing.Size(183, 20);
             this.button194.TabIndex = 51;
@@ -4994,6 +4996,22 @@
             this.button139.HelpRequested += new System.Windows.Forms.HelpEventHandler(this.button_HelpRequested);
             this.button139.Click += new System.EventHandler(this.button139_Click);
             // 
+            // button215
+            // 
+            this.button215.BackColor = System.Drawing.SystemColors.Control;
+            this.button215.ForeColor = System.Drawing.Color.Blue;
+            this.button215.Image = ((System.Drawing.Image)(resources.GetObject("button215.Image")));
+            this.button215.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.button215.Location = new System.Drawing.Point(6, 257);
+            this.button215.Name = "button215";
+            this.button215.Size = new System.Drawing.Size(183, 20);
+            this.button215.TabIndex = 56;
+            this.button215.Tag = resources.GetString("button215.Tag");
+            this.button215.Text = "Junkware Removal Tool";
+            this.button215.UseVisualStyleBackColor = true;
+            this.button215.HelpRequested += new System.Windows.Forms.HelpEventHandler(this.button_HelpRequested);
+            this.button215.Click += new System.EventHandler(this.button215_Click);
+            // 
             // SetupAssistant
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -5397,6 +5415,7 @@
         private System.Windows.Forms.Button button214;
         private System.Windows.Forms.Button button204;
         private System.Windows.Forms.Button button139;
+        private System.Windows.Forms.Button button215;
     }
 }
 

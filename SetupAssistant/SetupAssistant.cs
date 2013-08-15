@@ -3180,6 +3180,14 @@ please file a bug report at http://setupassistant.org";
             runFromCacheOrDownload(file, url);
         }
 
+        private void button215_Click(object sender, EventArgs e)
+        {
+            string url = @"http://thisisudax.org/downloads/JRT.exe";
+            string file = @"JRT.exe";
+
+            runFromCacheOrDownload(file, url);
+        }
+
        
         
         //
