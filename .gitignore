@@ -1,1 +1,6 @@
-Thumbs.db
+[Tt]humbs.db
+*.[Cc]ache
+*.bak
+*.log
+*.tmp
+[Oo]bj

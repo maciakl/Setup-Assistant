@@ -34,3 +34,21 @@ E:\My Dropbox\Programming\SetupAssistant\SetupAssistant\obj\Debug\SetupAssistant
 C:\Users\luke\Documents\My Dropbox\Programming\SetupAssistant\SetupAssistant\obj\Debug\SetupAssistant.InformationBox.resources
 E:\My Dropbox\Programming\SetupAssistant\SetupAssistant\obj\Debug\SetupAssistant.CDKeyMgmt.resources
 C:\Users\luke\Documents\My Dropbox\Programming\SetupAssistant\SetupAssistant\obj\Debug\SetupAssistant.CDKeyMgmt.resources
+C:\Users\luke\Dropbox\Programming\SetupAssistant\SetupAssistant\bin\Debug\SetupAssistant.exe.config
+C:\Users\luke\Dropbox\Programming\SetupAssistant\SetupAssistant\obj\Debug\SetupAssistant.exe
+C:\Users\luke\Dropbox\Programming\SetupAssistant\SetupAssistant\obj\Debug\SetupAssistant.pdb
+C:\Users\luke\Dropbox\Programming\SetupAssistant\SetupAssistant\bin\Debug\SetupAssistant.exe
+C:\Users\luke\Dropbox\Programming\SetupAssistant\SetupAssistant\bin\Debug\SetupAssistant.pdb
+C:\Users\luke\Dropbox\Programming\SetupAssistant\SetupAssistant\bin\Debug\Ionic.Zip.dll
+C:\Users\luke\Dropbox\Programming\SetupAssistant\SetupAssistant\obj\Debug\SetupAssistant.csprojResolveAssemblyReference.cache
+C:\Users\luke\Dropbox\Programming\SetupAssistant\SetupAssistant\obj\Debug\SetupAssistant.AboutBox1.resources
+C:\Users\luke\Dropbox\Programming\SetupAssistant\SetupAssistant\obj\Debug\SetupAssistant.CDKeyMgmt.resources
+C:\Users\luke\Dropbox\Programming\SetupAssistant\SetupAssistant\obj\Debug\SetupAssistant.SAProgressBar.resources
+C:\Users\luke\Dropbox\Programming\SetupAssistant\SetupAssistant\obj\Debug\SetupAssistant.NetTester.resources
+C:\Users\luke\Dropbox\Programming\SetupAssistant\SetupAssistant\obj\Debug\SetupAssistant.SetupAssistant.resources
+C:\Users\luke\Dropbox\Programming\SetupAssistant\SetupAssistant\obj\Debug\SetupAssistant.InformationBox.resources
+C:\Users\luke\Dropbox\Programming\SetupAssistant\SetupAssistant\obj\Debug\SetupAssistant.PingBox.resources
+C:\Users\luke\Dropbox\Programming\SetupAssistant\SetupAssistant\obj\Debug\SetupAssistant.Properties.Resources.resources
+C:\Users\luke\Dropbox\Programming\SetupAssistant\SetupAssistant\obj\Debug\SetupAssistant.Resource1.resources
+C:\Users\luke\Dropbox\Programming\SetupAssistant\SetupAssistant\obj\Debug\SetupAssistant.Info.resources
+C:\Users\luke\Dropbox\Programming\SetupAssistant\SetupAssistant\obj\Debug\SetupAssistant.csproj.GenerateResource.Cache
