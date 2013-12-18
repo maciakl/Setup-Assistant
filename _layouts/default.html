@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Luke's Setup Assistant</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Luke's Setup Assistant">
+    <meta name="author" content="Lukasz Grzegorz Maciak">
+
+    <!-- Le styles -->
+    <link href="components/bootstrap/css/bootstrap.css" rel="stylesheet">
+    <style type="text/css">
+      body {
+        padding-top: 20px;
+        padding-bottom: 10px;
+      }
+
+      div.hero-unit {
+          padding: 30px;
+          margin-bottom: 15px;
+      }
+
+    </style>
+    <link href="components/bootstrap/css/bootstrap-responsive.css" rel="stylesheet">
+
+    <!-- Le HTML5 shim, for IE6-8 support of HTML5 elements -->
+    <!--[if lt IE 9]>
+      <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+
+    <!-- Le fav and touch icons -->
+    <!--
+    <link rel="shortcut icon" href="../assets/ico/favicon.ico">
+    <link rel="apple-touch-icon-precomposed" sizes="114x114" href="../assets/ico/apple-touch-icon-114-precomposed.png">
+    <link rel="apple-touch-icon-precomposed" sizes="72x72" href="../assets/ico/apple-touch-icon-72-precomposed.png">
+    <link rel="apple-touch-icon-precomposed" href="../assets/ico/apple-touch-icon-57-precomposed.png">
+    -->
+  </head>
+
+  <body>
+
+
+    <div class="container">
+    <ul class="nav nav-tabs">
+        <li class="{{ page.active-home }}"><a href="/">Home</a></li>
+        <li class="{{ page.active-license }}"><a href="/license">License</a></li>
+        <li class="{{ page.active-changelog }}"><a href="/changelog">Changelog</a></li>
+        <li class="{{ page.active-old}}"><a href="/old">Old Versions</a></li>
+    </ul>
+
+        {{ content }}
+
+      <hr>
+
+      <footer>
+        <p>&copy; Lukasz Grzegorz Maciak 2012</p>
+      </footer>
+
+    </div> <!-- /container -->
+
+    <!-- Le javascript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="components/jquery/jquery.min.js"></script>
+
+  </body>
+</html>
+

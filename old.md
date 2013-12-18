@@ -1,7 +1,17 @@
-Please note that for best user experience you should use the most recent SetupAssistant version.
- 
-Old Version Download Links:
 ---
+title: Old Versions
+layout: default
+active-old: active
+
+---
+
+#Old Versions
+
+Please note that for best user experience you should use the most recent SetupAssistant version.
+
+---
+ 
+####Download Links:
 
 *   [v1.5.4][1]
 *   [v1.4.0][2]
