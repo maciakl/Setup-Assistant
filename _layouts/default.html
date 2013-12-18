@@ -19,8 +19,8 @@
       }
 
     </style>
-    <link href="components/bootstrap/css/bootstrap.css" rel="stylesheet">
-    <link href="components/bootstrap/css/bootstrap-responsive.css" rel="stylesheet">
+    <link href="bower_components/bootstrap/css/bootstrap.css" rel="stylesheet">
+    <link href="bower_components/bootstrap/css/bootstrap-responsive.css" rel="stylesheet">
 
     <!-- Le HTML5 shim, for IE6-8 support of HTML5 elements -->
     <!--[if lt IE 9]>
@@ -31,7 +31,7 @@
 
   <body>
 
-    <div class="container">
+    <nav class="container">
         <div class="navbar">
             <div class="navbar-inner">
                 <div class="container">
@@ -50,12 +50,12 @@
                             <li class="{{ page.active-changelog }}"><a href="/changelog">Changelog</a></li>
                             <li class="{{ page.active-old}}"><a href="/old">Old Versions</a></li>
                         </ul>
-                    </div>
-                </div>
-            </div>
-        </div>
+                    </div><!-- collapse -->
+                </div><!-- container -->
+            </div><!-- navbar-inner -->
+        </div><!-- navbar -->
 
-    </div>
+    </nav><!-- container -->
 
     <div class="container">
 
@@ -73,7 +73,8 @@
     <!-- Le javascript
     ================================================== -->
     <!-- Placed at the end of the document so the pages load faster -->
-    <script src="components/jquery/jquery.min.js"></script>
+    <script src="bower_components/jquery/jquery.min.js"></script>
+    <script src="bower_components/bootstrap/js/bootstrap.min.js"></script>
 
   </body>
 </html>

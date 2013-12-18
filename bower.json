@@ -1,0 +1,14 @@
+{
+  "name": "Setup-Assistant",
+  "version": "0.0.0",
+  "homepage": "https://github.com/maciakl/Setup-Assistant",
+  "authors": [
+    "Luke Maciak <luke@maciak.net>"
+  ],
+  "license": "MIT",
+  "private": true,
+  "dependencies": {
+    "bootstrap": "http://getbootstrap.com/2.3.2/assets/bootstrap.zip",
+    "jquery": "~2.0.3"
+  }
+}
