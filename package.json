@@ -1,0 +1,9 @@
+{
+  "author": "",
+  "name": "SetupAssistant",
+  "version": "0.0.1",
+  "dependencies": {},
+  "devDependencies": {
+    "grunt-html": "~0.2.x"
+  }
+}
