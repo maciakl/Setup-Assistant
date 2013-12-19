@@ -1,16 +1,14 @@
 ---
 title: Old Versions
-layout: default
+subtitle: Download previous releases
+layout: page
 active-old: active
 
 ---
 
-#Old Versions
+Below you can find a list of previously released versions. Feel free to use any of them but be aware
+that they might include bugs that were fixed in later releases.
 
-Please note that for best user experience you should use the most recent SetupAssistant version.
-
----
- 
 ####Download Links:
 
 *   [v1.5.4][1]
@@ -27,6 +25,8 @@ Please note that for best user experience you should use the most recent SetupAs
 *   [v0.9][12]
 *   [v0.8][13]
 *   [v0.7][14]
+
+<span class="alert"><strong>Note</strong>: for best user experience you should use the most recent SetupAssistant version.</span>
 
  [1]: http://sa.maciak.net/SetupAssistant%20v1.5.4.zip
  [2]: http://sa.maciak.net/SetupAssistant%20v1.4.0.zip

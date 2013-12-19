@@ -1,11 +1,8 @@
 ---
 title: License
-layout: default
+subtitle: And terms of use
+layout: page
 active-license: active
-
----
-
-#License
 
 ---
 

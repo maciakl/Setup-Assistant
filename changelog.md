@@ -1,11 +1,8 @@
 ---
 title: Changelog
-layout: default
+subtitle: See what changed
+layout: page
 active-changelog: active
-
----
-
-#Changelog
 
 ---
 
