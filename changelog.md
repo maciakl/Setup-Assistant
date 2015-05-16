@@ -6,6 +6,17 @@ active-changelog: active
 
 ---
 
+####Changes in version 1.9.1 (May 15, 2015)
+
+- Removed VundoFix and Virtuomundo buttons
+- Added McAfee Rootkit Remover
+- Added Panda AntiRootkit
+- Fixed Malwarebytes installer link
+- Added Kaspersky removal tool
+- Added link to Microsoft PSR tool
+- Fixed MS Office key Mgr to work on x64 machines
+- Removed CrossLoop button
+
 ####Changes in version 1.8.1 (Feb 09, 2013)
 
 * Changed links on the Misc page #6
