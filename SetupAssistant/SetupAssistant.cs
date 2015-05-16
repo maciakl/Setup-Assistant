@@ -1620,7 +1620,7 @@ please file a bug report at http://setupassistant.org";
 
         private void button73_Click_1(object sender, EventArgs e)
         {
-            string url = "http://support.kaspersky.com/downloads/utils/tdsskiller.exe";
+            string url = "http://media.kaspersky.com/utilities/VirusUtilities/EN/tdsskiller.exe";
             string file = "tdsskiller.exe";
 
             runFromCacheOrDownload(file, url);
@@ -1898,7 +1898,7 @@ please file a bug report at http://setupassistant.org";
         {
              
             Version newVersion = null;
-            string versionURL = "http://maciakl.bitbucket.org/version.txt";
+            string versionURL = "http://setupassistant.org/version.txt";
             
             HttpWebRequest hwRequest = (HttpWebRequest)WebRequest.Create(versionURL);
             hwRequest.Timeout = 15000;
@@ -1960,7 +1960,7 @@ please file a bug report at http://setupassistant.org";
 
         private void downloadUpdate()
         {
-            string url = @"http://maciakl.bitbucket.org/SetupAssistant.zip";
+            string url = @"http://setupassistant.org/SetupAssistant.zip";
             string current_path = System.IO.Path.GetDirectoryName(System.Diagnostics.Process.GetCurrentProcess().MainModule.FileName) + @"\Setup-Assistant.exe";
             string cache_path = CACHE + @"SetupAssistant.zip";
             string file_path = CACHE + @"Setup-Assistant.exe";
@@ -2104,7 +2104,7 @@ please file a bug report at http://setupassistant.org";
 
         private void button136_Click(object sender, EventArgs e)
         {
-            string url = "http://malwarebytes.org/mbam-download-exe-random.php";
+            string url = "http://downloads.malwarebytes.org/file/mbam/";
             string file = "mbam-rules.exe";
 
             runFromCacheOrDownload(file, url);
@@ -2163,16 +2163,16 @@ please file a bug report at http://setupassistant.org";
 
         private void button141_Click(object sender, EventArgs e)
         {
-            string url = "http://www.atribune.org/ccount/click.php?id=4";
-            string file = "VundoFix.exe";
+            string url = "http://downloadcenter.mcafee.com/products/mcafee-avert/rr/rootkitremover.exe";
+            string file = "mcafee-rootkit-remover.exe";
 
             runFromCacheOrDownload(file, url);
         }
 
         private void button142_Click(object sender, EventArgs e)
         {
-            string url = "http://secured2k.home.comcast.net/tools/VirtumundoBeGone.exe";
-            string file = "VirtumundoBeGone.exe";
+            string url = "http://acs.pandasoftware.com/marketing/promo/en/antirootkit.exe";
+            string file = "panda-antirootkit.exe";
 
             runFromCacheOrDownload(file, url);
         }
@@ -3186,6 +3186,21 @@ please file a bug report at http://setupassistant.org";
             string file = @"JRT.exe";
 
             runFromCacheOrDownload(file, url);
+        }
+
+        private void button216_Click(object sender, EventArgs e)
+        {
+            string url = @"http://support.kaspersky.com/downloads/utils/kavremover.zip";
+            string file = "kavremover.exe";
+            string zip = "kavremover.zip";
+
+            runFromCacheOrDownloadZipfile(file, url, zip);
+        }
+
+        private void button217_Click(object sender, EventArgs e)
+        {
+            try { Process.Start("psr"); }
+            catch { }
         }
 
        

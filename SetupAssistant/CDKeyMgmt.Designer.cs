@@ -34,7 +34,8 @@
             this.label3 = new System.Windows.Forms.Label();
             this.office2003btn = new System.Windows.Forms.Button();
             this.office2007btn = new System.Windows.Forms.Button();
-            this.office2010btn = new System.Windows.Forms.Button();
+            this.x64office2003btn = new System.Windows.Forms.Button();
+            this.x64office2007btn = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // label1
@@ -58,7 +59,7 @@
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(12, 170);
+            this.label3.Location = new System.Drawing.Point(12, 231);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(342, 13);
             this.label3.TabIndex = 2;
@@ -86,23 +87,35 @@
             this.office2007btn.UseVisualStyleBackColor = true;
             this.office2007btn.Click += new System.EventHandler(this.office2007btn_Click);
             // 
-            // office2010btn
+            // x64office2003btn
             // 
-            this.office2010btn.Enabled = false;
-            this.office2010btn.Location = new System.Drawing.Point(15, 124);
-            this.office2010btn.Name = "office2010btn";
-            this.office2010btn.Size = new System.Drawing.Size(343, 30);
-            this.office2010btn.TabIndex = 5;
-            this.office2010btn.Text = "Remove Key for Office 2010";
-            this.office2010btn.UseVisualStyleBackColor = true;
-            this.office2010btn.Click += new System.EventHandler(this.office2010btn_Click);
+            this.x64office2003btn.Enabled = false;
+            this.x64office2003btn.Location = new System.Drawing.Point(15, 124);
+            this.x64office2003btn.Name = "x64office2003btn";
+            this.x64office2003btn.Size = new System.Drawing.Size(343, 30);
+            this.x64office2003btn.TabIndex = 5;
+            this.x64office2003btn.Text = "x64 Remove Key for Office 2003";
+            this.x64office2003btn.UseVisualStyleBackColor = true;
+            this.x64office2003btn.Click += new System.EventHandler(this.x64office2003btn_Click);
+            // 
+            // x64office2007btn
+            // 
+            this.x64office2007btn.Enabled = false;
+            this.x64office2007btn.Location = new System.Drawing.Point(15, 160);
+            this.x64office2007btn.Name = "x64office2007btn";
+            this.x64office2007btn.Size = new System.Drawing.Size(343, 30);
+            this.x64office2007btn.TabIndex = 6;
+            this.x64office2007btn.Text = "x64 Remove Key for Office 2007";
+            this.x64office2007btn.UseVisualStyleBackColor = true;
+            this.x64office2007btn.Click += new System.EventHandler(this.x64office2007btn_Click);
             // 
             // CDKeyMgmt
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(378, 192);
-            this.Controls.Add(this.office2010btn);
+            this.ClientSize = new System.Drawing.Size(378, 255);
+            this.Controls.Add(this.x64office2007btn);
+            this.Controls.Add(this.x64office2003btn);
             this.Controls.Add(this.office2007btn);
             this.Controls.Add(this.office2003btn);
             this.Controls.Add(this.label3);
@@ -126,6 +139,7 @@
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Button office2003btn;
         private System.Windows.Forms.Button office2007btn;
-        private System.Windows.Forms.Button office2010btn;
+        private System.Windows.Forms.Button x64office2003btn;
+        private System.Windows.Forms.Button x64office2007btn;
     }
 }

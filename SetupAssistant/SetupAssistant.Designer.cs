@@ -132,7 +132,6 @@
             this.groupBox9 = new System.Windows.Forms.GroupBox();
             this.button198 = new System.Windows.Forms.Button();
             this.button90 = new System.Windows.Forms.Button();
-            this.button89 = new System.Windows.Forms.Button();
             this.button70 = new System.Windows.Forms.Button();
             this.button69 = new System.Windows.Forms.Button();
             this.groupBox11 = new System.Windows.Forms.GroupBox();
@@ -145,6 +144,7 @@
             this.tabControl1 = new System.Windows.Forms.TabControl();
             this.tabPage1 = new System.Windows.Forms.TabPage();
             this.groupBox44 = new System.Windows.Forms.GroupBox();
+            this.button217 = new System.Windows.Forms.Button();
             this.button155 = new System.Windows.Forms.Button();
             this.button154 = new System.Windows.Forms.Button();
             this.button153 = new System.Windows.Forms.Button();
@@ -154,7 +154,7 @@
             this.groupBox12 = new System.Windows.Forms.GroupBox();
             this.tabPage6 = new System.Windows.Forms.TabPage();
             this.groupBox47 = new System.Windows.Forms.GroupBox();
-            this.linkLabel5 = new System.Windows.Forms.LinkLabel();
+            this.button216 = new System.Windows.Forms.Button();
             this.button170 = new System.Windows.Forms.Button();
             this.groupBox41 = new System.Windows.Forms.GroupBox();
             this.button214 = new System.Windows.Forms.Button();
@@ -162,9 +162,9 @@
             this.button137 = new System.Windows.Forms.Button();
             this.button136 = new System.Windows.Forms.Button();
             this.groupBox18 = new System.Windows.Forms.GroupBox();
+            this.linkLabel5 = new System.Windows.Forms.LinkLabel();
             this.linkLabel27 = new System.Windows.Forms.LinkLabel();
             this.linkLabel25 = new System.Windows.Forms.LinkLabel();
-            this.linkLabel11 = new System.Windows.Forms.LinkLabel();
             this.linkLabel4 = new System.Windows.Forms.LinkLabel();
             this.linkLabel3 = new System.Windows.Forms.LinkLabel();
             this.groupBox36 = new System.Windows.Forms.GroupBox();
@@ -180,6 +180,9 @@
             this.linkLabel18 = new System.Windows.Forms.LinkLabel();
             this.linkLabel17 = new System.Windows.Forms.LinkLabel();
             this.groupBox32 = new System.Windows.Forms.GroupBox();
+            this.button215 = new System.Windows.Forms.Button();
+            this.button139 = new System.Windows.Forms.Button();
+            this.button204 = new System.Windows.Forms.Button();
             this.button202 = new System.Windows.Forms.Button();
             this.button201 = new System.Windows.Forms.Button();
             this.button194 = new System.Windows.Forms.Button();
@@ -337,9 +340,6 @@
             this.label10 = new System.Windows.Forms.Label();
             this.label11 = new System.Windows.Forms.Label();
             this.helpButton = new System.Windows.Forms.Button();
-            this.button204 = new System.Windows.Forms.Button();
-            this.button139 = new System.Windows.Forms.Button();
-            this.button215 = new System.Windows.Forms.Button();
             this.groupBox1.SuspendLayout();
             this.groupBox2.SuspendLayout();
             this.groupBox3.SuspendLayout();
@@ -411,8 +411,8 @@
             this.button1.Tag = "Opens the profile folder for the current user.";
             this.button1.Text = "User Profile Folder";
             this.button1.UseVisualStyleBackColor = true;
-            this.button1.HelpRequested += new System.Windows.Forms.HelpEventHandler(this.button_HelpRequested);
             this.button1.Click += new System.EventHandler(this.button1_Click);
+            this.button1.HelpRequested += new System.Windows.Forms.HelpEventHandler(this.button_HelpRequested);
             // 
             // button2
             // 
@@ -426,8 +426,8 @@
             this.button2.Tag = "Open the Application Data folder for the current user.";
             this.button2.Text = "Application Data Folder";
             this.button2.UseVisualStyleBackColor = true;
-            this.button2.HelpRequested += new System.Windows.Forms.HelpEventHandler(this.button_HelpRequested);
             this.button2.Click += new System.EventHandler(this.button2_Click);
+            this.button2.HelpRequested += new System.Windows.Forms.HelpEventHandler(this.button_HelpRequested);
             // 
             // button3
             // 
@@ -442,8 +442,8 @@
             this.button3.Tag = "Open the Local Settings folder for the current user.";
             this.button3.Text = "Local Settings";
             this.button3.UseVisualStyleBackColor = true;
-            this.button3.HelpRequested += new System.Windows.Forms.HelpEventHandler(this.button_HelpRequested);
             this.button3.Click += new System.EventHandler(this.button3_Click);
+            this.button3.HelpRequested += new System.Windows.Forms.HelpEventHandler(this.button_HelpRequested);
             // 
             // button4
             // 
@@ -458,8 +458,8 @@
             this.button4.Tag = "Open the directory where Outlook stores all the mail (PST) files.";
             this.button4.Text = "Outlook Maill Folder (PST)";
             this.button4.UseVisualStyleBackColor = true;
-            this.button4.HelpRequested += new System.Windows.Forms.HelpEventHandler(this.button_HelpRequested);
             this.button4.Click += new System.EventHandler(this.button4_Click);
+            this.button4.HelpRequested += new System.Windows.Forms.HelpEventHandler(this.button_HelpRequested);
             // 
             // button5
             // 
@@ -472,11 +472,11 @@
             this.button5.Size = new System.Drawing.Size(196, 23);
             this.button5.TabIndex = 4;
             this.button5.Tag = "Open Outlook settings folder. This is where auto-complete history is stored insid" +
-                "e NK2 files.";
+    "e NK2 files.";
             this.button5.Text = "Outlook Settings Folder (NK2)";
             this.button5.UseVisualStyleBackColor = true;
-            this.button5.HelpRequested += new System.Windows.Forms.HelpEventHandler(this.button_HelpRequested);
             this.button5.Click += new System.EventHandler(this.button5_Click);
+            this.button5.HelpRequested += new System.Windows.Forms.HelpEventHandler(this.button_HelpRequested);
             // 
             // button6
             // 
@@ -489,8 +489,8 @@
             this.button6.Tag = "Opens Windows Network Connections folder.";
             this.button6.Text = "Network Connections";
             this.button6.UseVisualStyleBackColor = true;
-            this.button6.HelpRequested += new System.Windows.Forms.HelpEventHandler(this.button_HelpRequested);
             this.button6.Click += new System.EventHandler(this.button6_Click);
+            this.button6.HelpRequested += new System.Windows.Forms.HelpEventHandler(this.button_HelpRequested);
             // 
             // button7
             // 
@@ -503,8 +503,8 @@
             this.button7.Tag = "Opens Windows Internet Options console.";
             this.button7.Text = "Internet Options";
             this.button7.UseVisualStyleBackColor = true;
-            this.button7.HelpRequested += new System.Windows.Forms.HelpEventHandler(this.button_HelpRequested);
             this.button7.Click += new System.EventHandler(this.button7_Click);
+            this.button7.HelpRequested += new System.Windows.Forms.HelpEventHandler(this.button_HelpRequested);
             // 
             // button8
             // 
@@ -516,11 +516,11 @@
             this.button8.Size = new System.Drawing.Size(179, 23);
             this.button8.TabIndex = 7;
             this.button8.Tag = "Open Outlook Mail Settings dialog. This only works if Microsoft Office Outlook is" +
-                " installed.";
+    " installed.";
             this.button8.Text = "Mail Settings";
             this.button8.UseVisualStyleBackColor = true;
-            this.button8.HelpRequested += new System.Windows.Forms.HelpEventHandler(this.button_HelpRequested);
             this.button8.Click += new System.EventHandler(this.button8_Click);
+            this.button8.HelpRequested += new System.Windows.Forms.HelpEventHandler(this.button_HelpRequested);
             // 
             // button9
             // 
@@ -533,8 +533,8 @@
             this.button9.Tag = "Opens Windows Printer Management Window";
             this.button9.Text = "Printers";
             this.button9.UseVisualStyleBackColor = true;
-            this.button9.HelpRequested += new System.Windows.Forms.HelpEventHandler(this.button_HelpRequested);
             this.button9.Click += new System.EventHandler(this.button9_Click);
+            this.button9.HelpRequested += new System.Windows.Forms.HelpEventHandler(this.button_HelpRequested);
             // 
             // button10
             // 
@@ -548,8 +548,8 @@
             this.button10.Tag = "Open the print spooler folder where Windows stores files to be printed.";
             this.button10.Text = "Spooler Folder";
             this.button10.UseVisualStyleBackColor = true;
-            this.button10.HelpRequested += new System.Windows.Forms.HelpEventHandler(this.button_HelpRequested);
             this.button10.Click += new System.EventHandler(this.button10_Click);
+            this.button10.HelpRequested += new System.Windows.Forms.HelpEventHandler(this.button_HelpRequested);
             // 
             // button12
             // 
@@ -560,8 +560,8 @@
             this.button12.Tag = "Stops Windows Spooler service.";
             this.button12.Text = "Stop Spooler";
             this.button12.UseVisualStyleBackColor = true;
-            this.button12.HelpRequested += new System.Windows.Forms.HelpEventHandler(this.button_HelpRequested);
             this.button12.Click += new System.EventHandler(this.button12_Click);
+            this.button12.HelpRequested += new System.Windows.Forms.HelpEventHandler(this.button_HelpRequested);
             // 
             // button13
             // 
@@ -572,8 +572,8 @@
             this.button13.Tag = "Starts Windows Spooler service.";
             this.button13.Text = "Start Spooler";
             this.button13.UseVisualStyleBackColor = true;
-            this.button13.HelpRequested += new System.Windows.Forms.HelpEventHandler(this.button_HelpRequested);
             this.button13.Click += new System.EventHandler(this.button13_Click);
+            this.button13.HelpRequested += new System.Windows.Forms.HelpEventHandler(this.button_HelpRequested);
             // 
             // button14
             // 
@@ -587,8 +587,8 @@
             this.button14.Tag = "Open HOSTS folder where windows stores network configuration.";
             this.button14.Text = "HOSTS";
             this.button14.UseVisualStyleBackColor = true;
-            this.button14.HelpRequested += new System.Windows.Forms.HelpEventHandler(this.button_HelpRequested);
             this.button14.Click += new System.EventHandler(this.button14_Click);
+            this.button14.HelpRequested += new System.Windows.Forms.HelpEventHandler(this.button_HelpRequested);
             // 
             // button15
             // 
@@ -602,8 +602,8 @@
             this.button15.Tag = "Open the Temp folder for the curren tuser.";
             this.button15.Text = "Temp Folder";
             this.button15.UseVisualStyleBackColor = true;
-            this.button15.HelpRequested += new System.Windows.Forms.HelpEventHandler(this.button_HelpRequested);
             this.button15.Click += new System.EventHandler(this.button15_Click);
+            this.button15.HelpRequested += new System.Windows.Forms.HelpEventHandler(this.button_HelpRequested);
             // 
             // button16
             // 
@@ -616,8 +616,8 @@
             this.button16.Tag = "Opens Windows Device Manager.";
             this.button16.Text = "Device Manager";
             this.button16.UseVisualStyleBackColor = true;
-            this.button16.HelpRequested += new System.Windows.Forms.HelpEventHandler(this.button_HelpRequested);
             this.button16.Click += new System.EventHandler(this.button16_Click);
+            this.button16.HelpRequested += new System.Windows.Forms.HelpEventHandler(this.button_HelpRequested);
             // 
             // button17
             // 
@@ -631,8 +631,8 @@
             this.button17.Tag = "Opens Windows Service Management console.";
             this.button17.Text = "Services";
             this.button17.UseVisualStyleBackColor = true;
-            this.button17.HelpRequested += new System.Windows.Forms.HelpEventHandler(this.button_HelpRequested);
             this.button17.Click += new System.EventHandler(this.button17_Click);
+            this.button17.HelpRequested += new System.Windows.Forms.HelpEventHandler(this.button_HelpRequested);
             // 
             // button18
             // 
@@ -645,8 +645,8 @@
             this.button18.Tag = "Opens Windows Event Viewer.";
             this.button18.Text = "Event Viewer";
             this.button18.UseVisualStyleBackColor = true;
-            this.button18.HelpRequested += new System.Windows.Forms.HelpEventHandler(this.button_HelpRequested);
             this.button18.Click += new System.EventHandler(this.button18_Click);
+            this.button18.HelpRequested += new System.Windows.Forms.HelpEventHandler(this.button_HelpRequested);
             // 
             // button19
             // 
@@ -660,8 +660,8 @@
             this.button19.Tag = "Open the folder with all the system fonts.";
             this.button19.Text = "Fonts";
             this.button19.UseVisualStyleBackColor = true;
-            this.button19.HelpRequested += new System.Windows.Forms.HelpEventHandler(this.button_HelpRequested);
             this.button19.Click += new System.EventHandler(this.button19_Click);
+            this.button19.HelpRequested += new System.Windows.Forms.HelpEventHandler(this.button_HelpRequested);
             // 
             // button21
             // 
@@ -673,11 +673,11 @@
             this.button21.Size = new System.Drawing.Size(179, 23);
             this.button21.TabIndex = 20;
             this.button21.Tag = "Launch Microsoft utility for fixing Outlook mail storage files (PST). This only w" +
-                "orks if Microsoft Office and Outlook are installed.";
+    "orks if Microsoft Office and Outlook are installed.";
             this.button21.Text = "ScanPST";
             this.button21.UseVisualStyleBackColor = true;
-            this.button21.HelpRequested += new System.Windows.Forms.HelpEventHandler(this.button_HelpRequested);
             this.button21.Click += new System.EventHandler(this.button21_Click);
+            this.button21.HelpRequested += new System.Windows.Forms.HelpEventHandler(this.button_HelpRequested);
             // 
             // button22
             // 
@@ -692,8 +692,8 @@
             this.button22.Tag = "Open the Firefox profile folder. Only available if Firefox is installed.";
             this.button22.Text = "Firefox Profile";
             this.button22.UseVisualStyleBackColor = true;
-            this.button22.HelpRequested += new System.Windows.Forms.HelpEventHandler(this.button_HelpRequested);
             this.button22.Click += new System.EventHandler(this.button22_Click);
+            this.button22.HelpRequested += new System.Windows.Forms.HelpEventHandler(this.button_HelpRequested);
             // 
             // button23
             // 
@@ -708,8 +708,8 @@
             this.button23.Tag = "Open Documents and Settiings folder for the current user.";
             this.button23.Text = "Documents and Settings";
             this.button23.UseVisualStyleBackColor = true;
-            this.button23.HelpRequested += new System.Windows.Forms.HelpEventHandler(this.button_HelpRequested);
             this.button23.Click += new System.EventHandler(this.button23_Click);
+            this.button23.HelpRequested += new System.Windows.Forms.HelpEventHandler(this.button_HelpRequested);
             // 
             // button24
             // 
@@ -723,8 +723,8 @@
             this.button24.Tag = "Opens the profile folder for All Users";
             this.button24.Text = "All Users Profile";
             this.button24.UseVisualStyleBackColor = true;
-            this.button24.HelpRequested += new System.Windows.Forms.HelpEventHandler(this.button_HelpRequested);
             this.button24.Click += new System.EventHandler(this.button24_Click);
+            this.button24.HelpRequested += new System.Windows.Forms.HelpEventHandler(this.button_HelpRequested);
             // 
             // button25
             // 
@@ -738,8 +738,8 @@
             this.button25.Tag = "Open the system Temp folder.";
             this.button25.Text = "Windows Temp Folder";
             this.button25.UseVisualStyleBackColor = true;
-            this.button25.HelpRequested += new System.Windows.Forms.HelpEventHandler(this.button_HelpRequested);
             this.button25.Click += new System.EventHandler(this.button25_Click);
+            this.button25.HelpRequested += new System.Windows.Forms.HelpEventHandler(this.button_HelpRequested);
             // 
             // button26
             // 
@@ -750,11 +750,11 @@
             this.button26.Size = new System.Drawing.Size(163, 20);
             this.button26.TabIndex = 25;
             this.button26.Tag = "Generates a short list with relevant system information. Perfect for pasting into" +
-                " an email.";
+    " an email.";
             this.button26.Text = "Quick System Info";
             this.button26.UseVisualStyleBackColor = true;
-            this.button26.HelpRequested += new System.Windows.Forms.HelpEventHandler(this.button_HelpRequested);
             this.button26.Click += new System.EventHandler(this.button26_Click);
+            this.button26.HelpRequested += new System.Windows.Forms.HelpEventHandler(this.button_HelpRequested);
             // 
             // button27
             // 
@@ -767,8 +767,8 @@
             this.button27.Tag = "Opens Windows Disk Management Console.";
             this.button27.Text = "Disk Manager";
             this.button27.UseVisualStyleBackColor = true;
-            this.button27.HelpRequested += new System.Windows.Forms.HelpEventHandler(this.button_HelpRequested);
             this.button27.Click += new System.EventHandler(this.button27_Click);
+            this.button27.HelpRequested += new System.Windows.Forms.HelpEventHandler(this.button_HelpRequested);
             // 
             // button29
             // 
@@ -781,8 +781,8 @@
             this.button29.Tag = "Lauches Windows Clean Up application.";
             this.button29.Text = "Disk Clean Up";
             this.button29.UseVisualStyleBackColor = true;
-            this.button29.HelpRequested += new System.Windows.Forms.HelpEventHandler(this.button_HelpRequested);
             this.button29.Click += new System.EventHandler(this.button29_Click);
+            this.button29.HelpRequested += new System.Windows.Forms.HelpEventHandler(this.button_HelpRequested);
             // 
             // button30
             // 
@@ -795,8 +795,8 @@
             this.button30.Tag = "Opens Windows User Management console.";
             this.button30.Text = "User Accounts";
             this.button30.UseVisualStyleBackColor = true;
-            this.button30.HelpRequested += new System.Windows.Forms.HelpEventHandler(this.button_HelpRequested);
             this.button30.Click += new System.EventHandler(this.button30_Click);
+            this.button30.HelpRequested += new System.Windows.Forms.HelpEventHandler(this.button_HelpRequested);
             // 
             // button31
             // 
@@ -809,8 +809,8 @@
             this.button31.Tag = "Opens the Folder Options dialog.";
             this.button31.Text = "Folder Options";
             this.button31.UseVisualStyleBackColor = true;
-            this.button31.HelpRequested += new System.Windows.Forms.HelpEventHandler(this.button_HelpRequested);
             this.button31.Click += new System.EventHandler(this.button31_Click);
+            this.button31.HelpRequested += new System.Windows.Forms.HelpEventHandler(this.button_HelpRequested);
             // 
             // button32
             // 
@@ -823,8 +823,8 @@
             this.button32.Tag = "Opens the System Properties dialog.";
             this.button32.Text = "System Properties";
             this.button32.UseVisualStyleBackColor = true;
-            this.button32.HelpRequested += new System.Windows.Forms.HelpEventHandler(this.button_HelpRequested);
             this.button32.Click += new System.EventHandler(this.button32_Click);
+            this.button32.HelpRequested += new System.Windows.Forms.HelpEventHandler(this.button_HelpRequested);
             // 
             // button33
             // 
@@ -837,8 +837,8 @@
             this.button33.Tag = "Opens Windows registry editor.";
             this.button33.Text = "Registry Editor";
             this.button33.UseVisualStyleBackColor = true;
-            this.button33.HelpRequested += new System.Windows.Forms.HelpEventHandler(this.button_HelpRequested);
             this.button33.Click += new System.EventHandler(this.button33_Click);
+            this.button33.HelpRequested += new System.Windows.Forms.HelpEventHandler(this.button_HelpRequested);
             // 
             // button34
             // 
@@ -852,8 +852,8 @@
             this.button34.Text = "MSCONFIG";
             this.button34.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             this.button34.UseVisualStyleBackColor = true;
-            this.button34.HelpRequested += new System.Windows.Forms.HelpEventHandler(this.button_HelpRequested);
             this.button34.Click += new System.EventHandler(this.button34_Click);
+            this.button34.HelpRequested += new System.Windows.Forms.HelpEventHandler(this.button_HelpRequested);
             // 
             // button35
             // 
@@ -866,8 +866,8 @@
             this.button35.Tag = "Opens the Windows System Information console.";
             this.button35.Text = "Full System Info";
             this.button35.UseVisualStyleBackColor = true;
-            this.button35.HelpRequested += new System.Windows.Forms.HelpEventHandler(this.button_HelpRequested);
             this.button35.Click += new System.EventHandler(this.button35_Click);
+            this.button35.HelpRequested += new System.Windows.Forms.HelpEventHandler(this.button_HelpRequested);
             // 
             // button36
             // 
@@ -880,8 +880,8 @@
             this.button36.Tag = "Opens windows Task Manager.";
             this.button36.Text = "Task Manager";
             this.button36.UseVisualStyleBackColor = true;
-            this.button36.HelpRequested += new System.Windows.Forms.HelpEventHandler(this.button_HelpRequested);
             this.button36.Click += new System.EventHandler(this.button36_Click);
+            this.button36.HelpRequested += new System.Windows.Forms.HelpEventHandler(this.button_HelpRequested);
             // 
             // button37
             // 
@@ -895,8 +895,8 @@
             this.button37.Tag = "Open windows command line console.";
             this.button37.Text = "Open Command Line";
             this.button37.UseVisualStyleBackColor = true;
-            this.button37.HelpRequested += new System.Windows.Forms.HelpEventHandler(this.button_HelpRequested);
             this.button37.Click += new System.EventHandler(this.button37_Click);
+            this.button37.HelpRequested += new System.Windows.Forms.HelpEventHandler(this.button_HelpRequested);
             // 
             // button38
             // 
@@ -909,8 +909,8 @@
             this.button38.Tag = "Opens Windows defragmentation tool.";
             this.button38.Text = "Defragmentation Utility";
             this.button38.UseVisualStyleBackColor = true;
-            this.button38.HelpRequested += new System.Windows.Forms.HelpEventHandler(this.button_HelpRequested);
             this.button38.Click += new System.EventHandler(this.button38_Click);
+            this.button38.HelpRequested += new System.Windows.Forms.HelpEventHandler(this.button_HelpRequested);
             // 
             // button39
             // 
@@ -923,8 +923,8 @@
             this.button39.Tag = "Built in ping tool. Great for phone troubleshooting with a clueless user.";
             this.button39.Text = "Quick Ping Test";
             this.button39.UseVisualStyleBackColor = true;
-            this.button39.HelpRequested += new System.Windows.Forms.HelpEventHandler(this.button_HelpRequested);
             this.button39.Click += new System.EventHandler(this.button39_Click);
+            this.button39.HelpRequested += new System.Windows.Forms.HelpEventHandler(this.button_HelpRequested);
             // 
             // button40
             // 
@@ -937,8 +937,8 @@
             this.button40.Tag = "Opens On-Screen Keyboard if you are experiencing keyboard issues.";
             this.button40.Text = "On Screen Keyboard";
             this.button40.UseVisualStyleBackColor = true;
-            this.button40.HelpRequested += new System.Windows.Forms.HelpEventHandler(this.button_HelpRequested);
             this.button40.Click += new System.EventHandler(this.button40_Click);
+            this.button40.HelpRequested += new System.Windows.Forms.HelpEventHandler(this.button_HelpRequested);
             // 
             // button41
             // 
@@ -952,8 +952,8 @@
             this.button41.Tag = "Open the startup folder for the current user.";
             this.button41.Text = "Startup";
             this.button41.UseVisualStyleBackColor = true;
-            this.button41.HelpRequested += new System.Windows.Forms.HelpEventHandler(this.button_HelpRequested);
             this.button41.Click += new System.EventHandler(this.button41_Click);
+            this.button41.HelpRequested += new System.Windows.Forms.HelpEventHandler(this.button_HelpRequested);
             // 
             // button42
             // 
@@ -967,8 +967,8 @@
             this.button42.Tag = "Opens the Startup folder for All Users";
             this.button42.Text = "Startup";
             this.button42.UseVisualStyleBackColor = true;
-            this.button42.HelpRequested += new System.Windows.Forms.HelpEventHandler(this.button_HelpRequested);
             this.button42.Click += new System.EventHandler(this.button42_Click);
+            this.button42.HelpRequested += new System.Windows.Forms.HelpEventHandler(this.button_HelpRequested);
             // 
             // button43
             // 
@@ -980,11 +980,11 @@
             this.button43.Size = new System.Drawing.Size(189, 20);
             this.button43.TabIndex = 42;
             this.button43.Tag = "Launches a process that will scan for corrupted/modified system files and replace" +
-                " them with default copies. You may be asked to insert an original Windows CD.";
+    " them with default copies. You may be asked to insert an original Windows CD.";
             this.button43.Text = "SFC Verification Scan";
             this.button43.UseVisualStyleBackColor = true;
-            this.button43.HelpRequested += new System.Windows.Forms.HelpEventHandler(this.button_HelpRequested);
             this.button43.Click += new System.EventHandler(this.button43_Click);
+            this.button43.HelpRequested += new System.Windows.Forms.HelpEventHandler(this.button_HelpRequested);
             // 
             // button44
             // 
@@ -996,11 +996,11 @@
             this.button44.Size = new System.Drawing.Size(189, 20);
             this.button44.TabIndex = 43;
             this.button44.Tag = "Schedules CHKDSK scan to be run on your system drive next time the computer boots" +
-                " up.";
+    " up.";
             this.button44.Text = "Check Disk for Errors";
             this.button44.UseVisualStyleBackColor = true;
-            this.button44.HelpRequested += new System.Windows.Forms.HelpEventHandler(this.button_HelpRequested);
             this.button44.Click += new System.EventHandler(this.button44_Click);
+            this.button44.HelpRequested += new System.Windows.Forms.HelpEventHandler(this.button_HelpRequested);
             // 
             // button45
             // 
@@ -1013,8 +1013,8 @@
             this.button45.Tag = "Opens Notepad if you need to make quick notes.";
             this.button45.Text = "Notepad";
             this.button45.UseVisualStyleBackColor = true;
-            this.button45.HelpRequested += new System.Windows.Forms.HelpEventHandler(this.button_HelpRequested);
             this.button45.Click += new System.EventHandler(this.button45_Click);
+            this.button45.HelpRequested += new System.Windows.Forms.HelpEventHandler(this.button_HelpRequested);
             // 
             // button46
             // 
@@ -1027,8 +1027,8 @@
             this.button46.Tag = "Displays network information, equivalent to running ipconfig /all.";
             this.button46.Text = "IPCONFIG";
             this.button46.UseVisualStyleBackColor = true;
-            this.button46.HelpRequested += new System.Windows.Forms.HelpEventHandler(this.button_HelpRequested);
             this.button46.Click += new System.EventHandler(this.button46_Click);
+            this.button46.HelpRequested += new System.Windows.Forms.HelpEventHandler(this.button_HelpRequested);
             // 
             // button47
             // 
@@ -1041,8 +1041,8 @@
             this.button47.Tag = "Shows contents of local DNS cache.";
             this.button47.Text = "Show DNS";
             this.button47.UseVisualStyleBackColor = true;
-            this.button47.HelpRequested += new System.Windows.Forms.HelpEventHandler(this.button_HelpRequested);
             this.button47.Click += new System.EventHandler(this.button47_Click);
+            this.button47.HelpRequested += new System.Windows.Forms.HelpEventHandler(this.button_HelpRequested);
             // 
             // button48
             // 
@@ -1056,8 +1056,8 @@
             this.button48.Tag = "Flushes local DNS cache.";
             this.button48.Text = "Flush DNS";
             this.button48.UseVisualStyleBackColor = true;
-            this.button48.HelpRequested += new System.Windows.Forms.HelpEventHandler(this.button_HelpRequested);
             this.button48.Click += new System.EventHandler(this.button48_Click);
+            this.button48.HelpRequested += new System.Windows.Forms.HelpEventHandler(this.button_HelpRequested);
             // 
             // button49
             // 
@@ -1071,8 +1071,8 @@
             this.button49.Tag = "Releases current IP address.";
             this.button49.Text = "Release IP Address";
             this.button49.UseVisualStyleBackColor = true;
-            this.button49.HelpRequested += new System.Windows.Forms.HelpEventHandler(this.button_HelpRequested);
             this.button49.Click += new System.EventHandler(this.button49_Click);
+            this.button49.HelpRequested += new System.Windows.Forms.HelpEventHandler(this.button_HelpRequested);
             // 
             // button50
             // 
@@ -1086,8 +1086,8 @@
             this.button50.Tag = "Renews IP addresss.";
             this.button50.Text = "Renew IP Address";
             this.button50.UseVisualStyleBackColor = true;
-            this.button50.HelpRequested += new System.Windows.Forms.HelpEventHandler(this.button_HelpRequested);
             this.button50.Click += new System.EventHandler(this.button50_Click);
+            this.button50.HelpRequested += new System.Windows.Forms.HelpEventHandler(this.button_HelpRequested);
             // 
             // button51
             // 
@@ -1098,11 +1098,11 @@
             this.button51.Size = new System.Drawing.Size(192, 23);
             this.button51.TabIndex = 50;
             this.button51.Tag = "Detailed network statistics. Runs netstat -b -a and displays results in a window." +
-                " It may take a long time to collect this data.";
+    " It may take a long time to collect this data.";
             this.button51.Text = "Netstat Detail (-b -a) ";
             this.button51.UseVisualStyleBackColor = true;
-            this.button51.HelpRequested += new System.Windows.Forms.HelpEventHandler(this.button_HelpRequested);
             this.button51.Click += new System.EventHandler(this.button51_Click);
+            this.button51.HelpRequested += new System.Windows.Forms.HelpEventHandler(this.button_HelpRequested);
             // 
             // button52
             // 
@@ -1115,8 +1115,8 @@
             this.button52.Tag = "Network statistics. Runs netstat -s and displays results in a window.";
             this.button52.Text = "Netstat Statistics (-s)";
             this.button52.UseVisualStyleBackColor = true;
-            this.button52.HelpRequested += new System.Windows.Forms.HelpEventHandler(this.button_HelpRequested);
             this.button52.Click += new System.EventHandler(this.button52_Click);
+            this.button52.HelpRequested += new System.Windows.Forms.HelpEventHandler(this.button_HelpRequested);
             // 
             // label1
             // 
@@ -1136,7 +1136,7 @@
             this.label2.Size = new System.Drawing.Size(420, 13);
             this.label2.TabIndex = 52;
             this.label2.Text = "Luke\'s Setup Assistant: Configuration and Diagnostics © 2010 Lukasz Grzegorz Maci" +
-                "ak";
+    "ak";
             // 
             // label3
             // 
@@ -1156,11 +1156,11 @@
             this.button54.Size = new System.Drawing.Size(192, 23);
             this.button54.TabIndex = 55;
             this.button54.Tag = "Built in tool that lets you run ping, nslookup and traceroute at a push of a butt" +
-                "on. Great for phone troubleshooting with clueles user.";
+    "on. Great for phone troubleshooting with clueles user.";
             this.button54.Text = "Network Tests";
             this.button54.UseVisualStyleBackColor = true;
-            this.button54.HelpRequested += new System.Windows.Forms.HelpEventHandler(this.button_HelpRequested);
             this.button54.Click += new System.EventHandler(this.button54_Click);
+            this.button54.HelpRequested += new System.Windows.Forms.HelpEventHandler(this.button_HelpRequested);
             // 
             // button55
             // 
@@ -1175,8 +1175,8 @@
             this.button55.Tag = "Tool from sysinternals.com. Better version of Taks Manager with more features.";
             this.button55.Text = "Process Explorer";
             this.button55.UseVisualStyleBackColor = true;
-            this.button55.HelpRequested += new System.Windows.Forms.HelpEventHandler(this.button_HelpRequested);
             this.button55.Click += new System.EventHandler(this.button55_Click);
+            this.button55.HelpRequested += new System.Windows.Forms.HelpEventHandler(this.button_HelpRequested);
             // 
             // button56
             // 
@@ -1189,11 +1189,11 @@
             this.button56.Size = new System.Drawing.Size(180, 20);
             this.button56.TabIndex = 57;
             this.button56.Tag = "Tool from sysinternals.com. Lets you see what applications are scheduled to start" +
-                " with Windows.";
+    " with Windows.";
             this.button56.Text = "Autoruns";
             this.button56.UseVisualStyleBackColor = true;
-            this.button56.HelpRequested += new System.Windows.Forms.HelpEventHandler(this.button_HelpRequested);
             this.button56.Click += new System.EventHandler(this.button56_Click);
+            this.button56.HelpRequested += new System.Windows.Forms.HelpEventHandler(this.button_HelpRequested);
             // 
             // button57
             // 
@@ -1208,8 +1208,8 @@
             this.button57.Tag = "Tool from sysinternals.com. Lets you monitor running processes.";
             this.button57.Text = "Proc Mon";
             this.button57.UseVisualStyleBackColor = true;
-            this.button57.HelpRequested += new System.Windows.Forms.HelpEventHandler(this.button_HelpRequested);
             this.button57.Click += new System.EventHandler(this.button57_Click);
+            this.button57.HelpRequested += new System.Windows.Forms.HelpEventHandler(this.button_HelpRequested);
             // 
             // button58
             // 
@@ -1222,11 +1222,11 @@
             this.button58.Size = new System.Drawing.Size(191, 23);
             this.button58.TabIndex = 59;
             this.button58.Tag = "A tool from sysinterternals.com that lets you track all opened TCP/IP connections" +
-                ".";
+    ".";
             this.button58.Text = "TCPView (sysinternals.com)";
             this.button58.UseVisualStyleBackColor = true;
-            this.button58.HelpRequested += new System.Windows.Forms.HelpEventHandler(this.button_HelpRequested);
             this.button58.Click += new System.EventHandler(this.button58_Click);
+            this.button58.HelpRequested += new System.Windows.Forms.HelpEventHandler(this.button_HelpRequested);
             // 
             // button59
             // 
@@ -1240,8 +1240,8 @@
             this.button59.Tag = "Opens the Windows folder.";
             this.button59.Text = "Windows System Folder";
             this.button59.UseVisualStyleBackColor = true;
-            this.button59.HelpRequested += new System.Windows.Forms.HelpEventHandler(this.button_HelpRequested);
             this.button59.Click += new System.EventHandler(this.button59_Click);
+            this.button59.HelpRequested += new System.Windows.Forms.HelpEventHandler(this.button_HelpRequested);
             // 
             // button60
             // 
@@ -1255,8 +1255,8 @@
             this.button60.Tag = "Open the System32 folder.";
             this.button60.Text = "SYSTEM32";
             this.button60.UseVisualStyleBackColor = true;
-            this.button60.HelpRequested += new System.Windows.Forms.HelpEventHandler(this.button_HelpRequested);
             this.button60.Click += new System.EventHandler(this.button60_Click);
+            this.button60.HelpRequested += new System.Windows.Forms.HelpEventHandler(this.button_HelpRequested);
             // 
             // button61
             // 
@@ -1270,8 +1270,8 @@
             this.button61.Tag = "Open Program Files folder.";
             this.button61.Text = "Program Files";
             this.button61.UseVisualStyleBackColor = true;
-            this.button61.HelpRequested += new System.Windows.Forms.HelpEventHandler(this.button_HelpRequested);
             this.button61.Click += new System.EventHandler(this.button61_Click);
+            this.button61.HelpRequested += new System.Windows.Forms.HelpEventHandler(this.button_HelpRequested);
             // 
             // groupBox1
             // 
@@ -1303,11 +1303,11 @@
             this.button149.Size = new System.Drawing.Size(211, 23);
             this.button149.TabIndex = 68;
             this.button149.Tag = "Opens the folder where various log files, including Event Viewer logs are stored." +
-                "";
+    "";
             this.button149.Text = "Windows Log Folder";
             this.button149.UseVisualStyleBackColor = true;
-            this.button149.HelpRequested += new System.Windows.Forms.HelpEventHandler(this.button_HelpRequested);
             this.button149.Click += new System.EventHandler(this.button149_Click);
+            this.button149.HelpRequested += new System.Windows.Forms.HelpEventHandler(this.button_HelpRequested);
             // 
             // button107
             // 
@@ -1322,8 +1322,8 @@
             this.button107.Tag = "Open Program Files (x86) folder. This is only available on 64 bit systems.";
             this.button107.Text = "Program Files (x86)";
             this.button107.UseVisualStyleBackColor = true;
-            this.button107.HelpRequested += new System.Windows.Forms.HelpEventHandler(this.button_HelpRequested);
             this.button107.Click += new System.EventHandler(this.button107_Click);
+            this.button107.HelpRequested += new System.Windows.Forms.HelpEventHandler(this.button_HelpRequested);
             // 
             // button71
             // 
@@ -1337,8 +1337,8 @@
             this.button71.Tag = "Open the Prefetch folder where windows stores pre-loaded application data.";
             this.button71.Text = "Prefetch";
             this.button71.UseVisualStyleBackColor = true;
-            this.button71.HelpRequested += new System.Windows.Forms.HelpEventHandler(this.button_HelpRequested);
             this.button71.Click += new System.EventHandler(this.button71_Click_1);
+            this.button71.HelpRequested += new System.Windows.Forms.HelpEventHandler(this.button_HelpRequested);
             // 
             // button63
             // 
@@ -1353,8 +1353,8 @@
             this.button63.Tag = "Open the Minidump folder where windows stores BSOD crash data.";
             this.button63.Text = "Minidump";
             this.button63.UseVisualStyleBackColor = true;
-            this.button63.HelpRequested += new System.Windows.Forms.HelpEventHandler(this.button_HelpRequested);
             this.button63.Click += new System.EventHandler(this.button63_Click);
+            this.button63.HelpRequested += new System.Windows.Forms.HelpEventHandler(this.button_HelpRequested);
             // 
             // button75
             // 
@@ -1368,8 +1368,8 @@
             this.button75.Tag = "Open the IE Cache folder.";
             this.button75.Text = "Temporary Internet Files";
             this.button75.UseVisualStyleBackColor = true;
-            this.button75.HelpRequested += new System.Windows.Forms.HelpEventHandler(this.button_HelpRequested);
             this.button75.Click += new System.EventHandler(this.button75_Click);
+            this.button75.HelpRequested += new System.Windows.Forms.HelpEventHandler(this.button_HelpRequested);
             // 
             // button72
             // 
@@ -1384,8 +1384,8 @@
             this.button72.Tag = "Opens the folder where you can find all the user profiles.";
             this.button72.Text = "Users";
             this.button72.UseVisualStyleBackColor = true;
-            this.button72.HelpRequested += new System.Windows.Forms.HelpEventHandler(this.button_HelpRequested);
             this.button72.Click += new System.EventHandler(this.button72_Click);
+            this.button72.HelpRequested += new System.Windows.Forms.HelpEventHandler(this.button_HelpRequested);
             // 
             // button65
             // 
@@ -1399,8 +1399,8 @@
             this.button65.Tag = "Open the folder with recently opened documents.";
             this.button65.Text = "Recent Files";
             this.button65.UseVisualStyleBackColor = true;
-            this.button65.HelpRequested += new System.Windows.Forms.HelpEventHandler(this.button_HelpRequested);
             this.button65.Click += new System.EventHandler(this.button65_Click);
+            this.button65.HelpRequested += new System.Windows.Forms.HelpEventHandler(this.button_HelpRequested);
             // 
             // button64
             // 
@@ -1414,8 +1414,8 @@
             this.button64.Tag = "Open IE Browsing history folder.";
             this.button64.Text = "IE Browsing History";
             this.button64.UseVisualStyleBackColor = true;
-            this.button64.HelpRequested += new System.Windows.Forms.HelpEventHandler(this.button_HelpRequested);
             this.button64.Click += new System.EventHandler(this.button64_Click);
+            this.button64.HelpRequested += new System.Windows.Forms.HelpEventHandler(this.button_HelpRequested);
             // 
             // groupBox2
             // 
@@ -1456,8 +1456,8 @@
             this.button209.Tag = "Opens Windows Firewal config panel.";
             this.button209.Text = "Firewall";
             this.button209.UseVisualStyleBackColor = true;
-            this.button209.HelpRequested += new System.Windows.Forms.HelpEventHandler(this.button_HelpRequested);
             this.button209.Click += new System.EventHandler(this.button209_Click);
+            this.button209.HelpRequested += new System.Windows.Forms.HelpEventHandler(this.button_HelpRequested);
             // 
             // button208
             // 
@@ -1470,8 +1470,8 @@
             this.button208.Tag = "Opens Windows Security Center.";
             this.button208.Text = "Security";
             this.button208.UseVisualStyleBackColor = true;
-            this.button208.HelpRequested += new System.Windows.Forms.HelpEventHandler(this.button_HelpRequested);
             this.button208.Click += new System.EventHandler(this.button208_Click);
+            this.button208.HelpRequested += new System.Windows.Forms.HelpEventHandler(this.button_HelpRequested);
             // 
             // button207
             // 
@@ -1482,11 +1482,11 @@
             this.button207.Size = new System.Drawing.Size(80, 20);
             this.button207.TabIndex = 44;
             this.button207.Tag = "Opens Windows component management console where you can enable or disable compon" +
-                "ents.";
+    "ents.";
             this.button207.Text = "Components";
             this.button207.UseVisualStyleBackColor = true;
-            this.button207.HelpRequested += new System.Windows.Forms.HelpEventHandler(this.button_HelpRequested);
             this.button207.Click += new System.EventHandler(this.button207_Click);
+            this.button207.HelpRequested += new System.Windows.Forms.HelpEventHandler(this.button_HelpRequested);
             // 
             // button197
             // 
@@ -1499,11 +1499,11 @@
             this.button197.Size = new System.Drawing.Size(177, 20);
             this.button197.TabIndex = 43;
             this.button197.Tag = "DriverView utility displays the list of all device drivers currently loaded on yo" +
-                "ur system.";
+    "ur system.";
             this.button197.Text = "Driver View  (nirsoft.net)";
             this.button197.UseVisualStyleBackColor = true;
-            this.button197.HelpRequested += new System.Windows.Forms.HelpEventHandler(this.button_HelpRequested);
             this.button197.Click += new System.EventHandler(this.button197_Click);
+            this.button197.HelpRequested += new System.Windows.Forms.HelpEventHandler(this.button_HelpRequested);
             // 
             // button196
             // 
@@ -1518,8 +1518,8 @@
             this.button196.Tag = resources.GetString("button196.Tag");
             this.button196.Text = "Reg DLL View  (nirsoft.net)";
             this.button196.UseVisualStyleBackColor = true;
-            this.button196.HelpRequested += new System.Windows.Forms.HelpEventHandler(this.button_HelpRequested);
             this.button196.Click += new System.EventHandler(this.button196_Click);
+            this.button196.HelpRequested += new System.Windows.Forms.HelpEventHandler(this.button_HelpRequested);
             // 
             // button195
             // 
@@ -1534,8 +1534,8 @@
             this.button195.Tag = resources.GetString("button195.Tag");
             this.button195.Text = "What is Hang (nirsoft.net)";
             this.button195.UseVisualStyleBackColor = true;
-            this.button195.HelpRequested += new System.Windows.Forms.HelpEventHandler(this.button_HelpRequested);
             this.button195.Click += new System.EventHandler(this.button195_Click);
+            this.button195.HelpRequested += new System.Windows.Forms.HelpEventHandler(this.button_HelpRequested);
             // 
             // button79
             // 
@@ -1548,8 +1548,8 @@
             this.button79.Tag = "Opens Windows Task manager.";
             this.button79.Text = "Tasks";
             this.button79.UseVisualStyleBackColor = true;
-            this.button79.HelpRequested += new System.Windows.Forms.HelpEventHandler(this.button_HelpRequested);
             this.button79.Click += new System.EventHandler(this.button79_Click);
+            this.button79.HelpRequested += new System.Windows.Forms.HelpEventHandler(this.button_HelpRequested);
             // 
             // button11
             // 
@@ -1562,8 +1562,8 @@
             this.button11.Tag = "Opens Windows Computer Management console.";
             this.button11.Text = "Computer Management";
             this.button11.UseVisualStyleBackColor = true;
-            this.button11.HelpRequested += new System.Windows.Forms.HelpEventHandler(this.button_HelpRequested);
             this.button11.Click += new System.EventHandler(this.button11_Click_1);
+            this.button11.HelpRequested += new System.Windows.Forms.HelpEventHandler(this.button_HelpRequested);
             // 
             // button66
             // 
@@ -1575,12 +1575,12 @@
             this.button66.Size = new System.Drawing.Size(98, 20);
             this.button66.TabIndex = 38;
             this.button66.Tag = "Opens Windows program management console where you can uninstall or repair instal" +
-                "led programs.";
+    "led programs.";
             this.button66.Text = "Add/Remove";
             this.button66.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             this.button66.UseVisualStyleBackColor = true;
-            this.button66.HelpRequested += new System.Windows.Forms.HelpEventHandler(this.button_HelpRequested);
             this.button66.Click += new System.EventHandler(this.button66_Click);
+            this.button66.HelpRequested += new System.Windows.Forms.HelpEventHandler(this.button_HelpRequested);
             // 
             // button53
             // 
@@ -1595,8 +1595,8 @@
             this.button53.Tag = "Tool from nirsoft.net that lets you analyze error dump files left by BSOD.";
             this.button53.Text = "BluescreenView (nirsoft.net)";
             this.button53.UseVisualStyleBackColor = true;
-            this.button53.HelpRequested += new System.Windows.Forms.HelpEventHandler(this.button_HelpRequested);
             this.button53.Click += new System.EventHandler(this.button53_Click_1);
+            this.button53.HelpRequested += new System.Windows.Forms.HelpEventHandler(this.button_HelpRequested);
             // 
             // groupBox3
             // 
@@ -1620,8 +1620,8 @@
             this.button91.Tag = "Opens Windows Internet Options dialog.";
             this.button91.Text = "Internet Options";
             this.button91.UseVisualStyleBackColor = true;
-            this.button91.HelpRequested += new System.Windows.Forms.HelpEventHandler(this.button_HelpRequested);
             this.button91.Click += new System.EventHandler(this.button91_Click);
+            this.button91.HelpRequested += new System.Windows.Forms.HelpEventHandler(this.button_HelpRequested);
             // 
             // button92
             // 
@@ -1635,8 +1635,8 @@
             this.button92.Tag = "Opens HOSTS file in Notepad.";
             this.button92.Text = "Edit HOSTS File";
             this.button92.UseVisualStyleBackColor = true;
-            this.button92.HelpRequested += new System.Windows.Forms.HelpEventHandler(this.button_HelpRequested);
             this.button92.Click += new System.EventHandler(this.button92_Click);
+            this.button92.HelpRequested += new System.Windows.Forms.HelpEventHandler(this.button_HelpRequested);
             // 
             // button77
             // 
@@ -1649,8 +1649,8 @@
             this.button77.Tag = "Shows the contents of your HOSTS file.";
             this.button77.Text = "Show HOSTS File";
             this.button77.UseVisualStyleBackColor = true;
-            this.button77.HelpRequested += new System.Windows.Forms.HelpEventHandler(this.button_HelpRequested);
             this.button77.Click += new System.EventHandler(this.button77_Click);
+            this.button77.HelpRequested += new System.Windows.Forms.HelpEventHandler(this.button_HelpRequested);
             // 
             // groupBox4
             // 
@@ -1681,8 +1681,8 @@
             this.button193.Tag = "OpenedFilesView displays the list of all opened files on your system.";
             this.button193.Text = "Opened Files View (nirsoft)";
             this.button193.UseVisualStyleBackColor = true;
-            this.button193.HelpRequested += new System.Windows.Forms.HelpEventHandler(this.button_HelpRequested);
             this.button193.Click += new System.EventHandler(this.button193_Click);
+            this.button193.HelpRequested += new System.Windows.Forms.HelpEventHandler(this.button_HelpRequested);
             // 
             // button74
             // 
@@ -1697,8 +1697,8 @@
             this.button74.Tag = "Tool from sysinternals.com. Allows you to defragment your page file.";
             this.button74.Text = "Page Defrag";
             this.button74.UseVisualStyleBackColor = true;
-            this.button74.HelpRequested += new System.Windows.Forms.HelpEventHandler(this.button_HelpRequested);
             this.button74.Click += new System.EventHandler(this.button74_Click_2);
+            this.button74.HelpRequested += new System.Windows.Forms.HelpEventHandler(this.button_HelpRequested);
             // 
             // groupBox5
             // 
@@ -1723,11 +1723,11 @@
             this.button85.Size = new System.Drawing.Size(181, 20);
             this.button85.TabIndex = 59;
             this.button85.Tag = "Generates a list of running processes and their PID\'s. Perfect for pasting into e" +
-                "mail.";
+    "mail.";
             this.button85.Text = "Running Processes";
             this.button85.UseVisualStyleBackColor = true;
-            this.button85.HelpRequested += new System.Windows.Forms.HelpEventHandler(this.button_HelpRequested);
             this.button85.Click += new System.EventHandler(this.button85_Click);
+            this.button85.HelpRequested += new System.Windows.Forms.HelpEventHandler(this.button_HelpRequested);
             // 
             // groupBox7
             // 
@@ -1757,8 +1757,8 @@
             this.button205.Tag = resources.GetString("button205.Tag");
             this.button205.Text = "Memory Viewer (RJL)";
             this.button205.UseVisualStyleBackColor = true;
-            this.button205.HelpRequested += new System.Windows.Forms.HelpEventHandler(this.button_HelpRequested);
             this.button205.Click += new System.EventHandler(this.button205_Click);
+            this.button205.HelpRequested += new System.Windows.Forms.HelpEventHandler(this.button_HelpRequested);
             // 
             // button164
             // 
@@ -1771,8 +1771,8 @@
             this.button164.Tag = "Snoops around the file system and registry to dig out interesting information.";
             this.button164.Text = "System Snooper";
             this.button164.UseVisualStyleBackColor = true;
-            this.button164.HelpRequested += new System.Windows.Forms.HelpEventHandler(this.button_HelpRequested);
             this.button164.Click += new System.EventHandler(this.button164_Click);
+            this.button164.HelpRequested += new System.Windows.Forms.HelpEventHandler(this.button_HelpRequested);
             // 
             // button84
             // 
@@ -1785,8 +1785,8 @@
             this.button84.Tag = "Generates a list of installed programs. Perfect for pasting into an email.";
             this.button84.Text = "Installed Software";
             this.button84.UseVisualStyleBackColor = true;
-            this.button84.HelpRequested += new System.Windows.Forms.HelpEventHandler(this.button_HelpRequested);
             this.button84.Click += new System.EventHandler(this.button84_Click);
+            this.button84.HelpRequested += new System.Windows.Forms.HelpEventHandler(this.button_HelpRequested);
             // 
             // button28
             // 
@@ -1799,11 +1799,11 @@
             this.button28.Size = new System.Drawing.Size(163, 20);
             this.button28.TabIndex = 57;
             this.button28.Tag = "Link to CPU-Z website. Great tool for finding information about your CPU and memo" +
-                "ry.";
+    "ry.";
             this.button28.Text = "CPU-Z (cpuid.com)";
             this.button28.UseVisualStyleBackColor = true;
-            this.button28.HelpRequested += new System.Windows.Forms.HelpEventHandler(this.button_HelpRequested);
             this.button28.Click += new System.EventHandler(this.button28_Click_1);
+            this.button28.HelpRequested += new System.Windows.Forms.HelpEventHandler(this.button_HelpRequested);
             // 
             // groupBox8
             // 
@@ -1827,7 +1827,7 @@
             this.button199.Size = new System.Drawing.Size(179, 23);
             this.button199.TabIndex = 22;
             this.button199.Tag = "Open Outlook Mail Settings dialog. This only works if Microsoft Office Outlook is" +
-                " installed.";
+    " installed.";
             this.button199.Text = "Backup Outlook Email";
             this.button199.UseVisualStyleBackColor = true;
             this.button199.Click += new System.EventHandler(this.button199_Click);
@@ -1843,11 +1843,11 @@
             this.button62.Size = new System.Drawing.Size(179, 23);
             this.button62.TabIndex = 21;
             this.button62.Tag = "Tool from nirsoft.net. It allows you to view and edit Outlook auto-complete histo" +
-                "ry file (NK2).";
+    "ry file (NK2).";
             this.button62.Text = "NK2 View (nirsoft.net)";
             this.button62.UseVisualStyleBackColor = true;
-            this.button62.HelpRequested += new System.Windows.Forms.HelpEventHandler(this.button_HelpRequested);
             this.button62.Click += new System.EventHandler(this.button62_Click);
+            this.button62.HelpRequested += new System.Windows.Forms.HelpEventHandler(this.button_HelpRequested);
             // 
             // button68
             // 
@@ -1860,11 +1860,11 @@
             this.button68.Size = new System.Drawing.Size(179, 23);
             this.button68.TabIndex = 71;
             this.button68.Tag = "A tool from nirsoft.net which displays product keys for all your Microsoft produc" +
-                "ts.";
+    "ts.";
             this.button68.Text = "Produ Key (nirsoft.net)";
             this.button68.UseVisualStyleBackColor = true;
-            this.button68.HelpRequested += new System.Windows.Forms.HelpEventHandler(this.button_HelpRequested);
             this.button68.Click += new System.EventHandler(this.button68_Click);
+            this.button68.HelpRequested += new System.Windows.Forms.HelpEventHandler(this.button_HelpRequested);
             // 
             // button67
             // 
@@ -1879,14 +1879,13 @@
             this.button67.Tag = "Tool from nirsoft.net that displays all the installed Microsoft Office add-ins.";
             this.button67.Text = "Office Add Ins (nirsoft.net)";
             this.button67.UseVisualStyleBackColor = true;
-            this.button67.HelpRequested += new System.Windows.Forms.HelpEventHandler(this.button_HelpRequested);
             this.button67.Click += new System.EventHandler(this.button67_Click);
+            this.button67.HelpRequested += new System.Windows.Forms.HelpEventHandler(this.button_HelpRequested);
             // 
             // groupBox9
             // 
             this.groupBox9.Controls.Add(this.button198);
             this.groupBox9.Controls.Add(this.button90);
-            this.groupBox9.Controls.Add(this.button89);
             this.groupBox9.Controls.Add(this.button70);
             this.groupBox9.Controls.Add(this.button69);
             this.groupBox9.Location = new System.Drawing.Point(410, 12);
@@ -1902,15 +1901,15 @@
             this.button198.ForeColor = System.Drawing.Color.Blue;
             this.button198.Image = ((System.Drawing.Image)(resources.GetObject("button198.Image")));
             this.button198.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.button198.Location = new System.Drawing.Point(16, 107);
+            this.button198.Location = new System.Drawing.Point(16, 83);
             this.button198.Name = "button198";
             this.button198.Size = new System.Drawing.Size(179, 20);
             this.button198.TabIndex = 62;
             this.button198.Tag = "Downloads and opens Team Viewer, Quick Start version.";
             this.button198.Text = "Team Viewer QS";
             this.button198.UseVisualStyleBackColor = true;
-            this.button198.HelpRequested += new System.Windows.Forms.HelpEventHandler(this.button_HelpRequested);
             this.button198.Click += new System.EventHandler(this.button198_Click);
+            this.button198.HelpRequested += new System.Windows.Forms.HelpEventHandler(this.button_HelpRequested);
             // 
             // button90
             // 
@@ -1918,31 +1917,15 @@
             this.button90.ForeColor = System.Drawing.Color.Blue;
             this.button90.Image = ((System.Drawing.Image)(resources.GetObject("button90.Image")));
             this.button90.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.button90.Location = new System.Drawing.Point(16, 85);
+            this.button90.Location = new System.Drawing.Point(16, 61);
             this.button90.Name = "button90";
             this.button90.Size = new System.Drawing.Size(179, 20);
             this.button90.TabIndex = 61;
             this.button90.Tag = "Link to join.me screen sharing site.";
             this.button90.Text = "Join Me (join.me)";
             this.button90.UseVisualStyleBackColor = true;
-            this.button90.HelpRequested += new System.Windows.Forms.HelpEventHandler(this.button_HelpRequested);
             this.button90.Click += new System.EventHandler(this.button90_Click);
-            // 
-            // button89
-            // 
-            this.button89.BackColor = System.Drawing.SystemColors.Control;
-            this.button89.ForeColor = System.Drawing.Color.Blue;
-            this.button89.Image = ((System.Drawing.Image)(resources.GetObject("button89.Image")));
-            this.button89.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.button89.Location = new System.Drawing.Point(16, 63);
-            this.button89.Name = "button89";
-            this.button89.Size = new System.Drawing.Size(179, 20);
-            this.button89.TabIndex = 60;
-            this.button89.Tag = "Link to Crosloop.com homepage.";
-            this.button89.Text = "CrossLoop (crossloop.com)";
-            this.button89.UseVisualStyleBackColor = true;
-            this.button89.HelpRequested += new System.Windows.Forms.HelpEventHandler(this.button_HelpRequested);
-            this.button89.Click += new System.EventHandler(this.button89_Click);
+            this.button90.HelpRequested += new System.Windows.Forms.HelpEventHandler(this.button_HelpRequested);
             // 
             // button70
             // 
@@ -1955,8 +1938,8 @@
             this.button70.Tag = "Launches Windows Remote Desktop application.";
             this.button70.Text = "Remote Desktop";
             this.button70.UseVisualStyleBackColor = true;
-            this.button70.HelpRequested += new System.Windows.Forms.HelpEventHandler(this.button_HelpRequested);
             this.button70.Click += new System.EventHandler(this.button70_Click);
+            this.button70.HelpRequested += new System.Windows.Forms.HelpEventHandler(this.button_HelpRequested);
             // 
             // button69
             // 
@@ -1969,8 +1952,8 @@
             this.button69.Tag = "Launchers Windows Remote Assist dialog.";
             this.button69.Text = "Windows Remote Assist";
             this.button69.UseVisualStyleBackColor = true;
-            this.button69.HelpRequested += new System.Windows.Forms.HelpEventHandler(this.button_HelpRequested);
             this.button69.Click += new System.EventHandler(this.button69_Click);
+            this.button69.HelpRequested += new System.Windows.Forms.HelpEventHandler(this.button_HelpRequested);
             // 
             // groupBox11
             // 
@@ -2003,8 +1986,8 @@
             this.button86.Tag = "Unregisters the dll from the box to the left using regsvr32.";
             this.button86.Text = "Un-register DLL";
             this.button86.UseVisualStyleBackColor = true;
-            this.button86.HelpRequested += new System.Windows.Forms.HelpEventHandler(this.button_HelpRequested);
             this.button86.Click += new System.EventHandler(this.button86_Click);
+            this.button86.HelpRequested += new System.Windows.Forms.HelpEventHandler(this.button_HelpRequested);
             // 
             // button83
             // 
@@ -2016,8 +1999,8 @@
             this.button83.Tag = "Registers the dll from the box to the left using regsvr32.";
             this.button83.Text = "Register DLL";
             this.button83.UseVisualStyleBackColor = true;
-            this.button83.HelpRequested += new System.Windows.Forms.HelpEventHandler(this.button_HelpRequested);
             this.button83.Click += new System.EventHandler(this.button83_Click);
+            this.button83.HelpRequested += new System.Windows.Forms.HelpEventHandler(this.button_HelpRequested);
             // 
             // button82
             // 
@@ -2031,8 +2014,8 @@
             this.button82.Tag = "Opens System.ini file in Notepad.";
             this.button82.Text = "System.ini";
             this.button82.UseVisualStyleBackColor = true;
-            this.button82.HelpRequested += new System.Windows.Forms.HelpEventHandler(this.button_HelpRequested);
             this.button82.Click += new System.EventHandler(this.button82_Click);
+            this.button82.HelpRequested += new System.Windows.Forms.HelpEventHandler(this.button_HelpRequested);
             // 
             // button81
             // 
@@ -2046,8 +2029,8 @@
             this.button81.Tag = "Opens Win.ini file in Notepad.";
             this.button81.Text = "Win.ini";
             this.button81.UseVisualStyleBackColor = true;
-            this.button81.HelpRequested += new System.Windows.Forms.HelpEventHandler(this.button_HelpRequested);
             this.button81.Click += new System.EventHandler(this.button81_Click);
+            this.button81.HelpRequested += new System.Windows.Forms.HelpEventHandler(this.button_HelpRequested);
             // 
             // button80
             // 
@@ -2062,8 +2045,8 @@
             this.button80.Tag = "Opens boot.ini file in Notepad.";
             this.button80.Text = "Boot.ini";
             this.button80.UseVisualStyleBackColor = true;
-            this.button80.HelpRequested += new System.Windows.Forms.HelpEventHandler(this.button_HelpRequested);
             this.button80.Click += new System.EventHandler(this.button80_Click);
+            this.button80.HelpRequested += new System.Windows.Forms.HelpEventHandler(this.button_HelpRequested);
             // 
             // tabControl1
             // 
@@ -2101,6 +2084,7 @@
             // 
             // groupBox44
             // 
+            this.groupBox44.Controls.Add(this.button217);
             this.groupBox44.Controls.Add(this.button155);
             this.groupBox44.Controls.Add(this.button154);
             this.groupBox44.Controls.Add(this.button153);
@@ -2111,6 +2095,21 @@
             this.groupBox44.TabStop = false;
             this.groupBox44.Text = "Diagnostic Data Collection";
             // 
+            // button217
+            // 
+            this.button217.Image = ((System.Drawing.Image)(resources.GetObject("button217.Image")));
+            this.button217.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.button217.Location = new System.Drawing.Point(204, 38);
+            this.button217.Name = "button217";
+            this.button217.Size = new System.Drawing.Size(180, 20);
+            this.button217.TabIndex = 63;
+            this.button217.Tag = "Microsoft problem steps recorder (PSR) tool that captures screen actions and scre" +
+    "nshots.";
+            this.button217.Text = "Problem Steps Recorder";
+            this.button217.UseVisualStyleBackColor = true;
+            this.button217.Click += new System.EventHandler(this.button217_Click);
+            this.button217.HelpRequested += new System.Windows.Forms.HelpEventHandler(this.button_HelpRequested);
+            // 
             // button155
             // 
             this.button155.Image = ((System.Drawing.Image)(resources.GetObject("button155.Image")));
@@ -2120,11 +2119,11 @@
             this.button155.Size = new System.Drawing.Size(180, 20);
             this.button155.TabIndex = 62;
             this.button155.Tag = "This tool will export System and Application errors from your Event Viewer into C" +
-                "SV files, zip them up and place them on your desktop for easy access.";
+    "SV files, zip them up and place them on your desktop for easy access.";
             this.button155.Text = "Export EventLog to CSV";
             this.button155.UseVisualStyleBackColor = true;
-            this.button155.HelpRequested += new System.Windows.Forms.HelpEventHandler(this.button_HelpRequested);
             this.button155.Click += new System.EventHandler(this.button155_Click);
+            this.button155.HelpRequested += new System.Windows.Forms.HelpEventHandler(this.button_HelpRequested);
             // 
             // button154
             // 
@@ -2135,11 +2134,11 @@
             this.button154.Size = new System.Drawing.Size(176, 20);
             this.button154.TabIndex = 61;
             this.button154.Tag = "This tool will export System and Application errors from your Event Viewer, zip t" +
-                "hem up and place them on your desktop for easy access.";
+    "hem up and place them on your desktop for easy access.";
             this.button154.Text = "Collect Event Log Files";
             this.button154.UseVisualStyleBackColor = true;
-            this.button154.HelpRequested += new System.Windows.Forms.HelpEventHandler(this.button_HelpRequested);
             this.button154.Click += new System.EventHandler(this.button154_Click);
+            this.button154.HelpRequested += new System.Windows.Forms.HelpEventHandler(this.button_HelpRequested);
             // 
             // button153
             // 
@@ -2150,11 +2149,11 @@
             this.button153.Size = new System.Drawing.Size(176, 20);
             this.button153.TabIndex = 60;
             this.button153.Tag = "This tool will collect all the Mini-Dump files that windows generates after every" +
-                " major crash, zip them up and place them on your desktop for easy access.";
+    " major crash, zip them up and place them on your desktop for easy access.";
             this.button153.Text = "Collect Crash Data";
             this.button153.UseVisualStyleBackColor = true;
-            this.button153.HelpRequested += new System.Windows.Forms.HelpEventHandler(this.button_HelpRequested);
             this.button153.Click += new System.EventHandler(this.button153_Click);
+            this.button153.HelpRequested += new System.Windows.Forms.HelpEventHandler(this.button_HelpRequested);
             // 
             // groupBox34
             // 
@@ -2181,11 +2180,11 @@
             this.button118.Size = new System.Drawing.Size(186, 20);
             this.button118.TabIndex = 58;
             this.button118.Tag = "Tool that stops printer spooler, deletes spooled documents and restarts the servi" +
-                "ce.";
+    "ce.";
             this.button118.Text = "Fix My Printer (maciak.org)";
             this.button118.UseVisualStyleBackColor = true;
-            this.button118.HelpRequested += new System.Windows.Forms.HelpEventHandler(this.button_HelpRequested);
             this.button118.Click += new System.EventHandler(this.button118_Click);
+            this.button118.HelpRequested += new System.Windows.Forms.HelpEventHandler(this.button_HelpRequested);
             // 
             // button117
             // 
@@ -2199,8 +2198,8 @@
             this.button117.Tag = "Opens the folder where windows keeps spooled documents.";
             this.button117.Text = "Spooler Folder";
             this.button117.UseVisualStyleBackColor = true;
-            this.button117.HelpRequested += new System.Windows.Forms.HelpEventHandler(this.button_HelpRequested);
             this.button117.Click += new System.EventHandler(this.button117_Click);
+            this.button117.HelpRequested += new System.Windows.Forms.HelpEventHandler(this.button_HelpRequested);
             // 
             // groupBox12
             // 
@@ -2236,31 +2235,30 @@
             // 
             // groupBox47
             // 
-            this.groupBox47.Controls.Add(this.linkLabel5);
+            this.groupBox47.Controls.Add(this.button216);
             this.groupBox47.Controls.Add(this.button170);
             this.groupBox47.Location = new System.Drawing.Point(434, 314);
             this.groupBox47.Name = "groupBox47";
-            this.groupBox47.Size = new System.Drawing.Size(194, 59);
+            this.groupBox47.Size = new System.Drawing.Size(194, 62);
             this.groupBox47.TabIndex = 81;
             this.groupBox47.TabStop = false;
             this.groupBox47.Text = "Antivirus Maintenance";
             // 
-            // linkLabel5
+            // button216
             // 
-            this.linkLabel5.AutoSize = true;
-            this.linkLabel5.Image = ((System.Drawing.Image)(resources.GetObject("linkLabel5.Image")));
-            this.linkLabel5.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.linkLabel5.Location = new System.Drawing.Point(6, 39);
-            this.linkLabel5.Name = "linkLabel5";
-            this.linkLabel5.Padding = new System.Windows.Forms.Padding(20, 0, 0, 0);
-            this.linkLabel5.Size = new System.Drawing.Size(152, 13);
-            this.linkLabel5.TabIndex = 49;
-            this.linkLabel5.TabStop = true;
-            this.linkLabel5.Tag = "Run McAfee Virtual Technician tool to diagnose and repair your McAfee products. O" +
-                "pens in default browser.";
-            this.linkLabel5.Text = "McAfee Virtual Technician";
-            this.linkLabel5.HelpRequested += new System.Windows.Forms.HelpEventHandler(this.button_HelpRequested);
-            this.linkLabel5.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.linkLabel5_LinkClicked_1);
+            this.button216.BackColor = System.Drawing.SystemColors.Control;
+            this.button216.ForeColor = System.Drawing.Color.Blue;
+            this.button216.Image = ((System.Drawing.Image)(resources.GetObject("button216.Image")));
+            this.button216.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.button216.Location = new System.Drawing.Point(6, 35);
+            this.button216.Name = "button216";
+            this.button216.Size = new System.Drawing.Size(183, 20);
+            this.button216.TabIndex = 49;
+            this.button216.Tag = "Downloads and rus the manual uninstaller tool for Kaspersky products.";
+            this.button216.Text = "Remove Kaspersky";
+            this.button216.UseVisualStyleBackColor = true;
+            this.button216.Click += new System.EventHandler(this.button216_Click);
+            this.button216.HelpRequested += new System.Windows.Forms.HelpEventHandler(this.button_HelpRequested);
             // 
             // button170
             // 
@@ -2268,15 +2266,15 @@
             this.button170.ForeColor = System.Drawing.Color.Blue;
             this.button170.Image = ((System.Drawing.Image)(resources.GetObject("button170.Image")));
             this.button170.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.button170.Location = new System.Drawing.Point(5, 16);
+            this.button170.Location = new System.Drawing.Point(5, 15);
             this.button170.Name = "button170";
             this.button170.Size = new System.Drawing.Size(183, 20);
             this.button170.TabIndex = 48;
             this.button170.Tag = "Downloads and rus the manual uninstaller tool for McAfee products.";
             this.button170.Text = "Remove McAfee";
             this.button170.UseVisualStyleBackColor = true;
-            this.button170.HelpRequested += new System.Windows.Forms.HelpEventHandler(this.button_HelpRequested);
             this.button170.Click += new System.EventHandler(this.button170_Click);
+            this.button170.HelpRequested += new System.Windows.Forms.HelpEventHandler(this.button_HelpRequested);
             // 
             // groupBox41
             // 
@@ -2304,8 +2302,8 @@
             this.button214.Tag = "Rootkit removal tool by Malwarebytes.";
             this.button214.Text = "Malwarebytes Anti-Rootkit";
             this.button214.UseVisualStyleBackColor = true;
-            this.button214.HelpRequested += new System.Windows.Forms.HelpEventHandler(this.button_HelpRequested);
             this.button214.Click += new System.EventHandler(this.button214_Click);
+            this.button214.HelpRequested += new System.Windows.Forms.HelpEventHandler(this.button_HelpRequested);
             // 
             // button126
             // 
@@ -2318,11 +2316,11 @@
             this.button126.Size = new System.Drawing.Size(180, 20);
             this.button126.TabIndex = 43;
             this.button126.Tag = "Completely removes Malwarebytes. Use if you are having issues installing or runni" +
-                "ng the program.";
+    "ng the program.";
             this.button126.Text = "mbam-clean.exe";
             this.button126.UseVisualStyleBackColor = true;
-            this.button126.HelpRequested += new System.Windows.Forms.HelpEventHandler(this.button_HelpRequested);
             this.button126.Click += new System.EventHandler(this.button126_Click);
+            this.button126.HelpRequested += new System.Windows.Forms.HelpEventHandler(this.button_HelpRequested);
             // 
             // button137
             // 
@@ -2335,11 +2333,11 @@
             this.button137.Size = new System.Drawing.Size(180, 20);
             this.button137.TabIndex = 44;
             this.button137.Tag = "Manual detection rule update. Only use this if you can\'t get automatic update to " +
-                "work. These can be slightly out of date.";
+    "work. These can be slightly out of date.";
             this.button137.Text = "mbam-rules.exe";
             this.button137.UseVisualStyleBackColor = true;
-            this.button137.HelpRequested += new System.Windows.Forms.HelpEventHandler(this.button_HelpRequested);
             this.button137.Click += new System.EventHandler(this.button137_Click);
+            this.button137.HelpRequested += new System.Windows.Forms.HelpEventHandler(this.button_HelpRequested);
             // 
             // button136
             // 
@@ -2354,14 +2352,14 @@
             this.button136.Tag = "Direct link to Malwarebytes installer download.";
             this.button136.Text = "Install Malwarebytes";
             this.button136.UseVisualStyleBackColor = true;
-            this.button136.HelpRequested += new System.Windows.Forms.HelpEventHandler(this.button_HelpRequested);
             this.button136.Click += new System.EventHandler(this.button136_Click);
+            this.button136.HelpRequested += new System.Windows.Forms.HelpEventHandler(this.button_HelpRequested);
             // 
             // groupBox18
             // 
+            this.groupBox18.Controls.Add(this.linkLabel5);
             this.groupBox18.Controls.Add(this.linkLabel27);
             this.groupBox18.Controls.Add(this.linkLabel25);
-            this.groupBox18.Controls.Add(this.linkLabel11);
             this.groupBox18.Controls.Add(this.linkLabel4);
             this.groupBox18.Controls.Add(this.linkLabel3);
             this.groupBox18.Location = new System.Drawing.Point(7, 339);
@@ -2370,6 +2368,23 @@
             this.groupBox18.TabIndex = 79;
             this.groupBox18.TabStop = false;
             this.groupBox18.Text = "Online Scanners";
+            // 
+            // linkLabel5
+            // 
+            this.linkLabel5.AutoSize = true;
+            this.linkLabel5.Image = ((System.Drawing.Image)(resources.GetObject("linkLabel5.Image")));
+            this.linkLabel5.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.linkLabel5.Location = new System.Drawing.Point(6, 55);
+            this.linkLabel5.Name = "linkLabel5";
+            this.linkLabel5.Padding = new System.Windows.Forms.Padding(20, 0, 0, 0);
+            this.linkLabel5.Size = new System.Drawing.Size(152, 13);
+            this.linkLabel5.TabIndex = 49;
+            this.linkLabel5.TabStop = true;
+            this.linkLabel5.Tag = "Run McAfee Virtual Technician tool to diagnose and repair your McAfee products. O" +
+    "pens in default browser.";
+            this.linkLabel5.Text = "McAfee Virtual Technician";
+            this.linkLabel5.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.linkLabel5_LinkClicked_1);
+            this.linkLabel5.HelpRequested += new System.Windows.Forms.HelpEventHandler(this.button_HelpRequested);
             // 
             // linkLabel27
             // 
@@ -2398,20 +2413,6 @@
             this.linkLabel25.TabStop = true;
             this.linkLabel25.Text = "F-Secure Online Scan";
             this.linkLabel25.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.linkLabel25_LinkClicked);
-            // 
-            // linkLabel11
-            // 
-            this.linkLabel11.AutoSize = true;
-            this.linkLabel11.Image = ((System.Drawing.Image)(resources.GetObject("linkLabel11.Image")));
-            this.linkLabel11.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.linkLabel11.Location = new System.Drawing.Point(6, 55);
-            this.linkLabel11.Name = "linkLabel11";
-            this.linkLabel11.Padding = new System.Windows.Forms.Padding(20, 0, 0, 0);
-            this.linkLabel11.Size = new System.Drawing.Size(118, 13);
-            this.linkLabel11.TabIndex = 82;
-            this.linkLabel11.TabStop = true;
-            this.linkLabel11.Text = "CA Threat Scanner";
-            this.linkLabel11.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.linkLabel11_LinkClicked_1);
             // 
             // linkLabel4
             // 
@@ -2626,6 +2627,54 @@
             this.groupBox32.TabStop = false;
             this.groupBox32.Text = "Misc Tools";
             // 
+            // button215
+            // 
+            this.button215.BackColor = System.Drawing.SystemColors.Control;
+            this.button215.ForeColor = System.Drawing.Color.Blue;
+            this.button215.Image = ((System.Drawing.Image)(resources.GetObject("button215.Image")));
+            this.button215.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.button215.Location = new System.Drawing.Point(6, 257);
+            this.button215.Name = "button215";
+            this.button215.Size = new System.Drawing.Size(183, 20);
+            this.button215.TabIndex = 56;
+            this.button215.Tag = resources.GetString("button215.Tag");
+            this.button215.Text = "Junkware Removal Tool";
+            this.button215.UseVisualStyleBackColor = true;
+            this.button215.Click += new System.EventHandler(this.button215_Click);
+            this.button215.HelpRequested += new System.Windows.Forms.HelpEventHandler(this.button_HelpRequested);
+            // 
+            // button139
+            // 
+            this.button139.BackColor = System.Drawing.SystemColors.Control;
+            this.button139.ForeColor = System.Drawing.Color.Blue;
+            this.button139.Image = ((System.Drawing.Image)(resources.GetObject("button139.Image")));
+            this.button139.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.button139.Location = new System.Drawing.Point(6, 237);
+            this.button139.Name = "button139";
+            this.button139.Size = new System.Drawing.Size(183, 20);
+            this.button139.TabIndex = 55;
+            this.button139.Tag = resources.GetString("button139.Tag");
+            this.button139.Text = "ADW Cleaner";
+            this.button139.UseVisualStyleBackColor = true;
+            this.button139.Click += new System.EventHandler(this.button139_Click);
+            this.button139.HelpRequested += new System.Windows.Forms.HelpEventHandler(this.button_HelpRequested);
+            // 
+            // button204
+            // 
+            this.button204.BackColor = System.Drawing.SystemColors.Control;
+            this.button204.ForeColor = System.Drawing.Color.Blue;
+            this.button204.Image = ((System.Drawing.Image)(resources.GetObject("button204.Image")));
+            this.button204.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.button204.Location = new System.Drawing.Point(5, 217);
+            this.button204.Name = "button204";
+            this.button204.Size = new System.Drawing.Size(183, 20);
+            this.button204.TabIndex = 54;
+            this.button204.Tag = resources.GetString("button204.Tag");
+            this.button204.Text = "WinRepair Installer";
+            this.button204.UseVisualStyleBackColor = true;
+            this.button204.Click += new System.EventHandler(this.button204_Click);
+            this.button204.HelpRequested += new System.Windows.Forms.HelpEventHandler(this.button_HelpRequested);
+            // 
             // button202
             // 
             this.button202.BackColor = System.Drawing.SystemColors.Control;
@@ -2639,8 +2688,8 @@
             this.button202.Tag = resources.GetString("button202.Tag");
             this.button202.Text = "FixExec";
             this.button202.UseVisualStyleBackColor = true;
-            this.button202.HelpRequested += new System.Windows.Forms.HelpEventHandler(this.button_HelpRequested);
             this.button202.Click += new System.EventHandler(this.button202_Click);
+            this.button202.HelpRequested += new System.Windows.Forms.HelpEventHandler(this.button_HelpRequested);
             // 
             // button201
             // 
@@ -2653,7 +2702,7 @@
             this.button201.Size = new System.Drawing.Size(183, 20);
             this.button201.TabIndex = 52;
             this.button201.Tag = "Tweaking.com Unhide Non System Files tool. Fixes visibility settings on system fi" +
-                "les after a malicious app changed them.";
+    "les after a malicious app changed them.";
             this.button201.Text = "Unhide Non System Files";
             this.button201.UseVisualStyleBackColor = true;
             this.button201.Click += new System.EventHandler(this.button201_Click);
@@ -2671,8 +2720,8 @@
             this.button194.Tag = resources.GetString("button194.Tag");
             this.button194.Text = "Temp File Cleaner";
             this.button194.UseVisualStyleBackColor = true;
-            this.button194.HelpRequested += new System.Windows.Forms.HelpEventHandler(this.button_HelpRequested);
             this.button194.Click += new System.EventHandler(this.button194_Click);
+            this.button194.HelpRequested += new System.Windows.Forms.HelpEventHandler(this.button_HelpRequested);
             // 
             // button189
             // 
@@ -2685,12 +2734,12 @@
             this.button189.Size = new System.Drawing.Size(183, 20);
             this.button189.TabIndex = 50;
             this.button189.Tag = "CleanUp! is a powerful and easy-to-use application that removes temporary files c" +
-                "reated while surfing the web, empties the Recycle Bin, deletes files from your t" +
-                "emporary folders and more.";
+    "reated while surfing the web, empties the Recycle Bin, deletes files from your t" +
+    "emporary folders and more.";
             this.button189.Text = "Install CleanUp!";
             this.button189.UseVisualStyleBackColor = true;
-            this.button189.HelpRequested += new System.Windows.Forms.HelpEventHandler(this.button_HelpRequested);
             this.button189.Click += new System.EventHandler(this.button189_Click);
+            this.button189.HelpRequested += new System.Windows.Forms.HelpEventHandler(this.button_HelpRequested);
             // 
             // button188
             // 
@@ -2703,11 +2752,11 @@
             this.button188.Size = new System.Drawing.Size(183, 20);
             this.button188.TabIndex = 49;
             this.button188.Tag = "LSP-Fix attempts to correct Internet connection problems resulting from buggy or " +
-                "improperly-removed Layered Service Provider (LSP) software.";
+    "improperly-removed Layered Service Provider (LSP) software.";
             this.button188.Text = "LSPFix";
             this.button188.UseVisualStyleBackColor = true;
-            this.button188.HelpRequested += new System.Windows.Forms.HelpEventHandler(this.button_HelpRequested);
             this.button188.Click += new System.EventHandler(this.button188_Click);
+            this.button188.HelpRequested += new System.Windows.Forms.HelpEventHandler(this.button_HelpRequested);
             // 
             // button183
             // 
@@ -2722,8 +2771,8 @@
             this.button183.Tag = "Tool for deleting temp files and cache.";
             this.button183.Text = "TempFileCleaner by OldTimer";
             this.button183.UseVisualStyleBackColor = true;
-            this.button183.HelpRequested += new System.Windows.Forms.HelpEventHandler(this.button_HelpRequested);
             this.button183.Click += new System.EventHandler(this.button183_Click);
+            this.button183.HelpRequested += new System.Windows.Forms.HelpEventHandler(this.button_HelpRequested);
             // 
             // button169
             // 
@@ -2736,11 +2785,11 @@
             this.button169.Size = new System.Drawing.Size(183, 20);
             this.button169.TabIndex = 47;
             this.button169.Tag = "Installer for the system cleanup tool which deletes temp files, and wipes free sp" +
-                "ace.";
+    "ace.";
             this.button169.Text = "Install CCleaner";
             this.button169.UseVisualStyleBackColor = true;
-            this.button169.HelpRequested += new System.Windows.Forms.HelpEventHandler(this.button_HelpRequested);
             this.button169.Click += new System.EventHandler(this.button169_Click);
+            this.button169.HelpRequested += new System.Windows.Forms.HelpEventHandler(this.button_HelpRequested);
             // 
             // button147
             // 
@@ -2755,8 +2804,8 @@
             this.button147.Tag = "A rootkit removal tool.";
             this.button147.Text = "Rootkit Repeal";
             this.button147.UseVisualStyleBackColor = true;
-            this.button147.HelpRequested += new System.Windows.Forms.HelpEventHandler(this.button_HelpRequested);
             this.button147.Click += new System.EventHandler(this.button147_Click);
+            this.button147.HelpRequested += new System.Windows.Forms.HelpEventHandler(this.button_HelpRequested);
             // 
             // button125
             // 
@@ -2771,8 +2820,8 @@
             this.button125.Tag = "Fixes visibility settings on system files after a malicious app changed them.";
             this.button125.Text = "Unhide Tool";
             this.button125.UseVisualStyleBackColor = true;
-            this.button125.HelpRequested += new System.Windows.Forms.HelpEventHandler(this.button_HelpRequested);
             this.button125.Click += new System.EventHandler(this.button125_Click);
+            this.button125.HelpRequested += new System.Windows.Forms.HelpEventHandler(this.button_HelpRequested);
             // 
             // button112
             // 
@@ -2785,11 +2834,11 @@
             this.button112.Size = new System.Drawing.Size(183, 20);
             this.button112.TabIndex = 41;
             this.button112.Tag = "Kills all suspecious looking processes. Run this before running your malware scan" +
-                "ner. WARNING: this tool will shut down Setup Assistant.";
+    "ner. WARNING: this tool will shut down Setup Assistant.";
             this.button112.Text = "RKill";
             this.button112.UseVisualStyleBackColor = true;
-            this.button112.HelpRequested += new System.Windows.Forms.HelpEventHandler(this.button_HelpRequested);
             this.button112.Click += new System.EventHandler(this.button112_Click_1);
+            this.button112.HelpRequested += new System.Windows.Forms.HelpEventHandler(this.button_HelpRequested);
             // 
             // button76
             // 
@@ -2804,8 +2853,8 @@
             this.button76.Tag = "Disables drivers and emulation tools that could affect malware scanners.";
             this.button76.Text = "DeFogger";
             this.button76.UseVisualStyleBackColor = true;
-            this.button76.HelpRequested += new System.Windows.Forms.HelpEventHandler(this.button_HelpRequested);
             this.button76.Click += new System.EventHandler(this.button76_Click_1);
+            this.button76.HelpRequested += new System.Windows.Forms.HelpEventHandler(this.button_HelpRequested);
             // 
             // groupBox31
             // 
@@ -2853,8 +2902,8 @@
             this.button114.Tag = "Hitman Pro cloud based anti-malware scanner.";
             this.button114.Text = "Hitman Pro 32 Bit";
             this.button114.UseVisualStyleBackColor = true;
-            this.button114.HelpRequested += new System.Windows.Forms.HelpEventHandler(this.button_HelpRequested);
             this.button114.Click += new System.EventHandler(this.button114_Click_1);
+            this.button114.HelpRequested += new System.Windows.Forms.HelpEventHandler(this.button_HelpRequested);
             // 
             // button190
             // 
@@ -2869,8 +2918,8 @@
             this.button190.Tag = resources.GetString("button190.Tag");
             this.button190.Text = "F-Secure Blacklight";
             this.button190.UseVisualStyleBackColor = true;
-            this.button190.HelpRequested += new System.Windows.Forms.HelpEventHandler(this.button_HelpRequested);
             this.button190.Click += new System.EventHandler(this.button190_Click);
+            this.button190.HelpRequested += new System.Windows.Forms.HelpEventHandler(this.button_HelpRequested);
             // 
             // button143
             // 
@@ -2885,8 +2934,8 @@
             this.button143.Tag = "Removes the CoolWebSearch trojan.";
             this.button143.Text = "CWShreader";
             this.button143.UseVisualStyleBackColor = true;
-            this.button143.HelpRequested += new System.Windows.Forms.HelpEventHandler(this.button_HelpRequested);
             this.button143.Click += new System.EventHandler(this.button143_Click);
+            this.button143.HelpRequested += new System.Windows.Forms.HelpEventHandler(this.button_HelpRequested);
             // 
             // button142
             // 
@@ -2898,11 +2947,11 @@
             this.button142.Name = "button142";
             this.button142.Size = new System.Drawing.Size(180, 20);
             this.button142.TabIndex = 45;
-            this.button142.Tag = "Removes Vundo and related trojans. Best to run in Safe Mode.";
-            this.button142.Text = "VirtoMundoBegone";
+            this.button142.Tag = "Rootkit removal tool from Panda software.";
+            this.button142.Text = "Panda Anti Rootkit";
             this.button142.UseVisualStyleBackColor = true;
-            this.button142.HelpRequested += new System.Windows.Forms.HelpEventHandler(this.button_HelpRequested);
             this.button142.Click += new System.EventHandler(this.button142_Click);
+            this.button142.HelpRequested += new System.Windows.Forms.HelpEventHandler(this.button_HelpRequested);
             // 
             // button141
             // 
@@ -2910,15 +2959,15 @@
             this.button141.ForeColor = System.Drawing.Color.Blue;
             this.button141.Image = ((System.Drawing.Image)(resources.GetObject("button141.Image")));
             this.button141.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.button141.Location = new System.Drawing.Point(6, 83);
+            this.button141.Location = new System.Drawing.Point(6, 62);
             this.button141.Name = "button141";
             this.button141.Size = new System.Drawing.Size(180, 20);
             this.button141.TabIndex = 44;
-            this.button141.Tag = "Tool which removes Vundo trojan.";
-            this.button141.Text = "VundoFix";
+            this.button141.Tag = "Rootkit removal tool from McAfee.";
+            this.button141.Text = "McAfee Rootkit Remove";
             this.button141.UseVisualStyleBackColor = true;
-            this.button141.HelpRequested += new System.Windows.Forms.HelpEventHandler(this.button_HelpRequested);
             this.button141.Click += new System.EventHandler(this.button141_Click);
+            this.button141.HelpRequested += new System.Windows.Forms.HelpEventHandler(this.button_HelpRequested);
             // 
             // button138
             // 
@@ -2926,15 +2975,15 @@
             this.button138.ForeColor = System.Drawing.Color.Blue;
             this.button138.Image = ((System.Drawing.Image)(resources.GetObject("button138.Image")));
             this.button138.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.button138.Location = new System.Drawing.Point(6, 61);
+            this.button138.Location = new System.Drawing.Point(6, 85);
             this.button138.Name = "button138";
             this.button138.Size = new System.Drawing.Size(180, 20);
             this.button138.TabIndex = 43;
             this.button138.Tag = "Tool for removing Google redirects.";
             this.button138.Text = "GooredFix";
             this.button138.UseVisualStyleBackColor = true;
-            this.button138.HelpRequested += new System.Windows.Forms.HelpEventHandler(this.button_HelpRequested);
             this.button138.Click += new System.EventHandler(this.button138_Click_1);
+            this.button138.HelpRequested += new System.Windows.Forms.HelpEventHandler(this.button_HelpRequested);
             // 
             // button73
             // 
@@ -2949,8 +2998,8 @@
             this.button73.Tag = "Rootkit and Trojan removal tool by Kaspersky Labs.";
             this.button73.Text = "TDSKiller";
             this.button73.UseVisualStyleBackColor = true;
-            this.button73.HelpRequested += new System.Windows.Forms.HelpEventHandler(this.button_HelpRequested);
             this.button73.Click += new System.EventHandler(this.button73_Click_1);
+            this.button73.HelpRequested += new System.Windows.Forms.HelpEventHandler(this.button_HelpRequested);
             // 
             // button113
             // 
@@ -2965,8 +3014,8 @@
             this.button113.Tag = resources.GetString("button113.Tag");
             this.button113.Text = "ComboFix";
             this.button113.UseVisualStyleBackColor = true;
-            this.button113.HelpRequested += new System.Windows.Forms.HelpEventHandler(this.button_HelpRequested);
             this.button113.Click += new System.EventHandler(this.button113_Click);
+            this.button113.HelpRequested += new System.Windows.Forms.HelpEventHandler(this.button_HelpRequested);
             // 
             // groupBox30
             // 
@@ -3013,8 +3062,8 @@
             this.button200.Tag = "Rogue Killer by Tigzy - a diagnostic, removal and repair tool.";
             this.button200.Text = "Rogue Killer by Tigzy";
             this.button200.UseVisualStyleBackColor = true;
-            this.button200.HelpRequested += new System.Windows.Forms.HelpEventHandler(this.button_HelpRequested);
             this.button200.Click += new System.EventHandler(this.button200_Click);
+            this.button200.HelpRequested += new System.Windows.Forms.HelpEventHandler(this.button_HelpRequested);
             // 
             // button146
             // 
@@ -3029,8 +3078,8 @@
             this.button146.Tag = "Hijack-This tool with more user friendly interface.";
             this.button146.Text = "X-Ray PC";
             this.button146.UseVisualStyleBackColor = true;
-            this.button146.HelpRequested += new System.Windows.Forms.HelpEventHandler(this.button_HelpRequested);
             this.button146.Click += new System.EventHandler(this.button146_Click);
+            this.button146.HelpRequested += new System.Windows.Forms.HelpEventHandler(this.button_HelpRequested);
             // 
             // button121
             // 
@@ -3043,12 +3092,12 @@
             this.button121.Size = new System.Drawing.Size(180, 20);
             this.button121.TabIndex = 44;
             this.button121.Tag = "Runs a basic security scan, checking for out of date A/V solutions, plugins and e" +
-                "tc.. Runs HiJackThis scan and combines it\'s results to create very comprehensive" +
-                " log file.";
+    "tc.. Runs HiJackThis scan and combines it\'s results to create very comprehensive" +
+    " log file.";
             this.button121.Text = "Screen317 Security Check";
             this.button121.UseVisualStyleBackColor = true;
-            this.button121.HelpRequested += new System.Windows.Forms.HelpEventHandler(this.button_HelpRequested);
             this.button121.Click += new System.EventHandler(this.button121_Click_1);
+            this.button121.HelpRequested += new System.Windows.Forms.HelpEventHandler(this.button_HelpRequested);
             // 
             // button140
             // 
@@ -3063,8 +3112,8 @@
             this.button140.Tag = "Another very detailed system information tool. Creates helpful log files.";
             this.button140.Text = "RSIT - System Info Tool";
             this.button140.UseVisualStyleBackColor = true;
-            this.button140.HelpRequested += new System.Windows.Forms.HelpEventHandler(this.button_HelpRequested);
             this.button140.Click += new System.EventHandler(this.button140_Click);
+            this.button140.HelpRequested += new System.Windows.Forms.HelpEventHandler(this.button_HelpRequested);
             // 
             // button116
             // 
@@ -3079,8 +3128,8 @@
             this.button116.Tag = "Great rootkit detector tool. Use with caution.";
             this.button116.Text = "GMER Rootkit Detector";
             this.button116.UseVisualStyleBackColor = true;
-            this.button116.HelpRequested += new System.Windows.Forms.HelpEventHandler(this.button_HelpRequested);
             this.button116.Click += new System.EventHandler(this.button116_Click);
+            this.button116.HelpRequested += new System.Windows.Forms.HelpEventHandler(this.button_HelpRequested);
             // 
             // button78
             // 
@@ -3093,11 +3142,11 @@
             this.button78.Size = new System.Drawing.Size(180, 20);
             this.button78.TabIndex = 40;
             this.button78.Tag = "Generates very detailed log files that can be used to diagnose a malware problem." +
-                "";
+    "";
             this.button78.Text = "DDS Diagnostic Tool";
             this.button78.UseVisualStyleBackColor = true;
-            this.button78.HelpRequested += new System.Windows.Forms.HelpEventHandler(this.button_HelpRequested);
             this.button78.Click += new System.EventHandler(this.button78_Click_1);
+            this.button78.HelpRequested += new System.Windows.Forms.HelpEventHandler(this.button_HelpRequested);
             // 
             // button115
             // 
@@ -3110,11 +3159,11 @@
             this.button115.Size = new System.Drawing.Size(180, 20);
             this.button115.TabIndex = 38;
             this.button115.Tag = "Great diagnostic tool by Trend Micro. Use with caution. It can break your compute" +
-                "r.";
+    "r.";
             this.button115.Text = "HijackThis (trend micro)";
             this.button115.UseVisualStyleBackColor = true;
-            this.button115.HelpRequested += new System.Windows.Forms.HelpEventHandler(this.button_HelpRequested);
             this.button115.Click += new System.EventHandler(this.button115_Click);
+            this.button115.HelpRequested += new System.Windows.Forms.HelpEventHandler(this.button_HelpRequested);
             // 
             // tabPage2
             // 
@@ -3154,8 +3203,8 @@
             this.button106.Tag = "Disable all warning messages when browsing the file system.";
             this.button106.Text = "Unprotect System Folders";
             this.button106.UseVisualStyleBackColor = true;
-            this.button106.HelpRequested += new System.Windows.Forms.HelpEventHandler(this.button_HelpRequested);
             this.button106.Click += new System.EventHandler(this.button106_Click);
+            this.button106.HelpRequested += new System.Windows.Forms.HelpEventHandler(this.button_HelpRequested);
             // 
             // button105
             // 
@@ -3167,11 +3216,11 @@
             this.button105.Size = new System.Drawing.Size(211, 23);
             this.button105.TabIndex = 64;
             this.button105.Tag = "Enable warning message when user attempts to open root folder, windows directory," +
-                " program files, etc..";
+    " program files, etc..";
             this.button105.Text = "Protect System Folders";
             this.button105.UseVisualStyleBackColor = true;
-            this.button105.HelpRequested += new System.Windows.Forms.HelpEventHandler(this.button_HelpRequested);
             this.button105.Click += new System.EventHandler(this.button105_Click);
+            this.button105.HelpRequested += new System.Windows.Forms.HelpEventHandler(this.button_HelpRequested);
             // 
             // groupBox15
             // 
@@ -3198,8 +3247,8 @@
             this.button148.Tag = "Opens the system profile folder";
             this.button148.Text = "System Profile";
             this.button148.UseVisualStyleBackColor = true;
-            this.button148.HelpRequested += new System.Windows.Forms.HelpEventHandler(this.button_HelpRequested);
             this.button148.Click += new System.EventHandler(this.button148_Click);
+            this.button148.HelpRequested += new System.Windows.Forms.HelpEventHandler(this.button_HelpRequested);
             // 
             // groupBox6
             // 
@@ -3264,11 +3313,11 @@
             this.button185.Size = new System.Drawing.Size(179, 20);
             this.button185.TabIndex = 76;
             this.button185.Tag = "Downloads and runs the IE Re-Registration script by Kai Schaetzl from http://iefa" +
-                "q.info/index.php?action=artikel&;cat=42&id=133&artlang=en";
+    "q.info/index.php?action=artikel&;cat=42&id=133&artlang=en";
             this.button185.Text = "IE8 Re-Reg by Kai Schaetzl";
             this.button185.UseVisualStyleBackColor = true;
-            this.button185.HelpRequested += new System.Windows.Forms.HelpEventHandler(this.button_HelpRequested);
             this.button185.Click += new System.EventHandler(this.button185_Click);
+            this.button185.HelpRequested += new System.Windows.Forms.HelpEventHandler(this.button_HelpRequested);
             // 
             // button162
             // 
@@ -3281,12 +3330,12 @@
             this.button162.Size = new System.Drawing.Size(179, 20);
             this.button162.TabIndex = 75;
             this.button162.Tag = "Downloads and runs a Microsoft tool which runs a diagnostic on existing IE add-on" +
-                "s and helps you identify potential issues. See http://support.microsoft.com/mats" +
-                "/ie_freezes_or_crashes/en-us";
+    "s and helps you identify potential issues. See http://support.microsoft.com/mats" +
+    "/ie_freezes_or_crashes/en-us";
             this.button162.Text = "Fix IE Add-On Issues";
             this.button162.UseVisualStyleBackColor = true;
-            this.button162.HelpRequested += new System.Windows.Forms.HelpEventHandler(this.button_HelpRequested);
             this.button162.Click += new System.EventHandler(this.button162_Click);
+            this.button162.HelpRequested += new System.Windows.Forms.HelpEventHandler(this.button_HelpRequested);
             // 
             // button161
             // 
@@ -3299,12 +3348,12 @@
             this.button161.Size = new System.Drawing.Size(179, 20);
             this.button161.TabIndex = 74;
             this.button161.Tag = "Downloads and runs a Fix-It MSI file from Microsoft Knowledge base which resets I" +
-                "nternet Explorer back to default settings. See http://support.microsoft.com/kb/9" +
-                "23737";
+    "nternet Explorer back to default settings. See http://support.microsoft.com/kb/9" +
+    "23737";
             this.button161.Text = "Reset IE to Defaults";
             this.button161.UseVisualStyleBackColor = true;
-            this.button161.HelpRequested += new System.Windows.Forms.HelpEventHandler(this.button_HelpRequested);
             this.button161.Click += new System.EventHandler(this.button161_Click);
+            this.button161.HelpRequested += new System.Windows.Forms.HelpEventHandler(this.button_HelpRequested);
             // 
             // groupBox42
             // 
@@ -3330,8 +3379,8 @@
             this.button145.Tag = "McAfee tool which identifies open ports and their associated applications.";
             this.button145.Text = "FPort";
             this.button145.UseVisualStyleBackColor = true;
-            this.button145.HelpRequested += new System.Windows.Forms.HelpEventHandler(this.button_HelpRequested);
             this.button145.Click += new System.EventHandler(this.button145_Click);
+            this.button145.HelpRequested += new System.Windows.Forms.HelpEventHandler(this.button_HelpRequested);
             // 
             // button128
             // 
@@ -3346,8 +3395,8 @@
             this.button128.Tag = "GUI wrapper for Windows openfiles command.";
             this.button128.Text = "Close Shared Files";
             this.button128.UseVisualStyleBackColor = true;
-            this.button128.HelpRequested += new System.Windows.Forms.HelpEventHandler(this.button_HelpRequested);
             this.button128.Click += new System.EventHandler(this.button128_Click);
+            this.button128.HelpRequested += new System.Windows.Forms.HelpEventHandler(this.button_HelpRequested);
             // 
             // groupBox38
             // 
@@ -3373,8 +3422,8 @@
             this.button159.Tag = "Built in Windows telnet client.";
             this.button159.Text = "TELNET";
             this.button159.UseVisualStyleBackColor = true;
-            this.button159.HelpRequested += new System.Windows.Forms.HelpEventHandler(this.button_HelpRequested);
             this.button159.Click += new System.EventHandler(this.button159_Click);
+            this.button159.HelpRequested += new System.Windows.Forms.HelpEventHandler(this.button_HelpRequested);
             // 
             // button158
             // 
@@ -3389,8 +3438,8 @@
             this.button158.Tag = "Free telnet client for windows";
             this.button158.Text = "PuTTYtel";
             this.button158.UseVisualStyleBackColor = true;
-            this.button158.HelpRequested += new System.Windows.Forms.HelpEventHandler(this.button_HelpRequested);
             this.button158.Click += new System.EventHandler(this.button158_Click);
+            this.button158.HelpRequested += new System.Windows.Forms.HelpEventHandler(this.button_HelpRequested);
             // 
             // button157
             // 
@@ -3405,8 +3454,8 @@
             this.button157.Tag = "Free SSH client for windows";
             this.button157.Text = "PuTTY";
             this.button157.UseVisualStyleBackColor = true;
-            this.button157.HelpRequested += new System.Windows.Forms.HelpEventHandler(this.button_HelpRequested);
             this.button157.Click += new System.EventHandler(this.button157_Click);
+            this.button157.HelpRequested += new System.Windows.Forms.HelpEventHandler(this.button_HelpRequested);
             // 
             // groupBox35
             // 
@@ -3430,11 +3479,11 @@
             this.button124.Size = new System.Drawing.Size(179, 23);
             this.button124.TabIndex = 72;
             this.button124.Tag = "Resets TCP/IP. Equivalent to running netsh int ip reset. It will show you a log f" +
-                "ile after it\'s finished.";
+    "ile after it\'s finished.";
             this.button124.Text = "Reset TCP/IP";
             this.button124.UseVisualStyleBackColor = true;
-            this.button124.HelpRequested += new System.Windows.Forms.HelpEventHandler(this.button_HelpRequested);
             this.button124.Click += new System.EventHandler(this.button124_Click);
+            this.button124.HelpRequested += new System.Windows.Forms.HelpEventHandler(this.button_HelpRequested);
             // 
             // button123
             // 
@@ -3446,11 +3495,11 @@
             this.button123.Size = new System.Drawing.Size(179, 23);
             this.button123.TabIndex = 71;
             this.button123.Tag = "Resets Winsock catalog. This may resolve some networking issues. Don\'t run this i" +
-                "f you don\'t know what you are doing. Equivalent to running netsh winsock reset.";
+    "f you don\'t know what you are doing. Equivalent to running netsh winsock reset.";
             this.button123.Text = "Reset Winsock";
             this.button123.UseVisualStyleBackColor = true;
-            this.button123.HelpRequested += new System.Windows.Forms.HelpEventHandler(this.button_HelpRequested);
             this.button123.Click += new System.EventHandler(this.button123_Click);
+            this.button123.HelpRequested += new System.Windows.Forms.HelpEventHandler(this.button_HelpRequested);
             // 
             // button122
             // 
@@ -3463,8 +3512,8 @@
             this.button122.Tag = "Shows the contents of Winsock catalog.";
             this.button122.Text = "Show Winsock Catalog";
             this.button122.UseVisualStyleBackColor = true;
-            this.button122.HelpRequested += new System.Windows.Forms.HelpEventHandler(this.button_HelpRequested);
             this.button122.Click += new System.EventHandler(this.button122_Click);
+            this.button122.HelpRequested += new System.Windows.Forms.HelpEventHandler(this.button_HelpRequested);
             // 
             // groupBox27
             // 
@@ -3493,11 +3542,11 @@
             this.button186.Size = new System.Drawing.Size(175, 20);
             this.button186.TabIndex = 78;
             this.button186.Tag = "Replaces your hosts file with MVPS blacklist. See http://winhelp2002.mvps.org/hos" +
-                "ts.htm for details.";
+    "ts.htm for details.";
             this.button186.Text = "Use MVPS HOSTS file";
             this.button186.UseVisualStyleBackColor = true;
-            this.button186.HelpRequested += new System.Windows.Forms.HelpEventHandler(this.button_HelpRequested);
             this.button186.Click += new System.EventHandler(this.button186_Click_1);
+            this.button186.HelpRequested += new System.Windows.Forms.HelpEventHandler(this.button_HelpRequested);
             // 
             // button104
             // 
@@ -3510,8 +3559,8 @@
             this.button104.Tag = "Toggles Read-Only state on your HOSTS file.";
             this.button104.Text = "Set to Read Only";
             this.button104.UseVisualStyleBackColor = true;
-            this.button104.HelpRequested += new System.Windows.Forms.HelpEventHandler(this.button_HelpRequested);
             this.button104.Click += new System.EventHandler(this.button104_Click);
+            this.button104.HelpRequested += new System.Windows.Forms.HelpEventHandler(this.button_HelpRequested);
             // 
             // button103
             // 
@@ -3524,8 +3573,8 @@
             this.button103.Tag = "Restores HOSTS file from backup.";
             this.button103.Text = "Restore HOSTS File";
             this.button103.UseVisualStyleBackColor = true;
-            this.button103.HelpRequested += new System.Windows.Forms.HelpEventHandler(this.button_HelpRequested);
             this.button103.Click += new System.EventHandler(this.button103_Click);
+            this.button103.HelpRequested += new System.Windows.Forms.HelpEventHandler(this.button_HelpRequested);
             // 
             // button102
             // 
@@ -3536,11 +3585,11 @@
             this.button102.Size = new System.Drawing.Size(175, 20);
             this.button102.TabIndex = 75;
             this.button102.Tag = "Recreates HOSTS file from scratch. Useful if you accidentally deleted it without " +
-                "making backup.";
+    "making backup.";
             this.button102.Text = "Recreate HOSTS File";
             this.button102.UseVisualStyleBackColor = true;
-            this.button102.HelpRequested += new System.Windows.Forms.HelpEventHandler(this.button_HelpRequested);
             this.button102.Click += new System.EventHandler(this.button102_Click);
+            this.button102.HelpRequested += new System.Windows.Forms.HelpEventHandler(this.button_HelpRequested);
             // 
             // button101
             // 
@@ -3553,8 +3602,8 @@
             this.button101.Tag = "Deletes current HOSTS file. ";
             this.button101.Text = "Delete HOSTS Backup";
             this.button101.UseVisualStyleBackColor = true;
-            this.button101.HelpRequested += new System.Windows.Forms.HelpEventHandler(this.button_HelpRequested);
             this.button101.Click += new System.EventHandler(this.button101_Click);
+            this.button101.HelpRequested += new System.Windows.Forms.HelpEventHandler(this.button_HelpRequested);
             // 
             // button100
             // 
@@ -3568,8 +3617,8 @@
             this.button100.Tag = "Opens the folder where HOSTS file is located.";
             this.button100.Text = "Open HOSTS Folder";
             this.button100.UseVisualStyleBackColor = true;
-            this.button100.HelpRequested += new System.Windows.Forms.HelpEventHandler(this.button_HelpRequested);
             this.button100.Click += new System.EventHandler(this.button100_Click);
+            this.button100.HelpRequested += new System.Windows.Forms.HelpEventHandler(this.button_HelpRequested);
             // 
             // button99
             // 
@@ -3582,8 +3631,8 @@
             this.button99.Tag = "Backs up your current HOSTS file.";
             this.button99.Text = "Backup HOSTS File";
             this.button99.UseVisualStyleBackColor = true;
-            this.button99.HelpRequested += new System.Windows.Forms.HelpEventHandler(this.button_HelpRequested);
             this.button99.Click += new System.EventHandler(this.button99_Click);
+            this.button99.HelpRequested += new System.Windows.Forms.HelpEventHandler(this.button_HelpRequested);
             // 
             // groupBox26
             // 
@@ -3635,7 +3684,7 @@
             this.button213.Size = new System.Drawing.Size(191, 23);
             this.button213.TabIndex = 61;
             this.button213.Tag = "Farbar Service Scanner allows you to diagnose network connectivity issues due to " +
-                "corrupted or missing Windows services.";
+    "corrupted or missing Windows services.";
             this.button213.Text = "Farbar Service Scanner";
             this.button213.UseVisualStyleBackColor = true;
             this.button213.Click += new System.EventHandler(this.button213_Click);
@@ -3653,8 +3702,8 @@
             this.button212.Tag = resources.GetString("button212.Tag");
             this.button212.Text = "MiniToolBox";
             this.button212.UseVisualStyleBackColor = true;
-            this.button212.HelpRequested += new System.Windows.Forms.HelpEventHandler(this.button_HelpRequested);
             this.button212.Click += new System.EventHandler(this.button212_Click);
+            this.button212.HelpRequested += new System.Windows.Forms.HelpEventHandler(this.button_HelpRequested);
             // 
             // tabPage4
             // 
@@ -3700,11 +3749,11 @@
             this.button182.Size = new System.Drawing.Size(180, 20);
             this.button182.TabIndex = 13;
             this.button182.Tag = "Downloads and installs conversion pack which allows you to view and edit Microsof" +
-                "t Works files in Microsoft Office..";
+    "t Works files in Microsoft Office..";
             this.button182.Text = "MS Works Converter";
             this.button182.UseVisualStyleBackColor = true;
-            this.button182.HelpRequested += new System.Windows.Forms.HelpEventHandler(this.button_HelpRequested);
             this.button182.Click += new System.EventHandler(this.button182_Click);
+            this.button182.HelpRequested += new System.Windows.Forms.HelpEventHandler(this.button_HelpRequested);
             // 
             // button181
             // 
@@ -3716,11 +3765,11 @@
             this.button181.Size = new System.Drawing.Size(180, 20);
             this.button181.TabIndex = 12;
             this.button181.Tag = "Downloads and installs application allowing you to view Microsoft Visio documents" +
-                ".";
+    ".";
             this.button181.Text = "Visio Viewer";
             this.button181.UseVisualStyleBackColor = true;
-            this.button181.HelpRequested += new System.Windows.Forms.HelpEventHandler(this.button_HelpRequested);
             this.button181.Click += new System.EventHandler(this.button181_Click);
+            this.button181.HelpRequested += new System.Windows.Forms.HelpEventHandler(this.button_HelpRequested);
             // 
             // button180
             // 
@@ -3732,11 +3781,11 @@
             this.button180.Size = new System.Drawing.Size(180, 20);
             this.button180.TabIndex = 11;
             this.button180.Tag = "Downloads and installs application allowing you to view Microsoft Powerpointl doc" +
-                "uments.";
+    "uments.";
             this.button180.Text = "Powerpoint Viewer";
             this.button180.UseVisualStyleBackColor = true;
-            this.button180.HelpRequested += new System.Windows.Forms.HelpEventHandler(this.button_HelpRequested);
             this.button180.Click += new System.EventHandler(this.button180_Click);
+            this.button180.HelpRequested += new System.Windows.Forms.HelpEventHandler(this.button_HelpRequested);
             // 
             // button179
             // 
@@ -3748,11 +3797,11 @@
             this.button179.Size = new System.Drawing.Size(180, 20);
             this.button179.TabIndex = 10;
             this.button179.Tag = "Downloads and installs application allowing you to view Microsoft Excel documents" +
-                ".";
+    ".";
             this.button179.Text = "Excel Viewer";
             this.button179.UseVisualStyleBackColor = true;
-            this.button179.HelpRequested += new System.Windows.Forms.HelpEventHandler(this.button_HelpRequested);
             this.button179.Click += new System.EventHandler(this.button179_Click);
+            this.button179.HelpRequested += new System.Windows.Forms.HelpEventHandler(this.button_HelpRequested);
             // 
             // button178
             // 
@@ -3764,11 +3813,11 @@
             this.button178.Size = new System.Drawing.Size(180, 20);
             this.button178.TabIndex = 9;
             this.button178.Tag = "Downloads and installs application allowing you to view Microsoft Word documents." +
-                "";
+    "";
             this.button178.Text = "Word Viewer";
             this.button178.UseVisualStyleBackColor = true;
-            this.button178.HelpRequested += new System.Windows.Forms.HelpEventHandler(this.button_HelpRequested);
             this.button178.Click += new System.EventHandler(this.button178_Click);
+            this.button178.HelpRequested += new System.Windows.Forms.HelpEventHandler(this.button_HelpRequested);
             // 
             // groupBox48
             // 
@@ -3793,8 +3842,8 @@
             this.button173.Tag = "Remove the CD key associated with installed Office versions.";
             this.button173.Text = "Office CD Key Management";
             this.button173.UseVisualStyleBackColor = true;
-            this.button173.HelpRequested += new System.Windows.Forms.HelpEventHandler(this.button_HelpRequested);
             this.button173.Click += new System.EventHandler(this.button173_Click);
+            this.button173.HelpRequested += new System.Windows.Forms.HelpEventHandler(this.button_HelpRequested);
             // 
             // groupBox46
             // 
@@ -3821,8 +3870,8 @@
             this.button168.Tag = "Common shared Microsoft files.";
             this.button168.Text = "Microsoft Shared Folder";
             this.button168.UseVisualStyleBackColor = true;
-            this.button168.HelpRequested += new System.Windows.Forms.HelpEventHandler(this.button_HelpRequested);
             this.button168.Click += new System.EventHandler(this.button168_Click);
+            this.button168.HelpRequested += new System.Windows.Forms.HelpEventHandler(this.button_HelpRequested);
             // 
             // button167
             // 
@@ -3837,8 +3886,8 @@
             this.button167.Tag = "Open the common shared Office XP folder.";
             this.button167.Text = "OFFICE10";
             this.button167.UseVisualStyleBackColor = true;
-            this.button167.HelpRequested += new System.Windows.Forms.HelpEventHandler(this.button_HelpRequested);
             this.button167.Click += new System.EventHandler(this.button167_Click);
+            this.button167.HelpRequested += new System.Windows.Forms.HelpEventHandler(this.button_HelpRequested);
             // 
             // button166
             // 
@@ -3853,8 +3902,8 @@
             this.button166.Tag = "Open the common shared Office 2007 folder.";
             this.button166.Text = "OFFICE12";
             this.button166.UseVisualStyleBackColor = true;
-            this.button166.HelpRequested += new System.Windows.Forms.HelpEventHandler(this.button_HelpRequested);
             this.button166.Click += new System.EventHandler(this.button166_Click);
+            this.button166.HelpRequested += new System.Windows.Forms.HelpEventHandler(this.button_HelpRequested);
             // 
             // button165
             // 
@@ -3869,8 +3918,8 @@
             this.button165.Tag = "Open common shared Office 2003 folder.";
             this.button165.Text = "OFFICE11";
             this.button165.UseVisualStyleBackColor = true;
-            this.button165.HelpRequested += new System.Windows.Forms.HelpEventHandler(this.button_HelpRequested);
             this.button165.Click += new System.EventHandler(this.button165_Click);
+            this.button165.HelpRequested += new System.Windows.Forms.HelpEventHandler(this.button_HelpRequested);
             // 
             // groupBox40
             // 
@@ -3898,8 +3947,8 @@
             this.button135.Tag = "Delete the template backup.";
             this.button135.Text = "Delete Backup Template";
             this.button135.UseVisualStyleBackColor = true;
-            this.button135.HelpRequested += new System.Windows.Forms.HelpEventHandler(this.button_HelpRequested);
             this.button135.Click += new System.EventHandler(this.button135_Click);
+            this.button135.HelpRequested += new System.Windows.Forms.HelpEventHandler(this.button_HelpRequested);
             // 
             // button134
             // 
@@ -3914,8 +3963,8 @@
             this.button134.Tag = "Restore Normal.dot template from backup. (Backup must have been made first).";
             this.button134.Text = "Restore Normal.dot";
             this.button134.UseVisualStyleBackColor = true;
-            this.button134.HelpRequested += new System.Windows.Forms.HelpEventHandler(this.button_HelpRequested);
             this.button134.Click += new System.EventHandler(this.button134_Click);
+            this.button134.HelpRequested += new System.Windows.Forms.HelpEventHandler(this.button_HelpRequested);
             // 
             // button133
             // 
@@ -3930,8 +3979,8 @@
             this.button133.Tag = "Delete current default word template.";
             this.button133.Text = "Delete Normal.dot";
             this.button133.UseVisualStyleBackColor = true;
-            this.button133.HelpRequested += new System.Windows.Forms.HelpEventHandler(this.button_HelpRequested);
             this.button133.Click += new System.EventHandler(this.button133_Click);
+            this.button133.HelpRequested += new System.Windows.Forms.HelpEventHandler(this.button_HelpRequested);
             // 
             // button132
             // 
@@ -3946,8 +3995,8 @@
             this.button132.Tag = "Make a backup copy of the Normal.dot Word template.";
             this.button132.Text = "Backup Normal.dot";
             this.button132.UseVisualStyleBackColor = true;
-            this.button132.HelpRequested += new System.Windows.Forms.HelpEventHandler(this.button_HelpRequested);
             this.button132.Click += new System.EventHandler(this.button132_Click);
+            this.button132.HelpRequested += new System.Windows.Forms.HelpEventHandler(this.button_HelpRequested);
             // 
             // groupBox19
             // 
@@ -3972,11 +4021,11 @@
             this.button177.Size = new System.Drawing.Size(180, 23);
             this.button177.TabIndex = 11;
             this.button177.Tag = "Downloads a command line tool which extracts information from winmail.dat files, " +
-                "which are sometimes created by Outlook.";
+    "which are sometimes created by Outlook.";
             this.button177.Text = "WMDecode";
             this.button177.UseVisualStyleBackColor = true;
-            this.button177.HelpRequested += new System.Windows.Forms.HelpEventHandler(this.button_HelpRequested);
             this.button177.Click += new System.EventHandler(this.button177_Click);
+            this.button177.HelpRequested += new System.Windows.Forms.HelpEventHandler(this.button_HelpRequested);
             // 
             // button176
             // 
@@ -3990,8 +4039,8 @@
             this.button176.Tag = "Tool which helps to delete stuck search folders in outlook files.";
             this.button176.Text = "Public Fix SearchFolders";
             this.button176.UseVisualStyleBackColor = true;
-            this.button176.HelpRequested += new System.Windows.Forms.HelpEventHandler(this.button_HelpRequested);
             this.button176.Click += new System.EventHandler(this.button176_Click);
+            this.button176.HelpRequested += new System.Windows.Forms.HelpEventHandler(this.button_HelpRequested);
             // 
             // button175
             // 
@@ -4003,11 +4052,11 @@
             this.button175.Size = new System.Drawing.Size(180, 23);
             this.button175.TabIndex = 9;
             this.button175.Tag = "Download and install Microsoft Visual Studio 2005 Tools for Office Second Edition" +
-                " Runtime (VSTO 2005 SE) (x86).";
+    " Runtime (VSTO 2005 SE) (x86).";
             this.button175.Text = "Install VSTO 2005 SE";
             this.button175.UseVisualStyleBackColor = true;
-            this.button175.HelpRequested += new System.Windows.Forms.HelpEventHandler(this.button_HelpRequested);
             this.button175.Click += new System.EventHandler(this.button175_Click);
+            this.button175.HelpRequested += new System.Windows.Forms.HelpEventHandler(this.button_HelpRequested);
             // 
             // button174
             // 
@@ -4021,8 +4070,8 @@
             this.button174.Tag = "Allows you to open Office 2007 and 2010 files in Office 2003.";
             this.button174.Text = "Office Compatibility Pack";
             this.button174.UseVisualStyleBackColor = true;
-            this.button174.HelpRequested += new System.Windows.Forms.HelpEventHandler(this.button_HelpRequested);
             this.button174.Click += new System.EventHandler(this.button174_Click);
+            this.button174.HelpRequested += new System.Windows.Forms.HelpEventHandler(this.button_HelpRequested);
             // 
             // groupBox17
             // 
@@ -4049,8 +4098,8 @@
             this.button131.Tag = "Open office profile folder.";
             this.button131.Text = "Office Profile";
             this.button131.UseVisualStyleBackColor = true;
-            this.button131.HelpRequested += new System.Windows.Forms.HelpEventHandler(this.button_HelpRequested);
             this.button131.Click += new System.EventHandler(this.button131_Click);
+            this.button131.HelpRequested += new System.Windows.Forms.HelpEventHandler(this.button_HelpRequested);
             // 
             // button88
             // 
@@ -4065,8 +4114,8 @@
             this.button88.Tag = "Open Word profile folder.";
             this.button88.Text = "Word Profile";
             this.button88.UseVisualStyleBackColor = true;
-            this.button88.HelpRequested += new System.Windows.Forms.HelpEventHandler(this.button_HelpRequested);
             this.button88.Click += new System.EventHandler(this.button88_Click);
+            this.button88.HelpRequested += new System.Windows.Forms.HelpEventHandler(this.button_HelpRequested);
             // 
             // button87
             // 
@@ -4081,8 +4130,8 @@
             this.button87.Tag = "Open Excel profile folder.";
             this.button87.Text = "Excel Profile";
             this.button87.UseVisualStyleBackColor = true;
-            this.button87.HelpRequested += new System.Windows.Forms.HelpEventHandler(this.button_HelpRequested);
             this.button87.Click += new System.EventHandler(this.button87_Click);
+            this.button87.HelpRequested += new System.Windows.Forms.HelpEventHandler(this.button_HelpRequested);
             // 
             // groupBox14
             // 
@@ -4108,11 +4157,11 @@
             this.button127.Size = new System.Drawing.Size(179, 23);
             this.button127.TabIndex = 73;
             this.button127.Tag = "Tool which fixes the Outlook issue when it fails to display zip files in the atta" +
-                "chment dialog.";
+    "chment dialog.";
             this.button127.Text = "Outlook ZipFix (maciak.org)";
             this.button127.UseVisualStyleBackColor = true;
-            this.button127.HelpRequested += new System.Windows.Forms.HelpEventHandler(this.button_HelpRequested);
             this.button127.Click += new System.EventHandler(this.button127_Click);
+            this.button127.HelpRequested += new System.Windows.Forms.HelpEventHandler(this.button_HelpRequested);
             // 
             // button20
             // 
@@ -4127,8 +4176,8 @@
             this.button20.Tag = "Open Microsoft Office program folder.";
             this.button20.Text = "Office Program Folder";
             this.button20.UseVisualStyleBackColor = true;
-            this.button20.HelpRequested += new System.Windows.Forms.HelpEventHandler(this.button_HelpRequested);
             this.button20.Click += new System.EventHandler(this.button20_Click_1);
+            this.button20.HelpRequested += new System.Windows.Forms.HelpEventHandler(this.button_HelpRequested);
             // 
             // groupBox13
             // 
@@ -4153,7 +4202,7 @@
             this.button160.Size = new System.Drawing.Size(196, 23);
             this.button160.TabIndex = 5;
             this.button160.Tag = "Open Outlook settings folder. This is where auto-complete history is stored insid" +
-                "e NK2 files.";
+    "e NK2 files.";
             this.button160.Text = "Outlook Express Identity Folder";
             this.button160.UseVisualStyleBackColor = true;
             this.button160.Click += new System.EventHandler(this.button160_Click);
@@ -4206,8 +4255,8 @@
             this.button171.Tag = "Downloads and runs Microsoft Fix-It MSI file which resets Windows Update.";
             this.button171.Text = "Reset Windows Update";
             this.button171.UseVisualStyleBackColor = true;
-            this.button171.HelpRequested += new System.Windows.Forms.HelpEventHandler(this.button_HelpRequested);
             this.button171.Click += new System.EventHandler(this.button171_Click);
+            this.button171.HelpRequested += new System.Windows.Forms.HelpEventHandler(this.button_HelpRequested);
             // 
             // button152
             // 
@@ -4220,8 +4269,8 @@
             this.button152.Tag = "Starts Windows Update Service.";
             this.button152.Text = "Start";
             this.button152.UseVisualStyleBackColor = true;
-            this.button152.HelpRequested += new System.Windows.Forms.HelpEventHandler(this.button_HelpRequested);
             this.button152.Click += new System.EventHandler(this.button152_Click);
+            this.button152.HelpRequested += new System.Windows.Forms.HelpEventHandler(this.button_HelpRequested);
             // 
             // button151
             // 
@@ -4234,8 +4283,8 @@
             this.button151.Tag = "Stops Windows Update Service";
             this.button151.Text = "Stop";
             this.button151.UseVisualStyleBackColor = true;
-            this.button151.HelpRequested += new System.Windows.Forms.HelpEventHandler(this.button_HelpRequested);
             this.button151.Click += new System.EventHandler(this.button151_Click);
+            this.button151.HelpRequested += new System.Windows.Forms.HelpEventHandler(this.button_HelpRequested);
             // 
             // button150
             // 
@@ -4246,11 +4295,11 @@
             this.button150.Size = new System.Drawing.Size(174, 21);
             this.button150.TabIndex = 83;
             this.button150.Tag = "Re-registers all the libraries  which are listed as prerequisites for Windows Upd" +
-                "ate.";
+    "ate.";
             this.button150.Text = "Re-Register Components";
             this.button150.UseVisualStyleBackColor = true;
-            this.button150.HelpRequested += new System.Windows.Forms.HelpEventHandler(this.button_HelpRequested);
             this.button150.Click += new System.EventHandler(this.button150_Click);
+            this.button150.HelpRequested += new System.Windows.Forms.HelpEventHandler(this.button_HelpRequested);
             // 
             // groupBox39
             // 
@@ -4282,8 +4331,8 @@
             this.button211.Tag = "Repair broken services. Tool by ESET AV company.";
             this.button211.Text = "ESET Services Repair";
             this.button211.UseVisualStyleBackColor = true;
-            this.button211.HelpRequested += new System.Windows.Forms.HelpEventHandler(this.button_HelpRequested);
             this.button211.Click += new System.EventHandler(this.button211_Click);
+            this.button211.HelpRequested += new System.Windows.Forms.HelpEventHandler(this.button_HelpRequested);
             // 
             // button206
             // 
@@ -4298,8 +4347,8 @@
             this.button206.Tag = resources.GetString("button206.Tag");
             this.button206.Text = "PC Decrapifier Installer";
             this.button206.UseVisualStyleBackColor = true;
-            this.button206.HelpRequested += new System.Windows.Forms.HelpEventHandler(this.button_HelpRequested);
             this.button206.Click += new System.EventHandler(this.button206_Click);
+            this.button206.HelpRequested += new System.Windows.Forms.HelpEventHandler(this.button_HelpRequested);
             // 
             // button203
             // 
@@ -4314,8 +4363,8 @@
             this.button203.Tag = "Safely Cleanup and Remove old USB Mass Storage Drivers on your PC.";
             this.button203.Text = "Drive Cleanup";
             this.button203.UseVisualStyleBackColor = true;
-            this.button203.HelpRequested += new System.Windows.Forms.HelpEventHandler(this.button_HelpRequested);
             this.button203.Click += new System.EventHandler(this.button203_Click);
+            this.button203.HelpRequested += new System.Windows.Forms.HelpEventHandler(this.button_HelpRequested);
             // 
             // button192
             // 
@@ -4329,11 +4378,11 @@
             this.button192.Size = new System.Drawing.Size(174, 20);
             this.button192.TabIndex = 27;
             this.button192.Tag = "Unknown Devices helps you find what those unknown devices in Device Manager reall" +
-                "y are.";
+    "y are.";
             this.button192.Text = "Unknown Devices";
             this.button192.UseVisualStyleBackColor = true;
-            this.button192.HelpRequested += new System.Windows.Forms.HelpEventHandler(this.button_HelpRequested);
             this.button192.Click += new System.EventHandler(this.button192_Click);
+            this.button192.HelpRequested += new System.Windows.Forms.HelpEventHandler(this.button_HelpRequested);
             // 
             // button191
             // 
@@ -4346,11 +4395,11 @@
             this.button191.Size = new System.Drawing.Size(174, 20);
             this.button191.TabIndex = 26;
             this.button191.Tag = "MemTest is a RAM tester that runs under Windows. It verifies that your computer c" +
-                "an reliably store and retrieve data from memory.";
+    "an reliably store and retrieve data from memory.";
             this.button191.Text = "MemTest";
             this.button191.UseVisualStyleBackColor = true;
-            this.button191.HelpRequested += new System.Windows.Forms.HelpEventHandler(this.button_HelpRequested);
             this.button191.Click += new System.EventHandler(this.button191_Click);
+            this.button191.HelpRequested += new System.Windows.Forms.HelpEventHandler(this.button_HelpRequested);
             // 
             // button187
             // 
@@ -4363,11 +4412,11 @@
             this.button187.Size = new System.Drawing.Size(174, 20);
             this.button187.TabIndex = 25;
             this.button187.Tag = "JavaRa is a simple tool that does a simple job: it removes old and redundant vers" +
-                "ions of the Java Runtime Environment (JRE).";
+    "ions of the Java Runtime Environment (JRE).";
             this.button187.Text = "JavaRa";
             this.button187.UseVisualStyleBackColor = true;
-            this.button187.HelpRequested += new System.Windows.Forms.HelpEventHandler(this.button_HelpRequested);
             this.button187.Click += new System.EventHandler(this.button187_Click);
+            this.button187.HelpRequested += new System.Windows.Forms.HelpEventHandler(this.button_HelpRequested);
             // 
             // button144
             // 
@@ -4380,11 +4429,11 @@
             this.button144.Size = new System.Drawing.Size(174, 20);
             this.button144.TabIndex = 24;
             this.button144.Tag = "A tool to analyze and display file contents and properties. By safer-networking.o" +
-                "rg";
+    "rg";
             this.button144.Text = "File Analyzer Installer";
             this.button144.UseVisualStyleBackColor = true;
-            this.button144.HelpRequested += new System.Windows.Forms.HelpEventHandler(this.button_HelpRequested);
             this.button144.Click += new System.EventHandler(this.button144_Click_1);
+            this.button144.HelpRequested += new System.Windows.Forms.HelpEventHandler(this.button_HelpRequested);
             // 
             // button129
             // 
@@ -4397,11 +4446,11 @@
             this.button129.Size = new System.Drawing.Size(174, 20);
             this.button129.TabIndex = 23;
             this.button129.Tag = "A command line tool which will show you how large is the installer problem in Win" +
-                "dows.";
+    "dows.";
             this.button129.Text = "Installer Folder Size Check";
             this.button129.UseVisualStyleBackColor = true;
-            this.button129.HelpRequested += new System.Windows.Forms.HelpEventHandler(this.button_HelpRequested);
             this.button129.Click += new System.EventHandler(this.button129_Click);
+            this.button129.HelpRequested += new System.Windows.Forms.HelpEventHandler(this.button_HelpRequested);
             // 
             // groupBox37
             // 
@@ -4465,8 +4514,8 @@
             this.button130.Tag = "Checks for an update online. Requires internet connection (obviously).";
             this.button130.Text = "Check for Update";
             this.button130.UseVisualStyleBackColor = true;
-            this.button130.HelpRequested += new System.Windows.Forms.HelpEventHandler(this.button_HelpRequested);
             this.button130.Click += new System.EventHandler(this.button130_Click);
+            this.button130.HelpRequested += new System.Windows.Forms.HelpEventHandler(this.button_HelpRequested);
             // 
             // button120
             // 
@@ -4479,8 +4528,8 @@
             this.button120.Tag = "Displays the license information.";
             this.button120.Text = "License Information";
             this.button120.UseVisualStyleBackColor = true;
-            this.button120.HelpRequested += new System.Windows.Forms.HelpEventHandler(this.button_HelpRequested);
             this.button120.Click += new System.EventHandler(this.button120_Click);
+            this.button120.HelpRequested += new System.Windows.Forms.HelpEventHandler(this.button_HelpRequested);
             // 
             // button119
             // 
@@ -4493,8 +4542,8 @@
             this.button119.Tag = "Displays version information.";
             this.button119.Text = "About Setup Assistant";
             this.button119.UseVisualStyleBackColor = true;
-            this.button119.HelpRequested += new System.Windows.Forms.HelpEventHandler(this.button_HelpRequested);
             this.button119.Click += new System.EventHandler(this.button119_Click);
+            this.button119.HelpRequested += new System.Windows.Forms.HelpEventHandler(this.button_HelpRequested);
             // 
             // linkLabel13
             // 
@@ -4564,8 +4613,8 @@
             this.CacheAge.Size = new System.Drawing.Size(51, 20);
             this.CacheAge.TabIndex = 78;
             this.CacheAge.Tag = resources.GetString("CacheAge.Tag");
-            this.CacheAge.HelpRequested += new System.Windows.Forms.HelpEventHandler(this.button_HelpRequested);
             this.CacheAge.ValueChanged += new System.EventHandler(this.cache_age_changed);
+            this.CacheAge.HelpRequested += new System.Windows.Forms.HelpEventHandler(this.button_HelpRequested);
             // 
             // label6
             // 
@@ -4606,8 +4655,8 @@
             this.button98.Tag = "Deletes everything from the Cache folder.";
             this.button98.Text = "Clear Cache Folder";
             this.button98.UseVisualStyleBackColor = true;
-            this.button98.HelpRequested += new System.Windows.Forms.HelpEventHandler(this.button_HelpRequested);
             this.button98.Click += new System.EventHandler(this.button98_Click);
+            this.button98.HelpRequested += new System.Windows.Forms.HelpEventHandler(this.button_HelpRequested);
             // 
             // button97
             // 
@@ -4619,11 +4668,11 @@
             this.button97.Size = new System.Drawing.Size(174, 23);
             this.button97.TabIndex = 73;
             this.button97.Tag = "Opens the Setup Assistan\'t Cache folder. All the external tools (blue buttons) wi" +
-                "ll be downloaded into that folder.";
+    "ll be downloaded into that folder.";
             this.button97.Text = "Open Cache Folder";
             this.button97.UseVisualStyleBackColor = true;
-            this.button97.HelpRequested += new System.Windows.Forms.HelpEventHandler(this.button_HelpRequested);
             this.button97.Click += new System.EventHandler(this.button97_Click);
+            this.button97.HelpRequested += new System.Windows.Forms.HelpEventHandler(this.button_HelpRequested);
             // 
             // groupBox24
             // 
@@ -4651,8 +4700,8 @@
             this.button96.Tag = "Opens the Connect Network Drive dialog.";
             this.button96.Text = "Connect Drive";
             this.button96.UseVisualStyleBackColor = true;
-            this.button96.HelpRequested += new System.Windows.Forms.HelpEventHandler(this.button_HelpRequested);
             this.button96.Click += new System.EventHandler(this.button96_Click);
+            this.button96.HelpRequested += new System.Windows.Forms.HelpEventHandler(this.button_HelpRequested);
             // 
             // button95
             // 
@@ -4665,8 +4714,8 @@
             this.button95.Tag = "Displays all the network drives connected on this computer.";
             this.button95.Text = "Show Drives";
             this.button95.UseVisualStyleBackColor = true;
-            this.button95.HelpRequested += new System.Windows.Forms.HelpEventHandler(this.button_HelpRequested);
             this.button95.Click += new System.EventHandler(this.button95_Click);
+            this.button95.HelpRequested += new System.Windows.Forms.HelpEventHandler(this.button_HelpRequested);
             // 
             // button94
             // 
@@ -4679,8 +4728,8 @@
             this.button94.Tag = "Displays windows dialog that allows you to disconnect network drives.";
             this.button94.Text = "Disconnect";
             this.button94.UseVisualStyleBackColor = true;
-            this.button94.HelpRequested += new System.Windows.Forms.HelpEventHandler(this.button_HelpRequested);
             this.button94.Click += new System.EventHandler(this.button94_Click);
+            this.button94.HelpRequested += new System.Windows.Forms.HelpEventHandler(this.button_HelpRequested);
             // 
             // button93
             // 
@@ -4691,11 +4740,11 @@
             this.button93.Size = new System.Drawing.Size(122, 23);
             this.button93.TabIndex = 80;
             this.button93.Tag = "Mounts a network drive using the inputs on the left. This form uses \"net use\" com" +
-                "mand.";
+    "mand.";
             this.button93.Text = "Connect";
             this.button93.UseVisualStyleBackColor = true;
-            this.button93.HelpRequested += new System.Windows.Forms.HelpEventHandler(this.button_HelpRequested);
             this.button93.Click += new System.EventHandler(this.button93_Click);
+            this.button93.HelpRequested += new System.Windows.Forms.HelpEventHandler(this.button_HelpRequested);
             // 
             // textBox2
             // 
@@ -4739,8 +4788,8 @@
             this.button156.Tag = "Fixes Window Shell Registry value if it was changed by malicious program.";
             this.button156.Text = "Fix Shell Value";
             this.button156.UseVisualStyleBackColor = true;
-            this.button156.HelpRequested += new System.Windows.Forms.HelpEventHandler(this.button_HelpRequested);
             this.button156.Click += new System.EventHandler(this.button156_Click);
+            this.button156.HelpRequested += new System.Windows.Forms.HelpEventHandler(this.button_HelpRequested);
             // 
             // button163
             // 
@@ -4753,11 +4802,11 @@
             this.button163.Size = new System.Drawing.Size(188, 20);
             this.button163.TabIndex = 85;
             this.button163.Tag = "Downloads and runs Microsoft Fix-It MSI file which restores the recyclebin icon o" +
-                "n the desktop. XP only.";
+    "n the desktop. XP only.";
             this.button163.Text = "Restore Recyclebin";
             this.button163.UseVisualStyleBackColor = true;
-            this.button163.HelpRequested += new System.Windows.Forms.HelpEventHandler(this.button_HelpRequested);
             this.button163.Click += new System.EventHandler(this.button163_Click);
+            this.button163.HelpRequested += new System.Windows.Forms.HelpEventHandler(this.button_HelpRequested);
             // 
             // button172
             // 
@@ -4772,8 +4821,8 @@
             this.button172.Tag = "Installs a service which cleans up user profile registry hive at each restart.";
             this.button172.Text = "User Profile Hive Cleanup";
             this.button172.UseVisualStyleBackColor = true;
-            this.button172.HelpRequested += new System.Windows.Forms.HelpEventHandler(this.button_HelpRequested);
             this.button172.Click += new System.EventHandler(this.button172_Click);
+            this.button172.HelpRequested += new System.Windows.Forms.HelpEventHandler(this.button_HelpRequested);
             // 
             // groupBox20
             // 
@@ -4964,54 +5013,6 @@
             this.helpButton.UseVisualStyleBackColor = true;
             this.helpButton.Click += new System.EventHandler(this.button144_Click);
             // 
-            // button204
-            // 
-            this.button204.BackColor = System.Drawing.SystemColors.Control;
-            this.button204.ForeColor = System.Drawing.Color.Blue;
-            this.button204.Image = ((System.Drawing.Image)(resources.GetObject("button204.Image")));
-            this.button204.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.button204.Location = new System.Drawing.Point(5, 217);
-            this.button204.Name = "button204";
-            this.button204.Size = new System.Drawing.Size(183, 20);
-            this.button204.TabIndex = 54;
-            this.button204.Tag = resources.GetString("button204.Tag");
-            this.button204.Text = "WinRepair Installer";
-            this.button204.UseVisualStyleBackColor = true;
-            this.button204.HelpRequested += new System.Windows.Forms.HelpEventHandler(this.button_HelpRequested);
-            this.button204.Click += new System.EventHandler(this.button204_Click);
-            // 
-            // button139
-            // 
-            this.button139.BackColor = System.Drawing.SystemColors.Control;
-            this.button139.ForeColor = System.Drawing.Color.Blue;
-            this.button139.Image = ((System.Drawing.Image)(resources.GetObject("button139.Image")));
-            this.button139.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.button139.Location = new System.Drawing.Point(6, 237);
-            this.button139.Name = "button139";
-            this.button139.Size = new System.Drawing.Size(183, 20);
-            this.button139.TabIndex = 55;
-            this.button139.Tag = resources.GetString("button139.Tag");
-            this.button139.Text = "ADW Cleaner";
-            this.button139.UseVisualStyleBackColor = true;
-            this.button139.HelpRequested += new System.Windows.Forms.HelpEventHandler(this.button_HelpRequested);
-            this.button139.Click += new System.EventHandler(this.button139_Click);
-            // 
-            // button215
-            // 
-            this.button215.BackColor = System.Drawing.SystemColors.Control;
-            this.button215.ForeColor = System.Drawing.Color.Blue;
-            this.button215.Image = ((System.Drawing.Image)(resources.GetObject("button215.Image")));
-            this.button215.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.button215.Location = new System.Drawing.Point(6, 257);
-            this.button215.Name = "button215";
-            this.button215.Size = new System.Drawing.Size(183, 20);
-            this.button215.TabIndex = 56;
-            this.button215.Tag = resources.GetString("button215.Tag");
-            this.button215.Text = "Junkware Removal Tool";
-            this.button215.UseVisualStyleBackColor = true;
-            this.button215.HelpRequested += new System.Windows.Forms.HelpEventHandler(this.button_HelpRequested);
-            this.button215.Click += new System.EventHandler(this.button215_Click);
-            // 
             // SetupAssistant
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -5048,7 +5049,6 @@
             this.groupBox12.ResumeLayout(false);
             this.tabPage6.ResumeLayout(false);
             this.groupBox47.ResumeLayout(false);
-            this.groupBox47.PerformLayout();
             this.groupBox41.ResumeLayout(false);
             this.groupBox18.ResumeLayout(false);
             this.groupBox18.PerformLayout();
@@ -5217,7 +5217,6 @@
         private System.Windows.Forms.Button button87;
         private System.Windows.Forms.Button button88;
         private System.Windows.Forms.Button button90;
-        private System.Windows.Forms.Button button89;
         private System.Windows.Forms.GroupBox groupBox19;
         private System.Windows.Forms.GroupBox groupBox20;
         private System.Windows.Forms.LinkLabel linkLabel10;
@@ -5299,7 +5298,6 @@
         private System.Windows.Forms.GroupBox groupBox18;
         private System.Windows.Forms.LinkLabel linkLabel3;
         private System.Windows.Forms.LinkLabel linkLabel4;
-        private System.Windows.Forms.LinkLabel linkLabel11;
         private System.Windows.Forms.LinkLabel linkLabel25;
         private System.Windows.Forms.LinkLabel linkLabel27;
         private System.Windows.Forms.GroupBox groupBox37;
@@ -5416,6 +5414,8 @@
         private System.Windows.Forms.Button button204;
         private System.Windows.Forms.Button button139;
         private System.Windows.Forms.Button button215;
+        private System.Windows.Forms.Button button216;
+        private System.Windows.Forms.Button button217;
     }
 }
 

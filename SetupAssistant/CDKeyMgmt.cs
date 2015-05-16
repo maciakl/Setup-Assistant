@@ -36,9 +36,26 @@ namespace SetupAssistant
                         case "12.0":
                             office2007btn.Enabled = true;
                             break;
+                    }
+                }
+            }
 
-                        case "14.0":
-                            office2007btn.Enabled = true;
+            RegistryKey x64Key = Registry.LocalMachine.OpenSubKey(@"SOFTWARE\Wow6432Node\Microsoft\Office", true);
+
+            if(x64Key != null)
+            {
+                string[] subkeys = x64Key.GetSubKeyNames();
+
+                foreach (string s in subkeys)
+                {
+                    switch (s)
+                    {
+                        case "11.0":
+                            x64office2003btn.Enabled = true;
+                            break;
+
+                        case "12.0":
+                            x64office2007btn.Enabled = true;
                             break;
                     }
                 }
@@ -48,22 +65,36 @@ namespace SetupAssistant
 
         private void office2003btn_Click(object sender, EventArgs e)
         {
-            hackRegistry("11.0");
+            hackRegistry("11.0", false);
         }
 
         private void office2007btn_Click(object sender, EventArgs e)
         {
-            hackRegistry("12.0");
+            hackRegistry("12.0", false);
         }
 
-        private void office2010btn_Click(object sender, EventArgs e)
+        private void x64office2003btn_Click(object sender, EventArgs e)
         {
-            hackRegistry("14.0");
+            hackRegistry("11.0", true);
         }
 
-        private void hackRegistry(string officeversion)
+        private void x64office2007btn_Click(object sender, EventArgs e)
         {
-            string key = @"Software\Microsoft\Office\"+officeversion+@"\Registration\";
+            hackRegistry("12.0", true);
+        }
+
+
+       
+
+        private void hackRegistry(string officeversion, bool x64os)
+        {
+            string key; 
+
+            if(x64os)
+                key = @"SOFTWARE\Wow6432Node\Microsoft\Office\" + officeversion + @"\Registration\";
+            else
+                key = @"Software\Microsoft\Office\" + officeversion + @"\Registration\";
+                
 
             using (new CenterWinDialog(this))
             {
@@ -110,6 +141,7 @@ namespace SetupAssistant
 
         }
 
+       
         
 
         
