@@ -16,6 +16,7 @@ active-changelog: active
 - Added link to Microsoft PSR tool
 - Fixed MS Office key Mgr to work on x64 machines
 - Removed CrossLoop button
+- Updated the auto-update button to use new url
 
 ####Changes in version 1.8.1 (Feb 09, 2013)
 
