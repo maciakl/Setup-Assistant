@@ -5,8 +5,14 @@ layout: page
 active-changelog: active
 
 ---
+#### Changes in version 1.9.2 (Dec 15, 2016)
 
-####Changes in version 1.9.1 (May 15, 2015)
+ - Fixed the Autoruns button
+ - Added WinDlg button
+ - Removed TempFile Cleaner button
+ - Added ESET AV Removal button
+ 
+#### Changes in version 1.9.1 (May 15, 2015)
 
 - Removed VundoFix and Virtuomundo buttons
 - Added McAfee Rootkit Remover
@@ -18,29 +24,29 @@ active-changelog: active
 - Removed CrossLoop button
 - Updated the auto-update button to use new url
 
-####Changes in version 1.8.1 (Feb 09, 2013)
+#### Changes in version 1.8.1 (Feb 09, 2013)
 
 * Changed links on the Misc page #6
 * Temporarily disabled Unknown Devices download button (dead link). #6
 
-####Changes in version 1.8.0 (Jan 28, 2013)
+#### Changes in version 1.8.0 (Jan 28, 2013)
 
 
 * New website, wiki and bug tracker
 * Changed the auto-update to use new domain #1
 
-####Changes in version 1.6.0 (Aug 4, 2012)
+#### Changes in version 1.6.0 (Aug 4, 2012)
 
 
 * Added a button for Memory Viewer. [Bug 145]
 * Added a button for PC-Decrapifier. [Bug 143]
 
-####Changes in version 1.5.5 (Aug 3, 2012)
+#### Changes in version 1.5.5 (Aug 3, 2012)
 
 
 * Fixed broken links for all the sysinternals apps.
 
-####Changes in version 1.5.3 (May 1, 2012)
+#### Changes in version 1.5.3 (May 1, 2012)
 
 
 * Included a button for Drive Cleanup. [Bug 136]
@@ -48,7 +54,7 @@ active-changelog: active
 * Included a button for Fix Exec. [Bug 142]
 * Added an in-place auto-update feature. [Bug 134]
 
-####Changes in version 1.4.0 (Apr 23, 2012)
+#### Changes in version 1.4.0 (Apr 23, 2012)
 
 
 * Included a button for Hitman Pro, a cloud based antimalware suite. [Bug 137]
@@ -56,7 +62,7 @@ active-changelog: active
 * Included a button for Unhide Non System Files from Tweaking.com. [Bug 139]
 * Removed the ATF Cleaner button (the project seems dead). [Bug 140]
 
-####Changes in version 1.3.1 (Mar 23, 2012)
+#### Changes in version 1.3.1 (Mar 23, 2012)
 
 
 * Created a button that automagically backs up Outlook email to desktop. [Bug 43]
@@ -64,7 +70,7 @@ active-changelog: active
 * Added a link to Microsoft Security Essentials download page. [Bug 130]
 * Removed the defunct link to Kaspersky Online Scanner. [Bug 132]
 
-####Changes in version 1.2.0 (Jan 14, 2012)
+#### Changes in version 1.2.0 (Jan 14, 2012)
 
 
 * Added button for F-Secure Blacklight [Bug 119]
@@ -79,7 +85,7 @@ active-changelog: active
 * Condensed buttons on the front tab [Bug 128] 
 * Created button for TempFileCleaner [Bug 129]
 
-####Changes in version 1.1.0 (Jan 10, 2012)
+#### Changes in version 1.1.0 (Jan 10, 2012)
 
 
 * Added button for the JavaRa utility. [Bug 103]
@@ -88,7 +94,7 @@ active-changelog: active
 * Added link to McAfee Virtual Technician. [Bug 117]
 * Added a button to replace hosts file with MVPS hosts. [Bug 118]
 
-####Changes in version 1.0.0 (Jan 05, 2012)
+#### Changes in version 1.0.0 (Jan 05, 2012)
 
 
 * Added a button for IERERG script by Kai Schaetzl under Networking. [Bug 103]
@@ -98,7 +104,7 @@ active-changelog: active
 * Grayed out the link to ATF Cleaner (no longer online). [Bug 111]
 * Testing. [Bug 106], [Bug 107] and [Bug 108]
 
-####New Features in version 0.9.9 (Jul 05, 2011)
+#### New Features in version 0.9.9 (Jul 05, 2011)
 
 
 * Added Antivirus information in Quick System Info. [Bug 38]
@@ -119,7 +125,7 @@ active-changelog: active
 * Changed WMDecode link into a button. [Bug 100]Added buttons for MS office Viewer apps. [Bug 101]
 * Fixed Outlook Zip Fix app. [Bug 102]
 
-####New Features in version 0.9.8 (May 23, 2011)
+#### New Features in version 0.9.8 (May 23, 2011)
 
 
 * Made all Info Boxes modal and centered on parent. [Bug 69]
@@ -133,12 +139,12 @@ active-changelog: active
 * Made the Network Tests and Quick Ping tools use modal, centered dialogs. [Bug 80]
 * Added tab icons to make navigation easier. [Bug 81]
 
-Cosmetic update 0.9.7.42935 (May 15, 2011)
+#### Cosmetic update 0.9.7.42935 (May 15, 2011)
 
 
 * Fixed button alignment issue in the Security / Malware tab. [Bug 73]
 
-####New Features in version 0.9.7 (May 12, 2011)
+#### New Features in version 0.9.7 (May 12, 2011)
 
 
 * Added a button that re-registers Windows Update components. [Bug 47]
@@ -162,7 +168,7 @@ Cosmetic update 0.9.7.42935 (May 15, 2011)
 * Made all MessageBox dialogs to be centered on the main form. [Bug 66]
 * Removed help prompt from tabs and link labels. No more empty help dialogs. [Bug 67]
 
-####New Features in version 0.9.6 (Apr 29, 2011)
+#### New Features in version 0.9.6 (Apr 29, 2011)
 
 
 * Added icons for most of the downloaded tools (cosmetic change). [Bug 42]
@@ -184,7 +190,7 @@ Cosmetic update 0.9.7.42935 (May 15, 2011)
 * Added buttons for VundoFix, VirtoMundoBegone and CWShreader. [Bug 40]
 * Finally fixed Quick System Info exception (I hope). [Bug 3]
 
-####New Features in version 0.9
+#### New Features in version 0.9
 
 
 * Improved exception handling for cached documents [Bug 12]
@@ -203,7 +209,7 @@ Cosmetic update 0.9.7.42935 (May 15, 2011)
 * Added button for the Installer Check tool Bug 28
 
 
-####New Features in version 0.8
+#### New Features in version 0.8
 
 
 * Reorganized Security/Malware tab
@@ -212,7 +218,7 @@ Cosmetic update 0.9.7.42935 (May 15, 2011)
 * Removed redundant security panel from the Misc tab
 * Fixed minor spelling issues and bugs
 
-####New Features in version 0.7
+#### New Features in version 0.7
 
 
 * Moved Security/Malware tools to their own tab
@@ -220,7 +226,7 @@ Cosmetic update 0.9.7.42935 (May 15, 2011)
 * Consolidated printer handling on main tab
 * Added About and License buttons
 
-####New Features in version 0.6
+#### New Features in version 0.6
 
 
 * Third party application caching. When you click on a button that downloads an app, it will now be saved to disk so that it no longer needs to be re-downloaded next time you launch it.
@@ -230,7 +236,7 @@ Cosmetic update 0.9.7.42935 (May 15, 2011)
 * Cache handling. Third party app Cache can be inspected or cleared from Misc tab.
 * ####New bug tracking.
 
-####New Features in version 0.5
+#### New Features in version 0.5
 
 
 * Tabbed interface (slightly better organization and room to add new tools)
